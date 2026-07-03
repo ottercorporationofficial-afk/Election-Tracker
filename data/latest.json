@@ -1,0 +1,2749 @@
+{
+    "election_name": "Colorado Governor Republican Primary",
+    "election_type": "Governor",
+    "election_scope": "Primary",
+    "election_date": "2026-06-30T05:00:00.000Z",
+    "country": "US",
+    "province": "CO",
+    "district": null,
+    "municipality": null,
+    "polls_open": "2026-06-30T15:00:00.000Z",
+    "polls_close": "2026-07-01T01:00:00.000Z",
+    "is_disputed": false,
+    "has_map": true,
+    "registered_voters": null,
+    "percent_reporting": 93.9,
+    "last_updated": "2026-07-03T00:29:39.439Z",
+    "round": 1,
+    "maps": [
+        {
+            "name": "Colorado",
+            "map": "assets/Colorado.svg"
+        }
+    ],
+    "candidates": [
+        {
+            "name": "Victor Marx",
+            "party": "Republican",
+            "incumbent": false,
+            "major_candidate": true,
+            "winner": false,
+            "advanced": false,
+            "color": "#69cea8",
+            "votes": 205504,
+            "percent": 39.84
+        },
+        {
+            "name": "Barb Kirkmeyer",
+            "party": "Republican",
+            "incumbent": false,
+            "major_candidate": true,
+            "winner": false,
+            "advanced": false,
+            "color": "#c6606b",
+            "votes": 203476,
+            "percent": 39.44
+        },
+        {
+            "name": "Scott Bottoms",
+            "party": "Republican",
+            "incumbent": false,
+            "major_candidate": true,
+            "winner": false,
+            "advanced": false,
+            "color": "#CD7F32",
+            "votes": 106892,
+            "percent": 20.72
+        }
+    ],
+    "region_results": {
+        "el_paso": {
+            "name": "El Paso",
+            "type": "County",
+            "fips": "08041",
+            "fill": "#c6606b",
+            "percent_reporting": 98,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 35850,
+                    "percent": 42.31,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 28512,
+                    "percent": 33.65,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 20362,
+                    "percent": 24.03,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "jefferson": {
+            "name": "Jefferson",
+            "type": "County",
+            "fips": "08059",
+            "fill": "#e0bb24",
+            "percent_reporting": 99,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 24112,
+                    "percent": 45.68,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 18955,
+                    "percent": 35.91,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 9716,
+                    "percent": 18.41,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "douglas": {
+            "name": "Douglas",
+            "type": "County",
+            "fips": "08035",
+            "fill": "#e0bb24",
+            "percent_reporting": 98,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 21779,
+                    "percent": 42.93,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 19059,
+                    "percent": 37.57,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 9893,
+                    "percent": 19.5,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "arapahoe": {
+            "name": "Arapahoe",
+            "type": "County",
+            "fips": "08005",
+            "fill": "#e0bb24",
+            "percent_reporting": 90.32,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 17928,
+                    "percent": 45.96,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 13403,
+                    "percent": 34.36,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 7675,
+                    "percent": 19.68,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "weld": {
+            "name": "Weld",
+            "type": "County",
+            "fips": "08123",
+            "fill": "#e0bb24",
+            "percent_reporting": 99,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 18005,
+                    "percent": 48.89,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 13375,
+                    "percent": 36.32,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 5450,
+                    "percent": 14.8,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "larimer": {
+            "name": "Larimer",
+            "type": "County",
+            "fips": "08069",
+            "fill": "#e0bb24",
+            "percent_reporting": 99,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 15093,
+                    "percent": 45,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 11819,
+                    "percent": 35.24,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 6631,
+                    "percent": 19.77,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "adams": {
+            "name": "Adams",
+            "type": "County",
+            "fips": "08001",
+            "fill": "#c6606b",
+            "percent_reporting": 98,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 12470,
+                    "percent": 41.1,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 12054,
+                    "percent": 39.73,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 5815,
+                    "percent": 19.17,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "mesa": {
+            "name": "Mesa",
+            "type": "County",
+            "fips": "08077",
+            "fill": "#c6606b",
+            "percent_reporting": 95.8,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 12333,
+                    "percent": 47.95,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 7645,
+                    "percent": 29.72,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 5744,
+                    "percent": 22.33,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "denver": {
+            "name": "Denver",
+            "type": "County",
+            "fips": "08031",
+            "fill": "#e0bb24",
+            "percent_reporting": 99,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 9070,
+                    "percent": 50.84,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 5453,
+                    "percent": 30.56,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 3318,
+                    "percent": 18.6,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "pueblo": {
+            "name": "Pueblo",
+            "type": "County",
+            "fips": "08101",
+            "fill": "#c6606b",
+            "percent_reporting": 99,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 8163,
+                    "percent": 53.94,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 3798,
+                    "percent": 25.1,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 3172,
+                    "percent": 20.96,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "boulder": {
+            "name": "Boulder",
+            "type": "County",
+            "fips": "08013",
+            "fill": "#e0bb24",
+            "percent_reporting": 96.87,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 6497,
+                    "percent": 48.95,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 4194,
+                    "percent": 31.6,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 2582,
+                    "percent": 19.45,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "fremont": {
+            "name": "Fremont",
+            "type": "County",
+            "fips": "08043",
+            "fill": "#c6606b",
+            "percent_reporting": 98.42,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 4439,
+                    "percent": 51.16,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 2155,
+                    "percent": 24.84,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 2082,
+                    "percent": 24,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "montrose": {
+            "name": "Montrose",
+            "type": "County",
+            "fips": "08085",
+            "fill": "#c6606b",
+            "percent_reporting": 94.37,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 3632,
+                    "percent": 48.09,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 2070,
+                    "percent": 27.41,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 1851,
+                    "percent": 24.51,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "elbert": {
+            "name": "Elbert",
+            "type": "County",
+            "fips": "08039",
+            "fill": "#c6606b",
+            "percent_reporting": 98,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 3141,
+                    "percent": 44.72,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 2433,
+                    "percent": 34.64,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 1449,
+                    "percent": 20.63,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "garfield": {
+            "name": "Garfield",
+            "type": "County",
+            "fips": "08045",
+            "fill": "#c6606b",
+            "percent_reporting": 93.13,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 2939,
+                    "percent": 41.86,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 2425,
+                    "percent": 34.54,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 1657,
+                    "percent": 23.6,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "delta": {
+            "name": "Delta",
+            "type": "County",
+            "fips": "08029",
+            "fill": "#c6606b",
+            "percent_reporting": 95.67,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 3347,
+                    "percent": 53.55,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 1682,
+                    "percent": 26.91,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 1221,
+                    "percent": 19.54,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "broomfield": {
+            "name": "Broomfield",
+            "type": "County",
+            "fips": "08014",
+            "fill": "#e0bb24",
+            "percent_reporting": 95.55,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 3043,
+                    "percent": 50.08,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 2019,
+                    "percent": 33.23,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 1014,
+                    "percent": 16.69,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "la_plata": {
+            "name": "La Plata",
+            "type": "County",
+            "fips": "08067",
+            "fill": "#c6606b",
+            "percent_reporting": 98.01,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 2090,
+                    "percent": 39.37,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 1890,
+                    "percent": 35.6,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 1329,
+                    "percent": 25.03,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "teller": {
+            "name": "Teller",
+            "type": "County",
+            "fips": "08119",
+            "fill": "#c6606b",
+            "percent_reporting": 99,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 2327,
+                    "percent": 46,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 1502,
+                    "percent": 29.69,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 1230,
+                    "percent": 24.31,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "montezuma": {
+            "name": "Montezuma",
+            "type": "County",
+            "fips": "08083",
+            "fill": "#c6606b",
+            "percent_reporting": 99,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 1704,
+                    "percent": 38.38,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 1502,
+                    "percent": 33.83,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 1234,
+                    "percent": 27.79,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "logan": {
+            "name": "Logan",
+            "type": "County",
+            "fips": "08075",
+            "fill": "#c6606b",
+            "percent_reporting": 96.86,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 1500,
+                    "percent": 41.54,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 1493,
+                    "percent": 41.35,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 618,
+                    "percent": 17.11,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "morgan": {
+            "name": "Morgan",
+            "type": "County",
+            "fips": "08087",
+            "fill": "#e0bb24",
+            "percent_reporting": 97.71,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 1471,
+                    "percent": 41.02,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 1468,
+                    "percent": 40.94,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 647,
+                    "percent": 18.04,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "park": {
+            "name": "Park",
+            "type": "County",
+            "fips": "08093",
+            "fill": "#c6606b",
+            "percent_reporting": 94.38,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 1415,
+                    "percent": 42.79,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 1159,
+                    "percent": 35.05,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 733,
+                    "percent": 22.17,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "eagle": {
+            "name": "Eagle",
+            "type": "County",
+            "fips": "08037",
+            "fill": "#c6606b",
+            "percent_reporting": 92.17,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 1074,
+                    "percent": 39.69,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 1043,
+                    "percent": 38.54,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 589,
+                    "percent": 21.77,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "chaffee": {
+            "name": "Chaffee",
+            "type": "County",
+            "fips": "08015",
+            "fill": "#c6606b",
+            "percent_reporting": 99,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 1290,
+                    "percent": 49.37,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 872,
+                    "percent": 33.37,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 451,
+                    "percent": 17.26,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "archuleta": {
+            "name": "Archuleta",
+            "type": "County",
+            "fips": "08007",
+            "fill": "#c6606b",
+            "percent_reporting": 90.03,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 969,
+                    "percent": 39.04,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 805,
+                    "percent": 32.43,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 708,
+                    "percent": 28.53,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "otero": {
+            "name": "Otero",
+            "type": "County",
+            "fips": "08089",
+            "fill": "#c6606b",
+            "percent_reporting": 96.5,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 1226,
+                    "percent": 51.13,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 630,
+                    "percent": 26.27,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 542,
+                    "percent": 22.6,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "moffat": {
+            "name": "Moffat",
+            "type": "County",
+            "fips": "08081",
+            "fill": "#c6606b",
+            "percent_reporting": 86.67,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 988,
+                    "percent": 43.18,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 663,
+                    "percent": 28.98,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 637,
+                    "percent": 27.84,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "yuma": {
+            "name": "Yuma",
+            "type": "County",
+            "fips": "08125",
+            "fill": "#c6606b",
+            "percent_reporting": 90.89,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 1072,
+                    "percent": 46.91,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 862,
+                    "percent": 37.72,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 351,
+                    "percent": 15.36,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "grand": {
+            "name": "Grand",
+            "type": "County",
+            "fips": "08049",
+            "fill": "#c6606b",
+            "percent_reporting": 98.99,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 1044,
+                    "percent": 48.54,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 733,
+                    "percent": 34.08,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 374,
+                    "percent": 17.39,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "rio_blanco": {
+            "name": "Rio Blanco",
+            "type": "County",
+            "fips": "08103",
+            "fill": "#c6606b",
+            "percent_reporting": 91.7,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 913,
+                    "percent": 47.75,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 583,
+                    "percent": 30.49,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 416,
+                    "percent": 21.76,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "rio_grande": {
+            "name": "Rio Grande",
+            "type": "County",
+            "fips": "08105",
+            "fill": "#e0bb24",
+            "percent_reporting": 88.84,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 678,
+                    "percent": 37.36,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 663,
+                    "percent": 36.53,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 474,
+                    "percent": 26.12,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "prowers": {
+            "name": "Prowers",
+            "type": "County",
+            "fips": "08099",
+            "fill": "#c6606b",
+            "percent_reporting": 97.56,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 861,
+                    "percent": 52.47,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 482,
+                    "percent": 29.37,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 298,
+                    "percent": 18.16,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "las_animas": {
+            "name": "Las Animas",
+            "type": "County",
+            "fips": "08071",
+            "fill": "#c6606b",
+            "percent_reporting": 95.44,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 914,
+                    "percent": 56.04,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 408,
+                    "percent": 25.02,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 309,
+                    "percent": 18.95,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "alamosa": {
+            "name": "Alamosa",
+            "type": "County",
+            "fips": "08003",
+            "fill": "#e0bb24",
+            "percent_reporting": 94.01,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 667,
+                    "percent": 41.69,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 564,
+                    "percent": 35.25,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 369,
+                    "percent": 23.06,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "routt": {
+            "name": "Routt",
+            "type": "County",
+            "fips": "08107",
+            "fill": "#e0bb24",
+            "percent_reporting": 92.05,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 630,
+                    "percent": 40.03,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 548,
+                    "percent": 34.82,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 396,
+                    "percent": 25.16,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "kit_carson": {
+            "name": "Kit Carson",
+            "type": "County",
+            "fips": "08063",
+            "fill": "#e0bb24",
+            "percent_reporting": 96.83,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 613,
+                    "percent": 40.89,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 452,
+                    "percent": 30.15,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 434,
+                    "percent": 28.95,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "washington": {
+            "name": "Washington",
+            "type": "County",
+            "fips": "08121",
+            "fill": "#e0bb24",
+            "percent_reporting": 95.33,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 610,
+                    "percent": 40.91,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 598,
+                    "percent": 40.11,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 283,
+                    "percent": 18.98,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "summit": {
+            "name": "Summit",
+            "type": "County",
+            "fips": "08117",
+            "fill": "#e0bb24",
+            "percent_reporting": 98.01,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 695,
+                    "percent": 48.67,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 426,
+                    "percent": 29.83,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 307,
+                    "percent": 21.5,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "custer": {
+            "name": "Custer",
+            "type": "County",
+            "fips": "08027",
+            "fill": "#c6606b",
+            "percent_reporting": 96.69,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 501,
+                    "percent": 39.83,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 462,
+                    "percent": 36.72,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 295,
+                    "percent": 23.45,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "gunnison": {
+            "name": "Gunnison",
+            "type": "County",
+            "fips": "08051",
+            "fill": "#c6606b",
+            "percent_reporting": 88.32,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 520,
+                    "percent": 41.67,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 447,
+                    "percent": 35.82,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 281,
+                    "percent": 22.52,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "conejos": {
+            "name": "Conejos",
+            "type": "County",
+            "fips": "08021",
+            "fill": "#e0bb24",
+            "percent_reporting": 92.21,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 481,
+                    "percent": 39.85,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 382,
+                    "percent": 31.65,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 344,
+                    "percent": 28.5,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "phillips": {
+            "name": "Phillips",
+            "type": "County",
+            "fips": "08095",
+            "fill": "#e0bb24",
+            "percent_reporting": 95.58,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 393,
+                    "percent": 38.64,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 387,
+                    "percent": 38.05,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 237,
+                    "percent": 23.3,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "lincoln": {
+            "name": "Lincoln",
+            "type": "County",
+            "fips": "08073",
+            "fill": "#c6606b",
+            "percent_reporting": 94.5,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 467,
+                    "percent": 46.06,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 376,
+                    "percent": 37.08,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 171,
+                    "percent": 16.86,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "huerfano": {
+            "name": "Huerfano",
+            "type": "County",
+            "fips": "08055",
+            "fill": "#c6606b",
+            "percent_reporting": 96.93,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 503,
+                    "percent": 49.85,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 272,
+                    "percent": 26.96,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 234,
+                    "percent": 23.19,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "baca": {
+            "name": "Baca",
+            "type": "County",
+            "fips": "08009",
+            "fill": "#c6606b",
+            "percent_reporting": 94.46,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 500,
+                    "percent": 51.49,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 275,
+                    "percent": 28.32,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 196,
+                    "percent": 20.19,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "clear_creek": {
+            "name": "Clear Creek",
+            "type": "County",
+            "fips": "08019",
+            "fill": "#e0bb24",
+            "percent_reporting": 97.47,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 343,
+                    "percent": 42.4,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 269,
+                    "percent": 33.25,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 197,
+                    "percent": 24.35,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "pitkin": {
+            "name": "Pitkin",
+            "type": "County",
+            "fips": "08097",
+            "fill": "#e0bb24",
+            "percent_reporting": 89.98,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 366,
+                    "percent": 46.33,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 255,
+                    "percent": 32.28,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 169,
+                    "percent": 21.39,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "bent": {
+            "name": "Bent",
+            "type": "County",
+            "fips": "08011",
+            "fill": "#c6606b",
+            "percent_reporting": 92.23,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 406,
+                    "percent": 59.01,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 169,
+                    "percent": 24.56,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 113,
+                    "percent": 16.42,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "ouray": {
+            "name": "Ouray",
+            "type": "County",
+            "fips": "08091",
+            "fill": "#c6606b",
+            "percent_reporting": 96.2,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 260,
+                    "percent": 38.01,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 221,
+                    "percent": 32.31,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 203,
+                    "percent": 29.68,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "gilpin": {
+            "name": "Gilpin",
+            "type": "County",
+            "fips": "08047",
+            "fill": "#c6606b",
+            "percent_reporting": 98.96,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 274,
+                    "percent": 41.33,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 260,
+                    "percent": 39.22,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 129,
+                    "percent": 19.46,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "crowley": {
+            "name": "Crowley",
+            "type": "County",
+            "fips": "08025",
+            "fill": "#c6606b",
+            "percent_reporting": 95.25,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 352,
+                    "percent": 56.59,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 149,
+                    "percent": 23.95,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 121,
+                    "percent": 19.45,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "sedgwick": {
+            "name": "Sedgwick",
+            "type": "County",
+            "fips": "08115",
+            "fill": "#CD7F32",
+            "percent_reporting": 88.12,
+            "candidates": [
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 199,
+                    "percent": 33.96,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 195,
+                    "percent": 33.28,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 192,
+                    "percent": 32.76,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "saguache": {
+            "name": "Saguache",
+            "type": "County",
+            "fips": "08109",
+            "fill": "#c6606b",
+            "percent_reporting": 96.76,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 240,
+                    "percent": 42.33,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 169,
+                    "percent": 29.81,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 158,
+                    "percent": 27.87,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "cheyenne": {
+            "name": "Cheyenne",
+            "type": "County",
+            "fips": "08017",
+            "fill": "#e0bb24",
+            "percent_reporting": 92.28,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 256,
+                    "percent": 49.81,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 189,
+                    "percent": 36.77,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 69,
+                    "percent": 13.42,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "lake": {
+            "name": "Lake",
+            "type": "County",
+            "fips": "08065",
+            "fill": "#c6606b",
+            "percent_reporting": 87.59,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 221,
+                    "percent": 46.04,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 151,
+                    "percent": 31.46,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 108,
+                    "percent": 22.5,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "jackson": {
+            "name": "Jackson",
+            "type": "County",
+            "fips": "08057",
+            "fill": "#c6606b",
+            "percent_reporting": 82.37,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 208,
+                    "percent": 46.85,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 173,
+                    "percent": 38.96,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 63,
+                    "percent": 14.19,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "dolores": {
+            "name": "Dolores",
+            "type": "County",
+            "fips": "08033",
+            "fill": "#c6606b",
+            "percent_reporting": 81.05,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 196,
+                    "percent": 45.37,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 132,
+                    "percent": 30.56,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 104,
+                    "percent": 24.07,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "kiowa": {
+            "name": "Kiowa",
+            "type": "County",
+            "fips": "08061",
+            "fill": "#e0bb24",
+            "percent_reporting": 91.03,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 164,
+                    "percent": 38.5,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 161,
+                    "percent": 37.79,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 101,
+                    "percent": 23.71,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "san_miguel": {
+            "name": "San Miguel",
+            "type": "County",
+            "fips": "08113",
+            "fill": "#e0bb24",
+            "percent_reporting": 90.71,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 117,
+                    "percent": 35.24,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 109,
+                    "percent": 32.83,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 106,
+                    "percent": 31.93,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "costilla": {
+            "name": "Costilla",
+            "type": "County",
+            "fips": "08023",
+            "fill": "#c6606b",
+            "percent_reporting": 87.07,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 120,
+                    "percent": 39.6,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 101,
+                    "percent": 33.33,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 82,
+                    "percent": 27.06,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "mineral": {
+            "name": "Mineral",
+            "type": "County",
+            "fips": "08079",
+            "fill": "#c6606b",
+            "percent_reporting": 96.92,
+            "candidates": [
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 76,
+                    "percent": 40.21,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 73,
+                    "percent": 38.62,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 40,
+                    "percent": 21.16,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "hinsdale": {
+            "name": "Hinsdale",
+            "type": "County",
+            "fips": "08053",
+            "fill": "#e0bb24",
+            "percent_reporting": 68.5,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 70,
+                    "percent": 40.23,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 59,
+                    "percent": 33.91,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 45,
+                    "percent": 25.86,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "san_juan": {
+            "name": "San Juan",
+            "type": "County",
+            "fips": "08111",
+            "fill": "#e0bb24",
+            "percent_reporting": 79.83,
+            "candidates": [
+                {
+                    "name": "Barb Kirkmeyer",
+                    "party": "Republican",
+                    "votes": 39,
+                    "percent": 41.05,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Scott Bottoms",
+                    "party": "Republican",
+                    "votes": 37,
+                    "percent": 38.95,
+                    "color": "#CD7F32",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Victor Marx",
+                    "party": "Republican",
+                    "votes": 19,
+                    "percent": 20,
+                    "color": "#69cea8",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        }
+    }
+}
