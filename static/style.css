@@ -1,0 +1,144 @@
+/* ---------- General ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1b1b1b;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 30px;
+}
+
+/* ---------- Header ---------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+#last-updated {
+    margin-top: 10px;
+    color: #bbbbbb;
+}
+
+.live-indicator {
+    background: #2b2b2b;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* ---------- Summary ---------- */
+
+.summary {
+    display: flex;
+    gap: 20px;
+
+    margin-bottom: 40px;
+}
+
+.card {
+    flex: 1;
+
+    background: #2b2b2b;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 12px rgba(0,0,0,.4);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+/* ---------- County Section ---------- */
+
+.county-section h2 {
+    margin-bottom: 20px;
+}
+
+/* ---------- County Cards ---------- */
+
+#updates {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.county-card {
+
+    background: #2b2b2b;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    box-shadow: 0 0 12px rgba(0,0,0,.4);
+
+}
+
+.county-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-bottom: 15px;
+
+}
+
+.county-name {
+
+    font-size: 1.5rem;
+
+    font-weight: bold;
+
+}
+
+.reporting {
+
+    color: #bbbbbb;
+
+}
+
+.candidate {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: 8px 0;
+
+}
+
+.batch {
+
+    margin-top: 20px;
+
+    border-top: 1px solid #444;
+
+    padding-top: 15px;
+
+    color: #cccccc;
+
+}

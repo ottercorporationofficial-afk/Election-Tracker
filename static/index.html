@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Colorado Election Tracker</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <header>
+
+        <div>
+            <h1>Colorado GOP Governor Primary</h1>
+            <p id="last-updated">
+                Last Updated: --
+            </p>
+        </div>
+
+        <div class="live-indicator">
+            🟢 LIVE
+        </div>
+
+    </header>
+
+
+    <!-- Summary Cards -->
+    <section class="summary">
+
+        <div class="card">
+
+            <h2>Statewide</h2>
+
+            <div id="statewide">
+
+                Loading...
+
+            </div>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>Latest Batches</h2>
+
+            <div id="latest-batches">
+
+                Loading...
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- County Updates -->
+    <section class="county-section">
+
+        <h2>County Updates</h2>
+
+        <div id="updates">
+
+            <!-- JavaScript will insert county cards here -->
+
+
+        </div>
+
+    </section>
+
+</div>
+
+<script src="/static/app.js"></script>
+
+</body>
+</html>
