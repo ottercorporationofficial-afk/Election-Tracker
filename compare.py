@@ -1,7 +1,14 @@
+import storage
+from datetime import datetime
+
+
+
 def compare_snapshots(old, new):
     has_changes = False
+    time_stamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
     comparison = {
+        "timestamp": time_stamp,
         "counties": {},
         "has_changes": False
     }
@@ -97,5 +104,6 @@ def compare_snapshots(old, new):
         }
 
     comparison["has_changes"] = has_changes
+
 
     return comparison

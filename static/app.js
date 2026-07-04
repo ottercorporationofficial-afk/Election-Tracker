@@ -8,13 +8,16 @@ async function loadElection() {
     updates.innerHTML = "";
 
     // Loop through each county
-    for (const county in data.vote_changes) {
+    for (const countyName in data.counties) {
 
-        const candidates = data.vote_changes[county];
-        const reporting = data.reporting_changes[county];
+        const county = data.counties[countyName];
+
+        const reporting = county.reporting;
+        const batch = county.batch;
+        const candidates = county.candidates;
 
         // Skip counties with no vote changes
-        if (Object.values(candidates).every(change => change === 0)) {
+        if (Object.values(candidates).every(candidate => candidate.change === 0)) {
             continue;
         }
 
@@ -25,7 +28,7 @@ async function loadElection() {
                 <div class="county-header">
 
                     <div class="county-name">
-                        ${county.replaceAll("_", " ").toUpperCase()}
+                        ${countyName.replaceAll("_", " ").toUpperCase()}
                     </div>
 
                     <div class="reporting">
@@ -33,19 +36,33 @@ async function loadElection() {
                     </div>
 
                 </div>
+
+                <div class="batch">
+                    <div><strong>Batch Total:</strong> ${batch.total}</div>
+                    <div><strong>Winner:</strong> ${batch.winner}</div>
+                    <div>
+                        <strong>Margin:</strong>
+                        +${batch.margin_votes}
+                        (${(batch.margin_percent * 100).toFixed(1)}%)
+                    </div>
+                </div>
         `;
 
         // Candidate rows
-        for (const candidate in candidates) {
+        for (const candidateName in candidates) {
 
-            const change = candidates[candidate];
+            const candidateData = candidates[candidateName];
 
             countyHTML += `
                 <div class="candidate">
 
-                    <span>${candidate}</span>
+                    <span>${candidateName}</span>
 
-                    <span>${change >= 0 ? "+" : ""}${change}</span>
+                    <span>${candidateData.votes.toLocaleString()} votes</span>
+
+                    <span>${candidateData.change >= 0 ? "+" : ""}${candidateData.change}</span>
+
+                    <span>${(candidateData.batch_percent * 100).toFixed(1)}%</span>
 
                 </div>
             `;

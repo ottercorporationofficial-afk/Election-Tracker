@@ -25,5 +25,11 @@ def load_snapshot():
     else:
         return None
 
+def save_comparison(comparison):
+    pass
+
+def load_comparison(comparison):
+    pass
+
 
 
