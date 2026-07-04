@@ -6,7 +6,7 @@ print("That's a little bit old that result, if you want to see something that go
 
 comparison = get_latest_update(RACE_ID)
 
-if comparison.get("status") == "first_run":
+if comparison.get("first_run"):
     print("First run. Snapshot saved.")
     quit()
 
@@ -14,19 +14,17 @@ if not comparison["has_changes"]:
     print("No updates.")
     quit()
 
-vote_changes = comparison["vote_changes"]
-reporting_changes = comparison["reporting_changes"]
+print(f"Update Time: {comparison['timestamp']}\n")
 
-print("Comparing...\n")
+for county_name, county_data in comparison["counties"].items():
 
-for county, candidates in vote_changes.items():
-
-    if all(change == 0 for change in candidates.values()):
+    # Skip counties with no vote changes
+    if all(candidate["change"] == 0 for candidate in county_data["candidates"].values()):
         continue
 
-    print(f"===== {county.upper()} =====")
+    print(f"===== {county_name.upper()} =====")
 
-    reporting = reporting_changes[county]
+    reporting = county_data["reporting"]
 
     print(
         f"Reporting: {reporting['old']}% → "
@@ -34,34 +32,23 @@ for county, candidates in vote_changes.items():
         f"({reporting['change']:+g}%)"
     )
 
-    batch_total = sum(candidates.values())
+    print()
 
-    for candidate, change in candidates.items():
-        percent = (
-            f"{change / batch_total:.1%}"
-            if batch_total != 0
-            else "N/A"
+    for candidate_name, candidate_data in county_data["candidates"].items():
+
+        print(
+            f"{candidate_name:<20} "
+            f"{candidate_data['change']:+d} "
+            f"({candidate_data['batch_percent']:.1%})"
         )
 
-        print(f"{candidate:<20} {change:+d} ({percent})")
+    batch = county_data["batch"]
 
-    candidates_sorted = sorted(
-        candidates.items(),
-        key=lambda item: item[1],
-        reverse=True
+    print(f"\nBatch Total: {batch['total']} votes")
+    print(
+        f"Batch Margin: {batch['winner']} "
+        f"+{batch['margin_votes']} "
+        f"({batch['margin_percent']:.1%})"
     )
 
-    leader_name, leader_votes = candidates_sorted[0]
-    second_name, second_votes = candidates_sorted[1]
-
-    batch_margin_votes = leader_votes - second_votes
-
-    if batch_total != 0:
-        batch_margin_percent = batch_margin_votes / batch_total
-        margin = f"{leader_name} +{batch_margin_votes} ({batch_margin_percent:.1%})"
-    else:
-        margin = f"{leader_name} +{batch_margin_votes}"
-
-    print(f"\nBatch Total: {batch_total} votes")
-    print(f"Batch Margin: {margin}")
     print()

@@ -1,0 +1,1926 @@
+{
+    "timestamp": "2026-07-04_16-53-59",
+    "counties": {
+        "el_paso": {
+            "reporting": {
+                "old": 98,
+                "new": 98,
+                "change": 0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 3000,
+                    "votes": 35850,
+                    "batch_percent": 1.0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 28512,
+                    "batch_percent": 0.0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 20362,
+                    "batch_percent": 0.0
+                }
+            },
+            "batch": {
+                "total": 3000,
+                "winner": "Victor Marx",
+                "margin_votes": 3000,
+                "margin_percent": 1.0
+            }
+        },
+        "jefferson": {
+            "reporting": {
+                "old": 99,
+                "new": 99,
+                "change": 0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 24112,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 18955,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 9716,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "douglas": {
+            "reporting": {
+                "old": 98,
+                "new": 98,
+                "change": 0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 21779,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 19059,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 9893,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "arapahoe": {
+            "reporting": {
+                "old": 95.36,
+                "new": 95.36,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 18762,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 14229,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 8194,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "weld": {
+            "reporting": {
+                "old": 99,
+                "new": 99,
+                "change": 0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 18005,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 13375,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 5450,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "larimer": {
+            "reporting": {
+                "old": 99,
+                "new": 99,
+                "change": 0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 15093,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 11819,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 6631,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "adams": {
+            "reporting": {
+                "old": 98,
+                "new": 98,
+                "change": 0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 12470,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 12054,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 5815,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "mesa": {
+            "reporting": {
+                "old": 95.8,
+                "new": 95.8,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 12333,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 7645,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 5744,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "denver": {
+            "reporting": {
+                "old": 99,
+                "new": 99,
+                "change": 0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 9070,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 5453,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 3318,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "pueblo": {
+            "reporting": {
+                "old": 99,
+                "new": 99,
+                "change": 0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 8163,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 3798,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 3172,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "boulder": {
+            "reporting": {
+                "old": 96.87,
+                "new": 96.87,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 6497,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 4194,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 2582,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "fremont": {
+            "reporting": {
+                "old": 98.42,
+                "new": 98.42,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 4439,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 2155,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 2082,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "montrose": {
+            "reporting": {
+                "old": 94.37,
+                "new": 94.37,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 3632,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 2070,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 1851,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "elbert": {
+            "reporting": {
+                "old": 98,
+                "new": 98,
+                "change": 0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 3141,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 2433,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 1449,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "garfield": {
+            "reporting": {
+                "old": 93.13,
+                "new": 93.13,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 2939,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 2425,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 1657,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "delta": {
+            "reporting": {
+                "old": 95.67,
+                "new": 95.67,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 3347,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 1682,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 1221,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "broomfield": {
+            "reporting": {
+                "old": 95.55,
+                "new": 95.55,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 3043,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 2019,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 1014,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "la_plata": {
+            "reporting": {
+                "old": 98.01,
+                "new": 98.01,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 2090,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 1890,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 1329,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "teller": {
+            "reporting": {
+                "old": 99,
+                "new": 99,
+                "change": 0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 2327,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 1502,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 1230,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "montezuma": {
+            "reporting": {
+                "old": 99,
+                "new": 99,
+                "change": 0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 1704,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 1502,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 1234,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "logan": {
+            "reporting": {
+                "old": 96.86,
+                "new": 96.86,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 1500,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 1493,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 618,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "morgan": {
+            "reporting": {
+                "old": 97.71,
+                "new": 97.71,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 1471,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 1468,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 647,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "park": {
+            "reporting": {
+                "old": 94.38,
+                "new": 94.38,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 1415,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 1159,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 733,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "eagle": {
+            "reporting": {
+                "old": 92.17,
+                "new": 92.17,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 1074,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 1043,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 589,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "chaffee": {
+            "reporting": {
+                "old": 99,
+                "new": 99,
+                "change": 0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 1290,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 872,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 451,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "archuleta": {
+            "reporting": {
+                "old": 90.03,
+                "new": 90.03,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 969,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 805,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 708,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "otero": {
+            "reporting": {
+                "old": 96.5,
+                "new": 96.5,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 1226,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 630,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 542,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "moffat": {
+            "reporting": {
+                "old": 86.67,
+                "new": 86.67,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 988,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 663,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 637,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "yuma": {
+            "reporting": {
+                "old": 90.89,
+                "new": 90.89,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 1072,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 862,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 351,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "grand": {
+            "reporting": {
+                "old": 98.99,
+                "new": 98.99,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 1044,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 733,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 374,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "rio_blanco": {
+            "reporting": {
+                "old": 91.7,
+                "new": 91.7,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 913,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 583,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 416,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "rio_grande": {
+            "reporting": {
+                "old": 88.84,
+                "new": 88.84,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 678,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 663,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 474,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "prowers": {
+            "reporting": {
+                "old": 97.56,
+                "new": 97.56,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 861,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 482,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 298,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "las_animas": {
+            "reporting": {
+                "old": 95.44,
+                "new": 95.44,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 914,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 408,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 309,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "alamosa": {
+            "reporting": {
+                "old": 94.01,
+                "new": 94.01,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 667,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 564,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 369,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "routt": {
+            "reporting": {
+                "old": 92.05,
+                "new": 92.05,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 630,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 548,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 396,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "kit_carson": {
+            "reporting": {
+                "old": 96.83,
+                "new": 96.83,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 613,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 452,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 434,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "washington": {
+            "reporting": {
+                "old": 95.33,
+                "new": 95.33,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 610,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 598,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 283,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "summit": {
+            "reporting": {
+                "old": 98.01,
+                "new": 98.01,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 695,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 426,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 307,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "custer": {
+            "reporting": {
+                "old": 96.69,
+                "new": 96.69,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 501,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 462,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 295,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "gunnison": {
+            "reporting": {
+                "old": 88.32,
+                "new": 88.32,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 520,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 447,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 281,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "conejos": {
+            "reporting": {
+                "old": 92.21,
+                "new": 92.21,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 481,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 382,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 344,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "phillips": {
+            "reporting": {
+                "old": 95.58,
+                "new": 95.58,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 393,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 387,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 237,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "lincoln": {
+            "reporting": {
+                "old": 94.5,
+                "new": 94.5,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 467,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 376,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 171,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "huerfano": {
+            "reporting": {
+                "old": 96.93,
+                "new": 96.93,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 503,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 272,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 234,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "baca": {
+            "reporting": {
+                "old": 94.46,
+                "new": 94.46,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 500,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 275,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 196,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "clear_creek": {
+            "reporting": {
+                "old": 97.47,
+                "new": 97.47,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 343,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 269,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 197,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "pitkin": {
+            "reporting": {
+                "old": 89.98,
+                "new": 89.98,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 366,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 255,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 169,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "bent": {
+            "reporting": {
+                "old": 92.23,
+                "new": 92.23,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 406,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 169,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 113,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "ouray": {
+            "reporting": {
+                "old": 96.2,
+                "new": 96.2,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 260,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 221,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 203,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "gilpin": {
+            "reporting": {
+                "old": 98.96,
+                "new": 98.96,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 274,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 260,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 129,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "crowley": {
+            "reporting": {
+                "old": 95.25,
+                "new": 95.25,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 352,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 149,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 121,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "sedgwick": {
+            "reporting": {
+                "old": 88.12,
+                "new": 88.12,
+                "change": 0.0
+            },
+            "candidates": {
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 199,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 195,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 192,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Scott Bottoms",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "saguache": {
+            "reporting": {
+                "old": 96.76,
+                "new": 96.76,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 240,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 169,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 158,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "cheyenne": {
+            "reporting": {
+                "old": 92.28,
+                "new": 92.28,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 256,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 189,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 69,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "lake": {
+            "reporting": {
+                "old": 87.59,
+                "new": 87.59,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 221,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 151,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 108,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "jackson": {
+            "reporting": {
+                "old": 82.37,
+                "new": 82.37,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 208,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 173,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 63,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "dolores": {
+            "reporting": {
+                "old": 81.05,
+                "new": 81.05,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 196,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 132,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 104,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "kiowa": {
+            "reporting": {
+                "old": 91.03,
+                "new": 91.03,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 164,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 161,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 101,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "san_miguel": {
+            "reporting": {
+                "old": 90.71,
+                "new": 90.71,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 117,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 109,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 106,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "costilla": {
+            "reporting": {
+                "old": 87.07,
+                "new": 87.07,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 120,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 101,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 82,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "mineral": {
+            "reporting": {
+                "old": 96.92,
+                "new": 96.92,
+                "change": 0.0
+            },
+            "candidates": {
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 76,
+                    "batch_percent": 0
+                },
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 73,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 40,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Victor Marx",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "hinsdale": {
+            "reporting": {
+                "old": 68.5,
+                "new": 68.5,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 70,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 59,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 45,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "san_juan": {
+            "reporting": {
+                "old": 79.83,
+                "new": 79.83,
+                "change": 0.0
+            },
+            "candidates": {
+                "Barb Kirkmeyer": {
+                    "change": 0,
+                    "votes": 39,
+                    "batch_percent": 0
+                },
+                "Scott Bottoms": {
+                    "change": 0,
+                    "votes": 37,
+                    "batch_percent": 0
+                },
+                "Victor Marx": {
+                    "change": 0,
+                    "votes": 19,
+                    "batch_percent": 0
+                }
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Barb Kirkmeyer",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        }
+    },
+    "has_changes": true
+}

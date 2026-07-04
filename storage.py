@@ -4,7 +4,6 @@ from datetime import datetime
 
 SNAPSHOT = Path("data/latest.json")
 
-
 def save_snapshot(snapshot):
     with open(SNAPSHOT, 'w') as f:
         json.dump(snapshot, f, indent=4)
@@ -26,9 +25,14 @@ def load_snapshot():
         return None
 
 def save_comparison(comparison):
-    pass
+    Path("data/changes").mkdir(parents=True,exist_ok=True)
 
-def load_comparison(comparison):
+    filename = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    filepath = Path("data/changes") / f"{filename}.json"
+    with open(filepath, 'w') as f:
+        json.dump(comparison,f,indent=4)
+
+def load_comparisons():
     pass
 
 

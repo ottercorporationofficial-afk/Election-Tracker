@@ -4,6 +4,16 @@ from datetime import datetime
 
 
 def compare_snapshots(old, new):
+    # No previous snapshot exists
+    if old is None:
+        return {
+            "timestamp": datetime.now().strftime("%Y-%m-%d_%H-%M-%S"),
+            "counties": {},
+            "has_changes": False,
+            "first_run": True
+        }
+
+
     has_changes = False
     time_stamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
