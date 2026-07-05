@@ -3,6 +3,9 @@ from starlette.responses import FileResponse
 
 from tracker import get_latest_update
 from fastapi.staticfiles import StaticFiles
+from storage import load_comparisons
+
+
 app = FastAPI()
 
 app.mount("/static", StaticFiles(directory="static"),name="static")
@@ -15,3 +18,8 @@ def home():
 @app.get("/latest")
 def latest():
     return get_latest_update(84287)
+
+
+@app.get("/history")
+def history():
+    return load_comparisons()

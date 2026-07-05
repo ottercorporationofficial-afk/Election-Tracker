@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-04_16-53-59",
+    "timestamp": "2026-07-05T01:44:28.294491",
     "counties": {
         "el_paso": {
             "reporting": {
@@ -9,26 +9,26 @@
             },
             "candidates": {
                 "Victor Marx": {
-                    "change": 3000,
+                    "change": 0,
                     "votes": 35850,
-                    "batch_percent": 1.0
+                    "batch_percent": 0
                 },
                 "Barb Kirkmeyer": {
                     "change": 0,
                     "votes": 28512,
-                    "batch_percent": 0.0
+                    "batch_percent": 0
                 },
                 "Scott Bottoms": {
                     "change": 0,
                     "votes": 20362,
-                    "batch_percent": 0.0
+                    "batch_percent": 0
                 }
             },
             "batch": {
-                "total": 3000,
+                "total": 0,
                 "winner": "Victor Marx",
-                "margin_votes": 3000,
-                "margin_percent": 1.0
+                "margin_votes": 0,
+                "margin_percent": 0
             }
         },
         "jefferson": {
@@ -339,26 +339,26 @@
             },
             "candidates": {
                 "Victor Marx": {
-                    "change": 0,
+                    "change": 1296,
                     "votes": 4439,
-                    "batch_percent": 0
+                    "batch_percent": 0.6334310850439883
                 },
                 "Scott Bottoms": {
-                    "change": 0,
+                    "change": 100,
                     "votes": 2155,
-                    "batch_percent": 0
+                    "batch_percent": 0.04887585532746823
                 },
                 "Barb Kirkmeyer": {
-                    "change": 0,
+                    "change": 650,
                     "votes": 2082,
-                    "batch_percent": 0
+                    "batch_percent": 0.3176930596285435
                 }
             },
             "batch": {
-                "total": 0,
+                "total": 2046,
                 "winner": "Victor Marx",
-                "margin_votes": 0,
-                "margin_percent": 0
+                "margin_votes": 646,
+                "margin_percent": 0.31573802541544477
             }
         },
         "montrose": {

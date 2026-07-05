@@ -4,6 +4,7 @@ from datetime import datetime
 
 SNAPSHOT = Path("data/latest.json")
 
+
 def save_snapshot(snapshot):
     with open(SNAPSHOT, 'w') as f:
         json.dump(snapshot, f, indent=4)
@@ -32,8 +33,35 @@ def save_comparison(comparison):
     with open(filepath, 'w') as f:
         json.dump(comparison,f,indent=4)
 
+
+def load_latest_comparison():
+    changes_folder = Path("data/changes")
+
+    files = sorted(
+        changes_folder.glob("*.json"),
+        reverse=True
+    )
+
+    if not files:
+        return None
+
+    with open(files[0], "r") as f:
+        return json.load(f)
+
 def load_comparisons():
-    pass
+    changes_folder = Path("data/changes")
+
+    comparisons = []
+
+    for file in changes_folder.glob("*.json"):
+        with open(file, "r") as f:
+            comparison = json.load(f)
+            comparisons.append(comparison)
+
+
+
+    return comparisons
+
 
 
 

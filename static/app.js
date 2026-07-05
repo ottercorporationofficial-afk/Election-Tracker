@@ -1,80 +1,134 @@
-async function loadElection() {
 
-    const response = await fetch("/latest");
-    const data = await response.json();
 
-    const updates = document.getElementById("updates");
+async function loadHistory() {
 
-    updates.innerHTML = "";
+    const response = await fetch("/history");
+    const history = await response.json();
 
-    // Loop through each county
-    for (const countyName in data.counties) {
+    const historyContainer = document.getElementById("history");
 
-        const county = data.counties[countyName];
+    historyContainer.innerHTML = "";
 
-        const reporting = county.reporting;
-        const batch = county.batch;
-        const candidates = county.candidates;
 
-        // Skip counties with no vote changes
-        if (Object.values(candidates).every(candidate => candidate.change === 0)) {
-            continue;
+
+    if (history.length > 0) {
+
+        const latestComparison = history[history.length - 1];
+
+        const timestamp = new Date(latestComparison.timestamp);
+
+        const diffMinutes = Math.floor(
+            (Date.now() - timestamp.getTime()) / 60000
+        );
+
+        const updated = document.getElementById("last-updated");
+
+        if (diffMinutes <= 0) {
+            updated.textContent = "Last Updated: Just now";
         }
+        else if (diffMinutes === 1) {
+            updated.textContent = "Last Updated: 1 minute ago";
+        }
+        else {
+            updated.textContent = `Last Updated: ${diffMinutes} minutes ago`;
+        }
+    }
 
-        // Start the county card
-        let countyHTML = `
-            <div class="county-card">
+    // Newest first
+    history.reverse();
 
-                <div class="county-header">
+    for (const comparison of history) {
 
-                    <div class="county-name">
-                        ${countyName.replaceAll("_", " ").toUpperCase()}
+        const timestamp = comparison.timestamp
+            ? new Date(comparison.timestamp).toLocaleString()
+            : "";
+
+        for (const countyName in comparison.counties) {
+
+            const county = comparison.counties[countyName];
+
+            const reporting = county.reporting;
+            const batch = county.batch;
+            const candidates = county.candidates;
+
+            if (Object.values(candidates).every(c => c.change === 0)) {
+                continue;
+            }
+
+            let html = `
+                <div class="county-card">
+
+                    <div class="timestamp">
+                        ${timestamp}
                     </div>
 
-                    <div class="reporting">
-                        ${reporting.old}% → ${reporting.new}% (${reporting.change >= 0 ? "+" : ""}${reporting.change}%)
+                    <div class="county-header">
+
+                        <div class="county-name">
+                            ${countyName.replaceAll("_", " ").toUpperCase()}
+                        </div>
+
+                        <div class="reporting">
+                            ${reporting.old}% → ${reporting.new}%
+                        </div>
+
                     </div>
 
-                </div>
+                    <div class="batch">
 
-                <div class="batch">
-                    <div><strong>Batch Total:</strong> ${batch.total}</div>
-                    <div><strong>Winner:</strong> ${batch.winner}</div>
-                    <div>
-                        <strong>Margin:</strong>
-                        +${batch.margin_votes}
-                        (${(batch.margin_percent * 100).toFixed(1)}%)
+                        <div>
+                            <strong>Batch Total:</strong>
+                            ${batch.total.toLocaleString()}
+                        </div>
+
+                        <div>
+                            <strong>Winner:</strong>
+                            ${batch.winner}
+                        </div>
+
+                        <div>
+                            <strong>Margin:</strong>
+                            +${batch.margin_votes}
+                            (${(batch.margin_percent * 100).toFixed(1)}%)
+                        </div>
+
                     </div>
-                </div>
-        `;
+            `;
 
-        // Candidate rows
-        for (const candidateName in candidates) {
+            for (const candidateName in candidates) {
 
-            const candidateData = candidates[candidateName];
+                const candidate = candidates[candidateName];
 
-            countyHTML += `
-                <div class="candidate">
+                html += `
+                    <div class="candidate">
 
-                    <span>${candidateName}</span>
+                        <span>${candidateName}</span>
 
-                    <span>${candidateData.votes.toLocaleString()} votes</span>
+                        <span>${candidate.votes.toLocaleString()} votes</span>
 
-                    <span>${candidateData.change >= 0 ? "+" : ""}${candidateData.change}</span>
+                        <span>${candidate.change >= 0 ? "+" : ""}${candidate.change}</span>
 
-                    <span>${(candidateData.batch_percent * 100).toFixed(1)}%</span>
+                        <span>${(candidate.batch_percent * 100).toFixed(1)}%</span>
 
+                    </div>
+                `;
+            }
+
+            html += `
                 </div>
             `;
+
+            historyContainer.innerHTML += html;
         }
-
-        countyHTML += `
-            </div>
-        `;
-
-        updates.innerHTML += countyHTML;
     }
+}
+
+async function refresh() {
+
+    await loadHistory();
 
 }
 
-loadElection();
+refresh();
+
+setInterval(refresh, 5000);

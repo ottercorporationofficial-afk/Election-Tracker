@@ -1,3 +1,5 @@
+import compare
+import storage
 from tracker import get_latest_update
 
 RACE_ID = 84287
@@ -10,9 +12,15 @@ if comparison.get("first_run"):
     print("First run. Snapshot saved.")
     quit()
 
+
+comparisons = storage.load_comparisons()
+
+
+
 if not comparison["has_changes"]:
     print("No updates.")
     quit()
+
 
 print(f"Update Time: {comparison['timestamp']}\n")
 
@@ -50,5 +58,3 @@ for county_name, county_data in comparison["counties"].items():
         f"+{batch['margin_votes']} "
         f"({batch['margin_percent']:.1%})"
     )
-
-    print()

@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-
     <title>Colorado Election Tracker</title>
 
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/style.css?v=5">
 </head>
 
 <body>
 
 <div class="container">
 
-    <!-- Header -->
+    <!-- ================= Header ================= -->
+
     <header>
 
         <div>
+
             <h1>Colorado GOP Governor Primary</h1>
+
             <p id="last-updated">
                 Last Updated: --
             </p>
+
         </div>
 
         <div class="live-indicator">
@@ -28,47 +32,36 @@
 
     </header>
 
+    <!-- ================= Statewide ================= -->
 
-    <!-- Summary Cards -->
-    <section class="summary">
-
-        <div class="card">
-
-            <h2>Statewide</h2>
-
-            <div id="statewide">
-
-                Loading...
-
-            </div>
-
-        </div>
-
+    <section class="statewide-section">
 
         <div class="card">
 
-            <h2>Latest Batches</h2>
+            <h2>Statewide Results</h2>
 
-            <div id="latest-batches">
-
-                Loading...
-
-            </div>
+            <iframe
+                id="civicapi-embed2-84287"
+                src="https://civicapi.org/embed2/?p=eyJyYWNlSWQiOjg0Mjg3LCJ0aGVtZSI6ImNvbXBhY3QtY2l2aWNhcGktZGFyayIsIm1heENhbmRpZGF0ZXMiOjgsInNob3dIZWFkZXIiOnRydWUsInNob3dNZXRhIjp0cnVlLCJzaG93UHJvZ3Jlc3MiOnRydWUsInNob3dDYWxscyI6dHJ1ZSwiaGlkZVdyaXRlSW5zIjpmYWxzZX0%3D&fid=civicapi-embed2-84287"
+                style="width:100%; border:0;"
+                loading="lazy"
+                scrolling="no">
+            </iframe>
 
         </div>
 
     </section>
 
 
-    <!-- County Updates -->
-    <section class="county-section">
+    <!-- ================= Live Feed ================= -->
 
-        <h2>County Updates</h2>
+    <section class="feed-section">
 
-        <div id="updates">
+        <h2>Live County Feed</h2>
 
-            <!-- JavaScript will insert county cards here -->
+        <div id="history">
 
+            <!-- JavaScript inserts county updates here -->
 
         </div>
 
@@ -76,7 +69,37 @@
 
 </div>
 
-<script src="/static/app.js"></script>
+<!-- ================= CivicAPI Auto Resize ================= -->
+
+<script>
+(function () {
+
+    const iframe = document.getElementById("civicapi-embed2-84287");
+
+    if (!iframe) return;
+
+    function onMessage(event) {
+
+        const data = event.data;
+
+        if (!data) return;
+        if (data.source !== "civicapi-embed2") return;
+        if (data.type !== "resize") return;
+        if (data.frameId !== "civicapi-embed2-84287") return;
+        if (typeof data.height !== "number") return;
+
+        // Cap the height so the map doesn't dominate the page
+        iframe.style.height = Math.min(750, Math.ceil(data.height)) + "px";
+
+    }
+
+    window.addEventListener("message", onMessage);
+
+})();
+</script>
+
+<script src="/static/app.js?v=5"></script>
 
 </body>
+
 </html>

@@ -7,7 +7,7 @@ def compare_snapshots(old, new):
     # No previous snapshot exists
     if old is None:
         return {
-            "timestamp": datetime.now().strftime("%Y-%m-%d_%H-%M-%S"),
+            "timestamp": datetime.now().isoformat(),
             "counties": {},
             "has_changes": False,
             "first_run": True
@@ -15,7 +15,7 @@ def compare_snapshots(old, new):
 
 
     has_changes = False
-    time_stamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    time_stamp = datetime.now().isoformat()
 
     comparison = {
         "timestamp": time_stamp,
