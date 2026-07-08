@@ -17,7 +17,7 @@ def home():
     return FileResponse("static/index.html")
 @app.get("/latest")
 def latest():
-    return get_latest_update(84325)
+    return get_latest_update(84287)
 
 
 @app.get("/history")

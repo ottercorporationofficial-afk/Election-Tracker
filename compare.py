@@ -1,4 +1,9 @@
 from datetime import datetime
+import json
+
+with open("data/county_fips.json", "r") as f:
+    COUNTY_FIPS = json.load(f)
+
 
 def compare_snapshots(old, new):
     # No previous snapshot exists
@@ -87,6 +92,10 @@ def compare_snapshots(old, new):
         comparison["counties"][county] = {}
         county_data = comparison["counties"][county]
 
+        county_data["name"] = county.replace("_", " ").title()
+        county_data["fips"] = COUNTY_FIPS.get(county)
+
+        print("ADDING:", county, county_data["fips"])
         # ---------------- Reporting ----------------
 
         old_reporting = old_county["percent_reporting"]
@@ -122,7 +131,6 @@ def compare_snapshots(old, new):
                 "change": vote_change,
                 "votes": new_votes[candidate]
             }
-
         # ---------------- Batch Total ----------------
 
         batch_total = 0
@@ -130,15 +138,32 @@ def compare_snapshots(old, new):
         for candidate_data in county_data["candidates"].values():
             batch_total += candidate_data["change"]
 
+        # ---------------- Current County Leader ----------------
+
+        sorted_candidates = sorted(
+            new_county["candidates"],
+            key=lambda c: c["votes"],
+            reverse=True
+        )
+
+        leader = sorted_candidates[0]
+        runner_up = sorted_candidates[1]
+
+        total_votes = sum(c["votes"] for c in new_county["candidates"])
+
+        county_data["leader"] = {
+            "name": leader["name"],
+            "votes": leader["votes"],
+            "margin_votes": leader["votes"] - runner_up["votes"],
+            "margin_percent": (
+                (leader["votes"] - runner_up["votes"]) / total_votes
+                if total_votes else 0
+            )
+        }
 
         # ---------------- Batch Sorting ----------------
 
-        batch = batch_sort(county_data,batch_total)
-
-
-
-        # Merge batch results into county data
-
+        batch = batch_sort(county_data, batch_total)
 
         county_data["batch"] = {
             "total": batch_total,

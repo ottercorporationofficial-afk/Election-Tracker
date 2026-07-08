@@ -5,100 +5,168 @@
     <meta charset="UTF-8">
     <title>Colorado Election Tracker</title>
 
-    <link rel="stylesheet" href="/static/style.css?v=5">
+    <link rel="stylesheet" href="/static/css/style.css?v=5">
 </head>
 
-<body>
 
-<div class="container">
+<header>
 
-    <!-- ================= Header ================= -->
+    <div class="header-left">
 
-    <header>
+        <h1>Colorado Republican Primary</h1>
 
-        <div>
+        <p id="last-updated">
 
-            <h1>Colorado GOP Governor Primary</h1>
+            Last Updated: --
 
-            <p id="last-updated">
-                Last Updated: --
-            </p>
+        </p>
 
-        </div>
+    </div>
 
-        <div class="live-indicator">
-            🟢 LIVE
-        </div>
+    <div class="live-indicator">
 
-    </header>
+        LIVE
 
-    <!-- ================= Statewide ================= -->
+    </div>
 
-    <section class="statewide-section">
+</header>
 
-        <div class="card">
+<!-- ===================== Statewide ===================== -->
 
-            <h2>Statewide Results</h2>
+<section class="overview">
 
-            <iframe
-                id="civicapi-embed2-84287"
-                src="https://civicapi.org/embed2/?p=eyJyYWNlSWQiOjg0Mjg3LCJ0aGVtZSI6ImNvbXBhY3QtY2l2aWNhcGktZGFyayIsIm1heENhbmRpZGF0ZXMiOjgsInNob3dIZWFkZXIiOnRydWUsInNob3dNZXRhIjp0cnVlLCJzaG93UHJvZ3Jlc3MiOnRydWUsInNob3dDYWxscyI6dHJ1ZSwiaGlkZVdyaXRlSW5zIjpmYWxzZX0%3D&fid=civicapi-embed2-84287"
-                style="width:100%; border:0;"
-                loading="lazy"
-                scrolling="no">
-            </iframe>
+    <!-- Left -->
 
-        </div>
+    <div class="statewide-panel">
 
-    </section>
+        <h2>Statewide Results</h2>
 
+            <div id="statewide">
 
-    <!-- ================= Live Feed ================= -->
+                <div class="statewide-candidate">
 
-    <section class="feed-section">
+                    <div class="statewide-header">
 
-        <h2>Live County Feed</h2>
+                        <span class="candidate-color marx"></span>
 
-        <div id="history">
+                        <span class="statewide-name">
+                            Victor Marx
+                        </span>
 
-            <!-- JavaScript inserts county updates here -->
+                    </div>
 
-        </div>
+                    <div class="statewide-votes">
+                        356,123 votes
+                    </div>
 
-    </section>
+                    <div class="statewide-percent">
+                        42.8%
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-fill marx-fill" style="width:42.8%"></div>
+                    </div>
+
+                </div>
+
+                <div class="statewide-candidate">
+
+                    <div class="statewide-header">
+
+                        <span class="candidate-color kirkmeyer"></span>
+
+                        <span class="statewide-name">
+                            Barb Kirkmeyer
+                        </span>
+
+                    </div>
+
+                    <div class="statewide-votes">
+                        298,540 votes
+                    </div>
+
+                    <div class="statewide-percent">
+                        35.8%
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-fill kirkmeyer-fill" style="width:35.8%"></div>
+                    </div>
+
+                </div>
+
+                <div class="statewide-candidate">
+
+                    <div class="statewide-header">
+
+                        <span class="candidate-color bottoms"></span>
+
+                        <span class="statewide-name">
+                            Scott Bottoms
+                        </span>
+
+                    </div>
+
+                    <div class="statewide-votes">
+                        180,012 votes
+                    </div>
+
+                    <div class="statewide-percent">
+                        21.4%
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-fill bottoms-fill" style="width:21.4%"></div>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class="reporting-box">
+
+                    <strong>Reporting</strong>
+
+                    <span>98%</span>
+
+                </div>
 
 </div>
 
-<!-- ================= CivicAPI Auto Resize ================= -->
+    </div>
 
-<script>
-(function () {
+    <!-- Right -->
 
-    const iframe = document.getElementById("civicapi-embed2-84287");
+    <div class="map-panel">
 
-    if (!iframe) return;
+        <h2>County Map</h2>
 
-    function onMessage(event) {
+        <div id="map">
 
-        const data = event.data;
+        </div>
 
-        if (!data) return;
-        if (data.source !== "civicapi-embed2") return;
-        if (data.type !== "resize") return;
-        if (data.frameId !== "civicapi-embed2-84287") return;
-        if (typeof data.height !== "number") return;
+    </div>
 
-        // Cap the height so the map doesn't dominate the page
-        iframe.style.height = Math.min(750, Math.ceil(data.height)) + "px";
+</section>
 
-    }
+<!-- ===================== Feed ===================== -->
 
-    window.addEventListener("message", onMessage);
+<section class="feed-section">
 
-})();
-</script>
+    <h2>Live County Feed</h2>
 
-<script src="/static/app.js?v=5"></script>
+    <div id="history"></div>
+
+</section>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+
+<script src="/static/js/map.js"></script>
+<link rel="stylesheet" href="/static/css/style.css">
+
+
+<script src="/static/js/app.js?v=5"></script>
 
 </body>
 
