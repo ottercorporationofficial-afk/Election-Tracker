@@ -1,0 +1,26 @@
+{
+    "timestamp": "2026-07-07T13:04:02.203229",
+    "results": {
+        "candidates": {
+            "Yes": {
+                "change": -2432,
+                "votes": 0,
+                "batch_percent": 0.5
+            },
+            "No": {
+                "change": -2432,
+                "votes": 0,
+                "batch_percent": 0.5
+            }
+        },
+        "batch": {
+            "total": -4864,
+            "winner": "Yes",
+            "margin_votes": 0,
+            "margin_percent": -0.0
+        }
+    },
+    "has_changes": true,
+    "has_counties": false,
+    "first_run": false
+}

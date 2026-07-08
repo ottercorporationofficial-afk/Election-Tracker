@@ -2,7 +2,7 @@ import compare
 import storage
 from tracker import get_latest_update
 
-RACE_ID = 84287
+RACE_ID = 84325
 
 print("That's a little bit old that result, if you want to see something that good take a look at what happened:\n")
 
@@ -21,6 +21,30 @@ if not comparison["has_changes"]:
     print("No updates.")
     quit()
 
+
+if not comparison["has_counties"]:
+    print("this race doesn't have regions/counties")
+    print("\n Election-Wide Results")
+
+    results = comparison["results"]
+
+    for candidate, data in results["candidates"].items():
+        print(
+            f"{candidate}: "
+            f"+{data['change']} votes "
+            f"({data['votes']} total)"
+        )
+
+    print()
+
+    print(
+        f"Batch Winner: {results['batch']['winner']}"
+    )
+    print(
+        f"Margin: {results['batch']['margin_votes']} votes "
+        f"({results['batch']['margin_percent']:.2%})"
+    )
+    quit()
 
 print(f"Update Time: {comparison['timestamp']}\n")
 
