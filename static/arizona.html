@@ -17,16 +17,16 @@
     <div class="top-header-content">
         <div class="site-name">Otter Elections</div>
 
-        <div class="top-nav">
-            Results
-        </div>
+        <nav class="top-nav"></nav>
     </div>
 </div>
+
+<script src="/static/js/nav.js"></script>
 
 <div class="container">
     <header class="page-header">
         <div class="header-left">
-            <h1>Colorado Republican Primary</h1>
+            <h1>Arizona Republican Primary</h1>
 
             <div class="header-meta">
                 <span id="last-updated"></span>
@@ -73,9 +73,32 @@
 
 <section class="feed-section">
 
-    <h2>Live County Feed</h2>
+    <div class="feed-section-header">
+
+        <h2>Live County Feed</h2>
+
+        <div class="feed-controls">
+
+            <select id="feed-view-select" aria-label="Feed view">
+                <option value="batches">Batches</option>
+                <option value="counties">County Results</option>
+            </select>
+
+            <select id="county-filter-select" aria-label="Filter by county">
+                <option value="all">All Counties</option>
+            </select>
+
+            <button id="county-sort-toggle" class="sort-toggle-btn hidden" type="button">
+                Sort: A–Z
+            </button>
+
+        </div>
+
+    </div>
 
     <div id="history"></div>
+
+    <div id="county-list" class="hidden"></div>
 
 </section>
 

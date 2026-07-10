@@ -25,6 +25,11 @@ def colorado():
     return FileResponse("static/colorado.html")
 
 
+@app.get("/arizona")
+def arizona():
+    return FileResponse("static/arizona.html")
+
+
 @app.get("/latest")
 def latest():
     return get_latest_update(84287)

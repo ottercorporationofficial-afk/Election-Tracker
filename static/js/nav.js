@@ -7,7 +7,8 @@
 // up the new link automatically — nothing else needs to change.
 
 const RACES = [
-    { path: "/colorado", name: "Colorado" }
+    { path: "/colorado", name: "Colorado" },
+    { path: "/arizona", name: "Arizona"},
     // { path: "/texas", name: "Texas" },
 ];
 
