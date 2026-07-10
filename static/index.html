@@ -3,33 +3,41 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Colorado Election Tracker</title>
 
-    <link rel="stylesheet" href="/static/css/style.css?v=5">
+    <link rel="stylesheet" href="/static/css/style.css?v=6">
 </head>
 
+<body>
 
-<header>
+<div class="top-header">
+    <div class="top-header-content">
+        <div class="site-name">Otter Elections</div>
 
-    <div class="header-left">
-
-        <h1>Colorado Republican Primary</h1>
-
-        <p id="last-updated">
-
-            Last Updated: --
-
-        </p>
-
+        <div class="top-nav">
+            Results
+        </div>
     </div>
+</div>
 
-    <div class="live-indicator">
+<div class="container">
+    <header class="page-header">
+        <div class="header-left">
+            <h1>Colorado Republican Primary</h1>
 
-        LIVE
+            <div class="header-meta">
+                <span id="last-updated"></span>
+                <span class="separator">•</span>
+                <span id="header-reporting">98% reporting</span>
+            </div>
+        </div>
 
-    </div>
-
-</header>
+        <div class="live-indicator">
+            LIVE
+        </div>
+    </header>
+</div>
 
 <!-- ===================== Statewide ===================== -->
 
@@ -41,97 +49,7 @@
 
         <h2>Statewide Results</h2>
 
-            <div id="statewide">
-
-                <div class="statewide-candidate">
-
-                    <div class="statewide-header">
-
-                        <span class="candidate-color marx"></span>
-
-                        <span class="statewide-name">
-                            Victor Marx
-                        </span>
-
-                    </div>
-
-                    <div class="statewide-votes">
-                        356,123 votes
-                    </div>
-
-                    <div class="statewide-percent">
-                        42.8%
-                    </div>
-
-                    <div class="progress">
-                        <div class="progress-fill marx-fill" style="width:42.8%"></div>
-                    </div>
-
-                </div>
-
-                <div class="statewide-candidate">
-
-                    <div class="statewide-header">
-
-                        <span class="candidate-color kirkmeyer"></span>
-
-                        <span class="statewide-name">
-                            Barb Kirkmeyer
-                        </span>
-
-                    </div>
-
-                    <div class="statewide-votes">
-                        298,540 votes
-                    </div>
-
-                    <div class="statewide-percent">
-                        35.8%
-                    </div>
-
-                    <div class="progress">
-                        <div class="progress-fill kirkmeyer-fill" style="width:35.8%"></div>
-                    </div>
-
-                </div>
-
-                <div class="statewide-candidate">
-
-                    <div class="statewide-header">
-
-                        <span class="candidate-color bottoms"></span>
-
-                        <span class="statewide-name">
-                            Scott Bottoms
-                        </span>
-
-                    </div>
-
-                    <div class="statewide-votes">
-                        180,012 votes
-                    </div>
-
-                    <div class="statewide-percent">
-                        21.4%
-                    </div>
-
-                    <div class="progress">
-                        <div class="progress-fill bottoms-fill" style="width:21.4%"></div>
-                    </div>
-
-                </div>
-
-                <hr>
-
-                <div class="reporting-box">
-
-                    <strong>Reporting</strong>
-
-                    <span>98%</span>
-
-                </div>
-
-</div>
+        <div id="statewide"></div>
 
     </div>
 
@@ -163,10 +81,7 @@
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
 
 <script src="/static/js/map.js"></script>
-<link rel="stylesheet" href="/static/css/style.css">
-
-
-<script src="/static/js/app.js?v=5"></script>
+<script src="/static/js/app.js?v=6"></script>
 
 </body>
 

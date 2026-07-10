@@ -29,8 +29,18 @@ async function loadHistory() {
         else if (diffMinutes === 1) {
             updated.textContent = "Last Updated: 1 minute ago";
         }
-        else {
+        else if (diffMinutes < 60) {
             updated.textContent = `Last Updated: ${diffMinutes} minutes ago`;
+        }
+        else {
+            const diffHours = Math.floor(diffMinutes / 60);
+
+            if (diffHours === 1) {
+                updated.textContent = "Last Updated: 1 hour ago";
+            }
+            else {
+                updated.textContent = `Last Updated: ${diffHours} hours ago`;
+            }
         }
     }
 
@@ -123,8 +133,144 @@ async function loadHistory() {
     }
 }
 
+
+
+// --------------------
+// Statewide Panel
+// --------------------
+
+function candidateColor(name) {
+
+    // candidateColors comes from map.js, which loads before this script
+    // and shares the same global scope.
+    if (typeof candidateColors !== "undefined" && candidateColors[name]) {
+        return candidateColors[name];
+    }
+
+    return "#888888";
+
+}
+
+function computeStatewideTotals(counties) {
+
+    const totals = {};
+    const reportingValues = [];
+
+    for (const countyName in counties) {
+
+        const county = counties[countyName];
+
+        if (typeof county.reporting?.new === "number") {
+            reportingValues.push(county.reporting.new);
+        }
+
+        for (const candidateName in county.candidates) {
+
+            const candidate = county.candidates[candidateName];
+
+            if (!(candidateName in totals)) {
+                totals[candidateName] = 0;
+            }
+
+            totals[candidateName] += candidate.votes;
+        }
+    }
+
+    // Simple unweighted average across counties. Swap for a
+    // votes-weighted average if that's a better fit for your data.
+    const reportingAvg = reportingValues.length
+        ? reportingValues.reduce((a, b) => a + b, 0) / reportingValues.length
+        : 0;
+
+    return { totals, reportingAvg };
+
+}
+
+function renderStatewide(totals, reportingAvg) {
+
+    const container = document.getElementById("statewide");
+
+    const grandTotal = Object.values(totals).reduce((a, b) => a + b, 0);
+
+    const sorted = Object.entries(totals).sort((a, b) => b[1] - a[1]);
+
+    let html = "";
+
+    for (const [name, votes] of sorted) {
+
+        const pct = grandTotal > 0 ? (votes / grandTotal) * 100 : 0;
+        const color = candidateColor(name);
+
+        html += `
+            <div class="statewide-candidate">
+
+                <div class="statewide-header">
+
+                    <span class="candidate-color" style="background:${color}"></span>
+
+                    <span class="statewide-name">
+                        ${name}
+                    </span>
+
+                </div>
+
+                <div class="statewide-votes">
+                    ${votes.toLocaleString()} votes
+                </div>
+
+                <div class="statewide-percent">
+                    ${pct.toFixed(1)}%
+                </div>
+
+                <div class="progress">
+                    <div class="progress-fill" style="width:${pct.toFixed(1)}%; background:${color}"></div>
+                </div>
+
+            </div>
+        `;
+    }
+
+    html += `
+        <hr>
+
+        <div class="reporting-box">
+
+            <strong>Reporting</strong>
+
+            <span>${Math.round(reportingAvg)}%</span>
+
+        </div>
+    `;
+
+    container.innerHTML = html;
+
+    const headerReporting = document.getElementById("header-reporting");
+
+    if (headerReporting) {
+        headerReporting.textContent = `${Math.round(reportingAvg)}% reporting`;
+    }
+
+}
+
+async function loadStatewide() {
+
+    const response = await fetch("/latest");
+    const data = await response.json();
+
+    // First run returns no county data yet — nothing to render.
+    if (!data.counties) {
+        return;
+    }
+
+    const { totals, reportingAvg } = computeStatewideTotals(data.counties);
+
+    renderStatewide(totals, reportingAvg);
+
+}
+
 async function refresh() {
 
+    await loadStatewide();
     await loadHistory();
 
 }

@@ -1,229 +1,285 @@
 /* ==========================================================
-   GENERAL
+   RESET
 ========================================================== */
 
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* ==========================================================
+   DESIGN TOKENS
+========================================================== */
+
 :root {
+    --bg: #14161c;
+    --panel: #1b1e26;
+    --panel-light: #23262f;
 
-    --bg: #181818;
-    --panel: #232323;
-    --panel-light: #2b2b2b;
+    --border: #2c3038;
+    --border-soft: rgba(255, 255, 255, .07);
 
-    --border: #3a3a3a;
+    --text: #f3f4f6;
+    --muted: #9aa0ab;
+    --muted-soft: #767c87;
 
-    --text: #ffffff;
-    --muted: #b8b8b8;
+    --accent: #5da2ff;
 
-    --shadow: 0 6px 18px rgba(0,0,0,.30);
+    --marx: #3b82f6;
+    --kirkmeyer: #ef4444;
+    --bottoms: #22c55e;
 
+    --radius-lg: 16px;
+    --radius-md: 12px;
+    --radius-sm: 8px;
+
+    --shadow: 0 6px 20px rgba(0, 0, 0, .35);
+    --shadow-hover: 0 12px 28px rgba(0, 0, 0, .45);
+
+    --ease: cubic-bezier(.22, 1, .36, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: .001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .001ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* ==========================================================
+   BASE
+========================================================== */
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-
     background: var(--bg);
-
     color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+}
 
-    font-family: Arial, Helvetica, sans-serif;
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
 
+a:hover {
+    text-decoration: underline;
+}
+
+::selection {
+    background: var(--marx);
+    color: white;
+}
+
+button:focus-visible,
+input:focus-visible,
+a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+button,
+input {
+    font: inherit;
+}
+
+img,
+svg {
+    user-select: none;
+    max-width: 100%;
 }
 
 .container {
-
-    width: min(1600px, 95%);
-
-    margin: auto;
-
-    padding: 28px;
-
+    width: min(1400px, calc(100% - 40px));
+    margin: 0 auto;
 }
-
-
 
 /* ==========================================================
-   HEADER
+   TOP HEADER
 ========================================================== */
 
-header {
+.top-header {
+    border-bottom: 1px solid var(--border);
+    background: var(--bg);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.top-header-content {
+    width: min(1400px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 14px 0;
 
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
-
-    margin-bottom: 30px;
-
 }
 
-header h1 {
-
-    font-size: 2.4rem;
-
-    margin-bottom: 6px;
-
+.site-name {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: .01em;
 }
 
-#last-updated {
-
+.top-nav {
     color: var(--muted);
+    font-size: .9rem;
+}
 
-    font-size: .95rem;
+/* ==========================================================
+   PAGE HEADER
+========================================================== */
 
+.page-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: 28px 0 22px;
+    margin-bottom: 28px;
+
+    border-bottom: 1px solid var(--border);
+}
+
+.header-left h1 {
+    font-size: clamp(1.5rem, 1.1rem + 1.6vw, 2.1rem);
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -.01em;
+}
+
+.header-meta {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    color: var(--muted);
+    font-size: .9rem;
+}
+
+.separator {
+    opacity: .5;
 }
 
 .live-indicator {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
 
-    background: var(--panel);
+    padding: 6px 14px 6px 12px;
 
-    border: 1px solid var(--border);
+    background: rgba(34, 197, 94, .08);
+    border: 1px solid rgba(34, 197, 94, .35);
+    border-radius: 999px;
 
-    border-radius: 10px;
-
-    padding: 10px 18px;
-
-    font-weight: bold;
-
+    font-size: .78rem;
+    font-weight: 700;
+    letter-spacing: .04em;
+    color: #4ade80;
+    white-space: nowrap;
 }
 
+.live-indicator::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #22c55e;
+    animation: pulse 1.8s infinite;
+    flex-shrink: 0;
+}
 
+@keyframes pulse {
+    0%   { transform: scale(1);    opacity: 1;  }
+    50%  { transform: scale(1.35); opacity: .4; }
+    100% { transform: scale(1);    opacity: 1;  }
+}
 
 /* ==========================================================
-   OVERVIEW
+   OVERVIEW LAYOUT
 ========================================================== */
+
 .overview {
+    display: grid;
+    grid-template-columns: minmax(280px, 340px) minmax(0, 1fr);
+    align-items: stretch;
+    gap: 20px;
 
-    display:grid;
-
-    grid-template-columns:340px minmax(0, 1fr);
-
-    gap:24px;
-
-    max-width:1280px;
-
-    margin:0 auto 40px;
-
+    width: min(1400px, calc(100% - 40px));
+    margin: 0 auto 32px;
 }
+
 /* ==========================================================
    PANELS
 ========================================================== */
 
-.statewide-panel {
-
-    width: 320px;
-
-    flex-shrink: 0;
-
-    background: var(--panel);
-
-    border: 1px solid var(--border);
-
-    border-radius: 14px;
-
-    padding: 18px;
-
-    box-shadow: var(--shadow);
-
-}
-
+.statewide-panel,
 .map-panel {
-
-    width: 760px;
-
-    flex-shrink: 0;
-
     background: var(--panel);
-
     border: 1px solid var(--border);
-
-    border-radius: 14px;
-
-    padding: 18px;
-
+    border-radius: var(--radius-lg);
+    padding: 20px;
     box-shadow: var(--shadow);
 
+    display: flex;
+    flex-direction: column;
+
+    transition: transform .18s var(--ease), border-color .18s var(--ease),
+        box-shadow .18s var(--ease);
 }
-/* ==========================================================
-   PANEL HEADERS
-========================================================== */
+
+.statewide-panel:hover,
+.map-panel:hover {
+    transform: translateY(-2px);
+    border-color: #444a56;
+    box-shadow: var(--shadow-hover);
+}
 
 .statewide-panel h2,
 .map-panel h2,
 .feed-section h2 {
-
-    font-size: 1.45rem;
-
+    font-size: 1.25rem;
+    font-weight: 700;
     margin-bottom: 18px;
-
-    padding-bottom: 12px;
-
+    padding-bottom: 14px;
     border-bottom: 1px solid var(--border);
-
 }
-
-
 
 /* ==========================================================
    MAP
 ========================================================== */
 
-#county-map {
-
+#map {
     width: 100%;
-
-    height: 320px;
+    flex: 1;
+    min-height: 320px;
+    border-radius: var(--radius-md);
+    background: #1a1d24;
 
     display: flex;
-
     justify-content: center;
-
     align-items: center;
-
-}
-
-#map {
-
-    width: 100%;
-
-    max-width: 700px;
-
-    height: 100%;
-
 }
 
 #map svg {
-
     width: 100%;
-
-    height: 100%;
-
-    display: block;
-
-}
-
-
-
-/* ==========================================================
-   FEED SECTION
-========================================================== */
-
-.feed-section{
-
-    max-width:1280px;
-
-    margin:0 auto;
-
-}
-
-.feed-section h2 {
-
-    margin-bottom: 25px;
-
+    height: auto;
 }
 
 /* ==========================================================
@@ -231,115 +287,65 @@ header h1 {
 ========================================================== */
 
 #statewide {
-
+    flex: 1;
     display: flex;
-
     flex-direction: column;
-
-    gap: 18px;
-
+    gap: 16px;
 }
 
-/* Individual candidate */
+#statewide hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin-top: auto;
+}
 
 .statewide-candidate {
-
     display: flex;
-
     flex-direction: column;
-
-    gap: 6px;
-
+    gap: 7px;
     padding-bottom: 16px;
-
-    border-bottom: 1px solid rgba(255,255,255,.08);
-
+    border-bottom: 1px solid var(--border-soft);
 }
 
-.statewide-candidate:last-child {
-
+.statewide-candidate:last-of-type {
     border-bottom: none;
-
     padding-bottom: 0;
-
 }
-
-/* Top line */
 
 .statewide-header {
-
     display: flex;
-
     align-items: center;
-
     gap: 10px;
-
 }
-
-/* Candidate color */
 
 .candidate-color {
-
-    width: 14px;
-
-    height: 14px;
-
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
-
     flex-shrink: 0;
-
 }
 
-/* Fake colors for now */
-
-.marx {
-
-    background: #2563eb;
-
-}
-
-.kirkmeyer {
-
-    background: #dc2626;
-
-}
-
-.bottoms {
-
-    background: #16a34a;
-
-}
-
-/* Candidate name */
+.marx        { background: var(--marx); }
+.kirkmeyer   { background: var(--kirkmeyer); }
+.bottoms     { background: var(--bottoms); }
 
 .statewide-name {
-
-    font-size: 1.15rem;
-
-    font-weight: bold;
-
+    font-size: 1.05rem;
+    font-weight: 700;
 }
-
-/* Vote total */
 
 .statewide-votes {
-
-    color: #bdbdbd;
-
-    font-size: .95rem;
-
+    color: var(--muted);
+    font-size: .88rem;
+    font-variant-numeric: tabular-nums;
 }
 
-/* Large percent */
-
 .statewide-percent {
-
-    font-size: 1.75rem;
-
-    font-weight: bold;
-
+    font-size: 1.65rem;
+    font-weight: 700;
     line-height: 1;
-
+    letter-spacing: -.02em;
+    font-variant-numeric: tabular-nums;
 }
 
 /* ==========================================================
@@ -347,973 +353,435 @@ header h1 {
 ========================================================== */
 
 .progress {
-
     width: 100%;
-
-    height: 7px;
-
-    background: #404040;
-
+    height: 6px;
+    background: #33373f;
     border-radius: 999px;
-
     overflow: hidden;
-
 }
 
 .progress-fill {
-
     height: 100%;
-
     border-radius: 999px;
-
     transition: width .35s ease;
-
+    animation: growBar .7s ease;
 }
 
-/* Matching colors */
-
-.marx-fill {
-
-    background: #2563eb;
-
+@keyframes growBar {
+    from { width: 0; }
 }
 
-.kirkmeyer-fill {
-
-    background: #dc2626;
-
-}
-
-.bottoms-fill {
-
-    background: #16a34a;
-
-}
+.marx-fill      { background: var(--marx); }
+.kirkmeyer-fill { background: var(--kirkmeyer); }
+.bottoms-fill   { background: var(--bottoms); }
 
 /* ==========================================================
-   REPORTING
+   REPORTING BOX
 ========================================================== */
 
 .reporting-box {
-
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
-
-    margin-top: 6px;
-
+    margin-top: 4px;
     padding-top: 16px;
-
     border-top: 1px solid var(--border);
-
-    font-size: 1.05rem;
-
+    font-size: 1rem;
 }
 
 .reporting-box strong {
-
-    color: white;
-
+    color: var(--text);
 }
 
 .reporting-box span {
-
-    font-weight: bold;
-
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
 }
 
 /* ==========================================================
-   FUTURE STATEWIDE STATS
+   STATEWIDE STATS (future use)
 ========================================================== */
 
 .statewide-stats {
-
     margin-top: 10px;
-
     display: flex;
-
     flex-direction: column;
-
     gap: 8px;
-
 }
 
 .statewide-stat {
-
     display: flex;
-
     justify-content: space-between;
-
     color: var(--muted);
-
-    font-size: .92rem;
-
+    font-size: .9rem;
 }
 
 .statewide-stat strong {
-
-    color: white;
-
+    color: var(--text);
 }
 
-
 /* ==========================================================
-   LIVE COUNTY FEED
+   FEED SECTION
 ========================================================== */
 
 .feed-section {
+    width: min(1400px, calc(100% - 40px));
+    margin: 0 auto 60px;
+}
 
-    margin-top: 40px;
-
+.feed-section h2 {
+    margin-bottom: 22px;
 }
 
 #history {
-
     display: flex;
-
     flex-direction: column;
-
-    gap: 22px;
-
+    gap: 18px;
 }
 
-
+.empty-feed {
+    text-align: center;
+    color: var(--muted);
+    padding: 60px 24px;
+    background: var(--panel);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+}
 
 /* ==========================================================
    COUNTY CARD
 ========================================================== */
 
 .county-card {
-
-
     background: var(--panel);
-
     border: 1px solid var(--border);
-
-    border-radius: 14px;
-
-    padding: 18px;
-
+    border-radius: var(--radius-lg);
+    padding: 20px;
     box-shadow: var(--shadow);
 
-    transition:
-        transform .15s ease,
-        border-color .15s ease;
-
+    animation: fadeUp .25s ease;
+    transition: transform .15s var(--ease), border-color .15s var(--ease),
+        box-shadow .15s var(--ease);
 }
 
 .county-card:hover {
-
-    transform: translateY(-2px);
-
-    border-color: #5c5c5c;
-
+    transform: translateY(-3px);
+    border-color: #4a505c;
+    box-shadow: var(--shadow-hover);
 }
 
-
-
-/* ==========================================================
-   TIMESTAMP
-========================================================== */
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
 
 .timestamp {
-
     display: inline-flex;
-
     align-items: center;
-
     gap: 6px;
-
-    background: #333;
-
+    background: var(--panel-light);
     color: #d6d6d6;
-
-    padding: 4px 10px;
-
+    padding: 4px 12px;
     border-radius: 999px;
-
-    font-size: .78rem;
-
+    font-size: .76rem;
     margin-bottom: 14px;
-
 }
 
-
-
-/* ==========================================================
-   COUNTY HEADER
-========================================================== */
-
 .county-header {
-
     display: flex;
-
+    flex-wrap: wrap;
+    gap: 8px;
     justify-content: space-between;
-
     align-items: center;
-
-    margin-bottom: 18px;
-
+    margin-bottom: 16px;
 }
 
 .county-name {
-
-    font-size: 1.4rem;
-
-    font-weight: bold;
-
-    letter-spacing: .2px;
-
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: .01em;
 }
 
 .reporting {
-
     color: var(--muted);
-
-    font-size: .92rem;
-
+    font-size: .88rem;
+    font-weight: 600;
 }
-
-
 
 /* ==========================================================
    BATCH SUMMARY
 ========================================================== */
 
 .batch {
-
     display: flex;
-
     gap: 24px;
-
     flex-wrap: wrap;
-
-    margin-bottom: 18px;
-
+    margin-bottom: 16px;
     padding-bottom: 14px;
-
-    border-bottom: 1px solid rgba(255,255,255,.08);
-
+    border-bottom: 1px solid var(--border-soft);
 }
 
 .batch div {
-
     display: flex;
-
     flex-direction: column;
-
     gap: 4px;
-
-    min-width: 120px;
-
+    min-width: 110px;
 }
 
 .batch strong {
-
     color: var(--muted);
-
-    font-size: .78rem;
-
+    font-size: .74rem;
     text-transform: uppercase;
-
-    letter-spacing: .08em;
-
+    letter-spacing: .07em;
 }
 
-
-
 /* ==========================================================
-   CANDIDATE TABLE
+   CANDIDATE TABLE (per-county results)
 ========================================================== */
 
 .candidate {
-
     display: grid;
-
-    grid-template-columns:
-
-        2fr
-
-        130px
-
-        90px
-
-        80px;
-
-    gap: 16px;
-
+    grid-template-columns: 2fr 120px 84px 76px;
+    gap: 14px;
     align-items: center;
-
-    padding: 10px 0;
-
-    border-bottom: 1px solid rgba(255,255,255,.05);
-
+    padding: 9px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .05);
+    transition: background .15s ease;
+    border-radius: var(--radius-sm);
 }
 
 .candidate:last-child {
-
     border-bottom: none;
-
 }
 
-
-
-/* Candidate name */
+.candidate:hover {
+    background: rgba(255, 255, 255, .035);
+}
 
 .candidate span:first-child {
-
     font-weight: 600;
-
 }
-
-
-
-/* Numbers */
 
 .candidate span:nth-child(2),
 .candidate span:nth-child(3),
 .candidate span:nth-child(4) {
-
     text-align: right;
-
     font-variant-numeric: tabular-nums;
-
 }
-
-
 
 /* ==========================================================
-   CHANGE COLORS
+   STATUS COLORS
 ========================================================== */
 
-.change-positive {
+.winner       { color: var(--accent); font-weight: 700; }
+.projected    { color: #42d96b; font-weight: 700; }
+.close-race   { color: #f0c74f; font-weight: 700; }
+.flip         { color: #ff7070; font-weight: 700; }
 
-    color: #47d764;
+.change-positive { color: #47d764; font-weight: 700; }
+.change-negative { color: #ff6666; font-weight: 700; }
+.change-neutral  { color: #ccc; }
 
-    font-weight: bold;
-
-}
-
-.change-negative {
-
-    color: #ff6666;
-
-    font-weight: bold;
-
-}
-
-.change-neutral {
-
-    color: #cccccc;
-
-}
-
-
+.batch-winner { color: var(--accent); font-weight: 700; }
 
 /* ==========================================================
-   BATCH WINNER
+   UTILITIES
 ========================================================== */
 
-.batch-winner {
+.hidden { display: none !important; }
+.center { text-align: center; }
+.right  { text-align: right; }
+.muted  { color: var(--muted); }
 
-    color: #58a6ff;
-
-    font-weight: bold;
-
-}
-
-
-
-/* ==========================================================
-   EMPTY STATE
-========================================================== */
-
-.empty-feed {
-
+footer {
+    margin: 40px 0 20px;
+    color: var(--muted-soft);
     text-align: center;
-
-    color: var(--muted);
-
-    padding: 60px;
-
-    background: var(--panel);
-
-    border-radius: 14px;
-
-    border: 1px solid var(--border);
-
+    font-size: .88rem;
 }
-
-/* ==========================================================
-   CARD ANIMATIONS
-========================================================== */
-
-.county-card{
-
-    animation:fadeUp .25s ease;
-
-}
-
-@keyframes fadeUp{
-
-    from{
-
-        opacity:0;
-
-        transform:translateY(10px);
-
-    }
-
-    to{
-
-        opacity:1;
-
-        transform:translateY(0);
-
-    }
-
-}
-
-
-
-/* ==========================================================
-   PANEL HOVER
-========================================================== */
-
-.statewide-panel,
-.map-panel{
-
-    transition:
-        transform .15s ease,
-        border-color .15s ease,
-        box-shadow .15s ease;
-
-}
-
-.statewide-panel:hover,
-.map-panel:hover{
-
-    transform:translateY(-2px);
-
-    border-color:#5d5d5d;
-
-    box-shadow:0 10px 24px rgba(0,0,0,.35);
-
-}
-
-
-
-/* ==========================================================
-   COUNTY CARD HOVER
-========================================================== */
-
-.county-card{
-
-    transition:
-        transform .15s ease,
-        border-color .15s ease,
-        box-shadow .15s ease;
-
-}
-
-.county-card:hover{
-
-    transform:translateY(-3px);
-
-    border-color:#666;
-
-    box-shadow:0 10px 24px rgba(0,0,0,.35);
-
-}
-
-
-
-/* ==========================================================
-   LIVE INDICATOR
-========================================================== */
-
-.live-indicator{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:8px;
-
-}
-
-.live-indicator::before{
-
-    content:"";
-
-    width:10px;
-
-    height:10px;
-
-    border-radius:50%;
-
-    background:#27d545;
-
-    animation:pulse 1.8s infinite;
-
-}
-
-@keyframes pulse{
-
-    0%{
-
-        transform:scale(1);
-
-        opacity:1;
-
-    }
-
-    50%{
-
-        transform:scale(1.35);
-
-        opacity:.4;
-
-    }
-
-    100%{
-
-        transform:scale(1);
-
-        opacity:1;
-
-    }
-
-}
-
-
-
-/* ==========================================================
-   PROGRESS BAR ANIMATION
-========================================================== */
-
-.progress-fill{
-
-    animation:growBar .7s ease;
-
-}
-
-@keyframes growBar{
-
-    from{
-
-        width:0;
-
-    }
-
-}
-
-
-
-/* ==========================================================
-   CANDIDATE ROW
-========================================================== */
-
-.candidate{
-
-    transition:background .15s ease;
-
-}
-
-.candidate:hover{
-
-    background:rgba(255,255,255,.035);
-
-}
-
-
-
-/* ==========================================================
-   SECTION SPACING
-========================================================== */
-
-.overview{
-
-    margin-bottom:45px;
-
-}
-
-.feed-section{
-
-    margin-top:10px;
-
-}
-
-
-
-/* ==========================================================
-   NICE NUMBERS
-========================================================== */
-
-.statewide-percent{
-
-    letter-spacing:-.5px;
-
-}
-
-.statewide-votes{
-
-    font-size:.9rem;
-
-    color:#b8b8b8;
-
-}
-
-.reporting{
-
-    font-weight:600;
-
-}
-
-
-
-/* ==========================================================
-   DIVIDERS
-========================================================== */
-
-.batch{
-
-    border-bottom:1px solid rgba(255,255,255,.07);
-
-}
-
-.statewide-candidate{
-
-    border-bottom:1px solid rgba(255,255,255,.06);
-
-}
-
-.statewide-candidate:last-child{
-
-    border-bottom:none;
-
-}
-
-
-
-/* ==========================================================
-   MAP PANEL
-========================================================== */
-
-.map-panel{
-
-    overflow:hidden;
-
-}
-
-#county-map{
-
-    border-radius:10px;
-
-    background:#202020;
-
-}
-
-
-
-/* ==========================================================
-   SELECTION
-========================================================== */
-
-::selection{
-
-    background:#2563eb;
-
-    color:white;
-
-}
-
-
-
-/* ==========================================================
-   LINKS
-========================================================== */
-
-a{
-
-    color:#5da2ff;
-
-    text-decoration:none;
-
-}
-
-a:hover{
-
-    text-decoration:underline;
-
-}
-
-/* ==========================================================
-   FINAL POLISH
-========================================================== */
-
-/* Smooth scrolling */
-
-html {
-
-    scroll-behavior: smooth;
-
-}
-
-/* Better looking numbers */
-
-.statewide-percent,
-.reporting-box span,
-.batch,
-.candidate {
-
-    font-variant-numeric: tabular-nums;
-
-}
-
-/* Keep images and SVGs crisp */
-
-img,
-svg {
-
-    user-select: none;
-
-}
-
-/* Remove ugly focus outlines */
-
-button,
-input {
-
-    font: inherit;
-
-}
-
-button:focus,
-input:focus {
-
-    outline: none;
-
-}
-
-
 
 /* ==========================================================
    SCROLLBAR
 ========================================================== */
 
 ::-webkit-scrollbar {
-
     width: 10px;
-
 }
 
 ::-webkit-scrollbar-track {
-
-    background: #1f1f1f;
-
+    background: var(--bg);
 }
 
 ::-webkit-scrollbar-thumb {
-
-    background: #565656;
-
+    background: #4a4f59;
     border-radius: 999px;
-
 }
 
 ::-webkit-scrollbar-thumb:hover {
-
-    background: #6d6d6d;
-
+    background: #5c626d;
 }
-
-
 
 /* ==========================================================
-   MOBILE
+   MAP TOOLTIP
 ========================================================== */
 
-@media (max-width:1200px){
+.map-tooltip {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
 
-    .overview{
+    min-width: 220px;
+    max-width: 260px;
 
-        grid-template-columns:300px 1fr;
+    background: var(--panel-light);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-hover);
+    padding: 14px;
 
+    font-size: .85rem;
+    color: var(--text);
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .1s ease;
+}
+
+.map-tooltip.visible {
+    opacity: 1;
+}
+
+.map-tooltip-title {
+    font-weight: 700;
+    font-size: .95rem;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+}
+
+.map-tooltip-row {
+    display: grid;
+    grid-template-columns: 9px 1fr auto auto;
+    gap: 8px;
+    align-items: center;
+    padding: 4px 0;
+}
+
+.map-tooltip-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+}
+
+.map-tooltip-name {
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.map-tooltip-check {
+    color: var(--accent);
+    margin-left: 4px;
+}
+
+.map-tooltip-votes {
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+}
+
+.map-tooltip-pct {
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+}
+
+.map-tooltip-footer {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: .78rem;
+}
+
+
+
+/* Tablet and below: single-column overview, map above/below fold */
+@media (max-width: 950px) {
+    .overview {
+        grid-template-columns: 1fr;
     }
 
+    #map {
+        min-height: 280px;
+    }
 }
 
-
-
-@media (max-width:950px){
-
-    .overview{
-
-        grid-template-columns:1fr;
-
+/* Phones */
+@media (max-width: 640px) {
+    .container,
+    .top-header-content,
+    .overview,
+    .feed-section {
+        width: calc(100% - 28px);
     }
 
-    #county-map{
-
-        height:340px;
-
+    .page-header {
+        padding: 20px 0 18px;
+        margin-bottom: 20px;
     }
 
-}
-
-
-
-@media (max-width:700px){
-
-    .container {
-
-        width: min(1280px, 96%);
-
-        margin: 0 auto;
-
-        padding: 24px 20px 50px;
-
-    }
-    header{
-
-        flex-direction:column;
-
-        align-items:flex-start;
-
-        gap:15px;
-
+    .header-left h1 {
+        font-size: 1.5rem;
     }
 
-    header h1{
-
-        font-size:2rem;
-
+    .live-indicator {
+        font-size: .72rem;
+        padding: 5px 12px 5px 10px;
     }
 
-    .county-header{
-
-        flex-direction:column;
-
-        align-items:flex-start;
-
-        gap:8px;
-
+    .statewide-panel,
+    .map-panel,
+    .county-card {
+        padding: 16px;
+        border-radius: var(--radius-md);
     }
 
-    .candidate{
-
-        grid-template-columns:1fr;
-
-        gap:5px;
-
+    .statewide-percent {
+        font-size: 1.4rem;
     }
 
-    .candidate span{
-
-        text-align:left !important;
-
+    .county-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
     }
 
-    .batch{
-
-        flex-direction:column;
-
-        gap:10px;
-
+    .batch {
+        flex-direction: column;
+        gap: 12px;
     }
 
+    /* Stack the per-county candidate rows into a compact card layout */
+    .candidate {
+        grid-template-columns: 1fr auto;
+        grid-template-rows: auto auto;
+        row-gap: 4px;
+        padding: 10px 0;
+    }
+
+    .candidate span:first-child {
+        grid-column: 1 / -1;
+    }
+
+    .candidate span:nth-child(2),
+    .candidate span:nth-child(3),
+    .candidate span:nth-child(4) {
+        text-align: right;
+    }
 }
-
-
-
-/* ==========================================================
-   FUTURE CLASSES
-========================================================== */
-
-.winner{
-
-    color:#4da3ff;
-
-    font-weight:bold;
-
-}
-
-.projected{
-
-    color:#42d96b;
-
-    font-weight:bold;
-
-}
-
-.close-race{
-
-    color:#f0c74f;
-
-    font-weight:bold;
-
-}
-
-.flip{
-
-    color:#ff7070;
-
-    font-weight:bold;
-
-}
-
-
-
-/* ==========================================================
-   UTILITIES
-========================================================== */
-
-.hidden{
-
-    display:none !important;
-
-}
-
-.center{
-
-    text-align:center;
-
-}
-
-.right{
-
-    text-align:right;
-
-}
-
-.muted{
-
-    color:#b6b6b6;
-
-}
-
-
-
-/* ==========================================================
-   FOOTER (future use)
-========================================================== */
-
-footer{
-
-    margin-top:50px;
-
-    color:#9a9a9a;
-
-    text-align:center;
-
-    font-size:.9rem;
-
-}
-
-
 
 /* ==========================================================
    END
