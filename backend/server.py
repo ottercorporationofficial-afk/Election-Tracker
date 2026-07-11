@@ -14,7 +14,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://YOUR-SITE.pages.dev",  # Replace with Cloudflare Pages URL
+        "https://election-tracker.jper19223.workers.dev/",  # Replace with Cloudflare Pages URL
         "http://127.0.0.1:8000",
         "http://localhost:8000",
     ],
