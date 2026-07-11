@@ -10,14 +10,18 @@ from storage import load_comparisons
 
 app = FastAPI()
 
-# Allow your Cloudflare Pages site to call the API
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://election-tracker.jper19223.workers.dev",  # Replace with Cloudflare Pages URL
-        "http://127.0.0.1:8000",
+        "https://otterelections.com",
+        "https://www.otterelections.com",
+        "https://election-tracker.jper19223.workers.dev",
         "http://localhost:8000",
+        "http://127.0.0.1:8000",
+
     ],
+    allow_origin_regex=r"https://([a-zA-Z0-9-]+\.)?otterelections\.com",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
