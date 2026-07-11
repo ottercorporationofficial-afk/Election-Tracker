@@ -41,7 +41,7 @@ let g;
 
 Promise.all([
     d3.json("/data/counties-10m.json"),
-    fetch("/latest").then(r => r.json())
+    fetch(`${API}/latest`).then(r => r.json())
 ]).then(([us, electionData]) => {
 
     const counties = topojson.feature(us, us.objects.counties);
