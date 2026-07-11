@@ -263,7 +263,7 @@ function drawMap(stateCounties, electionData) {
 
 async function updateMap() {
 
-    const response = await fetch("/latest");
+    const response = await fetch(`${API}/latest`);
     const electionData = await response.json();
 
     const countyResults = {};
