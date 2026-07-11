@@ -1,0 +1,583 @@
+{
+  "26001": {
+    "name": "ALCONA",
+    "slug": "alcona",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "001"
+  },
+  "26003": {
+    "name": "ALGER",
+    "slug": "alger",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "003"
+  },
+  "26005": {
+    "name": "ALLEGAN",
+    "slug": "allegan",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "005"
+  },
+  "26007": {
+    "name": "ALPENA",
+    "slug": "alpena",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "007"
+  },
+  "26009": {
+    "name": "ANTRIM",
+    "slug": "antrim",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "009"
+  },
+  "26011": {
+    "name": "ARENAC",
+    "slug": "arenac",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "011"
+  },
+  "26013": {
+    "name": "BARAGA",
+    "slug": "baraga",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "013"
+  },
+  "26015": {
+    "name": "BARRY",
+    "slug": "barry",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "015"
+  },
+  "26017": {
+    "name": "BAY",
+    "slug": "bay",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "017"
+  },
+  "26019": {
+    "name": "BENZIE",
+    "slug": "benzie",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "019"
+  },
+  "26021": {
+    "name": "BERRIEN",
+    "slug": "berrien",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "021"
+  },
+  "26023": {
+    "name": "BRANCH",
+    "slug": "branch",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "023"
+  },
+  "26025": {
+    "name": "CALHOUN",
+    "slug": "calhoun",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "025"
+  },
+  "26027": {
+    "name": "CASS",
+    "slug": "cass",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "027"
+  },
+  "26029": {
+    "name": "CHARLEVOIX",
+    "slug": "charlevoix",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "029"
+  },
+  "26031": {
+    "name": "CHEBOYGAN",
+    "slug": "cheboygan",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "031"
+  },
+  "26033": {
+    "name": "CHIPPEWA",
+    "slug": "chippewa",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "033"
+  },
+  "26035": {
+    "name": "CLARE",
+    "slug": "clare",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "035"
+  },
+  "26037": {
+    "name": "CLINTON",
+    "slug": "clinton",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "037"
+  },
+  "26039": {
+    "name": "CRAWFORD",
+    "slug": "crawford",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "039"
+  },
+  "26041": {
+    "name": "DELTA",
+    "slug": "delta",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "041"
+  },
+  "26043": {
+    "name": "DICKINSON",
+    "slug": "dickinson",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "043"
+  },
+  "26045": {
+    "name": "EATON",
+    "slug": "eaton",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "045"
+  },
+  "26047": {
+    "name": "EMMET",
+    "slug": "emmet",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "047"
+  },
+  "26049": {
+    "name": "GENESEE",
+    "slug": "genesee",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "049"
+  },
+  "26051": {
+    "name": "GLADWIN",
+    "slug": "gladwin",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "051"
+  },
+  "26053": {
+    "name": "GOGEBIC",
+    "slug": "gogebic",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "053"
+  },
+  "26055": {
+    "name": "GRAND TRAVERSE",
+    "slug": "grand_traverse",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "055"
+  },
+  "26057": {
+    "name": "GRATIOT",
+    "slug": "gratiot",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "057"
+  },
+  "26059": {
+    "name": "HILLSDALE",
+    "slug": "hillsdale",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "059"
+  },
+  "26061": {
+    "name": "HOUGHTON",
+    "slug": "houghton",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "061"
+  },
+  "26063": {
+    "name": "HURON",
+    "slug": "huron",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "063"
+  },
+  "26065": {
+    "name": "INGHAM",
+    "slug": "ingham",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "065"
+  },
+  "26067": {
+    "name": "IONIA",
+    "slug": "ionia",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "067"
+  },
+  "26069": {
+    "name": "IOSCO",
+    "slug": "iosco",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "069"
+  },
+  "26071": {
+    "name": "IRON",
+    "slug": "iron",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "071"
+  },
+  "26073": {
+    "name": "ISABELLA",
+    "slug": "isabella",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "073"
+  },
+  "26075": {
+    "name": "JACKSON",
+    "slug": "jackson",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "075"
+  },
+  "26077": {
+    "name": "KALAMAZOO",
+    "slug": "kalamazoo",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "077"
+  },
+  "26079": {
+    "name": "KALKASKA",
+    "slug": "kalkaska",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "079"
+  },
+  "26081": {
+    "name": "KENT",
+    "slug": "kent",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "081"
+  },
+  "26083": {
+    "name": "KEWEENAW",
+    "slug": "keweenaw",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "083"
+  },
+  "26085": {
+    "name": "LAKE",
+    "slug": "lake",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "085"
+  },
+  "26087": {
+    "name": "LAPEER",
+    "slug": "lapeer",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "087"
+  },
+  "26089": {
+    "name": "LEELANAU",
+    "slug": "leelanau",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "089"
+  },
+  "26091": {
+    "name": "LENAWEE",
+    "slug": "lenawee",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "091"
+  },
+  "26093": {
+    "name": "LIVINGSTON",
+    "slug": "livingston",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "093"
+  },
+  "26095": {
+    "name": "LUCE",
+    "slug": "luce",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "095"
+  },
+  "26097": {
+    "name": "MACKINAC",
+    "slug": "mackinac",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "097"
+  },
+  "26099": {
+    "name": "MACOMB",
+    "slug": "macomb",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "099"
+  },
+  "26101": {
+    "name": "MANISTEE",
+    "slug": "manistee",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "101"
+  },
+  "26103": {
+    "name": "MARQUETTE",
+    "slug": "marquette",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "103"
+  },
+  "26105": {
+    "name": "MASON",
+    "slug": "mason",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "105"
+  },
+  "26107": {
+    "name": "MECOSTA",
+    "slug": "mecosta",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "107"
+  },
+  "26109": {
+    "name": "MENOMINEE",
+    "slug": "menominee",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "109"
+  },
+  "26111": {
+    "name": "MIDLAND",
+    "slug": "midland",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "111"
+  },
+  "26113": {
+    "name": "MISSAUKEE",
+    "slug": "missaukee",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "113"
+  },
+  "26115": {
+    "name": "MONROE",
+    "slug": "monroe",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "115"
+  },
+  "26117": {
+    "name": "MONTCALM",
+    "slug": "montcalm",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "117"
+  },
+  "26119": {
+    "name": "MONTMORENCY",
+    "slug": "montmorency",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "119"
+  },
+  "26121": {
+    "name": "MUSKEGON",
+    "slug": "muskegon",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "121"
+  },
+  "26123": {
+    "name": "NEWAYGO",
+    "slug": "newaygo",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "123"
+  },
+  "26125": {
+    "name": "OAKLAND",
+    "slug": "oakland",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "125"
+  },
+  "26127": {
+    "name": "OCEANA",
+    "slug": "oceana",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "127"
+  },
+  "26129": {
+    "name": "OGEMAW",
+    "slug": "ogemaw",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "129"
+  },
+  "26131": {
+    "name": "ONTONAGON",
+    "slug": "ontonagon",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "131"
+  },
+  "26133": {
+    "name": "OSCEOLA",
+    "slug": "osceola",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "133"
+  },
+  "26135": {
+    "name": "OSCODA",
+    "slug": "oscoda",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "135"
+  },
+  "26137": {
+    "name": "OTSEGO",
+    "slug": "otsego",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "137"
+  },
+  "26139": {
+    "name": "OTTAWA",
+    "slug": "ottawa",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "139"
+  },
+  "26141": {
+    "name": "PRESQUE ISLE",
+    "slug": "presque_isle",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "141"
+  },
+  "26143": {
+    "name": "ROSCOMMON",
+    "slug": "roscommon",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "143"
+  },
+  "26145": {
+    "name": "SAGINAW",
+    "slug": "saginaw",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "145"
+  },
+  "26147": {
+    "name": "ST CLAIR",
+    "slug": "st_clair",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "147"
+  },
+  "26149": {
+    "name": "ST JOSEPH",
+    "slug": "st_joseph",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "149"
+  },
+  "26151": {
+    "name": "SANILAC",
+    "slug": "sanilac",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "151"
+  },
+  "26153": {
+    "name": "SCHOOLCRAFT",
+    "slug": "schoolcraft",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "153"
+  },
+  "26155": {
+    "name": "SHIAWASSEE",
+    "slug": "shiawassee",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "155"
+  },
+  "26157": {
+    "name": "TUSCOLA",
+    "slug": "tuscola",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "157"
+  },
+  "26159": {
+    "name": "VAN BUREN",
+    "slug": "van_buren",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "159"
+  },
+  "26161": {
+    "name": "WASHTENAW",
+    "slug": "washtenaw",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "161"
+  },
+  "26163": {
+    "name": "WAYNE",
+    "slug": "wayne",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "163"
+  },
+  "26165": {
+    "name": "WEXFORD",
+    "slug": "wexford",
+    "state": "MI",
+    "state_fips": "26",
+    "county_fips": "165"
+  }
+}

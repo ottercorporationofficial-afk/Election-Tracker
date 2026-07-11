@@ -1,0 +1,576 @@
+{
+  "28001": {
+    "name": "ADAMS",
+    "slug": "adams",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "001"
+  },
+  "28003": {
+    "name": "ALCORN",
+    "slug": "alcorn",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "003"
+  },
+  "28005": {
+    "name": "AMITE",
+    "slug": "amite",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "005"
+  },
+  "28007": {
+    "name": "ATTALA",
+    "slug": "attala",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "007"
+  },
+  "28009": {
+    "name": "BENTON",
+    "slug": "benton",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "009"
+  },
+  "28011": {
+    "name": "BOLIVAR",
+    "slug": "bolivar",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "011"
+  },
+  "28013": {
+    "name": "CALHOUN",
+    "slug": "calhoun",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "013"
+  },
+  "28015": {
+    "name": "CARROLL",
+    "slug": "carroll",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "015"
+  },
+  "28017": {
+    "name": "CHICKASAW",
+    "slug": "chickasaw",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "017"
+  },
+  "28019": {
+    "name": "CHOCTAW",
+    "slug": "choctaw",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "019"
+  },
+  "28021": {
+    "name": "CLAIBORNE",
+    "slug": "claiborne",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "021"
+  },
+  "28023": {
+    "name": "CLARKE",
+    "slug": "clarke",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "023"
+  },
+  "28025": {
+    "name": "CLAY",
+    "slug": "clay",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "025"
+  },
+  "28027": {
+    "name": "COAHOMA",
+    "slug": "coahoma",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "027"
+  },
+  "28029": {
+    "name": "COPIAH",
+    "slug": "copiah",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "029"
+  },
+  "28031": {
+    "name": "COVINGTON",
+    "slug": "covington",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "031"
+  },
+  "28033": {
+    "name": "DE SOTO",
+    "slug": "de_soto",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "033"
+  },
+  "28035": {
+    "name": "FORREST",
+    "slug": "forrest",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "035"
+  },
+  "28037": {
+    "name": "FRANKLIN",
+    "slug": "franklin",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "037"
+  },
+  "28039": {
+    "name": "GEORGE",
+    "slug": "george",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "039"
+  },
+  "28041": {
+    "name": "GREENE",
+    "slug": "greene",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "041"
+  },
+  "28043": {
+    "name": "GRENADA",
+    "slug": "grenada",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "043"
+  },
+  "28045": {
+    "name": "HANCOCK",
+    "slug": "hancock",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "045"
+  },
+  "28047": {
+    "name": "HARRISON",
+    "slug": "harrison",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "047"
+  },
+  "28049": {
+    "name": "HINDS",
+    "slug": "hinds",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "049"
+  },
+  "28051": {
+    "name": "HOLMES",
+    "slug": "holmes",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "051"
+  },
+  "28053": {
+    "name": "HUMPHREYS",
+    "slug": "humphreys",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "053"
+  },
+  "28055": {
+    "name": "ISSAQUENA",
+    "slug": "issaquena",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "055"
+  },
+  "28057": {
+    "name": "ITAWAMBA",
+    "slug": "itawamba",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "057"
+  },
+  "28059": {
+    "name": "JACKSON",
+    "slug": "jackson",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "059"
+  },
+  "28061": {
+    "name": "JASPER",
+    "slug": "jasper",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "061"
+  },
+  "28063": {
+    "name": "JEFFERSON",
+    "slug": "jefferson",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "063"
+  },
+  "28065": {
+    "name": "JEFFERSON DAVIS",
+    "slug": "jefferson_davis",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "065"
+  },
+  "28067": {
+    "name": "JONES",
+    "slug": "jones",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "067"
+  },
+  "28069": {
+    "name": "KEMPER",
+    "slug": "kemper",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "069"
+  },
+  "28071": {
+    "name": "LAFAYETTE",
+    "slug": "lafayette",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "071"
+  },
+  "28073": {
+    "name": "LAMAR",
+    "slug": "lamar",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "073"
+  },
+  "28075": {
+    "name": "LAUDERDALE",
+    "slug": "lauderdale",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "075"
+  },
+  "28077": {
+    "name": "LAWRENCE",
+    "slug": "lawrence",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "077"
+  },
+  "28079": {
+    "name": "LEAKE",
+    "slug": "leake",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "079"
+  },
+  "28081": {
+    "name": "LEE",
+    "slug": "lee",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "081"
+  },
+  "28083": {
+    "name": "LEFLORE",
+    "slug": "leflore",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "083"
+  },
+  "28085": {
+    "name": "LINCOLN",
+    "slug": "lincoln",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "085"
+  },
+  "28087": {
+    "name": "LOWNDES",
+    "slug": "lowndes",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "087"
+  },
+  "28089": {
+    "name": "MADISON",
+    "slug": "madison",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "089"
+  },
+  "28091": {
+    "name": "MARION",
+    "slug": "marion",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "091"
+  },
+  "28093": {
+    "name": "MARSHALL",
+    "slug": "marshall",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "093"
+  },
+  "28095": {
+    "name": "MONROE",
+    "slug": "monroe",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "095"
+  },
+  "28097": {
+    "name": "MONTGOMERY",
+    "slug": "montgomery",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "097"
+  },
+  "28099": {
+    "name": "NESHOBA",
+    "slug": "neshoba",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "099"
+  },
+  "28101": {
+    "name": "NEWTON",
+    "slug": "newton",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "101"
+  },
+  "28103": {
+    "name": "NOXUBEE",
+    "slug": "noxubee",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "103"
+  },
+  "28105": {
+    "name": "OKTIBBEHA",
+    "slug": "oktibbeha",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "105"
+  },
+  "28107": {
+    "name": "PANOLA",
+    "slug": "panola",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "107"
+  },
+  "28109": {
+    "name": "PEARL RIVER",
+    "slug": "pearl_river",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "109"
+  },
+  "28111": {
+    "name": "PERRY",
+    "slug": "perry",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "111"
+  },
+  "28113": {
+    "name": "PIKE",
+    "slug": "pike",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "113"
+  },
+  "28115": {
+    "name": "PONTOTOC",
+    "slug": "pontotoc",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "115"
+  },
+  "28117": {
+    "name": "PRENTISS",
+    "slug": "prentiss",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "117"
+  },
+  "28119": {
+    "name": "QUITMAN",
+    "slug": "quitman",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "119"
+  },
+  "28121": {
+    "name": "RANKIN",
+    "slug": "rankin",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "121"
+  },
+  "28123": {
+    "name": "SCOTT",
+    "slug": "scott",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "123"
+  },
+  "28125": {
+    "name": "SHARKEY",
+    "slug": "sharkey",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "125"
+  },
+  "28127": {
+    "name": "SIMPSON",
+    "slug": "simpson",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "127"
+  },
+  "28129": {
+    "name": "SMITH",
+    "slug": "smith",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "129"
+  },
+  "28131": {
+    "name": "STONE",
+    "slug": "stone",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "131"
+  },
+  "28133": {
+    "name": "SUNFLOWER",
+    "slug": "sunflower",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "133"
+  },
+  "28135": {
+    "name": "TALLAHATCHIE",
+    "slug": "tallahatchie",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "135"
+  },
+  "28137": {
+    "name": "TATE",
+    "slug": "tate",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "137"
+  },
+  "28139": {
+    "name": "TIPPAH",
+    "slug": "tippah",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "139"
+  },
+  "28141": {
+    "name": "TISHOMINGO",
+    "slug": "tishomingo",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "141"
+  },
+  "28143": {
+    "name": "TUNICA",
+    "slug": "tunica",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "143"
+  },
+  "28145": {
+    "name": "UNION",
+    "slug": "union",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "145"
+  },
+  "28147": {
+    "name": "WALTHALL",
+    "slug": "walthall",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "147"
+  },
+  "28149": {
+    "name": "WARREN",
+    "slug": "warren",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "149"
+  },
+  "28151": {
+    "name": "WASHINGTON",
+    "slug": "washington",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "151"
+  },
+  "28153": {
+    "name": "WAYNE",
+    "slug": "wayne",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "153"
+  },
+  "28155": {
+    "name": "WEBSTER",
+    "slug": "webster",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "155"
+  },
+  "28157": {
+    "name": "WILKINSON",
+    "slug": "wilkinson",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "157"
+  },
+  "28159": {
+    "name": "WINSTON",
+    "slug": "winston",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "159"
+  },
+  "28161": {
+    "name": "YALOBUSHA",
+    "slug": "yalobusha",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "161"
+  },
+  "28163": {
+    "name": "YAZOO",
+    "slug": "yazoo",
+    "state": "MS",
+    "state_fips": "28",
+    "county_fips": "163"
+  }
+}

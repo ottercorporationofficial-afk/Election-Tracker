@@ -1,0 +1,527 @@
+{
+  "05001": {
+    "name": "ARKANSAS",
+    "slug": "arkansas",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "001"
+  },
+  "05003": {
+    "name": "ASHLEY",
+    "slug": "ashley",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "003"
+  },
+  "05005": {
+    "name": "BAXTER",
+    "slug": "baxter",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "005"
+  },
+  "05007": {
+    "name": "BENTON",
+    "slug": "benton",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "007"
+  },
+  "05009": {
+    "name": "BOONE",
+    "slug": "boone",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "009"
+  },
+  "05011": {
+    "name": "BRADLEY",
+    "slug": "bradley",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "011"
+  },
+  "05013": {
+    "name": "CALHOUN",
+    "slug": "calhoun",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "013"
+  },
+  "05015": {
+    "name": "CARROLL",
+    "slug": "carroll",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "015"
+  },
+  "05017": {
+    "name": "CHICOT",
+    "slug": "chicot",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "017"
+  },
+  "05019": {
+    "name": "CLARK",
+    "slug": "clark",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "019"
+  },
+  "05021": {
+    "name": "CLAY",
+    "slug": "clay",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "021"
+  },
+  "05023": {
+    "name": "CLEBURNE",
+    "slug": "cleburne",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "023"
+  },
+  "05025": {
+    "name": "CLEVELAND",
+    "slug": "cleveland",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "025"
+  },
+  "05027": {
+    "name": "COLUMBIA",
+    "slug": "columbia",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "027"
+  },
+  "05029": {
+    "name": "CONWAY",
+    "slug": "conway",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "029"
+  },
+  "05031": {
+    "name": "CRAIGHEAD",
+    "slug": "craighead",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "031"
+  },
+  "05033": {
+    "name": "CRAWFORD",
+    "slug": "crawford",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "033"
+  },
+  "05035": {
+    "name": "CRITTENDEN",
+    "slug": "crittenden",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "035"
+  },
+  "05037": {
+    "name": "CROSS",
+    "slug": "cross",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "037"
+  },
+  "05039": {
+    "name": "DALLAS",
+    "slug": "dallas",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "039"
+  },
+  "05041": {
+    "name": "DESHA",
+    "slug": "desha",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "041"
+  },
+  "05043": {
+    "name": "DREW",
+    "slug": "drew",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "043"
+  },
+  "05045": {
+    "name": "FAULKNER",
+    "slug": "faulkner",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "045"
+  },
+  "05047": {
+    "name": "FRANKLIN",
+    "slug": "franklin",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "047"
+  },
+  "05049": {
+    "name": "FULTON",
+    "slug": "fulton",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "049"
+  },
+  "05051": {
+    "name": "GARLAND",
+    "slug": "garland",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "051"
+  },
+  "05053": {
+    "name": "GRANT",
+    "slug": "grant",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "053"
+  },
+  "05055": {
+    "name": "GREENE",
+    "slug": "greene",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "055"
+  },
+  "05057": {
+    "name": "HEMPSTEAD",
+    "slug": "hempstead",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "057"
+  },
+  "05059": {
+    "name": "HOT SPRING",
+    "slug": "hot_spring",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "059"
+  },
+  "05061": {
+    "name": "HOWARD",
+    "slug": "howard",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "061"
+  },
+  "05063": {
+    "name": "INDEPENDENCE",
+    "slug": "independence",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "063"
+  },
+  "05065": {
+    "name": "IZARD",
+    "slug": "izard",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "065"
+  },
+  "05067": {
+    "name": "JACKSON",
+    "slug": "jackson",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "067"
+  },
+  "05069": {
+    "name": "JEFFERSON",
+    "slug": "jefferson",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "069"
+  },
+  "05071": {
+    "name": "JOHNSON",
+    "slug": "johnson",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "071"
+  },
+  "05073": {
+    "name": "LAFAYETTE",
+    "slug": "lafayette",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "073"
+  },
+  "05075": {
+    "name": "LAWRENCE",
+    "slug": "lawrence",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "075"
+  },
+  "05077": {
+    "name": "LEE",
+    "slug": "lee",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "077"
+  },
+  "05079": {
+    "name": "LINCOLN",
+    "slug": "lincoln",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "079"
+  },
+  "05081": {
+    "name": "LITTLE RIVER",
+    "slug": "little_river",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "081"
+  },
+  "05083": {
+    "name": "LOGAN",
+    "slug": "logan",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "083"
+  },
+  "05085": {
+    "name": "LONOKE",
+    "slug": "lonoke",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "085"
+  },
+  "05087": {
+    "name": "MADISON",
+    "slug": "madison",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "087"
+  },
+  "05089": {
+    "name": "MARION",
+    "slug": "marion",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "089"
+  },
+  "05091": {
+    "name": "MILLER",
+    "slug": "miller",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "091"
+  },
+  "05093": {
+    "name": "MISSISSIPPI",
+    "slug": "mississippi",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "093"
+  },
+  "05095": {
+    "name": "MONROE",
+    "slug": "monroe",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "095"
+  },
+  "05097": {
+    "name": "MONTGOMERY",
+    "slug": "montgomery",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "097"
+  },
+  "05099": {
+    "name": "NEVADA",
+    "slug": "nevada",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "099"
+  },
+  "05101": {
+    "name": "NEWTON",
+    "slug": "newton",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "101"
+  },
+  "05103": {
+    "name": "OUACHITA",
+    "slug": "ouachita",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "103"
+  },
+  "05105": {
+    "name": "PERRY",
+    "slug": "perry",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "105"
+  },
+  "05107": {
+    "name": "PHILLIPS",
+    "slug": "phillips",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "107"
+  },
+  "05109": {
+    "name": "PIKE",
+    "slug": "pike",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "109"
+  },
+  "05111": {
+    "name": "POINSETT",
+    "slug": "poinsett",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "111"
+  },
+  "05113": {
+    "name": "POLK",
+    "slug": "polk",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "113"
+  },
+  "05115": {
+    "name": "POPE",
+    "slug": "pope",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "115"
+  },
+  "05117": {
+    "name": "PRAIRIE",
+    "slug": "prairie",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "117"
+  },
+  "05119": {
+    "name": "PULASKI",
+    "slug": "pulaski",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "119"
+  },
+  "05121": {
+    "name": "RANDOLPH",
+    "slug": "randolph",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "121"
+  },
+  "05123": {
+    "name": "ST FRANCIS",
+    "slug": "st_francis",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "123"
+  },
+  "05125": {
+    "name": "SALINE",
+    "slug": "saline",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "125"
+  },
+  "05127": {
+    "name": "SCOTT",
+    "slug": "scott",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "127"
+  },
+  "05129": {
+    "name": "SEARCY",
+    "slug": "searcy",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "129"
+  },
+  "05131": {
+    "name": "SEBASTIAN",
+    "slug": "sebastian",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "131"
+  },
+  "05133": {
+    "name": "SEVIER",
+    "slug": "sevier",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "133"
+  },
+  "05135": {
+    "name": "SHARP",
+    "slug": "sharp",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "135"
+  },
+  "05137": {
+    "name": "STONE",
+    "slug": "stone",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "137"
+  },
+  "05139": {
+    "name": "UNION",
+    "slug": "union",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "139"
+  },
+  "05141": {
+    "name": "VAN BUREN",
+    "slug": "van_buren",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "141"
+  },
+  "05143": {
+    "name": "WASHINGTON",
+    "slug": "washington",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "143"
+  },
+  "05145": {
+    "name": "WHITE",
+    "slug": "white",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "145"
+  },
+  "05147": {
+    "name": "WOODRUFF",
+    "slug": "woodruff",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "147"
+  },
+  "05149": {
+    "name": "YELL",
+    "slug": "yell",
+    "state": "AR",
+    "state_fips": "05",
+    "county_fips": "149"
+  }
+}

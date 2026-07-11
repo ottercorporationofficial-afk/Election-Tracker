@@ -1,0 +1,205 @@
+{
+  "49001": {
+    "name": "BEAVER",
+    "slug": "beaver",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "001"
+  },
+  "49003": {
+    "name": "BOX ELDER",
+    "slug": "box_elder",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "003"
+  },
+  "49005": {
+    "name": "CACHE",
+    "slug": "cache",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "005"
+  },
+  "49007": {
+    "name": "CARBON",
+    "slug": "carbon",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "007"
+  },
+  "49009": {
+    "name": "DAGGETT",
+    "slug": "daggett",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "009"
+  },
+  "49011": {
+    "name": "DAVIS",
+    "slug": "davis",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "011"
+  },
+  "49013": {
+    "name": "DUCHESNE",
+    "slug": "duchesne",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "013"
+  },
+  "49015": {
+    "name": "EMERY",
+    "slug": "emery",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "015"
+  },
+  "49017": {
+    "name": "GARFIELD",
+    "slug": "garfield",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "017"
+  },
+  "49019": {
+    "name": "GRAND",
+    "slug": "grand",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "019"
+  },
+  "49021": {
+    "name": "IRON",
+    "slug": "iron",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "021"
+  },
+  "49023": {
+    "name": "JUAB",
+    "slug": "juab",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "023"
+  },
+  "49025": {
+    "name": "KANE",
+    "slug": "kane",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "025"
+  },
+  "49027": {
+    "name": "MILLARD",
+    "slug": "millard",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "027"
+  },
+  "49029": {
+    "name": "MORGAN",
+    "slug": "morgan",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "029"
+  },
+  "49031": {
+    "name": "PIUTE",
+    "slug": "piute",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "031"
+  },
+  "49033": {
+    "name": "RICH",
+    "slug": "rich",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "033"
+  },
+  "49035": {
+    "name": "SALT LAKE",
+    "slug": "salt_lake",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "035"
+  },
+  "49037": {
+    "name": "SAN JUAN",
+    "slug": "san_juan",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "037"
+  },
+  "49039": {
+    "name": "SANPETE",
+    "slug": "sanpete",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "039"
+  },
+  "49041": {
+    "name": "SEVIER",
+    "slug": "sevier",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "041"
+  },
+  "49043": {
+    "name": "SUMMIT",
+    "slug": "summit",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "043"
+  },
+  "49045": {
+    "name": "TOOELE",
+    "slug": "tooele",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "045"
+  },
+  "49047": {
+    "name": "UINTAH",
+    "slug": "uintah",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "047"
+  },
+  "49049": {
+    "name": "UTAH",
+    "slug": "utah",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "049"
+  },
+  "49051": {
+    "name": "WASATCH",
+    "slug": "wasatch",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "051"
+  },
+  "49053": {
+    "name": "WASHINGTON",
+    "slug": "washington",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "053"
+  },
+  "49055": {
+    "name": "WAYNE",
+    "slug": "wayne",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "055"
+  },
+  "49057": {
+    "name": "WEBER",
+    "slug": "weber",
+    "state": "UT",
+    "state_fips": "49",
+    "county_fips": "057"
+  }
+}

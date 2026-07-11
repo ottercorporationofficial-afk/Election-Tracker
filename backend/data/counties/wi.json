@@ -1,0 +1,506 @@
+{
+  "55001": {
+    "name": "ADAMS",
+    "slug": "adams",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "001"
+  },
+  "55003": {
+    "name": "ASHLAND",
+    "slug": "ashland",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "003"
+  },
+  "55005": {
+    "name": "BARRON",
+    "slug": "barron",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "005"
+  },
+  "55007": {
+    "name": "BAYFIELD",
+    "slug": "bayfield",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "007"
+  },
+  "55009": {
+    "name": "BROWN",
+    "slug": "brown",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "009"
+  },
+  "55011": {
+    "name": "BUFFALO",
+    "slug": "buffalo",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "011"
+  },
+  "55013": {
+    "name": "BURNETT",
+    "slug": "burnett",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "013"
+  },
+  "55015": {
+    "name": "CALUMET",
+    "slug": "calumet",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "015"
+  },
+  "55017": {
+    "name": "CHIPPEWA",
+    "slug": "chippewa",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "017"
+  },
+  "55019": {
+    "name": "CLARK",
+    "slug": "clark",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "019"
+  },
+  "55021": {
+    "name": "COLUMBIA",
+    "slug": "columbia",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "021"
+  },
+  "55023": {
+    "name": "CRAWFORD",
+    "slug": "crawford",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "023"
+  },
+  "55025": {
+    "name": "DANE",
+    "slug": "dane",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "025"
+  },
+  "55027": {
+    "name": "DODGE",
+    "slug": "dodge",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "027"
+  },
+  "55029": {
+    "name": "DOOR",
+    "slug": "door",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "029"
+  },
+  "55031": {
+    "name": "DOUGLAS",
+    "slug": "douglas",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "031"
+  },
+  "55033": {
+    "name": "DUNN",
+    "slug": "dunn",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "033"
+  },
+  "55035": {
+    "name": "EAU CLAIRE",
+    "slug": "eau_claire",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "035"
+  },
+  "55037": {
+    "name": "FLORENCE",
+    "slug": "florence",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "037"
+  },
+  "55039": {
+    "name": "FOND DU LAC",
+    "slug": "fond_du_lac",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "039"
+  },
+  "55041": {
+    "name": "FOREST",
+    "slug": "forest",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "041"
+  },
+  "55043": {
+    "name": "GRANT",
+    "slug": "grant",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "043"
+  },
+  "55045": {
+    "name": "GREEN",
+    "slug": "green",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "045"
+  },
+  "55047": {
+    "name": "GREEN LAKE",
+    "slug": "green_lake",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "047"
+  },
+  "55049": {
+    "name": "IOWA",
+    "slug": "iowa",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "049"
+  },
+  "55051": {
+    "name": "IRON",
+    "slug": "iron",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "051"
+  },
+  "55053": {
+    "name": "JACKSON",
+    "slug": "jackson",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "053"
+  },
+  "55055": {
+    "name": "JEFFERSON",
+    "slug": "jefferson",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "055"
+  },
+  "55057": {
+    "name": "JUNEAU",
+    "slug": "juneau",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "057"
+  },
+  "55059": {
+    "name": "KENOSHA",
+    "slug": "kenosha",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "059"
+  },
+  "55061": {
+    "name": "KEWAUNEE",
+    "slug": "kewaunee",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "061"
+  },
+  "55063": {
+    "name": "LA CROSSE",
+    "slug": "la_crosse",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "063"
+  },
+  "55065": {
+    "name": "LAFAYETTE",
+    "slug": "lafayette",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "065"
+  },
+  "55067": {
+    "name": "LANGLADE",
+    "slug": "langlade",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "067"
+  },
+  "55069": {
+    "name": "LINCOLN",
+    "slug": "lincoln",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "069"
+  },
+  "55071": {
+    "name": "MANITOWOC",
+    "slug": "manitowoc",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "071"
+  },
+  "55073": {
+    "name": "MARATHON",
+    "slug": "marathon",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "073"
+  },
+  "55075": {
+    "name": "MARINETTE",
+    "slug": "marinette",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "075"
+  },
+  "55077": {
+    "name": "MARQUETTE",
+    "slug": "marquette",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "077"
+  },
+  "55078": {
+    "name": "MENOMINEE",
+    "slug": "menominee",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "078"
+  },
+  "55079": {
+    "name": "MILWAUKEE",
+    "slug": "milwaukee",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "079"
+  },
+  "55081": {
+    "name": "MONROE",
+    "slug": "monroe",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "081"
+  },
+  "55083": {
+    "name": "OCONTO",
+    "slug": "oconto",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "083"
+  },
+  "55085": {
+    "name": "ONEIDA",
+    "slug": "oneida",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "085"
+  },
+  "55087": {
+    "name": "OUTAGAMIE",
+    "slug": "outagamie",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "087"
+  },
+  "55089": {
+    "name": "OZAUKEE",
+    "slug": "ozaukee",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "089"
+  },
+  "55091": {
+    "name": "PEPIN",
+    "slug": "pepin",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "091"
+  },
+  "55093": {
+    "name": "PIERCE",
+    "slug": "pierce",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "093"
+  },
+  "55095": {
+    "name": "POLK",
+    "slug": "polk",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "095"
+  },
+  "55097": {
+    "name": "PORTAGE",
+    "slug": "portage",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "097"
+  },
+  "55099": {
+    "name": "PRICE",
+    "slug": "price",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "099"
+  },
+  "55101": {
+    "name": "RACINE",
+    "slug": "racine",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "101"
+  },
+  "55103": {
+    "name": "RICHLAND",
+    "slug": "richland",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "103"
+  },
+  "55105": {
+    "name": "ROCK",
+    "slug": "rock",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "105"
+  },
+  "55107": {
+    "name": "RUSK",
+    "slug": "rusk",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "107"
+  },
+  "55109": {
+    "name": "ST CROIX",
+    "slug": "st_croix",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "109"
+  },
+  "55111": {
+    "name": "SAUK",
+    "slug": "sauk",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "111"
+  },
+  "55113": {
+    "name": "SAWYER",
+    "slug": "sawyer",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "113"
+  },
+  "55115": {
+    "name": "SHAWANO",
+    "slug": "shawano",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "115"
+  },
+  "55117": {
+    "name": "SHEBOYGAN",
+    "slug": "sheboygan",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "117"
+  },
+  "55119": {
+    "name": "TAYLOR",
+    "slug": "taylor",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "119"
+  },
+  "55121": {
+    "name": "TREMPEALEAU",
+    "slug": "trempealeau",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "121"
+  },
+  "55123": {
+    "name": "VERNON",
+    "slug": "vernon",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "123"
+  },
+  "55125": {
+    "name": "VILAS",
+    "slug": "vilas",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "125"
+  },
+  "55127": {
+    "name": "WALWORTH",
+    "slug": "walworth",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "127"
+  },
+  "55129": {
+    "name": "WASHBURN",
+    "slug": "washburn",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "129"
+  },
+  "55131": {
+    "name": "WASHINGTON",
+    "slug": "washington",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "131"
+  },
+  "55133": {
+    "name": "WAUKESHA",
+    "slug": "waukesha",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "133"
+  },
+  "55135": {
+    "name": "WAUPACA",
+    "slug": "waupaca",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "135"
+  },
+  "55137": {
+    "name": "WAUSHARA",
+    "slug": "waushara",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "137"
+  },
+  "55139": {
+    "name": "WINNEBAGO",
+    "slug": "winnebago",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "139"
+  },
+  "55141": {
+    "name": "WOOD",
+    "slug": "wood",
+    "state": "WI",
+    "state_fips": "55",
+    "county_fips": "141"
+  }
+}

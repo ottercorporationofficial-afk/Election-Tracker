@@ -1,0 +1,702 @@
+{
+  "37001": {
+    "name": "ALAMANCE",
+    "slug": "alamance",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "001"
+  },
+  "37003": {
+    "name": "ALEXANDER",
+    "slug": "alexander",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "003"
+  },
+  "37005": {
+    "name": "ALLEGHANY",
+    "slug": "alleghany",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "005"
+  },
+  "37007": {
+    "name": "ANSON",
+    "slug": "anson",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "007"
+  },
+  "37009": {
+    "name": "ASHE",
+    "slug": "ashe",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "009"
+  },
+  "37011": {
+    "name": "AVERY",
+    "slug": "avery",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "011"
+  },
+  "37013": {
+    "name": "BEAUFORT",
+    "slug": "beaufort",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "013"
+  },
+  "37015": {
+    "name": "BERTIE",
+    "slug": "bertie",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "015"
+  },
+  "37017": {
+    "name": "BLADEN",
+    "slug": "bladen",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "017"
+  },
+  "37019": {
+    "name": "BRUNSWICK",
+    "slug": "brunswick",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "019"
+  },
+  "37021": {
+    "name": "BUNCOMBE",
+    "slug": "buncombe",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "021"
+  },
+  "37023": {
+    "name": "BURKE",
+    "slug": "burke",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "023"
+  },
+  "37025": {
+    "name": "CABARRUS",
+    "slug": "cabarrus",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "025"
+  },
+  "37027": {
+    "name": "CALDWELL",
+    "slug": "caldwell",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "027"
+  },
+  "37029": {
+    "name": "CAMDEN",
+    "slug": "camden",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "029"
+  },
+  "37031": {
+    "name": "CARTERET",
+    "slug": "carteret",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "031"
+  },
+  "37033": {
+    "name": "CASWELL",
+    "slug": "caswell",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "033"
+  },
+  "37035": {
+    "name": "CATAWBA",
+    "slug": "catawba",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "035"
+  },
+  "37037": {
+    "name": "CHATHAM",
+    "slug": "chatham",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "037"
+  },
+  "37039": {
+    "name": "CHEROKEE",
+    "slug": "cherokee",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "039"
+  },
+  "37041": {
+    "name": "CHOWAN",
+    "slug": "chowan",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "041"
+  },
+  "37043": {
+    "name": "CLAY",
+    "slug": "clay",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "043"
+  },
+  "37045": {
+    "name": "CLEVELAND",
+    "slug": "cleveland",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "045"
+  },
+  "37047": {
+    "name": "COLUMBUS",
+    "slug": "columbus",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "047"
+  },
+  "37049": {
+    "name": "CRAVEN",
+    "slug": "craven",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "049"
+  },
+  "37051": {
+    "name": "CUMBERLAND",
+    "slug": "cumberland",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "051"
+  },
+  "37053": {
+    "name": "CURRITUCK",
+    "slug": "currituck",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "053"
+  },
+  "37055": {
+    "name": "DARE",
+    "slug": "dare",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "055"
+  },
+  "37057": {
+    "name": "DAVIDSON",
+    "slug": "davidson",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "057"
+  },
+  "37059": {
+    "name": "DAVIE",
+    "slug": "davie",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "059"
+  },
+  "37061": {
+    "name": "DUPLIN",
+    "slug": "duplin",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "061"
+  },
+  "37063": {
+    "name": "DURHAM",
+    "slug": "durham",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "063"
+  },
+  "37065": {
+    "name": "EDGECOMBE",
+    "slug": "edgecombe",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "065"
+  },
+  "37067": {
+    "name": "FORSYTH",
+    "slug": "forsyth",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "067"
+  },
+  "37069": {
+    "name": "FRANKLIN",
+    "slug": "franklin",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "069"
+  },
+  "37071": {
+    "name": "GASTON",
+    "slug": "gaston",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "071"
+  },
+  "37073": {
+    "name": "GATES",
+    "slug": "gates",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "073"
+  },
+  "37075": {
+    "name": "GRAHAM",
+    "slug": "graham",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "075"
+  },
+  "37077": {
+    "name": "GRANVILLE",
+    "slug": "granville",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "077"
+  },
+  "37079": {
+    "name": "GREENE",
+    "slug": "greene",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "079"
+  },
+  "37081": {
+    "name": "GUILFORD",
+    "slug": "guilford",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "081"
+  },
+  "37083": {
+    "name": "HALIFAX",
+    "slug": "halifax",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "083"
+  },
+  "37085": {
+    "name": "HARNETT",
+    "slug": "harnett",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "085"
+  },
+  "37087": {
+    "name": "HAYWOOD",
+    "slug": "haywood",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "087"
+  },
+  "37089": {
+    "name": "HENDERSON",
+    "slug": "henderson",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "089"
+  },
+  "37091": {
+    "name": "HERTFORD",
+    "slug": "hertford",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "091"
+  },
+  "37093": {
+    "name": "HOKE",
+    "slug": "hoke",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "093"
+  },
+  "37095": {
+    "name": "HYDE",
+    "slug": "hyde",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "095"
+  },
+  "37097": {
+    "name": "IREDELL",
+    "slug": "iredell",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "097"
+  },
+  "37099": {
+    "name": "JACKSON",
+    "slug": "jackson",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "099"
+  },
+  "37101": {
+    "name": "JOHNSTON",
+    "slug": "johnston",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "101"
+  },
+  "37103": {
+    "name": "JONES",
+    "slug": "jones",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "103"
+  },
+  "37105": {
+    "name": "LEE",
+    "slug": "lee",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "105"
+  },
+  "37107": {
+    "name": "LENOIR",
+    "slug": "lenoir",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "107"
+  },
+  "37109": {
+    "name": "LINCOLN",
+    "slug": "lincoln",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "109"
+  },
+  "37111": {
+    "name": "MCDOWELL",
+    "slug": "mcdowell",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "111"
+  },
+  "37113": {
+    "name": "MACON",
+    "slug": "macon",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "113"
+  },
+  "37115": {
+    "name": "MADISON",
+    "slug": "madison",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "115"
+  },
+  "37117": {
+    "name": "MARTIN",
+    "slug": "martin",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "117"
+  },
+  "37119": {
+    "name": "MECKLENBURG",
+    "slug": "mecklenburg",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "119"
+  },
+  "37121": {
+    "name": "MITCHELL",
+    "slug": "mitchell",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "121"
+  },
+  "37123": {
+    "name": "MONTGOMERY",
+    "slug": "montgomery",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "123"
+  },
+  "37125": {
+    "name": "MOORE",
+    "slug": "moore",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "125"
+  },
+  "37127": {
+    "name": "NASH",
+    "slug": "nash",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "127"
+  },
+  "37129": {
+    "name": "NEW HANOVER",
+    "slug": "new_hanover",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "129"
+  },
+  "37131": {
+    "name": "NORTHAMPTON",
+    "slug": "northampton",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "131"
+  },
+  "37133": {
+    "name": "ONSLOW",
+    "slug": "onslow",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "133"
+  },
+  "37135": {
+    "name": "ORANGE",
+    "slug": "orange",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "135"
+  },
+  "37137": {
+    "name": "PAMLICO",
+    "slug": "pamlico",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "137"
+  },
+  "37139": {
+    "name": "PASQUOTANK",
+    "slug": "pasquotank",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "139"
+  },
+  "37141": {
+    "name": "PENDER",
+    "slug": "pender",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "141"
+  },
+  "37143": {
+    "name": "PERQUIMANS",
+    "slug": "perquimans",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "143"
+  },
+  "37145": {
+    "name": "PERSON",
+    "slug": "person",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "145"
+  },
+  "37147": {
+    "name": "PITT",
+    "slug": "pitt",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "147"
+  },
+  "37149": {
+    "name": "POLK",
+    "slug": "polk",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "149"
+  },
+  "37151": {
+    "name": "RANDOLPH",
+    "slug": "randolph",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "151"
+  },
+  "37153": {
+    "name": "RICHMOND",
+    "slug": "richmond",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "153"
+  },
+  "37155": {
+    "name": "ROBESON",
+    "slug": "robeson",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "155"
+  },
+  "37157": {
+    "name": "ROCKINGHAM",
+    "slug": "rockingham",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "157"
+  },
+  "37159": {
+    "name": "ROWAN",
+    "slug": "rowan",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "159"
+  },
+  "37161": {
+    "name": "RUTHERFORD",
+    "slug": "rutherford",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "161"
+  },
+  "37163": {
+    "name": "SAMPSON",
+    "slug": "sampson",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "163"
+  },
+  "37165": {
+    "name": "SCOTLAND",
+    "slug": "scotland",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "165"
+  },
+  "37167": {
+    "name": "STANLY",
+    "slug": "stanly",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "167"
+  },
+  "37169": {
+    "name": "STOKES",
+    "slug": "stokes",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "169"
+  },
+  "37171": {
+    "name": "SURRY",
+    "slug": "surry",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "171"
+  },
+  "37173": {
+    "name": "SWAIN",
+    "slug": "swain",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "173"
+  },
+  "37175": {
+    "name": "TRANSYLVANIA",
+    "slug": "transylvania",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "175"
+  },
+  "37177": {
+    "name": "TYRRELL",
+    "slug": "tyrrell",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "177"
+  },
+  "37179": {
+    "name": "UNION",
+    "slug": "union",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "179"
+  },
+  "37181": {
+    "name": "VANCE",
+    "slug": "vance",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "181"
+  },
+  "37183": {
+    "name": "WAKE",
+    "slug": "wake",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "183"
+  },
+  "37185": {
+    "name": "WARREN",
+    "slug": "warren",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "185"
+  },
+  "37187": {
+    "name": "WASHINGTON",
+    "slug": "washington",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "187"
+  },
+  "37189": {
+    "name": "WATAUGA",
+    "slug": "watauga",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "189"
+  },
+  "37191": {
+    "name": "WAYNE",
+    "slug": "wayne",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "191"
+  },
+  "37193": {
+    "name": "WILKES",
+    "slug": "wilkes",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "193"
+  },
+  "37195": {
+    "name": "WILSON",
+    "slug": "wilson",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "195"
+  },
+  "37197": {
+    "name": "YADKIN",
+    "slug": "yadkin",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "197"
+  },
+  "37199": {
+    "name": "YANCEY",
+    "slug": "yancey",
+    "state": "NC",
+    "state_fips": "37",
+    "county_fips": "199"
+  }
+}

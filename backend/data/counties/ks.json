@@ -1,0 +1,737 @@
+{
+  "20001": {
+    "name": "ALLEN",
+    "slug": "allen",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "001"
+  },
+  "20003": {
+    "name": "ANDERSON",
+    "slug": "anderson",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "003"
+  },
+  "20005": {
+    "name": "ATCHISON",
+    "slug": "atchison",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "005"
+  },
+  "20007": {
+    "name": "BARBER",
+    "slug": "barber",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "007"
+  },
+  "20009": {
+    "name": "BARTON",
+    "slug": "barton",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "009"
+  },
+  "20011": {
+    "name": "BOURBON",
+    "slug": "bourbon",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "011"
+  },
+  "20013": {
+    "name": "BROWN",
+    "slug": "brown",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "013"
+  },
+  "20015": {
+    "name": "BUTLER",
+    "slug": "butler",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "015"
+  },
+  "20017": {
+    "name": "CHASE",
+    "slug": "chase",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "017"
+  },
+  "20019": {
+    "name": "CHAUTAUQUA",
+    "slug": "chautauqua",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "019"
+  },
+  "20021": {
+    "name": "CHEROKEE",
+    "slug": "cherokee",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "021"
+  },
+  "20023": {
+    "name": "CHEYENNE",
+    "slug": "cheyenne",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "023"
+  },
+  "20025": {
+    "name": "CLARK",
+    "slug": "clark",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "025"
+  },
+  "20027": {
+    "name": "CLAY",
+    "slug": "clay",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "027"
+  },
+  "20029": {
+    "name": "CLOUD",
+    "slug": "cloud",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "029"
+  },
+  "20031": {
+    "name": "COFFEY",
+    "slug": "coffey",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "031"
+  },
+  "20033": {
+    "name": "COMANCHE",
+    "slug": "comanche",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "033"
+  },
+  "20035": {
+    "name": "COWLEY",
+    "slug": "cowley",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "035"
+  },
+  "20037": {
+    "name": "CRAWFORD",
+    "slug": "crawford",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "037"
+  },
+  "20039": {
+    "name": "DECATUR",
+    "slug": "decatur",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "039"
+  },
+  "20041": {
+    "name": "DICKINSON",
+    "slug": "dickinson",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "041"
+  },
+  "20043": {
+    "name": "DONIPHAN",
+    "slug": "doniphan",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "043"
+  },
+  "20045": {
+    "name": "DOUGLAS",
+    "slug": "douglas",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "045"
+  },
+  "20047": {
+    "name": "EDWARDS",
+    "slug": "edwards",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "047"
+  },
+  "20049": {
+    "name": "ELK",
+    "slug": "elk",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "049"
+  },
+  "20051": {
+    "name": "ELLIS",
+    "slug": "ellis",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "051"
+  },
+  "20053": {
+    "name": "ELLSWORTH",
+    "slug": "ellsworth",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "053"
+  },
+  "20055": {
+    "name": "FINNEY",
+    "slug": "finney",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "055"
+  },
+  "20057": {
+    "name": "FORD",
+    "slug": "ford",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "057"
+  },
+  "20059": {
+    "name": "FRANKLIN",
+    "slug": "franklin",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "059"
+  },
+  "20061": {
+    "name": "GEARY",
+    "slug": "geary",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "061"
+  },
+  "20063": {
+    "name": "GOVE",
+    "slug": "gove",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "063"
+  },
+  "20065": {
+    "name": "GRAHAM",
+    "slug": "graham",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "065"
+  },
+  "20067": {
+    "name": "GRANT",
+    "slug": "grant",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "067"
+  },
+  "20069": {
+    "name": "GRAY",
+    "slug": "gray",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "069"
+  },
+  "20071": {
+    "name": "GREELEY",
+    "slug": "greeley",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "071"
+  },
+  "20073": {
+    "name": "GREENWOOD",
+    "slug": "greenwood",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "073"
+  },
+  "20075": {
+    "name": "HAMILTON",
+    "slug": "hamilton",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "075"
+  },
+  "20077": {
+    "name": "HARPER",
+    "slug": "harper",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "077"
+  },
+  "20079": {
+    "name": "HARVEY",
+    "slug": "harvey",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "079"
+  },
+  "20081": {
+    "name": "HASKELL",
+    "slug": "haskell",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "081"
+  },
+  "20083": {
+    "name": "HODGEMAN",
+    "slug": "hodgeman",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "083"
+  },
+  "20085": {
+    "name": "JACKSON",
+    "slug": "jackson",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "085"
+  },
+  "20087": {
+    "name": "JEFFERSON",
+    "slug": "jefferson",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "087"
+  },
+  "20089": {
+    "name": "JEWELL",
+    "slug": "jewell",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "089"
+  },
+  "20091": {
+    "name": "JOHNSON",
+    "slug": "johnson",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "091"
+  },
+  "20093": {
+    "name": "KEARNY",
+    "slug": "kearny",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "093"
+  },
+  "20095": {
+    "name": "KINGMAN",
+    "slug": "kingman",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "095"
+  },
+  "20097": {
+    "name": "KIOWA",
+    "slug": "kiowa",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "097"
+  },
+  "20099": {
+    "name": "LABETTE",
+    "slug": "labette",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "099"
+  },
+  "20101": {
+    "name": "LANE",
+    "slug": "lane",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "101"
+  },
+  "20103": {
+    "name": "LEAVENWORTH",
+    "slug": "leavenworth",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "103"
+  },
+  "20105": {
+    "name": "LINCOLN",
+    "slug": "lincoln",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "105"
+  },
+  "20107": {
+    "name": "LINN",
+    "slug": "linn",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "107"
+  },
+  "20109": {
+    "name": "LOGAN",
+    "slug": "logan",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "109"
+  },
+  "20111": {
+    "name": "LYON",
+    "slug": "lyon",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "111"
+  },
+  "20113": {
+    "name": "MCPHERSON",
+    "slug": "mcpherson",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "113"
+  },
+  "20115": {
+    "name": "MARION",
+    "slug": "marion",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "115"
+  },
+  "20117": {
+    "name": "MARSHALL",
+    "slug": "marshall",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "117"
+  },
+  "20119": {
+    "name": "MEADE",
+    "slug": "meade",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "119"
+  },
+  "20121": {
+    "name": "MIAMI",
+    "slug": "miami",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "121"
+  },
+  "20123": {
+    "name": "MITCHELL",
+    "slug": "mitchell",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "123"
+  },
+  "20125": {
+    "name": "MONTGOMERY",
+    "slug": "montgomery",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "125"
+  },
+  "20127": {
+    "name": "MORRIS",
+    "slug": "morris",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "127"
+  },
+  "20129": {
+    "name": "MORTON",
+    "slug": "morton",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "129"
+  },
+  "20131": {
+    "name": "NEMAHA",
+    "slug": "nemaha",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "131"
+  },
+  "20133": {
+    "name": "NEOSHO",
+    "slug": "neosho",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "133"
+  },
+  "20135": {
+    "name": "NESS",
+    "slug": "ness",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "135"
+  },
+  "20137": {
+    "name": "NORTON",
+    "slug": "norton",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "137"
+  },
+  "20139": {
+    "name": "OSAGE",
+    "slug": "osage",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "139"
+  },
+  "20141": {
+    "name": "OSBORNE",
+    "slug": "osborne",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "141"
+  },
+  "20143": {
+    "name": "OTTAWA",
+    "slug": "ottawa",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "143"
+  },
+  "20145": {
+    "name": "PAWNEE",
+    "slug": "pawnee",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "145"
+  },
+  "20147": {
+    "name": "PHILLIPS",
+    "slug": "phillips",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "147"
+  },
+  "20149": {
+    "name": "POTTAWATOMIE",
+    "slug": "pottawatomie",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "149"
+  },
+  "20151": {
+    "name": "PRATT",
+    "slug": "pratt",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "151"
+  },
+  "20153": {
+    "name": "RAWLINS",
+    "slug": "rawlins",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "153"
+  },
+  "20155": {
+    "name": "RENO",
+    "slug": "reno",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "155"
+  },
+  "20157": {
+    "name": "REPUBLIC",
+    "slug": "republic",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "157"
+  },
+  "20159": {
+    "name": "RICE",
+    "slug": "rice",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "159"
+  },
+  "20161": {
+    "name": "RILEY",
+    "slug": "riley",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "161"
+  },
+  "20163": {
+    "name": "ROOKS",
+    "slug": "rooks",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "163"
+  },
+  "20165": {
+    "name": "RUSH",
+    "slug": "rush",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "165"
+  },
+  "20167": {
+    "name": "RUSSELL",
+    "slug": "russell",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "167"
+  },
+  "20169": {
+    "name": "SALINE",
+    "slug": "saline",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "169"
+  },
+  "20171": {
+    "name": "SCOTT",
+    "slug": "scott",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "171"
+  },
+  "20173": {
+    "name": "SEDGWICK",
+    "slug": "sedgwick",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "173"
+  },
+  "20175": {
+    "name": "SEWARD",
+    "slug": "seward",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "175"
+  },
+  "20177": {
+    "name": "SHAWNEE",
+    "slug": "shawnee",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "177"
+  },
+  "20179": {
+    "name": "SHERIDAN",
+    "slug": "sheridan",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "179"
+  },
+  "20181": {
+    "name": "SHERMAN",
+    "slug": "sherman",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "181"
+  },
+  "20183": {
+    "name": "SMITH",
+    "slug": "smith",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "183"
+  },
+  "20185": {
+    "name": "STAFFORD",
+    "slug": "stafford",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "185"
+  },
+  "20187": {
+    "name": "STANTON",
+    "slug": "stanton",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "187"
+  },
+  "20189": {
+    "name": "STEVENS",
+    "slug": "stevens",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "189"
+  },
+  "20191": {
+    "name": "SUMNER",
+    "slug": "sumner",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "191"
+  },
+  "20193": {
+    "name": "THOMAS",
+    "slug": "thomas",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "193"
+  },
+  "20195": {
+    "name": "TREGO",
+    "slug": "trego",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "195"
+  },
+  "20197": {
+    "name": "WABAUNSEE",
+    "slug": "wabaunsee",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "197"
+  },
+  "20199": {
+    "name": "WALLACE",
+    "slug": "wallace",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "199"
+  },
+  "20201": {
+    "name": "WASHINGTON",
+    "slug": "washington",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "201"
+  },
+  "20203": {
+    "name": "WICHITA",
+    "slug": "wichita",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "203"
+  },
+  "20205": {
+    "name": "WILSON",
+    "slug": "wilson",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "205"
+  },
+  "20207": {
+    "name": "WOODSON",
+    "slug": "woodson",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "207"
+  },
+  "20209": {
+    "name": "WYANDOTTE",
+    "slug": "wyandotte",
+    "state": "KS",
+    "state_fips": "20",
+    "county_fips": "209"
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "12001": {
+    "name": "ALACHUA",
+    "slug": "alachua",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "001"
+  },
+  "12003": {
+    "name": "BAKER",
+    "slug": "baker",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "003"
+  },
+  "12005": {
+    "name": "BAY",
+    "slug": "bay",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "005"
+  },
+  "12007": {
+    "name": "BRADFORD",
+    "slug": "bradford",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "007"
+  },
+  "12009": {
+    "name": "BREVARD",
+    "slug": "brevard",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "009"
+  },
+  "12011": {
+    "name": "BROWARD",
+    "slug": "broward",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "011"
+  },
+  "12013": {
+    "name": "CALHOUN",
+    "slug": "calhoun",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "013"
+  },
+  "12015": {
+    "name": "CHARLOTTE",
+    "slug": "charlotte",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "015"
+  },
+  "12017": {
+    "name": "CITRUS",
+    "slug": "citrus",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "017"
+  },
+  "12019": {
+    "name": "CLAY",
+    "slug": "clay",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "019"
+  },
+  "12021": {
+    "name": "COLLIER",
+    "slug": "collier",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "021"
+  },
+  "12023": {
+    "name": "COLUMBIA",
+    "slug": "columbia",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "023"
+  },
+  "12027": {
+    "name": "DE SOTO",
+    "slug": "de_soto",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "027"
+  },
+  "12029": {
+    "name": "DIXIE",
+    "slug": "dixie",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "029"
+  },
+  "12031": {
+    "name": "DUVAL",
+    "slug": "duval",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "031"
+  },
+  "12033": {
+    "name": "ESCAMBIA",
+    "slug": "escambia",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "033"
+  },
+  "12035": {
+    "name": "FLAGLER",
+    "slug": "flagler",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "035"
+  },
+  "12037": {
+    "name": "FRANKLIN",
+    "slug": "franklin",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "037"
+  },
+  "12039": {
+    "name": "GADSDEN",
+    "slug": "gadsden",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "039"
+  },
+  "12041": {
+    "name": "GILCHRIST",
+    "slug": "gilchrist",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "041"
+  },
+  "12043": {
+    "name": "GLADES",
+    "slug": "glades",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "043"
+  },
+  "12045": {
+    "name": "GULF",
+    "slug": "gulf",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "045"
+  },
+  "12047": {
+    "name": "HAMILTON",
+    "slug": "hamilton",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "047"
+  },
+  "12049": {
+    "name": "HARDEE",
+    "slug": "hardee",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "049"
+  },
+  "12051": {
+    "name": "HENDRY",
+    "slug": "hendry",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "051"
+  },
+  "12053": {
+    "name": "HERNANDO",
+    "slug": "hernando",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "053"
+  },
+  "12055": {
+    "name": "HIGHLANDS",
+    "slug": "highlands",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "055"
+  },
+  "12057": {
+    "name": "HILLSBOROUGH",
+    "slug": "hillsborough",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "057"
+  },
+  "12059": {
+    "name": "HOLMES",
+    "slug": "holmes",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "059"
+  },
+  "12061": {
+    "name": "INDIAN RIVER",
+    "slug": "indian_river",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "061"
+  },
+  "12063": {
+    "name": "JACKSON",
+    "slug": "jackson",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "063"
+  },
+  "12065": {
+    "name": "JEFFERSON",
+    "slug": "jefferson",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "065"
+  },
+  "12067": {
+    "name": "LAFAYETTE",
+    "slug": "lafayette",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "067"
+  },
+  "12069": {
+    "name": "LAKE",
+    "slug": "lake",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "069"
+  },
+  "12071": {
+    "name": "LEE",
+    "slug": "lee",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "071"
+  },
+  "12073": {
+    "name": "LEON",
+    "slug": "leon",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "073"
+  },
+  "12075": {
+    "name": "LEVY",
+    "slug": "levy",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "075"
+  },
+  "12077": {
+    "name": "LIBERTY",
+    "slug": "liberty",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "077"
+  },
+  "12079": {
+    "name": "MADISON",
+    "slug": "madison",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "079"
+  },
+  "12081": {
+    "name": "MANATEE",
+    "slug": "manatee",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "081"
+  },
+  "12083": {
+    "name": "MARION",
+    "slug": "marion",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "083"
+  },
+  "12085": {
+    "name": "MARTIN",
+    "slug": "martin",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "085"
+  },
+  "12087": {
+    "name": "MONROE",
+    "slug": "monroe",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "087"
+  },
+  "12089": {
+    "name": "NASSAU",
+    "slug": "nassau",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "089"
+  },
+  "12091": {
+    "name": "OKALOOSA",
+    "slug": "okaloosa",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "091"
+  },
+  "12093": {
+    "name": "OKEECHOBEE",
+    "slug": "okeechobee",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "093"
+  },
+  "12095": {
+    "name": "ORANGE",
+    "slug": "orange",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "095"
+  },
+  "12097": {
+    "name": "OSCEOLA",
+    "slug": "osceola",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "097"
+  },
+  "12099": {
+    "name": "PALM BEACH",
+    "slug": "palm_beach",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "099"
+  },
+  "12101": {
+    "name": "PASCO",
+    "slug": "pasco",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "101"
+  },
+  "12103": {
+    "name": "PINELLAS",
+    "slug": "pinellas",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "103"
+  },
+  "12105": {
+    "name": "POLK",
+    "slug": "polk",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "105"
+  },
+  "12107": {
+    "name": "PUTNAM",
+    "slug": "putnam",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "107"
+  },
+  "12109": {
+    "name": "ST JOHNS",
+    "slug": "st_johns",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "109"
+  },
+  "12111": {
+    "name": "ST LUCIE",
+    "slug": "st_lucie",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "111"
+  },
+  "12113": {
+    "name": "SANTA ROSA",
+    "slug": "santa_rosa",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "113"
+  },
+  "12115": {
+    "name": "SARASOTA",
+    "slug": "sarasota",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "115"
+  },
+  "12117": {
+    "name": "SEMINOLE",
+    "slug": "seminole",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "117"
+  },
+  "12119": {
+    "name": "SUMTER",
+    "slug": "sumter",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "119"
+  },
+  "12121": {
+    "name": "SUWANNEE",
+    "slug": "suwannee",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "121"
+  },
+  "12123": {
+    "name": "TAYLOR",
+    "slug": "taylor",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "123"
+  },
+  "12125": {
+    "name": "UNION",
+    "slug": "union",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "125"
+  },
+  "12127": {
+    "name": "VOLUSIA",
+    "slug": "volusia",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "127"
+  },
+  "12129": {
+    "name": "WAKULLA",
+    "slug": "wakulla",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "129"
+  },
+  "12131": {
+    "name": "WALTON",
+    "slug": "walton",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "131"
+  },
+  "12133": {
+    "name": "WASHINGTON",
+    "slug": "washington",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "133"
+  },
+  "12086": {
+    "name": "MIAMI-DADE",
+    "slug": "miami_dade",
+    "state": "FL",
+    "state_fips": "12",
+    "county_fips": "086"
+  }
+}

@@ -1,0 +1,947 @@
+{
+  "51001": {
+    "name": "ACCOMACK",
+    "slug": "accomack",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "001"
+  },
+  "51003": {
+    "name": "ALBEMARLE",
+    "slug": "albemarle",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "003"
+  },
+  "51005": {
+    "name": "ALLEGHANY",
+    "slug": "alleghany",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "005"
+  },
+  "51007": {
+    "name": "AMELIA",
+    "slug": "amelia",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "007"
+  },
+  "51009": {
+    "name": "AMHERST",
+    "slug": "amherst",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "009"
+  },
+  "51011": {
+    "name": "APPOMATTOX",
+    "slug": "appomattox",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "011"
+  },
+  "51013": {
+    "name": "ARLINGTON",
+    "slug": "arlington",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "013"
+  },
+  "51015": {
+    "name": "AUGUSTA",
+    "slug": "augusta",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "015"
+  },
+  "51017": {
+    "name": "BATH",
+    "slug": "bath",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "017"
+  },
+  "51019": {
+    "name": "BEDFORD",
+    "slug": "bedford",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "019"
+  },
+  "51515": {
+    "name": "BEDFORD",
+    "slug": "bedford",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "515"
+  },
+  "51021": {
+    "name": "BLAND",
+    "slug": "bland",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "021"
+  },
+  "51023": {
+    "name": "BOTETOURT",
+    "slug": "botetourt",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "023"
+  },
+  "51025": {
+    "name": "BRUNSWICK",
+    "slug": "brunswick",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "025"
+  },
+  "51027": {
+    "name": "BUCHANAN",
+    "slug": "buchanan",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "027"
+  },
+  "51029": {
+    "name": "BUCKINGHAM",
+    "slug": "buckingham",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "029"
+  },
+  "51031": {
+    "name": "CAMPBELL",
+    "slug": "campbell",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "031"
+  },
+  "51033": {
+    "name": "CAROLINE",
+    "slug": "caroline",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "033"
+  },
+  "51035": {
+    "name": "CARROLL",
+    "slug": "carroll",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "035"
+  },
+  "51036": {
+    "name": "CHARLES CITY",
+    "slug": "charles_city",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "036"
+  },
+  "51037": {
+    "name": "CHARLOTTE",
+    "slug": "charlotte",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "037"
+  },
+  "51041": {
+    "name": "CHESTERFIELD",
+    "slug": "chesterfield",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "041"
+  },
+  "51043": {
+    "name": "CLARKE",
+    "slug": "clarke",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "043"
+  },
+  "51045": {
+    "name": "CRAIG",
+    "slug": "craig",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "045"
+  },
+  "51047": {
+    "name": "CULPEPER",
+    "slug": "culpeper",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "047"
+  },
+  "51049": {
+    "name": "CUMBERLAND",
+    "slug": "cumberland",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "049"
+  },
+  "51051": {
+    "name": "DICKENSON",
+    "slug": "dickenson",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "051"
+  },
+  "51053": {
+    "name": "DINWIDDIE",
+    "slug": "dinwiddie",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "053"
+  },
+  "51057": {
+    "name": "ESSEX",
+    "slug": "essex",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "057"
+  },
+  "51059": {
+    "name": "FAIRFAX",
+    "slug": "fairfax",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "059"
+  },
+  "51600": {
+    "name": "FAIRFAX",
+    "slug": "fairfax",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "600"
+  },
+  "51061": {
+    "name": "FAUQUIER",
+    "slug": "fauquier",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "061"
+  },
+  "51063": {
+    "name": "FLOYD",
+    "slug": "floyd",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "063"
+  },
+  "51065": {
+    "name": "FLUVANNA",
+    "slug": "fluvanna",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "065"
+  },
+  "51067": {
+    "name": "FRANKLIN",
+    "slug": "franklin",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "067"
+  },
+  "51620": {
+    "name": "FRANKLIN",
+    "slug": "franklin",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "620"
+  },
+  "51069": {
+    "name": "FREDERICK",
+    "slug": "frederick",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "069"
+  },
+  "51071": {
+    "name": "GILES",
+    "slug": "giles",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "071"
+  },
+  "51073": {
+    "name": "GLOUCESTER",
+    "slug": "gloucester",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "073"
+  },
+  "51075": {
+    "name": "GOOCHLAND",
+    "slug": "goochland",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "075"
+  },
+  "51077": {
+    "name": "GRAYSON",
+    "slug": "grayson",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "077"
+  },
+  "51079": {
+    "name": "GREENE",
+    "slug": "greene",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "079"
+  },
+  "51081": {
+    "name": "GREENSVILLE",
+    "slug": "greensville",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "081"
+  },
+  "51083": {
+    "name": "HALIFAX",
+    "slug": "halifax",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "083"
+  },
+  "51085": {
+    "name": "HANOVER",
+    "slug": "hanover",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "085"
+  },
+  "51087": {
+    "name": "HENRICO",
+    "slug": "henrico",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "087"
+  },
+  "51089": {
+    "name": "HENRY",
+    "slug": "henry",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "089"
+  },
+  "51091": {
+    "name": "HIGHLAND",
+    "slug": "highland",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "091"
+  },
+  "51093": {
+    "name": "ISLE OF WIGHT",
+    "slug": "isle_of_wight",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "093"
+  },
+  "51095": {
+    "name": "JAMES CITY",
+    "slug": "james_city",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "095"
+  },
+  "51097": {
+    "name": "KING AND QUEEN",
+    "slug": "king_and_queen",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "097"
+  },
+  "51099": {
+    "name": "KING GEORGE",
+    "slug": "king_george",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "099"
+  },
+  "51101": {
+    "name": "KING WILLIAM",
+    "slug": "king_william",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "101"
+  },
+  "51103": {
+    "name": "LANCASTER",
+    "slug": "lancaster",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "103"
+  },
+  "51105": {
+    "name": "LEE",
+    "slug": "lee",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "105"
+  },
+  "51107": {
+    "name": "LOUDOUN",
+    "slug": "loudoun",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "107"
+  },
+  "51109": {
+    "name": "LOUISA",
+    "slug": "louisa",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "109"
+  },
+  "51111": {
+    "name": "LUNENBURG",
+    "slug": "lunenburg",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "111"
+  },
+  "51113": {
+    "name": "MADISON",
+    "slug": "madison",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "113"
+  },
+  "51115": {
+    "name": "MATHEWS",
+    "slug": "mathews",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "115"
+  },
+  "51117": {
+    "name": "MECKLENBURG",
+    "slug": "mecklenburg",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "117"
+  },
+  "51119": {
+    "name": "MIDDLESEX",
+    "slug": "middlesex",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "119"
+  },
+  "51121": {
+    "name": "MONTGOMERY",
+    "slug": "montgomery",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "121"
+  },
+  "51125": {
+    "name": "NELSON",
+    "slug": "nelson",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "125"
+  },
+  "51127": {
+    "name": "NEW KENT",
+    "slug": "new_kent",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "127"
+  },
+  "51131": {
+    "name": "NORTHAMPTON",
+    "slug": "northampton",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "131"
+  },
+  "51133": {
+    "name": "NORTHUMBERLAND",
+    "slug": "northumberland",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "133"
+  },
+  "51135": {
+    "name": "NOTTOWAY",
+    "slug": "nottoway",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "135"
+  },
+  "51137": {
+    "name": "ORANGE",
+    "slug": "orange",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "137"
+  },
+  "51139": {
+    "name": "PAGE",
+    "slug": "page",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "139"
+  },
+  "51141": {
+    "name": "PATRICK",
+    "slug": "patrick",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "141"
+  },
+  "51143": {
+    "name": "PITTSYLVANIA",
+    "slug": "pittsylvania",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "143"
+  },
+  "51145": {
+    "name": "POWHATAN",
+    "slug": "powhatan",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "145"
+  },
+  "51147": {
+    "name": "PRINCE EDWARD",
+    "slug": "prince_edward",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "147"
+  },
+  "51149": {
+    "name": "PRINCE GEORGE",
+    "slug": "prince_george",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "149"
+  },
+  "51153": {
+    "name": "PRINCE WILLIAM",
+    "slug": "prince_william",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "153"
+  },
+  "51155": {
+    "name": "PULASKI",
+    "slug": "pulaski",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "155"
+  },
+  "51157": {
+    "name": "RAPPAHANNOCK",
+    "slug": "rappahannock",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "157"
+  },
+  "51159": {
+    "name": "RICHMOND",
+    "slug": "richmond",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "159"
+  },
+  "51161": {
+    "name": "ROANOKE",
+    "slug": "roanoke",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "161"
+  },
+  "51770": {
+    "name": "ROANOKE (CITY)",
+    "slug": "roanoke_(city)",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "770"
+  },
+  "51163": {
+    "name": "ROCKBRIDGE",
+    "slug": "rockbridge",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "163"
+  },
+  "51165": {
+    "name": "ROCKINGHAM",
+    "slug": "rockingham",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "165"
+  },
+  "51167": {
+    "name": "RUSSELL",
+    "slug": "russell",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "167"
+  },
+  "51169": {
+    "name": "SCOTT",
+    "slug": "scott",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "169"
+  },
+  "51171": {
+    "name": "SHENANDOAH",
+    "slug": "shenandoah",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "171"
+  },
+  "51173": {
+    "name": "SMYTH",
+    "slug": "smyth",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "173"
+  },
+  "51175": {
+    "name": "SOUTHAMPTON",
+    "slug": "southampton",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "175"
+  },
+  "51177": {
+    "name": "SPOTSYLVANIA",
+    "slug": "spotsylvania",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "177"
+  },
+  "51179": {
+    "name": "STAFFORD",
+    "slug": "stafford",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "179"
+  },
+  "51181": {
+    "name": "SURRY",
+    "slug": "surry",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "181"
+  },
+  "51183": {
+    "name": "SUSSEX",
+    "slug": "sussex",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "183"
+  },
+  "51185": {
+    "name": "TAZEWELL",
+    "slug": "tazewell",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "185"
+  },
+  "51187": {
+    "name": "WARREN",
+    "slug": "warren",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "187"
+  },
+  "51191": {
+    "name": "WASHINGTON",
+    "slug": "washington",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "191"
+  },
+  "51193": {
+    "name": "WESTMORELAND",
+    "slug": "westmoreland",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "193"
+  },
+  "51195": {
+    "name": "WISE",
+    "slug": "wise",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "195"
+  },
+  "51197": {
+    "name": "WYTHE",
+    "slug": "wythe",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "197"
+  },
+  "51199": {
+    "name": "YORK",
+    "slug": "york",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "199"
+  },
+  "51510": {
+    "name": "ALEXANDRIA",
+    "slug": "alexandria",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "510"
+  },
+  "51520": {
+    "name": "BRISTOL",
+    "slug": "bristol",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "520"
+  },
+  "51530": {
+    "name": "BUENA VISTA",
+    "slug": "buena_vista",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "530"
+  },
+  "51540": {
+    "name": "CHARLOTTESVILLE",
+    "slug": "charlottesville",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "540"
+  },
+  "51550": {
+    "name": "CHESAPEAKE",
+    "slug": "chesapeake",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "550"
+  },
+  "51560": {
+    "name": "CLIFTON FORGE",
+    "slug": "clifton_forge",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "560"
+  },
+  "51570": {
+    "name": "COLONIAL HEIGHTS",
+    "slug": "colonial_heights",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "570"
+  },
+  "51580": {
+    "name": "COVINGTON",
+    "slug": "covington",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "580"
+  },
+  "51590": {
+    "name": "DANVILLE",
+    "slug": "danville",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "590"
+  },
+  "51595": {
+    "name": "EMPORIA",
+    "slug": "emporia",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "595"
+  },
+  "51610": {
+    "name": "FALLS CHURCH",
+    "slug": "falls_church",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "610"
+  },
+  "51630": {
+    "name": "FREDERICKSBURG",
+    "slug": "fredericksburg",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "630"
+  },
+  "51640": {
+    "name": "GALAX",
+    "slug": "galax",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "640"
+  },
+  "51650": {
+    "name": "HAMPTON",
+    "slug": "hampton",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "650"
+  },
+  "51660": {
+    "name": "HARRISONBURG",
+    "slug": "harrisonburg",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "660"
+  },
+  "51670": {
+    "name": "HOPEWELL",
+    "slug": "hopewell",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "670"
+  },
+  "51678": {
+    "name": "LEXINGTON",
+    "slug": "lexington",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "678"
+  },
+  "51680": {
+    "name": "LYNCHBURG",
+    "slug": "lynchburg",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "680"
+  },
+  "51683": {
+    "name": "MANASSAS",
+    "slug": "manassas",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "683"
+  },
+  "51685": {
+    "name": "MANASSAS PARK",
+    "slug": "manassas_park",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "685"
+  },
+  "51690": {
+    "name": "MARTINSVILLE",
+    "slug": "martinsville",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "690"
+  },
+  "51700": {
+    "name": "NEWPORT NEWS",
+    "slug": "newport_news",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "700"
+  },
+  "51710": {
+    "name": "NORFOLK",
+    "slug": "norfolk",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "710"
+  },
+  "51720": {
+    "name": "NORTON",
+    "slug": "norton",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "720"
+  },
+  "51730": {
+    "name": "PETERSBURG",
+    "slug": "petersburg",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "730"
+  },
+  "51735": {
+    "name": "POQUOSON",
+    "slug": "poquoson",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "735"
+  },
+  "51740": {
+    "name": "PORTSMOUTH",
+    "slug": "portsmouth",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "740"
+  },
+  "51750": {
+    "name": "RADFORD",
+    "slug": "radford",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "750"
+  },
+  "51760": {
+    "name": "RICHMOND CITY",
+    "slug": "richmond_city",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "760"
+  },
+  "51775": {
+    "name": "SALEM",
+    "slug": "salem",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "775"
+  },
+  "51790": {
+    "name": "STAUNTON",
+    "slug": "staunton",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "790"
+  },
+  "51800": {
+    "name": "SUFFOLK",
+    "slug": "suffolk",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "800"
+  },
+  "51810": {
+    "name": "VIRGINIA BEACH",
+    "slug": "virginia_beach",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "810"
+  },
+  "51820": {
+    "name": "WAYNESBORO",
+    "slug": "waynesboro",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "820"
+  },
+  "51830": {
+    "name": "WILLIAMSBURG",
+    "slug": "williamsburg",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "830"
+  },
+  "51840": {
+    "name": "WINCHESTER",
+    "slug": "winchester",
+    "state": "VA",
+    "state_fips": "51",
+    "county_fips": "840"
+  }
+}

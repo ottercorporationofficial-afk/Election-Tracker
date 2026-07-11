@@ -1,0 +1,436 @@
+{
+  "36001": {
+    "name": "ALBANY",
+    "slug": "albany",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "001"
+  },
+  "36003": {
+    "name": "ALLEGANY",
+    "slug": "allegany",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "003"
+  },
+  "36005": {
+    "name": "BRONX",
+    "slug": "bronx",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "005"
+  },
+  "36007": {
+    "name": "BROOME",
+    "slug": "broome",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "007"
+  },
+  "36009": {
+    "name": "CATTARAUGUS",
+    "slug": "cattaraugus",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "009"
+  },
+  "36011": {
+    "name": "CAYUGA",
+    "slug": "cayuga",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "011"
+  },
+  "36013": {
+    "name": "CHAUTAUQUA",
+    "slug": "chautauqua",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "013"
+  },
+  "36015": {
+    "name": "CHEMUNG",
+    "slug": "chemung",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "015"
+  },
+  "36017": {
+    "name": "CHENANGO",
+    "slug": "chenango",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "017"
+  },
+  "36019": {
+    "name": "CLINTON",
+    "slug": "clinton",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "019"
+  },
+  "36021": {
+    "name": "COLUMBIA",
+    "slug": "columbia",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "021"
+  },
+  "36023": {
+    "name": "CORTLAND",
+    "slug": "cortland",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "023"
+  },
+  "36025": {
+    "name": "DELAWARE",
+    "slug": "delaware",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "025"
+  },
+  "36027": {
+    "name": "DUTCHESS",
+    "slug": "dutchess",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "027"
+  },
+  "36029": {
+    "name": "ERIE",
+    "slug": "erie",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "029"
+  },
+  "36031": {
+    "name": "ESSEX",
+    "slug": "essex",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "031"
+  },
+  "36033": {
+    "name": "FRANKLIN",
+    "slug": "franklin",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "033"
+  },
+  "36035": {
+    "name": "FULTON",
+    "slug": "fulton",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "035"
+  },
+  "36037": {
+    "name": "GENESEE",
+    "slug": "genesee",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "037"
+  },
+  "36039": {
+    "name": "GREENE",
+    "slug": "greene",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "039"
+  },
+  "36041": {
+    "name": "HAMILTON",
+    "slug": "hamilton",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "041"
+  },
+  "36043": {
+    "name": "HERKIMER",
+    "slug": "herkimer",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "043"
+  },
+  "36045": {
+    "name": "JEFFERSON",
+    "slug": "jefferson",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "045"
+  },
+  "36047": {
+    "name": "KINGS",
+    "slug": "kings",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "047"
+  },
+  "36049": {
+    "name": "LEWIS",
+    "slug": "lewis",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "049"
+  },
+  "36051": {
+    "name": "LIVINGSTON",
+    "slug": "livingston",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "051"
+  },
+  "36053": {
+    "name": "MADISON",
+    "slug": "madison",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "053"
+  },
+  "36055": {
+    "name": "MONROE",
+    "slug": "monroe",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "055"
+  },
+  "36057": {
+    "name": "MONTGOMERY",
+    "slug": "montgomery",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "057"
+  },
+  "36059": {
+    "name": "NASSAU",
+    "slug": "nassau",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "059"
+  },
+  "36061": {
+    "name": "NEW YORK",
+    "slug": "new_york",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "061"
+  },
+  "36063": {
+    "name": "NIAGARA",
+    "slug": "niagara",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "063"
+  },
+  "36065": {
+    "name": "ONEIDA",
+    "slug": "oneida",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "065"
+  },
+  "36067": {
+    "name": "ONONDAGA",
+    "slug": "onondaga",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "067"
+  },
+  "36069": {
+    "name": "ONTARIO",
+    "slug": "ontario",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "069"
+  },
+  "36071": {
+    "name": "ORANGE",
+    "slug": "orange",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "071"
+  },
+  "36073": {
+    "name": "ORLEANS",
+    "slug": "orleans",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "073"
+  },
+  "36075": {
+    "name": "OSWEGO",
+    "slug": "oswego",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "075"
+  },
+  "36077": {
+    "name": "OTSEGO",
+    "slug": "otsego",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "077"
+  },
+  "36079": {
+    "name": "PUTNAM",
+    "slug": "putnam",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "079"
+  },
+  "36081": {
+    "name": "QUEENS",
+    "slug": "queens",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "081"
+  },
+  "36083": {
+    "name": "RENSSELAER",
+    "slug": "rensselaer",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "083"
+  },
+  "36085": {
+    "name": "RICHMOND",
+    "slug": "richmond",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "085"
+  },
+  "36087": {
+    "name": "ROCKLAND",
+    "slug": "rockland",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "087"
+  },
+  "36089": {
+    "name": "ST LAWRENCE",
+    "slug": "st_lawrence",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "089"
+  },
+  "36091": {
+    "name": "SARATOGA",
+    "slug": "saratoga",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "091"
+  },
+  "36093": {
+    "name": "SCHENECTADY",
+    "slug": "schenectady",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "093"
+  },
+  "36095": {
+    "name": "SCHOHARIE",
+    "slug": "schoharie",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "095"
+  },
+  "36097": {
+    "name": "SCHUYLER",
+    "slug": "schuyler",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "097"
+  },
+  "36099": {
+    "name": "SENECA",
+    "slug": "seneca",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "099"
+  },
+  "36101": {
+    "name": "STEUBEN",
+    "slug": "steuben",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "101"
+  },
+  "36103": {
+    "name": "SUFFOLK",
+    "slug": "suffolk",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "103"
+  },
+  "36105": {
+    "name": "SULLIVAN",
+    "slug": "sullivan",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "105"
+  },
+  "36107": {
+    "name": "TIOGA",
+    "slug": "tioga",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "107"
+  },
+  "36109": {
+    "name": "TOMPKINS",
+    "slug": "tompkins",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "109"
+  },
+  "36111": {
+    "name": "ULSTER",
+    "slug": "ulster",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "111"
+  },
+  "36113": {
+    "name": "WARREN",
+    "slug": "warren",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "113"
+  },
+  "36115": {
+    "name": "WASHINGTON",
+    "slug": "washington",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "115"
+  },
+  "36117": {
+    "name": "WAYNE",
+    "slug": "wayne",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "117"
+  },
+  "36119": {
+    "name": "WESTCHESTER",
+    "slug": "westchester",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "119"
+  },
+  "36121": {
+    "name": "WYOMING",
+    "slug": "wyoming",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "121"
+  },
+  "36123": {
+    "name": "YATES",
+    "slug": "yates",
+    "state": "NY",
+    "state_fips": "36",
+    "county_fips": "123"
+  }
+}

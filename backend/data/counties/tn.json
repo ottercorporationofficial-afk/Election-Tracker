@@ -1,0 +1,667 @@
+{
+  "47001": {
+    "name": "ANDERSON",
+    "slug": "anderson",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "001"
+  },
+  "47003": {
+    "name": "BEDFORD",
+    "slug": "bedford",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "003"
+  },
+  "47005": {
+    "name": "BENTON",
+    "slug": "benton",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "005"
+  },
+  "47007": {
+    "name": "BLEDSOE",
+    "slug": "bledsoe",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "007"
+  },
+  "47009": {
+    "name": "BLOUNT",
+    "slug": "blount",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "009"
+  },
+  "47011": {
+    "name": "BRADLEY",
+    "slug": "bradley",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "011"
+  },
+  "47013": {
+    "name": "CAMPBELL",
+    "slug": "campbell",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "013"
+  },
+  "47015": {
+    "name": "CANNON",
+    "slug": "cannon",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "015"
+  },
+  "47017": {
+    "name": "CARROLL",
+    "slug": "carroll",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "017"
+  },
+  "47019": {
+    "name": "CARTER",
+    "slug": "carter",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "019"
+  },
+  "47021": {
+    "name": "CHEATHAM",
+    "slug": "cheatham",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "021"
+  },
+  "47023": {
+    "name": "CHESTER",
+    "slug": "chester",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "023"
+  },
+  "47025": {
+    "name": "CLAIBORNE",
+    "slug": "claiborne",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "025"
+  },
+  "47027": {
+    "name": "CLAY",
+    "slug": "clay",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "027"
+  },
+  "47029": {
+    "name": "COCKE",
+    "slug": "cocke",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "029"
+  },
+  "47031": {
+    "name": "COFFEE",
+    "slug": "coffee",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "031"
+  },
+  "47033": {
+    "name": "CROCKETT",
+    "slug": "crockett",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "033"
+  },
+  "47035": {
+    "name": "CUMBERLAND",
+    "slug": "cumberland",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "035"
+  },
+  "47037": {
+    "name": "DAVIDSON",
+    "slug": "davidson",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "037"
+  },
+  "47039": {
+    "name": "DECATUR",
+    "slug": "decatur",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "039"
+  },
+  "47043": {
+    "name": "DICKSON",
+    "slug": "dickson",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "043"
+  },
+  "47045": {
+    "name": "DYER",
+    "slug": "dyer",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "045"
+  },
+  "47047": {
+    "name": "FAYETTE",
+    "slug": "fayette",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "047"
+  },
+  "47049": {
+    "name": "FENTRESS",
+    "slug": "fentress",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "049"
+  },
+  "47051": {
+    "name": "FRANKLIN",
+    "slug": "franklin",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "051"
+  },
+  "47053": {
+    "name": "GIBSON",
+    "slug": "gibson",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "053"
+  },
+  "47055": {
+    "name": "GILES",
+    "slug": "giles",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "055"
+  },
+  "47057": {
+    "name": "GRAINGER",
+    "slug": "grainger",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "057"
+  },
+  "47059": {
+    "name": "GREENE",
+    "slug": "greene",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "059"
+  },
+  "47061": {
+    "name": "GRUNDY",
+    "slug": "grundy",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "061"
+  },
+  "47063": {
+    "name": "HAMBLEN",
+    "slug": "hamblen",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "063"
+  },
+  "47065": {
+    "name": "HAMILTON",
+    "slug": "hamilton",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "065"
+  },
+  "47067": {
+    "name": "HANCOCK",
+    "slug": "hancock",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "067"
+  },
+  "47069": {
+    "name": "HARDEMAN",
+    "slug": "hardeman",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "069"
+  },
+  "47071": {
+    "name": "HARDIN",
+    "slug": "hardin",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "071"
+  },
+  "47073": {
+    "name": "HAWKINS",
+    "slug": "hawkins",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "073"
+  },
+  "47075": {
+    "name": "HAYWOOD",
+    "slug": "haywood",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "075"
+  },
+  "47077": {
+    "name": "HENDERSON",
+    "slug": "henderson",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "077"
+  },
+  "47079": {
+    "name": "HENRY",
+    "slug": "henry",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "079"
+  },
+  "47081": {
+    "name": "HICKMAN",
+    "slug": "hickman",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "081"
+  },
+  "47083": {
+    "name": "HOUSTON",
+    "slug": "houston",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "083"
+  },
+  "47085": {
+    "name": "HUMPHREYS",
+    "slug": "humphreys",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "085"
+  },
+  "47087": {
+    "name": "JACKSON",
+    "slug": "jackson",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "087"
+  },
+  "47089": {
+    "name": "JEFFERSON",
+    "slug": "jefferson",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "089"
+  },
+  "47091": {
+    "name": "JOHNSON",
+    "slug": "johnson",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "091"
+  },
+  "47093": {
+    "name": "KNOX",
+    "slug": "knox",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "093"
+  },
+  "47095": {
+    "name": "LAKE",
+    "slug": "lake",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "095"
+  },
+  "47097": {
+    "name": "LAUDERDALE",
+    "slug": "lauderdale",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "097"
+  },
+  "47099": {
+    "name": "LAWRENCE",
+    "slug": "lawrence",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "099"
+  },
+  "47101": {
+    "name": "LEWIS",
+    "slug": "lewis",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "101"
+  },
+  "47103": {
+    "name": "LINCOLN",
+    "slug": "lincoln",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "103"
+  },
+  "47105": {
+    "name": "LOUDON",
+    "slug": "loudon",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "105"
+  },
+  "47107": {
+    "name": "MCMINN",
+    "slug": "mcminn",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "107"
+  },
+  "47109": {
+    "name": "MCNAIRY",
+    "slug": "mcnairy",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "109"
+  },
+  "47111": {
+    "name": "MACON",
+    "slug": "macon",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "111"
+  },
+  "47113": {
+    "name": "MADISON",
+    "slug": "madison",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "113"
+  },
+  "47115": {
+    "name": "MARION",
+    "slug": "marion",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "115"
+  },
+  "47117": {
+    "name": "MARSHALL",
+    "slug": "marshall",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "117"
+  },
+  "47119": {
+    "name": "MAURY",
+    "slug": "maury",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "119"
+  },
+  "47121": {
+    "name": "MEIGS",
+    "slug": "meigs",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "121"
+  },
+  "47123": {
+    "name": "MONROE",
+    "slug": "monroe",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "123"
+  },
+  "47125": {
+    "name": "MONTGOMERY",
+    "slug": "montgomery",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "125"
+  },
+  "47127": {
+    "name": "MOORE",
+    "slug": "moore",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "127"
+  },
+  "47129": {
+    "name": "MORGAN",
+    "slug": "morgan",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "129"
+  },
+  "47131": {
+    "name": "OBION",
+    "slug": "obion",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "131"
+  },
+  "47133": {
+    "name": "OVERTON",
+    "slug": "overton",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "133"
+  },
+  "47135": {
+    "name": "PERRY",
+    "slug": "perry",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "135"
+  },
+  "47137": {
+    "name": "PICKETT",
+    "slug": "pickett",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "137"
+  },
+  "47139": {
+    "name": "POLK",
+    "slug": "polk",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "139"
+  },
+  "47141": {
+    "name": "PUTNAM",
+    "slug": "putnam",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "141"
+  },
+  "47143": {
+    "name": "RHEA",
+    "slug": "rhea",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "143"
+  },
+  "47145": {
+    "name": "ROANE",
+    "slug": "roane",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "145"
+  },
+  "47147": {
+    "name": "ROBERTSON",
+    "slug": "robertson",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "147"
+  },
+  "47149": {
+    "name": "RUTHERFORD",
+    "slug": "rutherford",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "149"
+  },
+  "47151": {
+    "name": "SCOTT",
+    "slug": "scott",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "151"
+  },
+  "47153": {
+    "name": "SEQUATCHIE",
+    "slug": "sequatchie",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "153"
+  },
+  "47155": {
+    "name": "SEVIER",
+    "slug": "sevier",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "155"
+  },
+  "47157": {
+    "name": "SHELBY",
+    "slug": "shelby",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "157"
+  },
+  "47159": {
+    "name": "SMITH",
+    "slug": "smith",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "159"
+  },
+  "47161": {
+    "name": "STEWART",
+    "slug": "stewart",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "161"
+  },
+  "47163": {
+    "name": "SULLIVAN",
+    "slug": "sullivan",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "163"
+  },
+  "47165": {
+    "name": "SUMNER",
+    "slug": "sumner",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "165"
+  },
+  "47167": {
+    "name": "TIPTON",
+    "slug": "tipton",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "167"
+  },
+  "47169": {
+    "name": "TROUSDALE",
+    "slug": "trousdale",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "169"
+  },
+  "47171": {
+    "name": "UNICOI",
+    "slug": "unicoi",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "171"
+  },
+  "47173": {
+    "name": "UNION",
+    "slug": "union",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "173"
+  },
+  "47175": {
+    "name": "VAN BUREN",
+    "slug": "van_buren",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "175"
+  },
+  "47177": {
+    "name": "WARREN",
+    "slug": "warren",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "177"
+  },
+  "47179": {
+    "name": "WASHINGTON",
+    "slug": "washington",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "179"
+  },
+  "47181": {
+    "name": "WAYNE",
+    "slug": "wayne",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "181"
+  },
+  "47183": {
+    "name": "WEAKLEY",
+    "slug": "weakley",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "183"
+  },
+  "47185": {
+    "name": "WHITE",
+    "slug": "white",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "185"
+  },
+  "47187": {
+    "name": "WILLIAMSON",
+    "slug": "williamson",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "187"
+  },
+  "47189": {
+    "name": "WILSON",
+    "slug": "wilson",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "189"
+  },
+  "47041": {
+    "name": "DE KALB",
+    "slug": "de_kalb",
+    "state": "TN",
+    "state_fips": "47",
+    "county_fips": "041"
+  }
+}

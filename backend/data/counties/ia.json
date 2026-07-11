@@ -1,0 +1,695 @@
+{
+  "19001": {
+    "name": "ADAIR",
+    "slug": "adair",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "001"
+  },
+  "19003": {
+    "name": "ADAMS",
+    "slug": "adams",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "003"
+  },
+  "19005": {
+    "name": "ALLAMAKEE",
+    "slug": "allamakee",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "005"
+  },
+  "19007": {
+    "name": "APPANOOSE",
+    "slug": "appanoose",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "007"
+  },
+  "19009": {
+    "name": "AUDUBON",
+    "slug": "audubon",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "009"
+  },
+  "19011": {
+    "name": "BENTON",
+    "slug": "benton",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "011"
+  },
+  "19013": {
+    "name": "BLACK HAWK",
+    "slug": "black_hawk",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "013"
+  },
+  "19015": {
+    "name": "BOONE",
+    "slug": "boone",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "015"
+  },
+  "19017": {
+    "name": "BREMER",
+    "slug": "bremer",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "017"
+  },
+  "19019": {
+    "name": "BUCHANAN",
+    "slug": "buchanan",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "019"
+  },
+  "19021": {
+    "name": "BUENA VISTA",
+    "slug": "buena_vista",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "021"
+  },
+  "19023": {
+    "name": "BUTLER",
+    "slug": "butler",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "023"
+  },
+  "19025": {
+    "name": "CALHOUN",
+    "slug": "calhoun",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "025"
+  },
+  "19027": {
+    "name": "CARROLL",
+    "slug": "carroll",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "027"
+  },
+  "19029": {
+    "name": "CASS",
+    "slug": "cass",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "029"
+  },
+  "19031": {
+    "name": "CEDAR",
+    "slug": "cedar",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "031"
+  },
+  "19033": {
+    "name": "CERRO GORDO",
+    "slug": "cerro_gordo",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "033"
+  },
+  "19035": {
+    "name": "CHEROKEE",
+    "slug": "cherokee",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "035"
+  },
+  "19037": {
+    "name": "CHICKASAW",
+    "slug": "chickasaw",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "037"
+  },
+  "19039": {
+    "name": "CLARKE",
+    "slug": "clarke",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "039"
+  },
+  "19041": {
+    "name": "CLAY",
+    "slug": "clay",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "041"
+  },
+  "19043": {
+    "name": "CLAYTON",
+    "slug": "clayton",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "043"
+  },
+  "19045": {
+    "name": "CLINTON",
+    "slug": "clinton",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "045"
+  },
+  "19047": {
+    "name": "CRAWFORD",
+    "slug": "crawford",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "047"
+  },
+  "19049": {
+    "name": "DALLAS",
+    "slug": "dallas",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "049"
+  },
+  "19051": {
+    "name": "DAVIS",
+    "slug": "davis",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "051"
+  },
+  "19053": {
+    "name": "DECATUR",
+    "slug": "decatur",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "053"
+  },
+  "19055": {
+    "name": "DELAWARE",
+    "slug": "delaware",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "055"
+  },
+  "19057": {
+    "name": "DES MOINES",
+    "slug": "des_moines",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "057"
+  },
+  "19059": {
+    "name": "DICKINSON",
+    "slug": "dickinson",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "059"
+  },
+  "19061": {
+    "name": "DUBUQUE",
+    "slug": "dubuque",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "061"
+  },
+  "19063": {
+    "name": "EMMET",
+    "slug": "emmet",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "063"
+  },
+  "19065": {
+    "name": "FAYETTE",
+    "slug": "fayette",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "065"
+  },
+  "19067": {
+    "name": "FLOYD",
+    "slug": "floyd",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "067"
+  },
+  "19069": {
+    "name": "FRANKLIN",
+    "slug": "franklin",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "069"
+  },
+  "19071": {
+    "name": "FREMONT",
+    "slug": "fremont",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "071"
+  },
+  "19073": {
+    "name": "GREENE",
+    "slug": "greene",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "073"
+  },
+  "19075": {
+    "name": "GRUNDY",
+    "slug": "grundy",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "075"
+  },
+  "19077": {
+    "name": "GUTHRIE",
+    "slug": "guthrie",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "077"
+  },
+  "19079": {
+    "name": "HAMILTON",
+    "slug": "hamilton",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "079"
+  },
+  "19081": {
+    "name": "HANCOCK",
+    "slug": "hancock",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "081"
+  },
+  "19083": {
+    "name": "HARDIN",
+    "slug": "hardin",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "083"
+  },
+  "19085": {
+    "name": "HARRISON",
+    "slug": "harrison",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "085"
+  },
+  "19087": {
+    "name": "HENRY",
+    "slug": "henry",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "087"
+  },
+  "19089": {
+    "name": "HOWARD",
+    "slug": "howard",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "089"
+  },
+  "19091": {
+    "name": "HUMBOLDT",
+    "slug": "humboldt",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "091"
+  },
+  "19093": {
+    "name": "IDA",
+    "slug": "ida",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "093"
+  },
+  "19095": {
+    "name": "IOWA",
+    "slug": "iowa",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "095"
+  },
+  "19097": {
+    "name": "JACKSON",
+    "slug": "jackson",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "097"
+  },
+  "19099": {
+    "name": "JASPER",
+    "slug": "jasper",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "099"
+  },
+  "19101": {
+    "name": "JEFFERSON",
+    "slug": "jefferson",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "101"
+  },
+  "19103": {
+    "name": "JOHNSON",
+    "slug": "johnson",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "103"
+  },
+  "19105": {
+    "name": "JONES",
+    "slug": "jones",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "105"
+  },
+  "19107": {
+    "name": "KEOKUK",
+    "slug": "keokuk",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "107"
+  },
+  "19109": {
+    "name": "KOSSUTH",
+    "slug": "kossuth",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "109"
+  },
+  "19111": {
+    "name": "LEE",
+    "slug": "lee",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "111"
+  },
+  "19113": {
+    "name": "LINN",
+    "slug": "linn",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "113"
+  },
+  "19115": {
+    "name": "LOUISA",
+    "slug": "louisa",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "115"
+  },
+  "19117": {
+    "name": "LUCAS",
+    "slug": "lucas",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "117"
+  },
+  "19119": {
+    "name": "LYON",
+    "slug": "lyon",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "119"
+  },
+  "19121": {
+    "name": "MADISON",
+    "slug": "madison",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "121"
+  },
+  "19123": {
+    "name": "MAHASKA",
+    "slug": "mahaska",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "123"
+  },
+  "19125": {
+    "name": "MARION",
+    "slug": "marion",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "125"
+  },
+  "19127": {
+    "name": "MARSHALL",
+    "slug": "marshall",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "127"
+  },
+  "19129": {
+    "name": "MILLS",
+    "slug": "mills",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "129"
+  },
+  "19131": {
+    "name": "MITCHELL",
+    "slug": "mitchell",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "131"
+  },
+  "19133": {
+    "name": "MONONA",
+    "slug": "monona",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "133"
+  },
+  "19135": {
+    "name": "MONROE",
+    "slug": "monroe",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "135"
+  },
+  "19137": {
+    "name": "MONTGOMERY",
+    "slug": "montgomery",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "137"
+  },
+  "19139": {
+    "name": "MUSCATINE",
+    "slug": "muscatine",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "139"
+  },
+  "19141": {
+    "name": "O BRIEN",
+    "slug": "o_brien",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "141"
+  },
+  "19143": {
+    "name": "OSCEOLA",
+    "slug": "osceola",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "143"
+  },
+  "19145": {
+    "name": "PAGE",
+    "slug": "page",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "145"
+  },
+  "19147": {
+    "name": "PALO ALTO",
+    "slug": "palo_alto",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "147"
+  },
+  "19149": {
+    "name": "PLYMOUTH",
+    "slug": "plymouth",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "149"
+  },
+  "19151": {
+    "name": "POCAHONTAS",
+    "slug": "pocahontas",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "151"
+  },
+  "19153": {
+    "name": "POLK",
+    "slug": "polk",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "153"
+  },
+  "19155": {
+    "name": "POTTAWATTAMIE",
+    "slug": "pottawattamie",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "155"
+  },
+  "19157": {
+    "name": "POWESHIEK",
+    "slug": "poweshiek",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "157"
+  },
+  "19159": {
+    "name": "RINGGOLD",
+    "slug": "ringgold",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "159"
+  },
+  "19161": {
+    "name": "SAC",
+    "slug": "sac",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "161"
+  },
+  "19163": {
+    "name": "SCOTT",
+    "slug": "scott",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "163"
+  },
+  "19165": {
+    "name": "SHELBY",
+    "slug": "shelby",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "165"
+  },
+  "19167": {
+    "name": "SIOUX",
+    "slug": "sioux",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "167"
+  },
+  "19169": {
+    "name": "STORY",
+    "slug": "story",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "169"
+  },
+  "19171": {
+    "name": "TAMA",
+    "slug": "tama",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "171"
+  },
+  "19173": {
+    "name": "TAYLOR",
+    "slug": "taylor",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "173"
+  },
+  "19175": {
+    "name": "UNION",
+    "slug": "union",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "175"
+  },
+  "19177": {
+    "name": "VAN BUREN",
+    "slug": "van_buren",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "177"
+  },
+  "19179": {
+    "name": "WAPELLO",
+    "slug": "wapello",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "179"
+  },
+  "19181": {
+    "name": "WARREN",
+    "slug": "warren",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "181"
+  },
+  "19183": {
+    "name": "WASHINGTON",
+    "slug": "washington",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "183"
+  },
+  "19185": {
+    "name": "WAYNE",
+    "slug": "wayne",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "185"
+  },
+  "19187": {
+    "name": "WEBSTER",
+    "slug": "webster",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "187"
+  },
+  "19189": {
+    "name": "WINNEBAGO",
+    "slug": "winnebago",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "189"
+  },
+  "19191": {
+    "name": "WINNESHIEK",
+    "slug": "winneshiek",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "191"
+  },
+  "19193": {
+    "name": "WOODBURY",
+    "slug": "woodbury",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "193"
+  },
+  "19195": {
+    "name": "WORTH",
+    "slug": "worth",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "195"
+  },
+  "19197": {
+    "name": "WRIGHT",
+    "slug": "wright",
+    "state": "IA",
+    "state_fips": "19",
+    "county_fips": "197"
+  }
+}

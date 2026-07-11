@@ -1,0 +1,275 @@
+{
+  "53001": {
+    "name": "ADAMS",
+    "slug": "adams",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "001"
+  },
+  "53003": {
+    "name": "ASOTIN",
+    "slug": "asotin",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "003"
+  },
+  "53005": {
+    "name": "BENTON",
+    "slug": "benton",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "005"
+  },
+  "53007": {
+    "name": "CHELAN",
+    "slug": "chelan",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "007"
+  },
+  "53009": {
+    "name": "CLALLAM",
+    "slug": "clallam",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "009"
+  },
+  "53011": {
+    "name": "CLARK",
+    "slug": "clark",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "011"
+  },
+  "53013": {
+    "name": "COLUMBIA",
+    "slug": "columbia",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "013"
+  },
+  "53015": {
+    "name": "COWLITZ",
+    "slug": "cowlitz",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "015"
+  },
+  "53017": {
+    "name": "DOUGLAS",
+    "slug": "douglas",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "017"
+  },
+  "53019": {
+    "name": "FERRY",
+    "slug": "ferry",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "019"
+  },
+  "53021": {
+    "name": "FRANKLIN",
+    "slug": "franklin",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "021"
+  },
+  "53023": {
+    "name": "GARFIELD",
+    "slug": "garfield",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "023"
+  },
+  "53025": {
+    "name": "GRANT",
+    "slug": "grant",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "025"
+  },
+  "53027": {
+    "name": "GRAYS HARBOR",
+    "slug": "grays_harbor",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "027"
+  },
+  "53029": {
+    "name": "ISLAND",
+    "slug": "island",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "029"
+  },
+  "53031": {
+    "name": "JEFFERSON",
+    "slug": "jefferson",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "031"
+  },
+  "53033": {
+    "name": "KING",
+    "slug": "king",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "033"
+  },
+  "53035": {
+    "name": "KITSAP",
+    "slug": "kitsap",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "035"
+  },
+  "53037": {
+    "name": "KITTITAS",
+    "slug": "kittitas",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "037"
+  },
+  "53039": {
+    "name": "KLICKITAT",
+    "slug": "klickitat",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "039"
+  },
+  "53041": {
+    "name": "LEWIS",
+    "slug": "lewis",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "041"
+  },
+  "53043": {
+    "name": "LINCOLN",
+    "slug": "lincoln",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "043"
+  },
+  "53045": {
+    "name": "MASON",
+    "slug": "mason",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "045"
+  },
+  "53047": {
+    "name": "OKANOGAN",
+    "slug": "okanogan",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "047"
+  },
+  "53049": {
+    "name": "PACIFIC",
+    "slug": "pacific",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "049"
+  },
+  "53051": {
+    "name": "PEND OREILLE",
+    "slug": "pend_oreille",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "051"
+  },
+  "53053": {
+    "name": "PIERCE",
+    "slug": "pierce",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "053"
+  },
+  "53055": {
+    "name": "SAN JUAN",
+    "slug": "san_juan",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "055"
+  },
+  "53057": {
+    "name": "SKAGIT",
+    "slug": "skagit",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "057"
+  },
+  "53059": {
+    "name": "SKAMANIA",
+    "slug": "skamania",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "059"
+  },
+  "53061": {
+    "name": "SNOHOMISH",
+    "slug": "snohomish",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "061"
+  },
+  "53063": {
+    "name": "SPOKANE",
+    "slug": "spokane",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "063"
+  },
+  "53065": {
+    "name": "STEVENS",
+    "slug": "stevens",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "065"
+  },
+  "53067": {
+    "name": "THURSTON",
+    "slug": "thurston",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "067"
+  },
+  "53069": {
+    "name": "WAHKIAKUM",
+    "slug": "wahkiakum",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "069"
+  },
+  "53071": {
+    "name": "WALLA WALLA",
+    "slug": "walla_walla",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "071"
+  },
+  "53073": {
+    "name": "WHATCOM",
+    "slug": "whatcom",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "073"
+  },
+  "53075": {
+    "name": "WHITMAN",
+    "slug": "whitman",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "075"
+  },
+  "53077": {
+    "name": "YAKIMA",
+    "slug": "yakima",
+    "state": "WA",
+    "state_fips": "53",
+    "county_fips": "077"
+  }
+}
