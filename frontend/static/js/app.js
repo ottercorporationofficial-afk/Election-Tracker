@@ -29,6 +29,14 @@ function updateLastUpdated(history) {
     updated.textContent = `Last Updated: ${timeAgo(latestComparison.timestamp)}`;
 }
 
+const API =
+    window.location.hostname === "localhost" ||
+    window.location.hostname === "127.0.0.1"
+        ? "http://127.0.0.1:8000"
+        : "https://YOUR-RAILWAY-URL.up.railway.app";
+
+
+
 // --------------------
 // Live County Feed
 // --------------------
@@ -534,10 +542,9 @@ document.getElementById("county-filter-select").addEventListener("change", (even
 async function refresh() {
 
     const [latestResponse, historyResponse] = await Promise.all([
-        fetch("/latest"),
-        fetch("/history")
+        fetch(`${API}/latest`),
+        fetch(`${API}/history`)
     ]);
-
     const latestData = await latestResponse.json();
     const history = await historyResponse.json();
 
