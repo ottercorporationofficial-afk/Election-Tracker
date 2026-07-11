@@ -40,7 +40,7 @@ let g;
 // --------------------
 
 Promise.all([
-    d3.json("/static/data/counties-10m.json"),
+    d3.json("/data/counties-10m.json"),
     fetch("/latest").then(r => r.json())
 ]).then(([us, electionData]) => {
 
