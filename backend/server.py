@@ -30,7 +30,10 @@ app.add_middleware(
 # Local frontend directory
 ROOT = Path(__file__).resolve().parent.parent
 STATIC = ROOT / "frontend" / "static"
-
+print("ROOT =", ROOT)
+print("STATIC =", STATIC)
+print("STATIC exists =", STATIC.exists())
+print("style.css exists =", (STATIC / "css" / "style.css").exists())
 # Only serve the frontend if it exists (local development)
 if STATIC.exists():
 
