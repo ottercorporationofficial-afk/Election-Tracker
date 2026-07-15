@@ -1,19 +1,19 @@
-import compare
-import storage
-from tracker import get_latest_update
+from backend import compare
+from backend import storage
+from backend.tracker import get_latest_update
 
-RACE_ID = 84287
+RACE_KEY = "co_governor_primary"
 
 print("That's a little bit old that result, if you want to see something that good take a look at what happened:\n")
 
-comparison = get_latest_update(RACE_ID)
+comparison = get_latest_update(RACE_KEY)
 
 if comparison.get("first_run"):
     print("First run. Snapshot saved.")
     quit()
 
 
-comparisons = storage.load_comparisons()
+comparisons = storage.load_comparisons(RACE_KEY)
 
 
 

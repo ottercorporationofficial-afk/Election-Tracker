@@ -1,0 +1,9 @@
+{
+    "name": "Maricopa",
+    "percent_reporting": 35.0,
+    "candidates": [
+        {"name": "Andrew prater", "votes": 44735, "party": "Republican"},
+        {"name": "Michael Kitchens", "votes": 42093, "party": "Republican"},
+        {"name": "Wilson Rochford", "votes": 25234, "party": "Republican"}
+    ]
+}

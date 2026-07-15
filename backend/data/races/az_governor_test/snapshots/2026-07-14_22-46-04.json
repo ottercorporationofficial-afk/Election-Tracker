@@ -1,0 +1,43 @@
+{
+    "candidates": [
+        {
+            "name": "Andrew prater",
+            "party": "Republican",
+            "color": null
+        },
+        {
+            "name": "Michael Kitchens",
+            "party": "Republican",
+            "color": null
+        },
+        {
+            "name": "Wilson Rochford",
+            "party": "Republican",
+            "color": null
+        }
+    ],
+    "region_results": {
+        "maricopa": {
+            "name": "Maricopa",
+            "percent_reporting": 35.0,
+            "candidates": [
+                {
+                    "name": "Andrew prater",
+                    "votes": 43745,
+                    "party": "Republican"
+                },
+                {
+                    "name": "Michael Kitchens",
+                    "votes": 39999,
+                    "party": "Republican"
+                },
+                {
+                    "name": "Wilson Rochford",
+                    "votes": 12757,
+                    "party": "Republican"
+                }
+            ],
+            "fips": "04013"
+        }
+    }
+}

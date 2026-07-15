@@ -1,7 +1,10 @@
 from datetime import datetime
 import json
+from pathlib import Path
 
-with open("data/county_fips.json", "r") as f:
+DATA_DIR = Path(__file__).resolve().parent / "data"
+
+with open(DATA_DIR / "county_fips.json", "r") as f:
     COUNTY_FIPS = json.load(f)
 
 
@@ -20,6 +23,7 @@ def compare_snapshots(old, new):
 
         old_votes = {}
         new_votes = {}
+        new_meta = {}
 
         results = {
             "candidates": {}
@@ -33,6 +37,10 @@ def compare_snapshots(old, new):
 
         for candidate in new["candidates"]:
             new_votes[candidate["name"]] = candidate["votes"]
+            new_meta[candidate["name"]] = {
+                "party": candidate.get("party"),
+                "color": candidate.get("color")
+            }
 
         batch_total = 0
 
@@ -46,7 +54,8 @@ def compare_snapshots(old, new):
 
             results["candidates"][candidate] = {
                 "change": vote_change,
-                "votes": new_votes[candidate]
+                "votes": new_votes[candidate],
+                **new_meta[candidate]
             }
 
 
@@ -71,6 +80,14 @@ def compare_snapshots(old, new):
 
     comparison = {
         "timestamp": time_stamp,
+        "candidates": [
+            {
+                "name": c["name"],
+                "party": c.get("party"),
+                "color": c.get("color")
+            }
+            for c in new.get("candidates", [])
+        ],
         "counties": {},
         "has_changes": False,
         "has_counties": True,
@@ -92,44 +109,60 @@ def compare_snapshots(old, new):
         comparison["counties"][county] = {}
         county_data = comparison["counties"][county]
 
-        county_data["name"] = county.replace("_", " ").title()
-        county_data["fips"] = COUNTY_FIPS.get(county)
-
-        print("ADDING:", county, county_data["fips"])
+        # `new_county` may already carry its own fips/name -- from
+        # civicapi directly, or from the county_providers aggregator,
+        # which sets these from registry.py. Only fall back to the
+        # (Colorado-only) COUNTY_FIPS lookup if neither source has it,
+        # e.g. for older civicapi county keys that rely on the slug match.
+        county_data["name"] = (
+            new_county.get("name")
+            or county.replace("_", " ").title()
+        )
+        county_data["fips"] = new_county.get("fips") or COUNTY_FIPS.get(county)
         # ---------------- Reporting ----------------
 
-        old_reporting = old_county["percent_reporting"]
-        new_reporting = new_county["percent_reporting"]
+        old_reporting = old_county.get("percent_reporting")
+        new_reporting = new_county.get("percent_reporting")
 
         county_data["reporting"] = {
             "old": old_reporting,
             "new": new_reporting,
-            "change": new_reporting - old_reporting
+            "change": (
+                new_reporting - old_reporting
+                if old_reporting is not None and new_reporting is not None
+                else None
+            )
         }
 
-        if new_reporting != old_reporting:
+        if new_reporting is not None and new_reporting != old_reporting:
             has_changes = True
 
         # ---------------- Candidates ----------------
 
         county_data["candidates"] = {}
+        new_meta = {}
 
         for candidate in old_county["candidates"]:
             old_votes[candidate["name"]] = candidate["votes"]
 
         for candidate in new_county["candidates"]:
             new_votes[candidate["name"]] = candidate["votes"]
+            new_meta[candidate["name"]] = {
+                "party": candidate.get("party"),
+                "color": candidate.get("color")
+            }
 
         for candidate in old_votes:
 
-            vote_change = new_votes[candidate] - old_votes[candidate]
+            vote_change = new_votes.get(candidate, 0) - old_votes[candidate]
 
             if vote_change != 0:
                 has_changes = True
 
             county_data["candidates"][candidate] = {
                 "change": vote_change,
-                "votes": new_votes[candidate]
+                "votes": new_votes.get(candidate, old_votes[candidate]),
+                **new_meta.get(candidate, {"party": None, "color": None})
             }
         # ---------------- Batch Total ----------------
 
@@ -147,16 +180,20 @@ def compare_snapshots(old, new):
         )
 
         leader = sorted_candidates[0]
-        runner_up = sorted_candidates[1]
+        runner_up = sorted_candidates[1] if len(sorted_candidates) > 1 else None
 
         total_votes = sum(c["votes"] for c in new_county["candidates"])
+
+        margin_votes = leader["votes"] - runner_up["votes"] if runner_up else leader["votes"]
 
         county_data["leader"] = {
             "name": leader["name"],
             "votes": leader["votes"],
-            "margin_votes": leader["votes"] - runner_up["votes"],
+            "party": leader.get("party"),
+            "color": leader.get("color"),
+            "margin_votes": margin_votes,
             "margin_percent": (
-                (leader["votes"] - runner_up["votes"]) / total_votes
+                margin_votes / total_votes
                 if total_votes else 0
             )
         }

@@ -1,4 +1,15 @@
 // --------------------
+// Race context for this page
+// --------------------
+// Reads the same data-race the map is already using (see arizona.html /
+// colorado.html), so this script and map.js always agree on which race's
+// data to show -- no need to hardcode or duplicate it here.
+
+const RACE_KEY = document.getElementById("map")?.dataset.race || null;
+const RACE_PARAM = RACE_KEY ? `?race=${encodeURIComponent(RACE_KEY)}` : "";
+const COLORS_KEY = RACE_KEY || "default";
+
+// --------------------
 // Time Formatting
 // --------------------
 
@@ -165,10 +176,13 @@ function updateHistoryCards(history) {
 
 function candidateColor(name) {
 
-    // candidateColors comes from map.js, which loads before this script
-    // and shares the same global scope.
-    if (typeof candidateColors !== "undefined" && candidateColors[name]) {
-        return candidateColors[name];
+    // Published by map.js under window.raceColors[RACE_KEY], so the
+    // statewide panel / county list always match the map's colors
+    // exactly, even with per-race overrides.
+    const colors = window.raceColors?.[COLORS_KEY];
+
+    if (colors && colors[name]) {
+        return colors[name];
     }
 
     return "#888888";
@@ -535,8 +549,8 @@ document.getElementById("county-filter-select").addEventListener("change", (even
 async function refresh() {
 
     const [latestResponse, historyResponse] = await Promise.all([
-        fetch(`${API}/latest`),
-        fetch(`${API}/history`)
+        fetch(`${API}/latest${RACE_PARAM}`),
+        fetch(`${API}/history${RACE_PARAM}`)
     ]);
     const latestData = await latestResponse.json();
     const history = await historyResponse.json();

@@ -1,0 +1,94 @@
+{
+    "timestamp": "2026-07-14T22:12:34.454468",
+    "candidates": [
+        {
+            "name": "BIGGS, ANDY",
+            "party": "Republican",
+            "color": null
+        },
+        {
+            "name": "MICELI, KEN",
+            "party": "Republican",
+            "color": null
+        },
+        {
+            "name": "NEELY,  SCOTT",
+            "party": "Republican",
+            "color": null
+        },
+        {
+            "name": "SCHWEIKERT,  DAVID",
+            "party": "Republican",
+            "color": null
+        },
+        {
+            "name": "Write-in",
+            "party": null,
+            "color": null
+        }
+    ],
+    "counties": {
+        "maricopa": {
+            "name": "Maricopa",
+            "fips": null,
+            "reporting": {
+                "old": 0.0,
+                "new": 0.0,
+                "change": 0.0
+            },
+            "candidates": {
+                "BIGGS, ANDY": {
+                    "change": -10,
+                    "votes": 0,
+                    "party": "Republican",
+                    "color": null,
+                    "batch_percent": 1.0
+                },
+                "MICELI, KEN": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Republican",
+                    "color": null,
+                    "batch_percent": -0.0
+                },
+                "NEELY,  SCOTT": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Republican",
+                    "color": null,
+                    "batch_percent": -0.0
+                },
+                "SCHWEIKERT,  DAVID": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Republican",
+                    "color": null,
+                    "batch_percent": -0.0
+                },
+                "Write-in": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": -0.0
+                }
+            },
+            "leader": {
+                "name": "BIGGS, ANDY",
+                "votes": 0,
+                "party": "Republican",
+                "color": null,
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": -10,
+                "winner": "MICELI, KEN",
+                "margin_votes": 0,
+                "margin_percent": -0.0
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}

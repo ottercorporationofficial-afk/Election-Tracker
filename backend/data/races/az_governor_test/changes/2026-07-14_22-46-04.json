@@ -1,0 +1,70 @@
+{
+    "timestamp": "2026-07-14T22:46:04.535167",
+    "candidates": [
+        {
+            "name": "Andrew prater",
+            "party": "Republican",
+            "color": null
+        },
+        {
+            "name": "Michael Kitchens",
+            "party": "Republican",
+            "color": null
+        },
+        {
+            "name": "Wilson Rochford",
+            "party": "Republican",
+            "color": null
+        }
+    ],
+    "counties": {
+        "maricopa": {
+            "name": "Maricopa",
+            "fips": "04013",
+            "reporting": {
+                "old": 35.0,
+                "new": 35.0,
+                "change": 0.0
+            },
+            "candidates": {
+                "Andrew prater": {
+                    "change": 878,
+                    "votes": 43745,
+                    "party": "Republican",
+                    "color": null,
+                    "batch_percent": 0.28286082474226804
+                },
+                "Michael Kitchens": {
+                    "change": 1469,
+                    "votes": 39999,
+                    "party": "Republican",
+                    "color": null,
+                    "batch_percent": 0.4732603092783505
+                },
+                "Wilson Rochford": {
+                    "change": 757,
+                    "votes": 12757,
+                    "party": "Republican",
+                    "color": null,
+                    "batch_percent": 0.24387886597938144
+                }
+            },
+            "leader": {
+                "name": "Andrew prater",
+                "votes": 43745,
+                "party": "Republican",
+                "color": null,
+                "margin_votes": 3746,
+                "margin_percent": 0.03881825058807681
+            },
+            "batch": {
+                "total": 3104,
+                "winner": "Michael Kitchens",
+                "margin_votes": 591,
+                "margin_percent": 0.19039948453608246
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}
