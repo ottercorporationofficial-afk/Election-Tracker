@@ -1,0 +1,70 @@
+{
+    "timestamp": "2026-07-14T23:19:48.647566",
+    "candidates": [
+        {
+            "name": "Andrew prater",
+            "party": "Republican",
+            "color": null
+        },
+        {
+            "name": "Michael Kitchens",
+            "party": "Republican",
+            "color": null
+        },
+        {
+            "name": "Wilson Rochford",
+            "party": "Republican",
+            "color": null
+        }
+    ],
+    "counties": {
+        "maricopa": {
+            "name": "Maricopa",
+            "fips": "04013",
+            "reporting": {
+                "old": 55.0,
+                "new": 67.0,
+                "change": 12.0
+            },
+            "candidates": {
+                "Andrew prater": {
+                    "change": 78523,
+                    "votes": 145757,
+                    "party": "Republican",
+                    "color": null,
+                    "batch_percent": 0.2964071630252608
+                },
+                "Michael Kitchens": {
+                    "change": 91303,
+                    "votes": 145808,
+                    "party": "Republican",
+                    "color": null,
+                    "batch_percent": 0.3446488698304368
+                },
+                "Wilson Rochford": {
+                    "change": 95090,
+                    "votes": 134576,
+                    "party": "Republican",
+                    "color": null,
+                    "batch_percent": 0.3589439671443023
+                }
+            },
+            "leader": {
+                "name": "Michael Kitchens",
+                "votes": 145808,
+                "party": "Republican",
+                "color": null,
+                "margin_votes": 51,
+                "margin_percent": 0.0001196786978957669
+            },
+            "batch": {
+                "total": 264916,
+                "winner": "Wilson Rochford",
+                "margin_votes": 3787,
+                "margin_percent": 0.014295097313865527
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}

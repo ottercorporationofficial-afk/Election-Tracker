@@ -1,0 +1,392 @@
+{
+    "timestamp": "2026-07-15T01:57:17.832358",
+    "candidates": [
+        {
+            "name": "Andrew Prater",
+            "party": "Republican",
+            "color": "#c1272d"
+        },
+        {
+            "name": "Michael Kitchens",
+            "party": "Republican",
+            "color": "#8b0000"
+        },
+        {
+            "name": "Wilson Rochford",
+            "party": "Republican",
+            "color": "#e06666"
+        }
+    ],
+    "counties": {
+        "pinal": {
+            "name": "Pinal",
+            "fips": "04021",
+            "reporting": {
+                "old": 42.0,
+                "new": 42.0,
+                "change": 0.0
+            },
+            "candidates": {
+                "Wilson Rochford": {
+                    "change": 0,
+                    "votes": 35464,
+                    "party": "Republican",
+                    "color": "#e06666",
+                    "batch_percent": 0
+                },
+                "Michael Kitchens": {
+                    "change": 0,
+                    "votes": 45467,
+                    "party": "Republican",
+                    "color": "#8b0000",
+                    "batch_percent": 0
+                },
+                "Andrew Prater": {
+                    "change": 0,
+                    "votes": 54242,
+                    "party": "Republican",
+                    "color": "#c1272d",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Andrew Prater",
+                "votes": 54242,
+                "party": "Republican",
+                "color": "#c1272d",
+                "margin_votes": 8775,
+                "margin_percent": 0.0649168103097512
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Wilson Rochford",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "cochise": {
+            "name": "Cochise",
+            "fips": "04003",
+            "reporting": {
+                "old": 0.0,
+                "new": 0.0,
+                "change": 0.0
+            },
+            "candidates": {
+                "Wilson Rochford": {
+                    "change": 0,
+                    "votes": 1534,
+                    "party": "Republican",
+                    "color": "#e06666",
+                    "batch_percent": 0
+                },
+                "Michael Kitchens": {
+                    "change": 0,
+                    "votes": 18954,
+                    "party": "Republican",
+                    "color": "#8b0000",
+                    "batch_percent": 0
+                },
+                "Andrew Prater": {
+                    "change": 0,
+                    "votes": 8765,
+                    "party": "Republican",
+                    "color": "#c1272d",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Michael Kitchens",
+                "votes": 18954,
+                "party": "Republican",
+                "color": "#8b0000",
+                "margin_votes": 10189,
+                "margin_percent": 0.34830615663350767
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Wilson Rochford",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "maricopa": {
+            "name": "Maricopa",
+            "fips": "04013",
+            "reporting": {
+                "old": 100.0,
+                "new": 100.0,
+                "change": 0.0
+            },
+            "candidates": {
+                "Wilson Rochford": {
+                    "change": 0,
+                    "votes": 154577,
+                    "party": "Republican",
+                    "color": "#e06666",
+                    "batch_percent": -0.0
+                },
+                "Michael Kitchens": {
+                    "change": 0,
+                    "votes": 176558,
+                    "party": "Republican",
+                    "color": "#8b0000",
+                    "batch_percent": -0.0
+                },
+                "Andrew Prater": {
+                    "change": -2000,
+                    "votes": 153237,
+                    "party": "Republican",
+                    "color": "#c1272d",
+                    "batch_percent": 1.0
+                }
+            },
+            "leader": {
+                "name": "Michael Kitchens",
+                "votes": 176558,
+                "party": "Republican",
+                "color": "#8b0000",
+                "margin_votes": 21981,
+                "margin_percent": 0.045380410098023835
+            },
+            "batch": {
+                "total": -2000,
+                "winner": "Wilson Rochford",
+                "margin_votes": 0,
+                "margin_percent": -0.0
+            }
+        },
+        "yuma": {
+            "name": "Yuma",
+            "fips": "04027",
+            "reporting": {
+                "old": 12.0,
+                "new": 12.0,
+                "change": 0.0
+            },
+            "candidates": {
+                "Wilson Rochford": {
+                    "change": 0,
+                    "votes": 2345,
+                    "party": "Republican",
+                    "color": "#e06666",
+                    "batch_percent": 0
+                },
+                "Michael Kitchens": {
+                    "change": 0,
+                    "votes": 6878,
+                    "party": "Republican",
+                    "color": "#8b0000",
+                    "batch_percent": 0
+                },
+                "Andrew Prater": {
+                    "change": 0,
+                    "votes": 6787,
+                    "party": "Republican",
+                    "color": "#c1272d",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Michael Kitchens",
+                "votes": 6878,
+                "party": "Republican",
+                "color": "#8b0000",
+                "margin_votes": 91,
+                "margin_percent": 0.005683947532792005
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Wilson Rochford",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "pima": {
+            "name": "Pima",
+            "fips": "04019",
+            "reporting": {
+                "old": 3.0,
+                "new": 3.0,
+                "change": 0.0
+            },
+            "candidates": {
+                "Wilson Rochford": {
+                    "change": 0,
+                    "votes": 53223,
+                    "party": "Republican",
+                    "color": "#e06666",
+                    "batch_percent": 0
+                },
+                "Michael Kitchens": {
+                    "change": 0,
+                    "votes": 6854,
+                    "party": "Republican",
+                    "color": "#8b0000",
+                    "batch_percent": 0
+                },
+                "Andrew Prater": {
+                    "change": 0,
+                    "votes": 545,
+                    "party": "Republican",
+                    "color": "#c1272d",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Wilson Rochford",
+                "votes": 53223,
+                "party": "Republican",
+                "color": "#e06666",
+                "margin_votes": 46369,
+                "margin_percent": 0.764887334630992
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Wilson Rochford",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "gila": {
+            "name": "Gila",
+            "fips": "04007",
+            "reporting": {
+                "old": 0.0,
+                "new": 0.0,
+                "change": 0.0
+            },
+            "candidates": {
+                "Wilson Rochford": {
+                    "change": 0,
+                    "votes": 512,
+                    "party": "Republican",
+                    "color": "#e06666",
+                    "batch_percent": 0
+                },
+                "Michael Kitchens": {
+                    "change": 0,
+                    "votes": 5646,
+                    "party": "Republican",
+                    "color": "#8b0000",
+                    "batch_percent": 0
+                },
+                "Andrew Prater": {
+                    "change": 0,
+                    "votes": 1564,
+                    "party": "Republican",
+                    "color": "#c1272d",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Michael Kitchens",
+                "votes": 5646,
+                "party": "Republican",
+                "color": "#8b0000",
+                "margin_votes": 4082,
+                "margin_percent": 0.5286195286195287
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Wilson Rochford",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "yavapai": {
+            "name": "Yavapai",
+            "fips": "04025",
+            "reporting": {
+                "old": 0.0,
+                "new": 0.0,
+                "change": 0.0
+            },
+            "candidates": {
+                "Wilson Rochford": {
+                    "change": 0,
+                    "votes": 51256,
+                    "party": "Republican",
+                    "color": "#e06666",
+                    "batch_percent": 0
+                },
+                "Michael Kitchens": {
+                    "change": 0,
+                    "votes": 5645,
+                    "party": "Republican",
+                    "color": "#8b0000",
+                    "batch_percent": 0
+                },
+                "Andrew Prater": {
+                    "change": 0,
+                    "votes": 65748,
+                    "party": "Republican",
+                    "color": "#c1272d",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Andrew Prater",
+                "votes": 65748,
+                "party": "Republican",
+                "color": "#c1272d",
+                "margin_votes": 14492,
+                "margin_percent": 0.11815832171481219
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Wilson Rochford",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "santa_cruz": {
+            "name": "Santa Cruz",
+            "fips": "04023",
+            "reporting": {
+                "old": 42.0,
+                "new": 42.0,
+                "change": 0.0
+            },
+            "candidates": {
+                "Wilson Rochford": {
+                    "change": 0,
+                    "votes": 25000,
+                    "party": "Republican",
+                    "color": "#e06666",
+                    "batch_percent": 0
+                },
+                "Michael Kitchens": {
+                    "change": 0,
+                    "votes": 25460,
+                    "party": "Republican",
+                    "color": "#8b0000",
+                    "batch_percent": 0
+                },
+                "Andrew Prater": {
+                    "change": 0,
+                    "votes": 25000,
+                    "party": "Republican",
+                    "color": "#c1272d",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Michael Kitchens",
+                "votes": 25460,
+                "party": "Republican",
+                "color": "#8b0000",
+                "margin_votes": 460,
+                "margin_percent": 0.0060959448714550755
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Wilson Rochford",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}

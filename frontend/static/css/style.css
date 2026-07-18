@@ -936,7 +936,87 @@ footer {
         text-align: right;
     }
 }
-
 /* ==========================================================
-   END
+   STATE LANDING — RACE LIST
+   Add this block to style.css (matches existing tokens/panels)
 ========================================================== */
+
+.race-list-section {
+    width: min(1400px, calc(100% - 40px));
+    margin: 0 auto 40px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.race-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 22px 24px;
+    box-shadow: var(--shadow);
+
+    color: var(--text);
+    text-decoration: none;
+
+    transition: transform .18s var(--ease), border-color .18s var(--ease),
+        box-shadow .18s var(--ease);
+}
+
+.race-link:hover {
+    transform: translateY(-2px);
+    border-color: #444a56;
+    box-shadow: var(--shadow-hover);
+    text-decoration: none;
+}
+
+.race-link-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: -.01em;
+}
+
+.race-link-arrow {
+    color: var(--accent);
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    transition: transform .18s var(--ease);
+}
+
+.race-link:hover .race-link-arrow {
+    transform: translateX(4px);
+}
+
+.no-races {
+    color: var(--muted);
+    text-align: center;
+    padding: 60px 24px;
+    background: var(--panel);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+}
+
+
+
+
+
+/* Phones */
+@media (max-width: 640px) {
+    .race-list-section {
+        width: calc(100% - 28px);
+    }
+
+    .race-link {
+        padding: 18px 20px;
+    }
+
+    .race-link-name {
+        font-size: 1rem;
+    }
+}

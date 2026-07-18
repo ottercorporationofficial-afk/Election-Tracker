@@ -1,0 +1,92 @@
+{
+    "timestamp": "2026-07-14T23:34:37.986381",
+    "candidates": [
+        {
+            "name": "Andrew prater",
+            "party": "Republican",
+            "color": "#0b3d91"
+        },
+        {
+            "name": "Michael Kitchens",
+            "party": "Republican",
+            "color": "#8b0000"
+        },
+        {
+            "name": "Wilson Rochford",
+            "party": "Republican",
+            "color": "#e06666"
+        },
+        {
+            "name": "Luke Tram",
+            "party": "Republican",
+            "color": "#4a90d9"
+        },
+        {
+            "name": "Andrew Prater",
+            "party": "Republican",
+            "color": "#0b3d91"
+        },
+        {
+            "name": "Luke Buttlord",
+            "party": "Republican",
+            "color": "#4a90d9"
+        }
+    ],
+    "counties": {
+        "maricopa": {
+            "name": "Maricopa",
+            "fips": "04013",
+            "reporting": {
+                "old": 67.0,
+                "new": 67.0,
+                "change": 0.0
+            },
+            "candidates": {
+                "Andrew prater": {
+                    "change": 0,
+                    "votes": 155237,
+                    "party": "Republican",
+                    "color": "#0b3d91",
+                    "batch_percent": -0.0
+                },
+                "Michael Kitchens": {
+                    "change": 0,
+                    "votes": 176558,
+                    "party": "Republican",
+                    "color": "#8b0000",
+                    "batch_percent": -0.0
+                },
+                "Wilson Rochford": {
+                    "change": 0,
+                    "votes": 144577,
+                    "party": "Republican",
+                    "color": "#e06666",
+                    "batch_percent": -0.0
+                },
+                "Luke Buttlord": {
+                    "change": -156419,
+                    "votes": 156419,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 1.0
+                }
+            },
+            "leader": {
+                "name": "Michael Kitchens",
+                "votes": 176558,
+                "party": "Republican",
+                "color": "#8b0000",
+                "margin_votes": 20139,
+                "margin_percent": 0.03182567387968539
+            },
+            "batch": {
+                "total": -156419,
+                "winner": "Andrew prater",
+                "margin_votes": 0,
+                "margin_percent": -0.0
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}

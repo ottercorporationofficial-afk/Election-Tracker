@@ -1,0 +1,226 @@
+/* ==========================================================
+   CHAT PAGE
+   Full-page layout that respects the existing top-header/nav,
+   with the two-tone bubble message styling.
+========================================================== */
+
+/* Make the page fill the viewport and let #chat take up everything
+   BELOW the header, instead of using fixed/inset (which ignores the
+   header entirely and covers it). */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#chat {
+    flex: 1;
+    min-height: 0; /* required for the flex child below to scroll properly */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: var(--bg, #0d0f14);
+}
+
+/* --------------------
+   Message column
+-------------------- */
+
+#messages {
+    width: min(820px, 92%);
+    flex: 1;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    padding: 32px 8px 24px;
+}
+
+#messages::-webkit-scrollbar {
+    width: 6px;
+}
+
+#messages::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 3px;
+}
+
+/* Both message types are bubbles */
+#messages .chat-msg {
+    max-width: 75%;
+    padding: 12px 16px;
+    border-radius: 18px;
+    font-size: 1rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+
+#messages .chat-msg-ai {
+    align-self: flex-start;
+    background: #262b36;
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-bottom-left-radius: 4px;
+}
+
+#messages .chat-msg-user {
+    align-self: flex-end;
+    background: var(--accent);
+    color: #0b1220;
+    font-weight: 600;
+    border-bottom-right-radius: 4px;
+}
+
+#messages .chat-msg-error {
+    border-color: #c1272d;
+    color: #f4777f;
+}
+
+/* Fallback so plain unstyled message elements still look reasonable */
+#messages > *:not([class*="chat-msg"]) {
+    align-self: flex-start;
+    max-width: 75%;
+    padding: 12px 16px;
+    border-radius: 18px;
+    border-bottom-left-radius: 4px;
+    background: #262b36;
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Empty state -- shown when there are no messages yet */
+#messages:empty::before {
+    content: "Ask Otter AI anything about the race.";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--muted);
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/* --------------------
+   Input bar -- pill-shaped, pinned to bottom, centered
+-------------------- */
+
+#chat > input#message,
+.chat-input-bar {
+    width: min(820px, 92%);
+}
+
+/* Works with EITHER structure: a wrapping .chat-input-bar div (preferred,
+   merges input+button into one pill), or the flat input+button directly
+   inside #chat like your current HTML -- both get styled sensibly. */
+
+.chat-input-bar,
+#chat {
+    --input-bar-gap: 8px;
+}
+
+.chat-input-bar {
+    margin: 0 0 28px;
+    display: flex;
+    align-items: center;
+    gap: var(--input-bar-gap);
+
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    box-shadow: var(--shadow-hover);
+    padding: 6px 6px 6px 20px;
+}
+
+/* Flat structure fallback: style input + button as separate pieces,
+   stacked, since there's no wrapper to merge them into one pill */
+#chat > input#message {
+    margin-top: 12px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--panel);
+    outline: none;
+    color: var(--text);
+    font-size: 1rem;
+    padding: 14px 20px;
+    box-sizing: border-box;
+}
+
+#chat > input#message::placeholder {
+    color: var(--muted);
+}
+
+#chat > input#message:focus {
+    border-color: var(--accent);
+}
+
+#chat > input#message:disabled {
+    opacity: 0.6;
+}
+
+.chat-input-bar input#message {
+    flex: 1;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: var(--text);
+    font-size: 1rem;
+    padding: 12px 0;
+}
+
+.chat-input-bar input#message::placeholder {
+    color: var(--muted);
+}
+
+#chat > button,
+.chat-input-bar button {
+    border: none;
+    border-radius: 999px;
+    padding: 12px 24px;
+    margin: 12px 0 24px;
+
+    background: var(--accent);
+    color: #0b1220;
+    font-weight: 700;
+    font-size: 0.9rem;
+    cursor: pointer;
+
+    transition: filter .15s var(--ease);
+}
+
+.chat-input-bar button {
+    margin: 0;
+}
+
+#chat > button:hover,
+.chat-input-bar button:hover {
+    filter: brightness(1.08);
+}
+
+#chat > button:active,
+.chat-input-bar button:active {
+    filter: brightness(0.94);
+}
+
+/* --------------------
+   Phones
+-------------------- */
+
+@media (max-width: 640px) {
+    #messages {
+        padding-top: 20px;
+    }
+
+    #messages .chat-msg {
+        max-width: 88%;
+    }
+}

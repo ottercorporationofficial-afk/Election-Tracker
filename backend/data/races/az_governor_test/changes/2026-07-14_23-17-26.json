@@ -1,0 +1,70 @@
+{
+    "timestamp": "2026-07-14T23:17:26.705516",
+    "candidates": [
+        {
+            "name": "Andrew prater",
+            "party": "Republican",
+            "color": null
+        },
+        {
+            "name": "Michael Kitchens",
+            "party": "Republican",
+            "color": null
+        },
+        {
+            "name": "Wilson Rochford",
+            "party": "Republican",
+            "color": null
+        }
+    ],
+    "counties": {
+        "maricopa": {
+            "name": "Maricopa",
+            "fips": "04013",
+            "reporting": {
+                "old": 39.0,
+                "new": 55.0,
+                "change": 16.0
+            },
+            "candidates": {
+                "Andrew prater": {
+                    "change": 0,
+                    "votes": 67234,
+                    "party": "Republican",
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Michael Kitchens": {
+                    "change": 0,
+                    "votes": 69456,
+                    "party": "Republican",
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Wilson Rochford": {
+                    "change": 0,
+                    "votes": 53154,
+                    "party": "Republican",
+                    "color": null,
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Michael Kitchens",
+                "votes": 69456,
+                "party": "Republican",
+                "color": null,
+                "margin_votes": 2222,
+                "margin_percent": 0.011704346726786203
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Andrew prater",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}

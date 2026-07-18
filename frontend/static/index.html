@@ -8,7 +8,7 @@
 
     <link rel="icon" type="image/png" href="static/images/otter-icon.png">
 
-    <link rel="stylesheet" href="/static/css/style.css?v=6">
+   <link rel="stylesheet" href="/css/style.css?v=6">
 </head>
 
 <body>
@@ -16,68 +16,22 @@
 <div class="top-header">
     <div class="top-header-content">
         <div class="site-name">Otter Elections</div>
-
-        <div class="top-nav">
-            Results
-        </div>
+        <nav class="top-nav"></nav>
     </div>
 </div>
+
+<script src="/js/nav.js"></script>
+
 
 <div class="container">
     <header class="page-header">
         <div class="header-left">
-            <h1>Colorado Republican Primary</h1>
-
-            <div class="header-meta">
-                <span id="last-updated"></span>
-                <span class="separator">•</span>
-                <span id="header-reporting">98% reporting</span>
-            </div>
-        </div>
-
-        <div class="live-indicator">
-            LIVE
+            <h1>Otter Elections!</h1>
         </div>
     </header>
 </div>
 
-<!-- ===================== Statewide ===================== -->
 
-<section class="overview">
-
-    <!-- Left -->
-
-    <div class="statewide-panel">
-
-        <h2>Statewide Results</h2>
-
-        <div id="statewide"></div>
-
-    </div>
-
-    <!-- Right -->
-
-    <div class="map-panel">
-
-        <h2>County Map</h2>
-
-        <div id="map">
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ===================== Feed ===================== -->
-
-<section class="feed-section">
-
-    <h2>Live County Feed</h2>
-
-    <div id="history"></div>
-
-</section>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>

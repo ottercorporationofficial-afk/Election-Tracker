@@ -1,0 +1,9 @@
+{
+    "name": "Pinal",
+    "percent_reporting": 42.0,
+    "candidates": [
+        {"name": "Andrew Prater", "votes": 54242, "party": "Republican", "color": "#c1272d"},
+        {"name": "Michael Kitchens", "votes": 45467, "party": "Republican", "color": "#8b0000"},
+        {"name": "Wilson Rochford", "votes": 35464, "party": "Republican", "color": "#e06666"}
+    ]
+}

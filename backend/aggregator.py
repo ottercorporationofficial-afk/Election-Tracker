@@ -8,8 +8,11 @@ one call or from ten different county websites.
 """
 
 import importlib
+import logging
 
 from backend.registry import RACES
+
+logger = logging.getLogger(__name__)
 
 
 def fetch_race(race_key):
@@ -38,9 +41,22 @@ def _fetch_from_counties(config):
 
     for county_key, county_config in config["counties"].items():
 
-        provider = importlib.import_module(f"backend.providers.{county_config['provider']}")
-
-        county_data = provider.fetch_county(county_key, county_config["provider_config"])
+        try:
+            provider = importlib.import_module(f"backend.providers.{county_config['provider']}")
+            county_data = provider.fetch_county(county_key, county_config["provider_config"])
+        except Exception as e:
+            # One county's site not being ready yet (page not posted,
+            # wrong URL, temporary error, whatever) should never take down
+            # the whole race. Skip it -- it just won't appear on the map
+            # this cycle (renders as an unfilled/gray county, same as any
+            # other unreported area) while every other county keeps
+            # working normally. Once that county's source comes online,
+            # it starts showing up automatically, no code change needed.
+            logger.warning(
+                "Skipping county '%s' (provider '%s') this cycle: %s",
+                county_key, county_config.get("provider"), e
+            )
+            continue
 
         # Registry is the source of truth for name/fips, in case the
         # provider itself doesn't know or return them reliably.

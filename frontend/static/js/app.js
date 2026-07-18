@@ -7,7 +7,6 @@
 
 const RACE_KEY = document.getElementById("map")?.dataset.race || null;
 const RACE_PARAM = RACE_KEY ? `?race=${encodeURIComponent(RACE_KEY)}` : "";
-const COLORS_KEY = RACE_KEY || "default";
 
 // --------------------
 // Time Formatting
@@ -174,18 +173,30 @@ function updateHistoryCards(history) {
 // Statewide Panel
 // --------------------
 
+// --------------------
+// Candidate colors
+// --------------------
+// Resolved independently every refresh, straight from the data this
+// script already fetched -- NOT from window.raceColors (which depends on
+// map.js's own separate fetch/timer finishing first). That cross-script
+// dependency was the cause of colors intermittently showing gray: if
+// this script's refresh cycle ran before map.js's had populated
+// window.raceColors, colors here would come up empty for that cycle.
+// Resolving locally removes that race condition entirely.
+
+let currentRaceColors = {};
+
+function updateCurrentRaceColors(latestData) {
+
+    const mapEl = document.getElementById("map");
+    const mapKey = mapEl?.dataset.electionMap;
+    const overrides = (typeof mapConfigs !== "undefined" && mapConfigs[mapKey]?.candidateColorOverrides) || {};
+
+    currentRaceColors = resolveCandidateColors(latestData, overrides);
+}
+
 function candidateColor(name) {
-
-    // Published by map.js under window.raceColors[RACE_KEY], so the
-    // statewide panel / county list always match the map's colors
-    // exactly, even with per-race overrides.
-    const colors = window.raceColors?.[COLORS_KEY];
-
-    if (colors && colors[name]) {
-        return colors[name];
-    }
-
-    return "#888888";
+    return currentRaceColors[name] || "#888888";
 }
 
 function computeStatewideTotals(counties) {
@@ -233,6 +244,7 @@ function statewideCandidateHtml(name) {
 
             <span class="statewide-name">
                 ${name}
+                <span class="statewide-winner-check" style="display:none">✓</span>
             </span>
 
         </div>
@@ -279,16 +291,72 @@ function ensureStatewideBuilt(container, candidateNames) {
     container.dataset.built = "true";
 }
 
-function renderStatewide(totals, reportingAvg) {
+// --------------------
+// Projected Winner Banner
+// --------------------
+// projected_winner is a manual editorial call set in registry.py -- never
+// derived from vote counts. Shown as a banner above the statewide panel
+// when set; removed entirely when null/absent. Has no effect on the map
+// or tooltips, which always show raw current standings only.
+
+function updateProjectedWinnerBanner(projectedWinner) {
+
+    const panel = document.querySelector(".statewide-panel");
+
+    if (!panel) return;
+
+    let banner = document.getElementById("projected-winner-banner");
+
+    if (!projectedWinner) {
+        if (banner) banner.remove();
+        return;
+    }
+
+    if (!banner) {
+        banner = document.createElement("div");
+        banner.id = "projected-winner-banner";
+        banner.className = "projected-winner-banner";
+        panel.insertBefore(banner, panel.firstChild);
+    }
+
+    const color = candidateColor(projectedWinner);
+
+    banner.innerHTML = `
+        <span class="projected-winner-label">Projected Winner</span>
+        <span class="projected-winner-name" style="color:${color}">${projectedWinner}</span>
+    `;
+}
+
+function renderStatewide(totals, reportingAvg, projectedWinner) {
+
+    const MAX_STATEWIDE_CANDIDATES = 5;
 
     const container = document.getElementById("statewide");
 
+    // Percentages should reflect share of the TRUE full vote count, not
+    // just the top 5 shown -- otherwise "34%" would mean "34% of the
+    // displayed candidates" rather than the real, meaningful figure.
     const grandTotal = Object.values(totals).reduce((a, b) => a + b, 0);
-    const sorted = Object.entries(totals).sort((a, b) => b[1] - a[1]);
+
+    const allSorted = Object.entries(totals).sort((a, b) => b[1] - a[1]);
+    const sorted = allSorted.slice(0, MAX_STATEWIDE_CANDIDATES);
+    const hiddenCount = allSorted.length - sorted.length;
 
     ensureStatewideBuilt(container, sorted.map(([name]) => name));
 
     const divider = container.querySelector("hr");
+
+    // Remove any candidate row that's no longer in the top 5 -- e.g. a
+    // candidate who was 5th and just got overtaken as more votes came in.
+    // Without this, they'd stick around as a stale leftover element
+    // forever, since ensureStatewideBuilt only builds once.
+    const visibleNames = new Set(sorted.map(([name]) => name));
+
+    container.querySelectorAll(".statewide-candidate").forEach(el => {
+        if (!visibleNames.has(el.dataset.candidate)) {
+            el.remove();
+        }
+    });
 
     // Create any brand-new candidates first (rare, but possible).
     for (const [name] of sorted) {
@@ -328,13 +396,43 @@ function renderStatewide(totals, reportingAvg) {
         if (!el) continue;
 
         const pct = grandTotal > 0 ? (votes / grandTotal) * 100 : 0;
+        const color = candidateColor(name);
 
         el.querySelector(".statewide-votes").textContent = `${votes.toLocaleString()} votes`;
         el.querySelector(".statewide-percent").textContent = `${pct.toFixed(1)}%`;
         el.querySelector(".progress-fill").style.width = `${pct.toFixed(1)}%`;
+
+        // Re-applied every refresh, not just baked in at initial build --
+        // map.js resolves colors asynchronously and can finish slightly
+        // after this panel's first render, so without this, a candidate
+        // built before colors were ready would stay gray forever.
+        el.querySelector(".candidate-color").style.background = color;
+        el.querySelector(".progress-fill").style.background = color;
+
+        // Checkmark + highlight only ever reflect the manually-set
+        // projected_winner from registry.py -- never computed from votes.
+        const isProjectedWinner = projectedWinner === name;
+
+        el.querySelector(".statewide-winner-check").style.display =
+            isProjectedWinner ? "inline" : "none";
+
+        el.classList.toggle("statewide-candidate-winner", isProjectedWinner);
     }
 
     container.querySelector(".reporting-box span").textContent = `${Math.round(reportingAvg)}%`;
+
+    let hiddenNote = container.querySelector(".statewide-hidden-note");
+
+    if (hiddenCount > 0) {
+        if (!hiddenNote) {
+            hiddenNote = document.createElement("div");
+            hiddenNote.className = "statewide-hidden-note";
+            container.insertBefore(hiddenNote, divider);
+        }
+        hiddenNote.textContent = `+ ${hiddenCount} more candidate${hiddenCount === 1 ? "" : "s"}`;
+    } else if (hiddenNote) {
+        hiddenNote.remove();
+    }
 
     const headerReporting = document.getElementById("header-reporting");
 
@@ -555,14 +653,17 @@ async function refresh() {
     const latestData = await latestResponse.json();
     const history = await historyResponse.json();
 
+    updateCurrentRaceColors(latestData);
+
     cachedLatestData = latestData;
     countyLastUpdated = computeCountyLastUpdated(history);
 
     updateLastUpdated(history);
+    updateProjectedWinnerBanner(latestData.projected_winner);
 
     if (latestData.counties) {
         const { totals, reportingAvg } = computeStatewideTotals(latestData.counties);
-        renderStatewide(totals, reportingAvg);
+        renderStatewide(totals, reportingAvg, latestData.projected_winner);
         populateCountyFilterOptions(latestData.counties);
     }
 
@@ -574,6 +675,7 @@ async function refresh() {
         renderCountyList();
     }
 }
+
 
 refresh();
 

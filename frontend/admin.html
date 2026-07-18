@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Admin - Otter Elections</title>
+<style>
+    body { font-family: system-ui, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; }
+    h1 { font-size: 1.3rem; }
+    select { font-size: 1rem; padding: 6px; margin-bottom: 20px; width: 100%; }
+    .candidate-row { display: flex; align-items: center; gap: 10px; padding: 10px 0; border-bottom: 1px solid #ddd; }
+    .candidate-name { flex: 1; }
+    input[type="text"] { padding: 4px; width: 160px; }
+    input[type="color"] { width: 40px; height: 30px; border: none; padding: 0; }
+    button { padding: 6px 12px; cursor: pointer; }
+    .projected-section { margin-top: 30px; padding-top: 20px; border-top: 2px solid #333; }
+    .status { color: green; font-size: 0.9rem; margin-left: 8px; }
+</style>
+</head>
+<body>
+
+<div class="top-header">
+    <div class="top-header-content">
+        <div class="site-name">Otter Elections</div>
+
+        <nav class="top-nav"></nav>
+    </div>
+</div>
+<script src="js/nav.js"></script>
+
+<h1>Otter Elections — Admin</h1>
+
+<label for="race-select">Race</label>
+<select id="race-select"></select>
+
+<div id="candidates"></div>
+
+<div class="projected-section">
+    <h2>Projected Winner (statewide)</h2>
+    <select id="projected-winner-select"></select>
+    <button onclick="setProjectedWinner()">Set</button>
+    <button onclick="clearProjectedWinner()">Clear (no projection)</button>
+    <span id="projected-status" class="status"></span>
+</div>
+
+<script>
+    let currentRaceKey = null;
+
+    async function loadRaces() {
+        const res = await fetch('/admin/races');
+        const data = await res.json();
+
+        const select = document.getElementById('race-select');
+        select.innerHTML = data.races.map(r => `<option value="${r}">${r}</option>`).join('');
+
+        select.addEventListener('change', () => loadRace(select.value));
+
+        if (data.races.length) loadRace(data.races[0]);
+    }
+
+    async function loadRace(raceKey) {
+        currentRaceKey = raceKey;
+        document.getElementById('race-select').value = raceKey;
+
+        const res = await fetch(`/admin/races/${encodeURIComponent(raceKey)}`);
+        const data = await res.json();
+
+        renderCandidates(data.candidates, data.overrides);
+    }
+
+    function renderCandidates(candidates, overrides) {
+
+        const container = document.getElementById('candidates');
+        const colors = overrides.candidate_colors || {};
+        const aliases = overrides.candidate_aliases || {};
+
+        container.innerHTML = candidates.map(c => {
+            const color = colors[c.name] || c.color || '#888888';
+            const alias = aliases[c.name] || '';
+
+            return `
+                <div class="candidate-row" data-name="${c.name}">
+                    <input type="color" value="${color}" onchange="setColor('${c.name}', this.value)">
+                    <button class="reset-btn" onclick="resetColor('${c.name}')" title="Clear override, fall back to automatic color">Reset</button>
+                    <span class="candidate-name">${c.name}</span>
+                    <input type="text" placeholder="Display name override" value="${alias}"
+                           onchange="setAlias('${c.name}', this.value)">
+                    <span class="status"></span>
+                </div>
+            `;
+        }).join('');
+
+        const winnerSelect = document.getElementById('projected-winner-select');
+        winnerSelect.innerHTML =
+            '<option value="">(none)</option>' +
+            candidates.map(c => `<option value="${c.name}">${c.name}</option>`).join('');
+    }
+
+    async function setColor(name, color) {
+        await fetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/color?name=${encodeURIComponent(name)}&color=${encodeURIComponent(color)}`, { method: 'POST' });
+        flashStatus(name);
+    }
+
+    async function resetColor(name) {
+        await fetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/color?name=${encodeURIComponent(name)}`, { method: 'DELETE' });
+        await loadRace(currentRaceKey);  // reload so the picker shows the real fallback color, not the just-cleared one
+        flashStatus(name);
+    }
+
+    async function setAlias(rawName, displayName) {
+        if (displayName) {
+            await fetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/alias?raw_name=${encodeURIComponent(rawName)}&display_name=${encodeURIComponent(displayName)}`, { method: 'POST' });
+        } else {
+            await fetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/alias?raw_name=${encodeURIComponent(rawName)}`, { method: 'DELETE' });
+        }
+        flashStatus(rawName);
+    }
+
+    async function setProjectedWinner() {
+        const winner = document.getElementById('projected-winner-select').value;
+        await fetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/projected_winner?winner=${encodeURIComponent(winner)}`, { method: 'POST' });
+        document.getElementById('projected-status').textContent = 'Saved';
+        setTimeout(() => document.getElementById('projected-status').textContent = '', 1500);
+    }
+
+    async function clearProjectedWinner() {
+        document.getElementById('projected-winner-select').value = '';
+        await fetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/projected_winner`, { method: 'POST' });
+        document.getElementById('projected-status').textContent = 'Cleared';
+        setTimeout(() => document.getElementById('projected-status').textContent = '', 1500);
+    }
+
+    function flashStatus(name) {
+        const row = document.querySelector(`.candidate-row[data-name="${CSS.escape(name)}"] .status`);
+        if (row) {
+            row.textContent = 'Saved';
+            setTimeout(() => row.textContent = '', 1500);
+        }
+    }
+
+    // Reaching this page at all already required passing Basic Auth --
+    // remember that in this browser so other pages can silently show an
+    // "Admin" link without needing any server round-trip or cookie.
+    localStorage.setItem('otter_admin_logged_in', 'true');
+
+    loadRaces();
+</script>
+
+</body>
+</html>

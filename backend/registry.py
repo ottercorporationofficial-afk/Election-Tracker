@@ -12,6 +12,16 @@ Adding a new civicapi race = one entry, no code changes.
 Adding a new county-scraped race = one entry per county, using whichever
 provider matches that county's site (most will reuse "clarity_style";
 one-off sites get their own module like custom_example.py).
+
+Optional per-race field:
+
+  "projected_winner": "Candidate Name"
+
+Set this by hand, once you (the editor) have decided to call the race --
+never derived from vote counts automatically. Leave unset (or null) until
+you're ready to call it. This shows up in the API response and the
+statewide panel; it has no effect on the map/tooltips, which always show
+raw current vote standings only.
 """
 
 RACES = {
@@ -22,43 +32,55 @@ RACES = {
     },
 
     # AZ Governor Republican Primary 2026 -- currently just Maricopa; add
-    # more AZ counties here as you wire up their sites/providers.
-    # IMPORTANT: "contest_name" below is a PLACEHOLDER. Run this on a
-    # machine with internet access to find the exact string Maricopa uses:
-    #
-    #   curl -s "<url below>" | cut -f3 | sort -u | grep -i governor
-    #
-    # then replace "REP Governor" with whatever that prints, exactly
-    # (spacing/punctuation matters -- compare.py/maricopa.py match on it
-    # verbatim).
+    # AZ Governor Republican Primary 2026 -- switched to civicapi.
+    # "state": "az" tells compare.py which per-state FIPS file to fall
+    # back to (backend/data/counties/az.json) if civicapi's own county
+    # data doesn't already include a fips field.
     "az_governor_republican_primary_2026": {
-        "source": "county_providers",
-        "counties": {
-            "maricopa": {
-                "name": "Maricopa",
-                "fips": "04013",
-                "provider": "maricopa",
-                "provider_config": {
-                    "url": "https://elections.maricopa.gov/asset/jcr:09208b40-0ea0-43a2-9831-c555996eabf2/Primary+2026+Zero+for+Web+(1).txt",
-                    "contest_name": "REP Governor"
-                }
-            }
-        }
+        "source": "civicapi",
+        "race_id": 29114,
+        "state": "az"
     },
 
     # TEST-ONLY twin of the race above -- same fips/geography, but reads a
     # local file instead of hitting Maricopa's live URL. Point your AZ
     # page's map at data-race="az_governor_test" while testing, edit
-    # backend/data/test_counties/az_governor_test.json, and refresh to see
+    # backend/data/test_counties/maricopa.json, and refresh to see
     # the live map itself update -- not just the raw JSON.
     "az_governor_test": {
         "source": "county_providers",
+        "projected_winner": None,
         "counties": {
             "maricopa": {
                 "name": "Maricopa",
                 "fips": "04013",
                 "provider": "local_test_county",
-                "provider_config": {"file": "az_governor_test.json"}
+                "provider_config": {"file": "maricopa.json"}
+            },
+            "pima": {
+                "name": "Pima",
+                "fips": "04019",
+                "provider": "local_test_county",
+                "provider_config": {"file": "pima_test.json"}
+            },
+            "pinal":{
+                "name": "Pinal",
+                "fips": "04021",
+                "provider": "local_test_county",
+                "provider_config": {"file": "pinal.json"}
+
+            },
+            "gila": {
+                "name": "Gila",
+                "fips": "04007",
+                "provider": "local_test_county",
+                "provider_config": {"file": "gila.json"}
+            },
+            "yuma": {
+                "name": "Yuma",
+                "fips": "04027",
+                "provider": "local_test_county",
+                "provider_config": {"file": "yuma.json"}
             }
         }
     },

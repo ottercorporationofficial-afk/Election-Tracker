@@ -260,19 +260,17 @@ function initElectionMap(containerSelector, mapKey, options = {}) {
             .sort((a, b) => b.votes - a.votes);
 
         const total = candidates.reduce((sum, c) => sum + c.votes, 0);
-        const leaderName = candidates[0]?.name;
 
         const rows = candidates.map(c => {
 
             const pct = total > 0 ? (c.votes / total) * 100 : 0;
             const color = candidateColors[c.name] || "#888888";
-            const isLeader = c.name === leaderName;
 
             return `
                 <div class="map-tooltip-row">
                     <span class="map-tooltip-dot" style="background:${color}"></span>
                     <span class="map-tooltip-name">
-                        ${c.name}${isLeader ? '<span class="map-tooltip-check">✓</span>' : ""}
+                        ${c.name}
                     </span>
                     <span class="map-tooltip-votes">${c.votes.toLocaleString()}</span>
                     <span class="map-tooltip-pct">${pct.toFixed(1)}%</span>
@@ -289,6 +287,17 @@ function initElectionMap(containerSelector, mapKey, options = {}) {
             <div class="map-tooltip-title">${county.name}</div>
             <div class="map-tooltip-rows">${rows}</div>
             <div class="map-tooltip-footer">${reportingText}</div>
+        `;
+
+    }
+
+    function noDataTooltipHtml(d) {
+
+        const name = d.properties?.name || d.id;
+
+        return `
+            <div class="map-tooltip-title">${name}</div>
+            <div class="map-tooltip-footer">No results reported yet</div>
         `;
 
     }
@@ -333,6 +342,31 @@ function initElectionMap(containerSelector, mapKey, options = {}) {
 
     }
 
+    // A county with data present but zero votes counted anywhere (e.g.
+    // 0% reporting) still has a "leader" from compare.py's per-county
+    // sort -- ties just resolve to whichever candidate happens to sort
+    // first, which isn't a meaningful result. Only color/label a county
+    // once it actually has at least one vote counted.
+    function countyHasResults(county) {
+
+        if (!county) return false;
+
+        const total = getCountyCandidates(county)
+            .reduce((sum, c) => sum + (c.votes || 0), 0);
+
+        return total > 0;
+
+    }
+
+    function fillColorFor(county) {
+
+        if (!countyHasResults(county))
+            return "#d9d9d9";
+
+        return candidateColors[county.leader.name] || "#888888";
+
+    }
+
     function drawMap(stateCounties, electionData) {
 
         const countyResults = buildCountyResults(electionData);
@@ -348,7 +382,7 @@ function initElectionMap(containerSelector, mapKey, options = {}) {
                 if (!county)
                     return "#d9d9d9";
 
-                return candidateColors[county.leader.name] || "#888888";
+                return fillColorFor(county);
 
             })
             .attr("stroke", "#333")
@@ -356,7 +390,12 @@ function initElectionMap(containerSelector, mapKey, options = {}) {
             .attr("aria-label", d => {
 
                 const county = countyResults[d.id];
-                return county ? `${county.name}: ${county.leader.name} leads` : d.id;
+
+                if (!county) return d.id;
+
+                return countyHasResults(county)
+                    ? `${county.name}: ${county.leader.name} leads`
+                    : `${county.name}: no results yet`;
 
             })
             .on("mouseenter", function (event, d) {
@@ -372,19 +411,14 @@ function initElectionMap(containerSelector, mapKey, options = {}) {
 
                 const county = countyResults[d.id];
 
-                if (county) {
-                    tooltip.html(tooltipHtml(county));
-                    positionTooltip(event);
-                    tooltip.classed("visible", true);
-                }
+                tooltip.html(county ? tooltipHtml(county) : noDataTooltipHtml(d));
+                positionTooltip(event);
+                tooltip.classed("visible", true);
 
             })
             .on("mousemove", function (event, d) {
 
-                const county = countyResults[d.id];
-
-                if (county)
-                    positionTooltip(event);
+                positionTooltip(event);
 
             })
             .on("mouseleave", function () {
@@ -419,7 +453,7 @@ function initElectionMap(containerSelector, mapKey, options = {}) {
                 if (!county)
                     return "#d9d9d9";
 
-                return candidateColors[county.leader.name] || "#888888";
+                return fillColorFor(county);
 
             });
 
