@@ -73,6 +73,14 @@ if STATIC.exists():
         return FileResponse(STATIC / "arizona-governor-primary.html")
 
 
+    @app.get("/debug")
+    def debug():
+        return {
+            "static_exists": STATIC.exists(),
+            "files": [f.name for f in STATIC.iterdir()]
+        }
+
+
 # API endpoints
 @app.get("/latest")
 def latest(race: str = "co_governor_primary"):
