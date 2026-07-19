@@ -56,6 +56,11 @@ if STATIC.exists():
     def colorado():
         return FileResponse(STATIC / "colorado.html")
 
+
+    @app.get("/chat")
+    def chat():
+        return FileResponse(STATIC / "chat.html")
+
     @app.get("/colorado/governor-primary")
     def colorado_governor_primary():
         return FileResponse(STATIC / "colorado-governor-primary.html")
