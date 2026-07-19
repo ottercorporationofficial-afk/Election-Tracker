@@ -70,9 +70,10 @@ def _prune_expired():
 
 
 def _make_title(first_message):
-    title = first_message.strip().replace("\n", " ")
-    if len(title) > 48:
-        title = title[:45].rstrip() + "..."
+    words = first_message.strip().replace("\n", " ").split()
+    title = " ".join(words[:4])
+    if len(words) > 4:
+        title += "..."
     return title or "New chat"
 
 
