@@ -24,18 +24,29 @@
 
 <script src="/js/nav.js"></script>
 
-
 <div id="chat">
-    <div id="messages"></div>
 
-    <input
-        id="message"
-        placeholder="Ask Otter AI..."
-    >
+    <div id="chat-sidebar">
+        <button id="new-chat-btn" onclick="startNewChat()">+ New chat</button>
+        <div id="conversation-list"></div>
+    </div>
 
-    <button onclick="sendMessage()">
-        Send
-    </button>
+    <div id="chat-main">
+
+        <div id="messages"></div>
+
+        <div class="chat-input-bar">
+            <input
+                id="message"
+                placeholder="Ask Otter AI..."
+            >
+            <button onclick="sendMessage()">
+                Send
+            </button>
+        </div>
+
+    </div>
+
 </div>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
