@@ -38,7 +38,7 @@ RACES = {
     # data doesn't already include a fips field.
     "az_governor_republican_primary_2026": {
         "source": "civicapi",
-        "race_id": 28638,
+        "race_id": 84359,
         "state": "az"
     },
 
