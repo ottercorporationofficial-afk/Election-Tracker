@@ -2,16 +2,15 @@
 
 let chatSending = false;
 
-// One conversation ID per browser tab, persisted via sessionStorage so a
-// page refresh doesn't lose context (a new tab gets a fresh one). This is
-// what lets the backend remember prior messages -- without it, every
-// message would be treated as a totally isolated question with no idea
-// what "it" or "that race" refers to.
+// One conversation ID per browser/device, persisted via localStorage so
+// it survives closing the tab or browser entirely (sessionStorage would
+// wipe it on tab close). Still scoped to this one browser/device --
+// a different browser or clearing site data starts fresh.
 function getConversationId() {
-    let id = sessionStorage.getItem("otter_chat_conversation_id");
+    let id = localStorage.getItem("otter_chat_conversation_id");
     if (!id) {
         id = (crypto.randomUUID ? crypto.randomUUID() : `chat-${Date.now()}-${Math.random()}`);
-        sessionStorage.setItem("otter_chat_conversation_id", id);
+        localStorage.setItem("otter_chat_conversation_id", id);
     }
     return id;
 }
@@ -51,16 +50,23 @@ async function sendMessage() {
         const data = await response.json();
 
         thinkingEl.textContent = data.response;
+        scrollToBottom();
 
     } catch (err) {
         thinkingEl.textContent = "Something went wrong -- try again.";
         thinkingEl.classList.add("chat-msg-error");
+        scrollToBottom();
         console.error("Chat error:", err);
     } finally {
         chatSending = false;
         input.disabled = false;
         input.focus();
     }
+}
+
+function scrollToBottom() {
+    const messages = document.getElementById("messages");
+    messages.scrollTop = messages.scrollHeight;
 }
 
 function appendMessage(text, role) {
@@ -72,7 +78,7 @@ function appendMessage(text, role) {
     el.textContent = text;  // textContent, not innerHTML -- never parsed as HTML, so nothing typed can break layout or inject markup
 
     messages.appendChild(el);
-    messages.scrollTop = messages.scrollHeight;  // auto-scroll to the newest message
+    scrollToBottom();
 
     return el;
 }

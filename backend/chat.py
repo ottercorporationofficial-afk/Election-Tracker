@@ -12,6 +12,7 @@ import os
 import json
 import logging
 import time
+from pathlib import Path
 
 from google import genai
 from google.genai import types
@@ -24,31 +25,79 @@ logger = logging.getLogger(__name__)
 MODEL = "gemini-3.1-flash-lite"
 MAX_TOOL_TURNS = 6  # hard cap so a confused model can't loop forever
 
-# In-memory conversation history, keyed by a conversation_id the frontend
-# generates once per tab/session. Stores the SDK's own history objects
-# directly (not JSON) since this never leaves the Python process.
-_conversations = {}
-_CONVERSATION_TTL_SECONDS = 60 * 60 * 2  # drop conversations after 2hrs idle
+# Conversation history persisted to disk (not just in-memory), so a
+# server restart or Railway redeploy doesn't wipe every active
+# conversation. Same JSON-file pattern as admin_store.py.
+#
+# The SDK's history objects (types.Content) are pydantic models, so they
+# serialize/deserialize via model_dump()/model_validate() -- if that ever
+# fails for a stored conversation (e.g. after a library upgrade changes
+# the shape), that one conversation just starts fresh instead of
+# crashing the whole request.
+STORE_PATH = Path(__file__).resolve().parent / "data" / "chat_conversations.json"
+_CONVERSATION_TTL_SECONDS = 60 * 60 * 24 * 14  # drop conversations after 14 days idle
+
+# Small in-memory cache on top of the file, so a rapid back-and-forth
+# conversation doesn't hit disk on every single message.
+_cache = {}
+
+
+def _load_all():
+    if not STORE_PATH.exists():
+        return {}
+    try:
+        with open(STORE_PATH) as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        logger.exception("Failed to read chat_conversations.json, starting fresh")
+        return {}
+
+
+def _save_all(data):
+    STORE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(STORE_PATH, "w") as f:
+        json.dump(data, f)
 
 
 def _get_history(conversation_id):
-    entry = _conversations.get(conversation_id)
+
+    if conversation_id in _cache:
+        entry = _cache[conversation_id]
+    else:
+        all_data = _load_all()
+        entry = all_data.get(conversation_id)
+        if entry:
+            _cache[conversation_id] = entry
 
     if entry is None:
         return None
 
     if time.time() - entry["last_used"] > _CONVERSATION_TTL_SECONDS:
-        del _conversations[conversation_id]
         return None
 
-    return entry["history"]
+    try:
+        return [types.Content.model_validate(item) for item in entry["history"]]
+    except Exception:
+        logger.exception("Stored history for conversation '%s' failed to deserialize -- starting fresh", conversation_id)
+        return None
 
 
 def _save_history(conversation_id, history):
-    _conversations[conversation_id] = {
-        "history": history,
-        "last_used": time.time()
-    }
+
+    serialized = [content.model_dump(mode="json") for content in history]
+
+    entry = {"history": serialized, "last_used": time.time()}
+    _cache[conversation_id] = entry
+
+    all_data = _load_all()
+    all_data[conversation_id] = entry
+
+    # Prune anything past TTL while we're already writing, so the file
+    # doesn't grow forever with abandoned conversations.
+    cutoff = time.time() - _CONVERSATION_TTL_SECONDS
+    all_data = {cid: e for cid, e in all_data.items() if e.get("last_used", 0) > cutoff}
+
+    _save_all(all_data)
 
 
 def _build_tools():
