@@ -59,6 +59,7 @@ async function sendMessage() {
 
         const isNewConversation = currentConversationId === null;
         currentConversationId = data.conversation_id;
+        updateTitleBar(data.title);
 
         if (isNewConversation) {
             // First message of a brand-new conversation -- it now exists
@@ -111,7 +112,12 @@ function startNewChat() {
     currentConversationId = null;
     document.getElementById("messages").innerHTML = "";
     document.getElementById("message").focus();
+    updateTitleBar("");
     highlightActiveConversation();
+}
+
+function updateTitleBar(title) {
+    document.getElementById("chat-title-bar").textContent = title || "";
 }
 
 // --------------------
@@ -172,6 +178,9 @@ async function switchConversation(conversationId) {
 
     currentConversationId = conversationId;
     highlightActiveConversation();
+
+    const sidebarItem = document.querySelector(`[data-conversation-id="${conversationId}"] .conversation-item-title`);
+    updateTitleBar(sidebarItem ? sidebarItem.textContent : "");
 
     const response = await fetch(
         `/chat/conversations/${encodeURIComponent(conversationId)}?browser_id=${encodeURIComponent(getBrowserId())}`
