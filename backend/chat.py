@@ -1,11 +1,11 @@
 """
 Chat orchestration
 ------------------
-Runs the actual tool-calling loop against Gemini's Interactions API
-(google-genai SDK). Handles the model calling zero, one, or multiple
-tools -- including calling a tool, getting a result, then calling
-another tool based on that (compositional calling) -- before producing
-a final natural-language answer.
+Runs the tool-calling loop against the REAL google-genai SDK surface:
+client.chats.create() / chat.send_message() -- NOT an "Interactions API"
+(an earlier version of this file was built against docs describing an
+API that doesn't exist in the actual shipped SDK; this is the corrected
+version, verified against the SDK's own GitHub README/docs/quickstart).
 """
 
 import os
@@ -14,6 +14,7 @@ import logging
 import time
 
 from google import genai
+from google.genai import types
 
 from backend import ai_tools
 from backend.registry import RACES
@@ -24,15 +25,8 @@ MODEL = "gemini-3.1-flash-lite"
 MAX_TOOL_TURNS = 6  # hard cap so a confused model can't loop forever
 
 # In-memory conversation history, keyed by a conversation_id the frontend
-# generates once per tab/session and sends with every request. This is
-# what makes follow-ups like "what about by margin" resolve correctly --
-# without it, every message is a totally isolated request with no idea
-# what "it" refers to.
-#
-# In-memory means history is lost on server restart -- fine for a chat
-# widget (not mission-critical state), but if you want it to survive
-# restarts/scale across multiple server processes, swap this for a real
-# store (redis, a database table) using the same get/append interface.
+# generates once per tab/session. Stores the SDK's own history objects
+# directly (not JSON) since this never leaves the Python process.
 _conversations = {}
 _CONVERSATION_TTL_SECONDS = 60 * 60 * 2  # drop conversations after 2hrs idle
 
@@ -41,11 +35,11 @@ def _get_history(conversation_id):
     entry = _conversations.get(conversation_id)
 
     if entry is None:
-        return []
+        return None
 
     if time.time() - entry["last_used"] > _CONVERSATION_TTL_SECONDS:
         del _conversations[conversation_id]
-        return []
+        return None
 
     return entry["history"]
 
@@ -57,13 +51,19 @@ def _save_history(conversation_id, history):
     }
 
 
+def _build_tools():
+    declarations = [
+        types.FunctionDeclaration(
+            name=tool["name"],
+            description=tool["description"],
+            parameters_json_schema=tool["parameters"]
+        )
+        for tool in ai_tools.TOOLS
+    ]
+    return [types.Tool(function_declarations=declarations)]
+
+
 def _build_system_context():
-    # Race list embedded directly here (not left for the model to
-    # discover via the list_races tool) so a typical question only needs
-    # ONE tool call (get_race_summary/get_county_result), not two
-    # (list_races, then the real one) -- saves a full network round-trip
-    # on the most common category of question. list_races is still
-    # available as a tool for anything unusual (e.g. "what races exist").
     race_lines = "\n".join(
         f"- {key} (state: {config.get('state', 'unknown')})"
         for key, config in RACES.items()
@@ -98,9 +98,9 @@ def _build_system_context():
         "call list_races first unless the user asks something list_races-"
         "specific, like what races exist):\n"
         f"{race_lines}\n\n"
-        "Never show complex math or explain how you got to a answer in a question. do not give an mathematical explanation unless the user asks"
         "Keep answers concise and conversational, not like a raw data dump."
     )
+
 
 _client = None
 
@@ -119,67 +119,54 @@ def chat(message, conversation_id=None):
 
     client = _get_client()
 
-    history = _get_history(conversation_id) if conversation_id else []
+    history = _get_history(conversation_id) if conversation_id else None
+    is_new_conversation = history is None
 
-    # System context only needs to go in ONCE per conversation -- it's
-    # part of history from then on, the model doesn't need it repeated
-    # every turn. This is also what makes race identity actually stick
-    # across follow-ups instead of resetting each message.
-    user_text = f"{_build_system_context()}\n\nUser: {message}" if not history else message
-
-    history.append({
-        "type": "user_input",
-        "content": [{"type": "text", "text": user_text}]
-    })
-
-    interaction = client.interactions.create(
+    create_kwargs = dict(
         model=MODEL,
-        store=False,
-        input=history,
-        tools=ai_tools.TOOLS
+        config=types.GenerateContentConfig(tools=_build_tools())
     )
 
-    for step in interaction.steps:
-        history.append(step.model_dump())
+    if history:
+        create_kwargs["history"] = history
+
+    chat_session = client.chats.create(**create_kwargs)
+
+    # System context only needs to go in ONCE per conversation -- after
+    # that it's part of the session's own history.
+    user_text = f"{_build_system_context()}\n\nUser: {message}" if is_new_conversation else message
+
+    response = chat_session.send_message(user_text)
 
     for _ in range(MAX_TOOL_TURNS):
 
-        function_call_steps = [s for s in interaction.steps if s.type == "function_call"]
+        function_calls = getattr(response, "function_calls", None) or []
 
-        if not function_call_steps:
+        if not function_calls:
             break
 
-        for step in function_call_steps:
+        response_parts = []
 
-            fn = ai_tools.TOOL_FUNCTIONS.get(step.name)
+        for fc in function_calls:
+
+            fn = ai_tools.TOOL_FUNCTIONS.get(fc.name)
 
             if fn is None:
-                result = {"error": f"Unknown tool '{step.name}'"}
+                result = {"error": f"Unknown tool '{fc.name}'"}
             else:
                 try:
-                    result = fn(**step.arguments)
+                    result = fn(**(fc.args or {}))
                 except Exception as e:
-                    logger.exception("Tool '%s' raised an exception", step.name)
+                    logger.exception("Tool '%s' raised an exception", fc.name)
                     result = {"error": str(e)}
 
-            history.append({
-                "type": "function_result",
-                "name": step.name,
-                "call_id": step.id,
-                "result": [{"type": "text", "text": json.dumps(result)}]
-            })
+            response_parts.append(
+                types.Part.from_function_response(name=fc.name, response={"result": result})
+            )
 
-        interaction = client.interactions.create(
-            model=MODEL,
-            store=False,
-            input=history,
-            tools=ai_tools.TOOLS
-        )
-
-        for step in interaction.steps:
-            history.append(step.model_dump())
+        response = chat_session.send_message(response_parts)
 
     if conversation_id:
-        _save_history(conversation_id, history)
+        _save_history(conversation_id, chat_session.get_history())
 
-    return interaction.output_text or "I wasn't able to fully answer that -- could you try rephrasing?"
+    return response.text or "I wasn't able to fully answer that -- could you try rephrasing?"
