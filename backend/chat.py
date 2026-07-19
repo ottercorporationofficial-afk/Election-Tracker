@@ -1,17 +1,19 @@
 """
 Chat orchestration
 ------------------
-Runs the tool-calling loop against the REAL google-genai SDK surface:
-client.chats.create() / chat.send_message() -- NOT an "Interactions API"
-(an earlier version of this file was built against docs describing an
-API that doesn't exist in the actual shipped SDK; this is the corrected
-version, verified against the SDK's own GitHub README/docs/quickstart).
+Runs the tool-calling loop against the real google-genai SDK
+(client.chats.create() / chat.send_message()).
+
+Supports multiple named conversations per browser (like ChatGPT/Claude's
+sidebar), identified by a browser_id the frontend generates once and
+never changes, plus a conversation_id per individual chat thread.
 """
 
 import os
 import json
 import logging
 import time
+import uuid
 from pathlib import Path
 
 from google import genai
@@ -25,54 +27,114 @@ logger = logging.getLogger(__name__)
 MODEL = "gemini-3.1-flash-lite"
 MAX_TOOL_TURNS = 6  # hard cap so a confused model can't loop forever
 
-# Conversation history persisted to disk (not just in-memory), so a
-# server restart or Railway redeploy doesn't wipe every active
-# conversation. Same JSON-file pattern as admin_store.py.
-#
-# The SDK's history objects (types.Content) are pydantic models, so they
-# serialize/deserialize via model_dump()/model_validate() -- if that ever
-# fails for a stored conversation (e.g. after a library upgrade changes
-# the shape), that one conversation just starts fresh instead of
-# crashing the whole request.
 STORE_PATH = Path(__file__).resolve().parent / "data" / "chat_conversations.json"
-_CONVERSATION_TTL_SECONDS = 60 * 60 * 24 * 14  # drop conversations after 14 days idle
+_CONVERSATION_TTL_SECONDS = 60 * 60 * 24 * 90  # keep conversations 90 days
 
-# Small in-memory cache on top of the file, so a rapid back-and-forth
-# conversation doesn't hit disk on every single message.
-_cache = {}
+_cache = None  # whole store, loaded lazily; small enough for a chat widget to keep fully in memory
 
 
 def _load_all():
+    global _cache
+
+    if _cache is not None:
+        return _cache
+
     if not STORE_PATH.exists():
-        return {}
+        _cache = {}
+        return _cache
+
     try:
         with open(STORE_PATH) as f:
-            return json.load(f)
+            _cache = json.load(f)
     except (json.JSONDecodeError, OSError):
         logger.exception("Failed to read chat_conversations.json, starting fresh")
-        return {}
+        _cache = {}
+
+    return _cache
 
 
-def _save_all(data):
+def _save_all():
     STORE_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(STORE_PATH, "w") as f:
-        json.dump(data, f)
+        json.dump(_cache, f)
 
 
-def _get_history(conversation_id):
+def _prune_expired():
+    cutoff = time.time() - _CONVERSATION_TTL_SECONDS
+    all_data = _load_all()
+    expired = [cid for cid, entry in all_data.items() if entry.get("last_used", 0) < cutoff]
+    for cid in expired:
+        del all_data[cid]
+    if expired:
+        _save_all()
 
-    if conversation_id in _cache:
-        entry = _cache[conversation_id]
-    else:
-        all_data = _load_all()
-        entry = all_data.get(conversation_id)
-        if entry:
-            _cache[conversation_id] = entry
 
-    if entry is None:
+def _make_title(first_message):
+    title = first_message.strip().replace("\n", " ")
+    if len(title) > 48:
+        title = title[:45].rstrip() + "..."
+    return title or "New chat"
+
+
+def list_conversations(browser_id):
+    """
+    All conversations belonging to one browser_id, newest first --
+    powers the sidebar list. Returns metadata only (id, title, last_used),
+    not full message content.
+    """
+    _prune_expired()
+    all_data = _load_all()
+
+    conversations = [
+        {
+            "conversation_id": cid,
+            "title": entry.get("title", "New chat"),
+            "last_used": entry.get("last_used")
+        }
+        for cid, entry in all_data.items()
+        if entry.get("browser_id") == browser_id
+    ]
+
+    conversations.sort(key=lambda c: c["last_used"], reverse=True)
+    return conversations
+
+
+def get_display_messages(conversation_id, browser_id):
+    """
+    The visible message bubbles for one conversation (role + text only,
+    no tool-call internals) -- used to repopulate the chat window when
+    switching to/reopening a conversation.
+    """
+    all_data = _load_all()
+    entry = all_data.get(conversation_id)
+
+    if entry is None or entry.get("browser_id") != browser_id:
         return None
 
-    if time.time() - entry["last_used"] > _CONVERSATION_TTL_SECONDS:
+    return entry.get("display_messages", [])
+
+
+def delete_conversation(conversation_id, browser_id):
+    all_data = _load_all()
+    entry = all_data.get(conversation_id)
+
+    if entry is None or entry.get("browser_id") != browser_id:
+        return False
+
+    del all_data[conversation_id]
+    _save_all()
+    return True
+
+
+def _get_entry(conversation_id):
+    all_data = _load_all()
+    return all_data.get(conversation_id)
+
+
+def _get_sdk_history(conversation_id):
+    entry = _get_entry(conversation_id)
+
+    if entry is None:
         return None
 
     try:
@@ -82,22 +144,18 @@ def _get_history(conversation_id):
         return None
 
 
-def _save_history(conversation_id, history):
-
-    serialized = [content.model_dump(mode="json") for content in history]
-
-    entry = {"history": serialized, "last_used": time.time()}
-    _cache[conversation_id] = entry
-
+def _save_conversation(conversation_id, browser_id, title, sdk_history, display_messages):
     all_data = _load_all()
-    all_data[conversation_id] = entry
 
-    # Prune anything past TTL while we're already writing, so the file
-    # doesn't grow forever with abandoned conversations.
-    cutoff = time.time() - _CONVERSATION_TTL_SECONDS
-    all_data = {cid: e for cid, e in all_data.items() if e.get("last_used", 0) > cutoff}
+    all_data[conversation_id] = {
+        "browser_id": browser_id,
+        "title": title,
+        "history": [content.model_dump(mode="json") for content in sdk_history],
+        "display_messages": display_messages,
+        "last_used": time.time()
+    }
 
-    _save_all(all_data)
+    _save_all()
 
 
 def _build_tools():
@@ -164,25 +222,41 @@ def _get_client():
     return _client
 
 
-def chat(message, conversation_id=None):
+def chat(message, browser_id, conversation_id=None):
+    """
+    Returns (response_text, conversation_id, title) -- conversation_id is
+    generated fresh if this is a new conversation, so the caller can hand
+    it back to the frontend to remember for subsequent messages in the
+    same thread.
+    """
 
     client = _get_client()
 
-    history = _get_history(conversation_id) if conversation_id else None
-    is_new_conversation = history is None
+    is_new_conversation = conversation_id is None
+
+    if is_new_conversation:
+        conversation_id = str(uuid.uuid4())
+        sdk_history = None
+        display_messages = []
+        title = _make_title(message)
+    else:
+        sdk_history = _get_sdk_history(conversation_id)
+        entry = _get_entry(conversation_id)
+        display_messages = (entry or {}).get("display_messages", [])
+        title = (entry or {}).get("title") or _make_title(message)
+        if sdk_history is None:
+            is_new_conversation = True  # couldn't restore -- treat as fresh
 
     create_kwargs = dict(
         model=MODEL,
         config=types.GenerateContentConfig(tools=_build_tools())
     )
 
-    if history:
-        create_kwargs["history"] = history
+    if sdk_history:
+        create_kwargs["history"] = sdk_history
 
     chat_session = client.chats.create(**create_kwargs)
 
-    # System context only needs to go in ONCE per conversation -- after
-    # that it's part of the session's own history.
     user_text = f"{_build_system_context()}\n\nUser: {message}" if is_new_conversation else message
 
     response = chat_session.send_message(user_text)
@@ -215,7 +289,19 @@ def chat(message, conversation_id=None):
 
         response = chat_session.send_message(response_parts)
 
-    if conversation_id:
-        _save_history(conversation_id, chat_session.get_history())
+    final_text = response.text or "I wasn't able to fully answer that -- could you try rephrasing?"
 
-    return response.text or "I wasn't able to fully answer that -- could you try rephrasing?"
+    display_messages = display_messages + [
+        {"role": "user", "text": message},
+        {"role": "ai", "text": final_text}
+    ]
+
+    _save_conversation(
+        conversation_id,
+        browser_id,
+        title,
+        chat_session.get_history(),
+        display_messages
+    )
+
+    return final_text, conversation_id, title

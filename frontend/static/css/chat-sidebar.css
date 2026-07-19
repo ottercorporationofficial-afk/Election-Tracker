@@ -1,0 +1,273 @@
+/* ==========================================================
+   CHAT PAGE WITH SIDEBAR
+   Add this alongside your existing chat-widget.css bubble styles
+========================================================== */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#chat {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    background: var(--bg, #0d0f14);
+}
+
+/* --------------------
+   Sidebar
+-------------------- */
+
+#chat-sidebar {
+    width: 260px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px 12px;
+
+    background: var(--panel);
+    border-right: 1px solid var(--border);
+    overflow-y: auto;
+}
+
+#new-chat-btn {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px 14px;
+    background: transparent;
+    color: var(--text);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: left;
+    cursor: pointer;
+    transition: background .15s var(--ease);
+}
+
+#new-chat-btn:hover {
+    background: #262b36;
+}
+
+#conversation-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 8px;
+}
+
+.conversation-list-empty {
+    color: var(--muted);
+    font-size: 0.85rem;
+    padding: 12px 10px;
+}
+
+.conversation-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+    padding: 9px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: var(--text);
+    transition: background .15s var(--ease);
+}
+
+.conversation-item:hover {
+    background: #262b36;
+}
+
+.conversation-item.active {
+    background: #2a3040;
+}
+
+.conversation-item-title {
+    flex: 1;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.conversation-item-delete {
+    border: none;
+    background: transparent;
+    color: var(--muted);
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 2px 6px;
+    border-radius: 4px;
+    flex-shrink: 0;
+    opacity: 0;
+    transition: opacity .15s var(--ease), color .15s var(--ease), background .15s var(--ease);
+}
+
+.conversation-item:hover .conversation-item-delete {
+    opacity: 1;
+}
+
+.conversation-item-delete:hover {
+    color: #f4777f;
+    background: #3a2530;
+}
+
+/* --------------------
+   Main chat column
+-------------------- */
+
+#chat-main {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#messages {
+    width: min(820px, 92%);
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px 8px 24px;
+}
+
+#messages::-webkit-scrollbar {
+    width: 6px;
+}
+
+#messages::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 3px;
+}
+
+#messages .chat-msg {
+    max-width: 75%;
+    padding: 12px 16px;
+    border-radius: 18px;
+    font-size: 1rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+
+#messages .chat-msg-ai {
+    align-self: flex-start;
+    background: #262b36;
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-bottom-left-radius: 4px;
+}
+
+#messages .chat-msg-user {
+    align-self: flex-end;
+    background: var(--accent);
+    color: #0b1220;
+    font-weight: 600;
+    border-bottom-right-radius: 4px;
+}
+
+#messages .chat-msg-error {
+    border-color: #c1272d;
+    color: #f4777f;
+}
+
+#messages:empty::before {
+    content: "Ask Otter AI anything about the race.";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--muted);
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.chat-input-bar {
+    width: min(820px, 92%);
+    margin: 0 0 28px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    box-shadow: var(--shadow-hover);
+    padding: 6px 6px 6px 20px;
+}
+
+.chat-input-bar input#message {
+    flex: 1;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: var(--text);
+    font-size: 1rem;
+    padding: 12px 0;
+}
+
+.chat-input-bar input#message::placeholder {
+    color: var(--muted);
+}
+
+.chat-input-bar input#message:disabled {
+    opacity: 0.6;
+}
+
+.chat-input-bar button {
+    border: none;
+    border-radius: 999px;
+    padding: 11px 22px;
+    background: var(--accent);
+    color: #0b1220;
+    font-weight: 700;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: filter .15s var(--ease);
+}
+
+.chat-input-bar button:hover {
+    filter: brightness(1.08);
+}
+
+/* --------------------
+   Phones -- sidebar becomes a top strip instead of a side column
+-------------------- */
+
+@media (max-width: 720px) {
+    #chat {
+        flex-direction: column;
+    }
+
+    #chat-sidebar {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        overflow-x: auto;
+        overflow-y: visible;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+        padding: 10px 12px;
+    }
+
+    #conversation-list {
+        flex-direction: row;
+        margin-top: 0;
+    }
+
+    .conversation-item {
+        white-space: nowrap;
+    }
+
+    .conversation-item-title {
+        max-width: 140px;
+    }
+}

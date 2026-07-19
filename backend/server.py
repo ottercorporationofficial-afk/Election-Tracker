@@ -52,10 +52,6 @@ if STATIC.exists():
     def home():
         return RedirectResponse("/colorado")
 
-    @app.get("/chatbot")
-    def chatbot():
-        return FileResponse(STATIC / "chatbox.html")
-
     @app.get("/colorado")
     def colorado():
         return FileResponse(STATIC / "colorado.html")
@@ -71,14 +67,6 @@ if STATIC.exists():
     @app.get("/arizona/governor-primary")
     def arizona_governor_primary():
         return FileResponse(STATIC / "arizona-governor-primary.html")
-
-
-    @app.get("/debug")
-    def debug():
-        return {
-            "static_exists": STATIC.exists(),
-            "files": [f.name for f in STATIC.iterdir()]
-        }
 
 
 # API endpoints
@@ -98,6 +86,7 @@ def history(race: str = "co_governor_primary"):
 
 class ChatRequest(BaseModel):
     message: str
+    browser_id: str
     conversation_id: str | None = None
 
 
@@ -106,12 +95,46 @@ def chat_endpoint(payload: ChatRequest):
     from backend import chat as chat_module
 
     try:
-        response_text = chat_module.chat(payload.message, conversation_id=payload.conversation_id)
+        response_text, conversation_id, title = chat_module.chat(
+            payload.message,
+            browser_id=payload.browser_id,
+            conversation_id=payload.conversation_id
+        )
     except Exception as e:
         logging.exception("Chat request failed")
         return {"response": f"Sorry, something went wrong: {e}"}
 
-    return {"response": response_text}
+    return {"response": response_text, "conversation_id": conversation_id, "title": title}
+
+
+@app.get("/chat/conversations")
+def chat_list_conversations(browser_id: str):
+    from backend import chat as chat_module
+    return {"conversations": chat_module.list_conversations(browser_id)}
+
+
+@app.get("/chat/conversations/{conversation_id}")
+def chat_get_conversation(conversation_id: str, browser_id: str):
+    from backend import chat as chat_module
+
+    messages = chat_module.get_display_messages(conversation_id, browser_id)
+
+    if messages is None:
+        raise HTTPException(status_code=404, detail="Conversation not found")
+
+    return {"messages": messages}
+
+
+@app.delete("/chat/conversations/{conversation_id}")
+def chat_delete_conversation(conversation_id: str, browser_id: str):
+    from backend import chat as chat_module
+
+    deleted = chat_module.delete_conversation(conversation_id, browser_id)
+
+    if not deleted:
+        raise HTTPException(status_code=404, detail="Conversation not found")
+
+    return {"ok": True}
 
 
 # --------------------
