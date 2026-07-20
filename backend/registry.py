@@ -22,13 +22,24 @@ never derived from vote counts automatically. Leave unset (or null) until
 you're ready to call it. This shows up in the API response and the
 statewide panel; it has no effect on the map/tooltips, which always show
 raw current vote standings only.
+
+Also optional, used by storage.py to decide where a race's saved data
+lives on disk (data/races/<STATE>/<cycle>/<race_key>/):
+
+  "state": "az"                 -> uppercased for the folder name (AZ)
+  "cycle": "2026-primaries"     -> used as-is for the folder name
+
+Races missing either field still work fine -- they just land under
+UNKNOWN/uncategorized instead of a clean state/cycle folder.
 """
 
 RACES = {
 
     "co_governor_primary": {
         "source": "civicapi",
-        "race_id": 84287
+        "race_id": 84287,
+        "state": "co",
+        "cycle": "2026-primaries"
     },
 
     # AZ Governor Republican Primary 2026 -- currently just Maricopa; add
@@ -39,13 +50,15 @@ RACES = {
     "az_governor_republican_primary_2026": {
         "source": "civicapi",
         "race_id": 84359,
-        "state": "az"
+        "state": "az",
+        "cycle": "2026-primaries"
     },
 
     "az_secretary_of_state_republican_2026": {
         "source": "civicapi",
         "race_id": 84412,
-        "state": "az"
+        "state": "az",
+        "cycle": "2026-primaries"
     },
     # TEST-ONLY twin of the race above -- same fips/geography, but reads a
     # local file instead of hitting Maricopa's live URL. Point your AZ

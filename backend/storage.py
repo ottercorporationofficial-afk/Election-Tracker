@@ -7,12 +7,30 @@ from datetime import datetime
 # from inside backend/, snapshots always land in the same place.
 DATA_DIR = Path(__file__).resolve().parent / "data"
 
-# Every race gets its own subfolder under data/races, keyed by race_key
-# from registry.py, so tracking multiple races at once doesn't clobber a
-# single shared latest.json.
+# Every race gets its own subfolder under data/races/<STATE>/<cycle>/<race_key>,
+# keyed off "state" and "cycle" in that race's registry.py entry -- e.g.
+#
+#   "az_governor_republican_primary_2026": {
+#       "state": "az",
+#       "cycle": "2026-primaries",
+#       ...
+#   }
+#
+# produces: data/races/AZ/2026-primaries/az_governor_republican_primary_2026/
+#
+# Races missing "state" or "cycle" still work (fall back to "UNKNOWN" /
+# "uncategorized" instead of crashing) -- but won't land in the folder
+# structure you're expecting until you add those fields.
 
 def _race_dir(race_key):
-    path = DATA_DIR / "races" / race_key
+
+    from backend.registry import RACES  # imported here, not at module load, to avoid any import-order issues
+
+    config = RACES.get(race_key, {})
+    state = (config.get("state") or "unknown").upper()
+    cycle = config.get("cycle") or "uncategorized"
+
+    path = DATA_DIR / "races" / state / cycle / race_key
     path.mkdir(parents=True, exist_ok=True)
     return path
 
