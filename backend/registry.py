@@ -42,6 +42,11 @@ RACES = {
         "state": "az"
     },
 
+    "az_secretary_of_state_republican_2026": {
+        "source": "civicapi",
+        "race_id": 84412,
+        "state": "az"
+    },
     # TEST-ONLY twin of the race above -- same fips/geography, but reads a
     # local file instead of hitting Maricopa's live URL. Point your AZ
     # page's map at data-race="az_governor_test" while testing, edit

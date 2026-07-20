@@ -54,7 +54,7 @@ if STATIC.exists():
 
     @app.get("/colorado")
     def colorado():
-        return FileResponse(STATIC / "colorado.html")
+        return FileResponse(STATIC / "races/CO/colorado.html")
 
 
     @app.get("/chat")
@@ -63,15 +63,18 @@ if STATIC.exists():
 
     @app.get("/colorado/governor-primary")
     def colorado_governor_primary():
-        return FileResponse(STATIC / "colorado-governor-primary.html")
+        return FileResponse(STATIC / "races/CO/2026-primaries/colorado-governor-primary.html")
 
     @app.get("/arizona")
     def arizona():
-        return FileResponse(STATIC / "arizona.html")
+        return FileResponse(STATIC / "races/AZ/arizona.html")
 
     @app.get("/arizona/governor-primary")
     def arizona_governor_primary():
-        return FileResponse(STATIC / "arizona-governor-primary.html")
+        return FileResponse(STATIC / "races/AZ/2026-primaries/arizona-governor-primary.html")
+    @app.get("/arizona/sos-primary")
+    def arizona_sos_primary():
+        return FileResponse(STATIC / "races/AZ/2026-primaries/arizona-sos-primary-republican-2026.html")
 
 
 # API endpoints

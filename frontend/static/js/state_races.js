@@ -16,7 +16,14 @@ const STATE_RACES = {
             path: "/arizona/governor-primary",
             raceKey: "az_governor_republican_primary_2026",
             name: "Governor — Republican Primary 2026"
+        },
+        {
+            path: "/arizona/sos-primary",
+            raceKey: "az_secretary_of_state_republican",
+            name: "Secretary Of State — Republican Primary 2026"
         }
+
+
         // Add more AZ races here as you start tracking them, e.g.:
         // { path: "/arizona/cd1-special", raceKey: "az_cd1_special_2026", name: "CD-1 Special Election" }
     ],
