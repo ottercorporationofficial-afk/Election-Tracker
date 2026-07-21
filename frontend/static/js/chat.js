@@ -117,7 +117,8 @@ function startNewChat() {
 }
 
 function updateTitleBar(title) {
-    document.getElementById("chat-title-bar").textContent = title || "";
+    const el = document.getElementById("chat-title-bar");
+    if (el) el.textContent = title || "";
 }
 
 // --------------------

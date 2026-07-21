@@ -31,7 +31,13 @@ const STATE_RACES = {
             path: "/arizona/house-01-democratic-primary",
             raceKey: "arizona-congressional-01-democrat",
             name: "Arizona House 01 — Democratic Primary 2026"
+        },
+        {
+            path: "/arizona/attorney_general_republican",
+            raceKey: "arizona_attorney_general_republican",
+            name: "Arizona Attorney General — Republican Primary 2026"
         }
+
 
 
 
