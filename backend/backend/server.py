@@ -50,7 +50,7 @@ if STATIC.exists():
 
     @app.get("/")
     def home():
-        return RedirectResponse("/arizona")
+        return RedirectResponse("/colorado")
 
     @app.get("/colorado")
     def colorado():
@@ -84,11 +84,6 @@ if STATIC.exists():
     @app.get("/arizona/house-01-democratic-primary")
     def arizona_house_05_primary():
         return FileResponse(STATIC / "races/AZ/2026-primaries/arizona-congressional-01-democrat.html")
-
-
-    @app.get("/arizona/house-04-democratic-primary")
-    def arizona_house_05_primary():
-        return FileResponse(STATIC / "races/AZ/2026-primaries/arizona-congressional-04-democrat.html")
 
 
     @app.get("/arizona/attorney_general_republican")

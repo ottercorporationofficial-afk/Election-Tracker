@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Colorado Election Tracker</title>
+
+    <link rel="icon" type="image/png" href="/images/otter-icon.png">
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<div class="top-header">
+    <div class="top-header-content">
+        <div class="site-name">Otter Elections</div>
+
+        <nav class="top-nav"></nav>
+    </div>
+</div>
+
+<script src="/js/nav.js"></script>
+
+<div class="container">
+    <header class="page-header">
+        <div class="header-left">
+            <h1>Arizona Republican House-04 Primary</h1>
+
+            <div class="header-meta">
+                <span id="last-updated"></span>
+                <span class="separator">•</span>
+                <span id="header-reporting">0% reporting</span>
+            </div>
+        </div>
+
+        <div class="live-indicator">
+            LIVE
+        </div>
+    </header>
+</div>
+
+<!-- ===================== Statewide ===================== -->
+
+<section class="overview">
+
+    <!-- Left -->
+
+    <div class="statewide-panel">
+
+        <h2>Statewide Results</h2>
+
+        <div id="statewide"></div>
+
+    </div>
+
+    <!-- Right -->
+
+    <div class="map-panel">
+
+        <h2>County Map</h2>
+
+        <div id="map" data-election-map="arizona_cd04" data-race="arizona_congressional_04_democratic"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===================== Feed ===================== -->
+
+<section class="feed-section">
+
+    <div class="feed-section-header">
+
+        <h2>Live County Feed</h2>
+
+        <div class="feed-controls">
+
+            <select id="feed-view-select" aria-label="Feed view">
+                <option value="batches">Batches</option>
+                <option value="counties">County Results</option>
+            </select>
+
+            <select id="county-filter-select" aria-label="Filter by county">
+                <option value="all">All Counties</option>
+            </select>
+
+            <button id="county-sort-toggle" class="sort-toggle-btn hidden" type="button">
+                Sort: A–Z
+            </button>
+
+        </div>
+
+    </div>
+
+    <div id="history"></div>
+
+    <div id="county-list" class="hidden"></div>
+
+</section>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+
+<script src="/js/config.js"></script>
+<script src="/js/map.js"></script>
+<script src="/js/app.js"></script>
+</body>
+
+</html>

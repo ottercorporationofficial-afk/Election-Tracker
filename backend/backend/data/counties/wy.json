@@ -1,0 +1,163 @@
+{
+  "56001": {
+    "name": "ALBANY",
+    "slug": "albany",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "001"
+  },
+  "56003": {
+    "name": "BIG HORN",
+    "slug": "big_horn",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "003"
+  },
+  "56005": {
+    "name": "CAMPBELL",
+    "slug": "campbell",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "005"
+  },
+  "56007": {
+    "name": "CARBON",
+    "slug": "carbon",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "007"
+  },
+  "56009": {
+    "name": "CONVERSE",
+    "slug": "converse",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "009"
+  },
+  "56011": {
+    "name": "CROOK",
+    "slug": "crook",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "011"
+  },
+  "56013": {
+    "name": "FREMONT",
+    "slug": "fremont",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "013"
+  },
+  "56015": {
+    "name": "GOSHEN",
+    "slug": "goshen",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "015"
+  },
+  "56017": {
+    "name": "HOT SPRINGS",
+    "slug": "hot_springs",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "017"
+  },
+  "56019": {
+    "name": "JOHNSON",
+    "slug": "johnson",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "019"
+  },
+  "56021": {
+    "name": "LARAMIE",
+    "slug": "laramie",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "021"
+  },
+  "56023": {
+    "name": "LINCOLN",
+    "slug": "lincoln",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "023"
+  },
+  "56025": {
+    "name": "NATRONA",
+    "slug": "natrona",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "025"
+  },
+  "56027": {
+    "name": "NIOBRARA",
+    "slug": "niobrara",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "027"
+  },
+  "56029": {
+    "name": "PARK",
+    "slug": "park",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "029"
+  },
+  "56031": {
+    "name": "PLATTE",
+    "slug": "platte",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "031"
+  },
+  "56033": {
+    "name": "SHERIDAN",
+    "slug": "sheridan",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "033"
+  },
+  "56035": {
+    "name": "SUBLETTE",
+    "slug": "sublette",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "035"
+  },
+  "56037": {
+    "name": "SWEETWATER",
+    "slug": "sweetwater",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "037"
+  },
+  "56039": {
+    "name": "TETON",
+    "slug": "teton",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "039"
+  },
+  "56041": {
+    "name": "UINTA",
+    "slug": "uinta",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "041"
+  },
+  "56043": {
+    "name": "WASHAKIE",
+    "slug": "washakie",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "043"
+  },
+  "56045": {
+    "name": "WESTON",
+    "slug": "weston",
+    "state": "WY",
+    "state_fips": "56",
+    "county_fips": "045"
+  }
+}

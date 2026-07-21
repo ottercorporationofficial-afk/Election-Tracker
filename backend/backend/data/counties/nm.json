@@ -1,0 +1,233 @@
+{
+  "35001": {
+    "name": "BERNALILLO",
+    "slug": "bernalillo",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "001"
+  },
+  "35003": {
+    "name": "CATRON",
+    "slug": "catron",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "003"
+  },
+  "35005": {
+    "name": "CHAVES",
+    "slug": "chaves",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "005"
+  },
+  "35006": {
+    "name": "CIBOLA",
+    "slug": "cibola",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "006"
+  },
+  "35007": {
+    "name": "COLFAX",
+    "slug": "colfax",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "007"
+  },
+  "35009": {
+    "name": "CURRY",
+    "slug": "curry",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "009"
+  },
+  "35011": {
+    "name": "DE BACA",
+    "slug": "de_baca",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "011"
+  },
+  "35013": {
+    "name": "DONA ANA",
+    "slug": "dona_ana",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "013"
+  },
+  "35015": {
+    "name": "EDDY",
+    "slug": "eddy",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "015"
+  },
+  "35017": {
+    "name": "GRANT",
+    "slug": "grant",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "017"
+  },
+  "35019": {
+    "name": "GUADALUPE",
+    "slug": "guadalupe",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "019"
+  },
+  "35021": {
+    "name": "HARDING",
+    "slug": "harding",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "021"
+  },
+  "35023": {
+    "name": "HIDALGO",
+    "slug": "hidalgo",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "023"
+  },
+  "35025": {
+    "name": "LEA",
+    "slug": "lea",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "025"
+  },
+  "35027": {
+    "name": "LINCOLN",
+    "slug": "lincoln",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "027"
+  },
+  "35028": {
+    "name": "LOS ALAMOS",
+    "slug": "los_alamos",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "028"
+  },
+  "35029": {
+    "name": "LUNA",
+    "slug": "luna",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "029"
+  },
+  "35031": {
+    "name": "MCKINLEY",
+    "slug": "mckinley",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "031"
+  },
+  "35033": {
+    "name": "MORA",
+    "slug": "mora",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "033"
+  },
+  "35035": {
+    "name": "OTERO",
+    "slug": "otero",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "035"
+  },
+  "35037": {
+    "name": "QUAY",
+    "slug": "quay",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "037"
+  },
+  "35039": {
+    "name": "RIO ARRIBA",
+    "slug": "rio_arriba",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "039"
+  },
+  "35041": {
+    "name": "ROOSEVELT",
+    "slug": "roosevelt",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "041"
+  },
+  "35043": {
+    "name": "SANDOVAL",
+    "slug": "sandoval",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "043"
+  },
+  "35045": {
+    "name": "SAN JUAN",
+    "slug": "san_juan",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "045"
+  },
+  "35047": {
+    "name": "SAN MIGUEL",
+    "slug": "san_miguel",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "047"
+  },
+  "35049": {
+    "name": "SANTA FE",
+    "slug": "santa_fe",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "049"
+  },
+  "35051": {
+    "name": "SIERRA",
+    "slug": "sierra",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "051"
+  },
+  "35053": {
+    "name": "SOCORRO",
+    "slug": "socorro",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "053"
+  },
+  "35055": {
+    "name": "TAOS",
+    "slug": "taos",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "055"
+  },
+  "35057": {
+    "name": "TORRANCE",
+    "slug": "torrance",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "057"
+  },
+  "35059": {
+    "name": "UNION",
+    "slug": "union",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "059"
+  },
+  "35061": {
+    "name": "VALENCIA",
+    "slug": "valencia",
+    "state": "NM",
+    "state_fips": "35",
+    "county_fips": "061"
+  }
+}

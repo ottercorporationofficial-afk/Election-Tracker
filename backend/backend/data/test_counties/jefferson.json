@@ -1,0 +1,9 @@
+{
+    "name": "Jefferson",
+    "percent_reporting": 85,
+    "candidates": [
+        {"name": "Marx, Victor", "votes": 22110, "party": "Republican"},
+        {"name": "Barb Kirkmeyer", "votes": 24112, "party": "Republican"},
+        {"name": "Scott Bottoms", "votes": 15500, "party": "Republican"}
+    ]
+}

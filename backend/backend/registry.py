@@ -76,14 +76,6 @@ RACES = {
         "cycle": "2026-primaries",
 
     },
-
-    "arizona_congressional_04_democratic": {
-        "source": "civicapi",
-        "race_id": 84547,
-        "state": "az",
-        "cycle": "2026-primaries",
-
-    },
     "arizona_attorney_general_republican": {
         "source": "civicapi",
         "race_id": 84329,

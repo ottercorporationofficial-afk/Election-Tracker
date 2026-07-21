@@ -1,0 +1,653 @@
+{
+  "31001": {
+    "name": "ADAMS",
+    "slug": "adams",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "001"
+  },
+  "31003": {
+    "name": "ANTELOPE",
+    "slug": "antelope",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "003"
+  },
+  "31005": {
+    "name": "ARTHUR",
+    "slug": "arthur",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "005"
+  },
+  "31007": {
+    "name": "BANNER",
+    "slug": "banner",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "007"
+  },
+  "31009": {
+    "name": "BLAINE",
+    "slug": "blaine",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "009"
+  },
+  "31011": {
+    "name": "BOONE",
+    "slug": "boone",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "011"
+  },
+  "31013": {
+    "name": "BOX BUTTE",
+    "slug": "box_butte",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "013"
+  },
+  "31015": {
+    "name": "BOYD",
+    "slug": "boyd",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "015"
+  },
+  "31017": {
+    "name": "BROWN",
+    "slug": "brown",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "017"
+  },
+  "31019": {
+    "name": "BUFFALO",
+    "slug": "buffalo",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "019"
+  },
+  "31021": {
+    "name": "BURT",
+    "slug": "burt",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "021"
+  },
+  "31023": {
+    "name": "BUTLER",
+    "slug": "butler",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "023"
+  },
+  "31025": {
+    "name": "CASS",
+    "slug": "cass",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "025"
+  },
+  "31027": {
+    "name": "CEDAR",
+    "slug": "cedar",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "027"
+  },
+  "31029": {
+    "name": "CHASE",
+    "slug": "chase",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "029"
+  },
+  "31031": {
+    "name": "CHERRY",
+    "slug": "cherry",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "031"
+  },
+  "31033": {
+    "name": "CHEYENNE",
+    "slug": "cheyenne",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "033"
+  },
+  "31035": {
+    "name": "CLAY",
+    "slug": "clay",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "035"
+  },
+  "31037": {
+    "name": "COLFAX",
+    "slug": "colfax",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "037"
+  },
+  "31039": {
+    "name": "CUMING",
+    "slug": "cuming",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "039"
+  },
+  "31041": {
+    "name": "CUSTER",
+    "slug": "custer",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "041"
+  },
+  "31043": {
+    "name": "DAKOTA",
+    "slug": "dakota",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "043"
+  },
+  "31045": {
+    "name": "DAWES",
+    "slug": "dawes",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "045"
+  },
+  "31047": {
+    "name": "DAWSON",
+    "slug": "dawson",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "047"
+  },
+  "31049": {
+    "name": "DEUEL",
+    "slug": "deuel",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "049"
+  },
+  "31051": {
+    "name": "DIXON",
+    "slug": "dixon",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "051"
+  },
+  "31053": {
+    "name": "DODGE",
+    "slug": "dodge",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "053"
+  },
+  "31055": {
+    "name": "DOUGLAS",
+    "slug": "douglas",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "055"
+  },
+  "31057": {
+    "name": "DUNDY",
+    "slug": "dundy",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "057"
+  },
+  "31059": {
+    "name": "FILLMORE",
+    "slug": "fillmore",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "059"
+  },
+  "31061": {
+    "name": "FRANKLIN",
+    "slug": "franklin",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "061"
+  },
+  "31063": {
+    "name": "FRONTIER",
+    "slug": "frontier",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "063"
+  },
+  "31065": {
+    "name": "FURNAS",
+    "slug": "furnas",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "065"
+  },
+  "31067": {
+    "name": "GAGE",
+    "slug": "gage",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "067"
+  },
+  "31069": {
+    "name": "GARDEN",
+    "slug": "garden",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "069"
+  },
+  "31071": {
+    "name": "GARFIELD",
+    "slug": "garfield",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "071"
+  },
+  "31073": {
+    "name": "GOSPER",
+    "slug": "gosper",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "073"
+  },
+  "31075": {
+    "name": "GRANT",
+    "slug": "grant",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "075"
+  },
+  "31077": {
+    "name": "GREELEY",
+    "slug": "greeley",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "077"
+  },
+  "31079": {
+    "name": "HALL",
+    "slug": "hall",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "079"
+  },
+  "31081": {
+    "name": "HAMILTON",
+    "slug": "hamilton",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "081"
+  },
+  "31083": {
+    "name": "HARLAN",
+    "slug": "harlan",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "083"
+  },
+  "31085": {
+    "name": "HAYES",
+    "slug": "hayes",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "085"
+  },
+  "31087": {
+    "name": "HITCHCOCK",
+    "slug": "hitchcock",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "087"
+  },
+  "31089": {
+    "name": "HOLT",
+    "slug": "holt",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "089"
+  },
+  "31091": {
+    "name": "HOOKER",
+    "slug": "hooker",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "091"
+  },
+  "31093": {
+    "name": "HOWARD",
+    "slug": "howard",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "093"
+  },
+  "31095": {
+    "name": "JEFFERSON",
+    "slug": "jefferson",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "095"
+  },
+  "31097": {
+    "name": "JOHNSON",
+    "slug": "johnson",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "097"
+  },
+  "31099": {
+    "name": "KEARNEY",
+    "slug": "kearney",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "099"
+  },
+  "31101": {
+    "name": "KEITH",
+    "slug": "keith",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "101"
+  },
+  "31103": {
+    "name": "KEYA PAHA",
+    "slug": "keya_paha",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "103"
+  },
+  "31105": {
+    "name": "KIMBALL",
+    "slug": "kimball",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "105"
+  },
+  "31107": {
+    "name": "KNOX",
+    "slug": "knox",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "107"
+  },
+  "31109": {
+    "name": "LANCASTER",
+    "slug": "lancaster",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "109"
+  },
+  "31111": {
+    "name": "LINCOLN",
+    "slug": "lincoln",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "111"
+  },
+  "31113": {
+    "name": "LOGAN",
+    "slug": "logan",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "113"
+  },
+  "31115": {
+    "name": "LOUP",
+    "slug": "loup",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "115"
+  },
+  "31117": {
+    "name": "MCPHERSON",
+    "slug": "mcpherson",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "117"
+  },
+  "31119": {
+    "name": "MADISON",
+    "slug": "madison",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "119"
+  },
+  "31121": {
+    "name": "MERRICK",
+    "slug": "merrick",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "121"
+  },
+  "31123": {
+    "name": "MORRILL",
+    "slug": "morrill",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "123"
+  },
+  "31125": {
+    "name": "NANCE",
+    "slug": "nance",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "125"
+  },
+  "31127": {
+    "name": "NEMAHA",
+    "slug": "nemaha",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "127"
+  },
+  "31129": {
+    "name": "NUCKOLLS",
+    "slug": "nuckolls",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "129"
+  },
+  "31131": {
+    "name": "OTOE",
+    "slug": "otoe",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "131"
+  },
+  "31133": {
+    "name": "PAWNEE",
+    "slug": "pawnee",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "133"
+  },
+  "31135": {
+    "name": "PERKINS",
+    "slug": "perkins",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "135"
+  },
+  "31137": {
+    "name": "PHELPS",
+    "slug": "phelps",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "137"
+  },
+  "31139": {
+    "name": "PIERCE",
+    "slug": "pierce",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "139"
+  },
+  "31141": {
+    "name": "PLATTE",
+    "slug": "platte",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "141"
+  },
+  "31143": {
+    "name": "POLK",
+    "slug": "polk",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "143"
+  },
+  "31145": {
+    "name": "RED WILLOW",
+    "slug": "red_willow",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "145"
+  },
+  "31147": {
+    "name": "RICHARDSON",
+    "slug": "richardson",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "147"
+  },
+  "31149": {
+    "name": "ROCK",
+    "slug": "rock",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "149"
+  },
+  "31151": {
+    "name": "SALINE",
+    "slug": "saline",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "151"
+  },
+  "31153": {
+    "name": "SARPY",
+    "slug": "sarpy",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "153"
+  },
+  "31155": {
+    "name": "SAUNDERS",
+    "slug": "saunders",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "155"
+  },
+  "31157": {
+    "name": "SCOTTS BLUFF",
+    "slug": "scotts_bluff",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "157"
+  },
+  "31159": {
+    "name": "SEWARD",
+    "slug": "seward",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "159"
+  },
+  "31161": {
+    "name": "SHERIDAN",
+    "slug": "sheridan",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "161"
+  },
+  "31163": {
+    "name": "SHERMAN",
+    "slug": "sherman",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "163"
+  },
+  "31165": {
+    "name": "SIOUX",
+    "slug": "sioux",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "165"
+  },
+  "31167": {
+    "name": "STANTON",
+    "slug": "stanton",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "167"
+  },
+  "31169": {
+    "name": "THAYER",
+    "slug": "thayer",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "169"
+  },
+  "31171": {
+    "name": "THOMAS",
+    "slug": "thomas",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "171"
+  },
+  "31173": {
+    "name": "THURSTON",
+    "slug": "thurston",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "173"
+  },
+  "31175": {
+    "name": "VALLEY",
+    "slug": "valley",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "175"
+  },
+  "31177": {
+    "name": "WASHINGTON",
+    "slug": "washington",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "177"
+  },
+  "31179": {
+    "name": "WAYNE",
+    "slug": "wayne",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "179"
+  },
+  "31181": {
+    "name": "WEBSTER",
+    "slug": "webster",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "181"
+  },
+  "31183": {
+    "name": "WHEELER",
+    "slug": "wheeler",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "183"
+  },
+  "31185": {
+    "name": "YORK",
+    "slug": "york",
+    "state": "NE",
+    "state_fips": "31",
+    "county_fips": "185"
+  }
+}

@@ -1,0 +1,1780 @@
+{
+  "48001": {
+    "name": "ANDERSON",
+    "slug": "anderson",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "001"
+  },
+  "48003": {
+    "name": "ANDREWS",
+    "slug": "andrews",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "003"
+  },
+  "48005": {
+    "name": "ANGELINA",
+    "slug": "angelina",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "005"
+  },
+  "48007": {
+    "name": "ARANSAS",
+    "slug": "aransas",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "007"
+  },
+  "48009": {
+    "name": "ARCHER",
+    "slug": "archer",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "009"
+  },
+  "48011": {
+    "name": "ARMSTRONG",
+    "slug": "armstrong",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "011"
+  },
+  "48013": {
+    "name": "ATASCOSA",
+    "slug": "atascosa",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "013"
+  },
+  "48015": {
+    "name": "AUSTIN",
+    "slug": "austin",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "015"
+  },
+  "48017": {
+    "name": "BAILEY",
+    "slug": "bailey",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "017"
+  },
+  "48019": {
+    "name": "BANDERA",
+    "slug": "bandera",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "019"
+  },
+  "48021": {
+    "name": "BASTROP",
+    "slug": "bastrop",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "021"
+  },
+  "48023": {
+    "name": "BAYLOR",
+    "slug": "baylor",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "023"
+  },
+  "48025": {
+    "name": "BEE",
+    "slug": "bee",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "025"
+  },
+  "48027": {
+    "name": "BELL",
+    "slug": "bell",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "027"
+  },
+  "48029": {
+    "name": "BEXAR",
+    "slug": "bexar",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "029"
+  },
+  "48031": {
+    "name": "BLANCO",
+    "slug": "blanco",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "031"
+  },
+  "48033": {
+    "name": "BORDEN",
+    "slug": "borden",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "033"
+  },
+  "48035": {
+    "name": "BOSQUE",
+    "slug": "bosque",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "035"
+  },
+  "48037": {
+    "name": "BOWIE",
+    "slug": "bowie",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "037"
+  },
+  "48039": {
+    "name": "BRAZORIA",
+    "slug": "brazoria",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "039"
+  },
+  "48041": {
+    "name": "BRAZOS",
+    "slug": "brazos",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "041"
+  },
+  "48043": {
+    "name": "BREWSTER",
+    "slug": "brewster",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "043"
+  },
+  "48045": {
+    "name": "BRISCOE",
+    "slug": "briscoe",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "045"
+  },
+  "48047": {
+    "name": "BROOKS",
+    "slug": "brooks",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "047"
+  },
+  "48049": {
+    "name": "BROWN",
+    "slug": "brown",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "049"
+  },
+  "48051": {
+    "name": "BURLESON",
+    "slug": "burleson",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "051"
+  },
+  "48053": {
+    "name": "BURNET",
+    "slug": "burnet",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "053"
+  },
+  "48055": {
+    "name": "CALDWELL",
+    "slug": "caldwell",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "055"
+  },
+  "48057": {
+    "name": "CALHOUN",
+    "slug": "calhoun",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "057"
+  },
+  "48059": {
+    "name": "CALLAHAN",
+    "slug": "callahan",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "059"
+  },
+  "48061": {
+    "name": "CAMERON",
+    "slug": "cameron",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "061"
+  },
+  "48063": {
+    "name": "CAMP",
+    "slug": "camp",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "063"
+  },
+  "48065": {
+    "name": "CARSON",
+    "slug": "carson",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "065"
+  },
+  "48067": {
+    "name": "CASS",
+    "slug": "cass",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "067"
+  },
+  "48069": {
+    "name": "CASTRO",
+    "slug": "castro",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "069"
+  },
+  "48071": {
+    "name": "CHAMBERS",
+    "slug": "chambers",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "071"
+  },
+  "48073": {
+    "name": "CHEROKEE",
+    "slug": "cherokee",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "073"
+  },
+  "48075": {
+    "name": "CHILDRESS",
+    "slug": "childress",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "075"
+  },
+  "48077": {
+    "name": "CLAY",
+    "slug": "clay",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "077"
+  },
+  "48079": {
+    "name": "COCHRAN",
+    "slug": "cochran",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "079"
+  },
+  "48081": {
+    "name": "COKE",
+    "slug": "coke",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "081"
+  },
+  "48083": {
+    "name": "COLEMAN",
+    "slug": "coleman",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "083"
+  },
+  "48085": {
+    "name": "COLLIN",
+    "slug": "collin",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "085"
+  },
+  "48087": {
+    "name": "COLLINGSWORTH",
+    "slug": "collingsworth",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "087"
+  },
+  "48089": {
+    "name": "COLORADO",
+    "slug": "colorado",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "089"
+  },
+  "48091": {
+    "name": "COMAL",
+    "slug": "comal",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "091"
+  },
+  "48093": {
+    "name": "COMANCHE",
+    "slug": "comanche",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "093"
+  },
+  "48095": {
+    "name": "CONCHO",
+    "slug": "concho",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "095"
+  },
+  "48097": {
+    "name": "COOKE",
+    "slug": "cooke",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "097"
+  },
+  "48099": {
+    "name": "CORYELL",
+    "slug": "coryell",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "099"
+  },
+  "48101": {
+    "name": "COTTLE",
+    "slug": "cottle",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "101"
+  },
+  "48103": {
+    "name": "CRANE",
+    "slug": "crane",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "103"
+  },
+  "48105": {
+    "name": "CROCKETT",
+    "slug": "crockett",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "105"
+  },
+  "48107": {
+    "name": "CROSBY",
+    "slug": "crosby",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "107"
+  },
+  "48109": {
+    "name": "CULBERSON",
+    "slug": "culberson",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "109"
+  },
+  "48111": {
+    "name": "DALLAM",
+    "slug": "dallam",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "111"
+  },
+  "48113": {
+    "name": "DALLAS",
+    "slug": "dallas",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "113"
+  },
+  "48115": {
+    "name": "DAWSON",
+    "slug": "dawson",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "115"
+  },
+  "48117": {
+    "name": "DEAF SMITH",
+    "slug": "deaf_smith",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "117"
+  },
+  "48119": {
+    "name": "DELTA",
+    "slug": "delta",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "119"
+  },
+  "48121": {
+    "name": "DENTON",
+    "slug": "denton",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "121"
+  },
+  "48123": {
+    "name": "DE WITT",
+    "slug": "de_witt",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "123"
+  },
+  "48125": {
+    "name": "DICKENS",
+    "slug": "dickens",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "125"
+  },
+  "48127": {
+    "name": "DIMMIT",
+    "slug": "dimmit",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "127"
+  },
+  "48129": {
+    "name": "DONLEY",
+    "slug": "donley",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "129"
+  },
+  "48131": {
+    "name": "DUVAL",
+    "slug": "duval",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "131"
+  },
+  "48133": {
+    "name": "EASTLAND",
+    "slug": "eastland",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "133"
+  },
+  "48135": {
+    "name": "ECTOR",
+    "slug": "ector",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "135"
+  },
+  "48137": {
+    "name": "EDWARDS",
+    "slug": "edwards",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "137"
+  },
+  "48139": {
+    "name": "ELLIS",
+    "slug": "ellis",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "139"
+  },
+  "48141": {
+    "name": "EL PASO",
+    "slug": "el_paso",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "141"
+  },
+  "48143": {
+    "name": "ERATH",
+    "slug": "erath",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "143"
+  },
+  "48145": {
+    "name": "FALLS",
+    "slug": "falls",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "145"
+  },
+  "48147": {
+    "name": "FANNIN",
+    "slug": "fannin",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "147"
+  },
+  "48149": {
+    "name": "FAYETTE",
+    "slug": "fayette",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "149"
+  },
+  "48151": {
+    "name": "FISHER",
+    "slug": "fisher",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "151"
+  },
+  "48153": {
+    "name": "FLOYD",
+    "slug": "floyd",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "153"
+  },
+  "48155": {
+    "name": "FOARD",
+    "slug": "foard",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "155"
+  },
+  "48157": {
+    "name": "FORT BEND",
+    "slug": "fort_bend",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "157"
+  },
+  "48159": {
+    "name": "FRANKLIN",
+    "slug": "franklin",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "159"
+  },
+  "48161": {
+    "name": "FREESTONE",
+    "slug": "freestone",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "161"
+  },
+  "48163": {
+    "name": "FRIO",
+    "slug": "frio",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "163"
+  },
+  "48165": {
+    "name": "GAINES",
+    "slug": "gaines",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "165"
+  },
+  "48167": {
+    "name": "GALVESTON",
+    "slug": "galveston",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "167"
+  },
+  "48169": {
+    "name": "GARZA",
+    "slug": "garza",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "169"
+  },
+  "48171": {
+    "name": "GILLESPIE",
+    "slug": "gillespie",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "171"
+  },
+  "48173": {
+    "name": "GLASSCOCK",
+    "slug": "glasscock",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "173"
+  },
+  "48175": {
+    "name": "GOLIAD",
+    "slug": "goliad",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "175"
+  },
+  "48177": {
+    "name": "GONZALES",
+    "slug": "gonzales",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "177"
+  },
+  "48179": {
+    "name": "GRAY",
+    "slug": "gray",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "179"
+  },
+  "48181": {
+    "name": "GRAYSON",
+    "slug": "grayson",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "181"
+  },
+  "48183": {
+    "name": "GREGG",
+    "slug": "gregg",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "183"
+  },
+  "48185": {
+    "name": "GRIMES",
+    "slug": "grimes",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "185"
+  },
+  "48187": {
+    "name": "GUADALUPE",
+    "slug": "guadalupe",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "187"
+  },
+  "48189": {
+    "name": "HALE",
+    "slug": "hale",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "189"
+  },
+  "48191": {
+    "name": "HALL",
+    "slug": "hall",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "191"
+  },
+  "48193": {
+    "name": "HAMILTON",
+    "slug": "hamilton",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "193"
+  },
+  "48195": {
+    "name": "HANSFORD",
+    "slug": "hansford",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "195"
+  },
+  "48197": {
+    "name": "HARDEMAN",
+    "slug": "hardeman",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "197"
+  },
+  "48199": {
+    "name": "HARDIN",
+    "slug": "hardin",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "199"
+  },
+  "48201": {
+    "name": "HARRIS",
+    "slug": "harris",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "201"
+  },
+  "48203": {
+    "name": "HARRISON",
+    "slug": "harrison",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "203"
+  },
+  "48205": {
+    "name": "HARTLEY",
+    "slug": "hartley",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "205"
+  },
+  "48207": {
+    "name": "HASKELL",
+    "slug": "haskell",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "207"
+  },
+  "48209": {
+    "name": "HAYS",
+    "slug": "hays",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "209"
+  },
+  "48211": {
+    "name": "HEMPHILL",
+    "slug": "hemphill",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "211"
+  },
+  "48213": {
+    "name": "HENDERSON",
+    "slug": "henderson",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "213"
+  },
+  "48215": {
+    "name": "HIDALGO",
+    "slug": "hidalgo",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "215"
+  },
+  "48217": {
+    "name": "HILL",
+    "slug": "hill",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "217"
+  },
+  "48219": {
+    "name": "HOCKLEY",
+    "slug": "hockley",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "219"
+  },
+  "48221": {
+    "name": "HOOD",
+    "slug": "hood",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "221"
+  },
+  "48223": {
+    "name": "HOPKINS",
+    "slug": "hopkins",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "223"
+  },
+  "48225": {
+    "name": "HOUSTON",
+    "slug": "houston",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "225"
+  },
+  "48227": {
+    "name": "HOWARD",
+    "slug": "howard",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "227"
+  },
+  "48229": {
+    "name": "HUDSPETH",
+    "slug": "hudspeth",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "229"
+  },
+  "48231": {
+    "name": "HUNT",
+    "slug": "hunt",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "231"
+  },
+  "48233": {
+    "name": "HUTCHINSON",
+    "slug": "hutchinson",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "233"
+  },
+  "48235": {
+    "name": "IRION",
+    "slug": "irion",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "235"
+  },
+  "48237": {
+    "name": "JACK",
+    "slug": "jack",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "237"
+  },
+  "48239": {
+    "name": "JACKSON",
+    "slug": "jackson",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "239"
+  },
+  "48241": {
+    "name": "JASPER",
+    "slug": "jasper",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "241"
+  },
+  "48243": {
+    "name": "JEFF DAVIS",
+    "slug": "jeff_davis",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "243"
+  },
+  "48245": {
+    "name": "JEFFERSON",
+    "slug": "jefferson",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "245"
+  },
+  "48247": {
+    "name": "JIM HOGG",
+    "slug": "jim_hogg",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "247"
+  },
+  "48249": {
+    "name": "JIM WELLS",
+    "slug": "jim_wells",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "249"
+  },
+  "48251": {
+    "name": "JOHNSON",
+    "slug": "johnson",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "251"
+  },
+  "48253": {
+    "name": "JONES",
+    "slug": "jones",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "253"
+  },
+  "48255": {
+    "name": "KARNES",
+    "slug": "karnes",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "255"
+  },
+  "48257": {
+    "name": "KAUFMAN",
+    "slug": "kaufman",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "257"
+  },
+  "48259": {
+    "name": "KENDALL",
+    "slug": "kendall",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "259"
+  },
+  "48261": {
+    "name": "KENEDY",
+    "slug": "kenedy",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "261"
+  },
+  "48263": {
+    "name": "KENT",
+    "slug": "kent",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "263"
+  },
+  "48265": {
+    "name": "KERR",
+    "slug": "kerr",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "265"
+  },
+  "48267": {
+    "name": "KIMBLE",
+    "slug": "kimble",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "267"
+  },
+  "48269": {
+    "name": "KING",
+    "slug": "king",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "269"
+  },
+  "48271": {
+    "name": "KINNEY",
+    "slug": "kinney",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "271"
+  },
+  "48273": {
+    "name": "KLEBERG",
+    "slug": "kleberg",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "273"
+  },
+  "48275": {
+    "name": "KNOX",
+    "slug": "knox",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "275"
+  },
+  "48277": {
+    "name": "LAMAR",
+    "slug": "lamar",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "277"
+  },
+  "48279": {
+    "name": "LAMB",
+    "slug": "lamb",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "279"
+  },
+  "48281": {
+    "name": "LAMPASAS",
+    "slug": "lampasas",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "281"
+  },
+  "48283": {
+    "name": "LA SALLE",
+    "slug": "la_salle",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "283"
+  },
+  "48285": {
+    "name": "LAVACA",
+    "slug": "lavaca",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "285"
+  },
+  "48287": {
+    "name": "LEE",
+    "slug": "lee",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "287"
+  },
+  "48289": {
+    "name": "LEON",
+    "slug": "leon",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "289"
+  },
+  "48291": {
+    "name": "LIBERTY",
+    "slug": "liberty",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "291"
+  },
+  "48293": {
+    "name": "LIMESTONE",
+    "slug": "limestone",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "293"
+  },
+  "48295": {
+    "name": "LIPSCOMB",
+    "slug": "lipscomb",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "295"
+  },
+  "48297": {
+    "name": "LIVE OAK",
+    "slug": "live_oak",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "297"
+  },
+  "48299": {
+    "name": "LLANO",
+    "slug": "llano",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "299"
+  },
+  "48301": {
+    "name": "LOVING",
+    "slug": "loving",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "301"
+  },
+  "48303": {
+    "name": "LUBBOCK",
+    "slug": "lubbock",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "303"
+  },
+  "48305": {
+    "name": "LYNN",
+    "slug": "lynn",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "305"
+  },
+  "48307": {
+    "name": "MCCULLOCH",
+    "slug": "mcculloch",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "307"
+  },
+  "48309": {
+    "name": "MCLENNAN",
+    "slug": "mclennan",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "309"
+  },
+  "48311": {
+    "name": "MCMULLEN",
+    "slug": "mcmullen",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "311"
+  },
+  "48313": {
+    "name": "MADISON",
+    "slug": "madison",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "313"
+  },
+  "48315": {
+    "name": "MARION",
+    "slug": "marion",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "315"
+  },
+  "48317": {
+    "name": "MARTIN",
+    "slug": "martin",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "317"
+  },
+  "48319": {
+    "name": "MASON",
+    "slug": "mason",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "319"
+  },
+  "48321": {
+    "name": "MATAGORDA",
+    "slug": "matagorda",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "321"
+  },
+  "48323": {
+    "name": "MAVERICK",
+    "slug": "maverick",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "323"
+  },
+  "48325": {
+    "name": "MEDINA",
+    "slug": "medina",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "325"
+  },
+  "48327": {
+    "name": "MENARD",
+    "slug": "menard",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "327"
+  },
+  "48329": {
+    "name": "MIDLAND",
+    "slug": "midland",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "329"
+  },
+  "48331": {
+    "name": "MILAM",
+    "slug": "milam",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "331"
+  },
+  "48333": {
+    "name": "MILLS",
+    "slug": "mills",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "333"
+  },
+  "48335": {
+    "name": "MITCHELL",
+    "slug": "mitchell",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "335"
+  },
+  "48337": {
+    "name": "MONTAGUE",
+    "slug": "montague",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "337"
+  },
+  "48339": {
+    "name": "MONTGOMERY",
+    "slug": "montgomery",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "339"
+  },
+  "48341": {
+    "name": "MOORE",
+    "slug": "moore",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "341"
+  },
+  "48343": {
+    "name": "MORRIS",
+    "slug": "morris",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "343"
+  },
+  "48345": {
+    "name": "MOTLEY",
+    "slug": "motley",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "345"
+  },
+  "48347": {
+    "name": "NACOGDOCHES",
+    "slug": "nacogdoches",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "347"
+  },
+  "48349": {
+    "name": "NAVARRO",
+    "slug": "navarro",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "349"
+  },
+  "48351": {
+    "name": "NEWTON",
+    "slug": "newton",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "351"
+  },
+  "48353": {
+    "name": "NOLAN",
+    "slug": "nolan",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "353"
+  },
+  "48355": {
+    "name": "NUECES",
+    "slug": "nueces",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "355"
+  },
+  "48357": {
+    "name": "OCHILTREE",
+    "slug": "ochiltree",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "357"
+  },
+  "48359": {
+    "name": "OLDHAM",
+    "slug": "oldham",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "359"
+  },
+  "48361": {
+    "name": "ORANGE",
+    "slug": "orange",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "361"
+  },
+  "48363": {
+    "name": "PALO PINTO",
+    "slug": "palo_pinto",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "363"
+  },
+  "48365": {
+    "name": "PANOLA",
+    "slug": "panola",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "365"
+  },
+  "48367": {
+    "name": "PARKER",
+    "slug": "parker",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "367"
+  },
+  "48369": {
+    "name": "PARMER",
+    "slug": "parmer",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "369"
+  },
+  "48371": {
+    "name": "PECOS",
+    "slug": "pecos",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "371"
+  },
+  "48373": {
+    "name": "POLK",
+    "slug": "polk",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "373"
+  },
+  "48375": {
+    "name": "POTTER",
+    "slug": "potter",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "375"
+  },
+  "48377": {
+    "name": "PRESIDIO",
+    "slug": "presidio",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "377"
+  },
+  "48379": {
+    "name": "RAINS",
+    "slug": "rains",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "379"
+  },
+  "48381": {
+    "name": "RANDALL",
+    "slug": "randall",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "381"
+  },
+  "48383": {
+    "name": "REAGAN",
+    "slug": "reagan",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "383"
+  },
+  "48385": {
+    "name": "REAL",
+    "slug": "real",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "385"
+  },
+  "48387": {
+    "name": "RED RIVER",
+    "slug": "red_river",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "387"
+  },
+  "48389": {
+    "name": "REEVES",
+    "slug": "reeves",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "389"
+  },
+  "48391": {
+    "name": "REFUGIO",
+    "slug": "refugio",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "391"
+  },
+  "48393": {
+    "name": "ROBERTS",
+    "slug": "roberts",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "393"
+  },
+  "48395": {
+    "name": "ROBERTSON",
+    "slug": "robertson",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "395"
+  },
+  "48397": {
+    "name": "ROCKWALL",
+    "slug": "rockwall",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "397"
+  },
+  "48399": {
+    "name": "RUNNELS",
+    "slug": "runnels",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "399"
+  },
+  "48401": {
+    "name": "RUSK",
+    "slug": "rusk",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "401"
+  },
+  "48403": {
+    "name": "SABINE",
+    "slug": "sabine",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "403"
+  },
+  "48405": {
+    "name": "SAN AUGUSTINE",
+    "slug": "san_augustine",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "405"
+  },
+  "48407": {
+    "name": "SAN JACINTO",
+    "slug": "san_jacinto",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "407"
+  },
+  "48409": {
+    "name": "SAN PATRICIO",
+    "slug": "san_patricio",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "409"
+  },
+  "48411": {
+    "name": "SAN SABA",
+    "slug": "san_saba",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "411"
+  },
+  "48413": {
+    "name": "SCHLEICHER",
+    "slug": "schleicher",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "413"
+  },
+  "48415": {
+    "name": "SCURRY",
+    "slug": "scurry",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "415"
+  },
+  "48417": {
+    "name": "SHACKELFORD",
+    "slug": "shackelford",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "417"
+  },
+  "48419": {
+    "name": "SHELBY",
+    "slug": "shelby",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "419"
+  },
+  "48421": {
+    "name": "SHERMAN",
+    "slug": "sherman",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "421"
+  },
+  "48423": {
+    "name": "SMITH",
+    "slug": "smith",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "423"
+  },
+  "48425": {
+    "name": "SOMERVELL",
+    "slug": "somervell",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "425"
+  },
+  "48427": {
+    "name": "STARR",
+    "slug": "starr",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "427"
+  },
+  "48429": {
+    "name": "STEPHENS",
+    "slug": "stephens",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "429"
+  },
+  "48431": {
+    "name": "STERLING",
+    "slug": "sterling",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "431"
+  },
+  "48433": {
+    "name": "STONEWALL",
+    "slug": "stonewall",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "433"
+  },
+  "48435": {
+    "name": "SUTTON",
+    "slug": "sutton",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "435"
+  },
+  "48437": {
+    "name": "SWISHER",
+    "slug": "swisher",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "437"
+  },
+  "48439": {
+    "name": "TARRANT",
+    "slug": "tarrant",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "439"
+  },
+  "48441": {
+    "name": "TAYLOR",
+    "slug": "taylor",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "441"
+  },
+  "48443": {
+    "name": "TERRELL",
+    "slug": "terrell",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "443"
+  },
+  "48445": {
+    "name": "TERRY",
+    "slug": "terry",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "445"
+  },
+  "48447": {
+    "name": "THROCKMORTON",
+    "slug": "throckmorton",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "447"
+  },
+  "48449": {
+    "name": "TITUS",
+    "slug": "titus",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "449"
+  },
+  "48451": {
+    "name": "TOM GREEN",
+    "slug": "tom_green",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "451"
+  },
+  "48453": {
+    "name": "TRAVIS",
+    "slug": "travis",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "453"
+  },
+  "48455": {
+    "name": "TRINITY",
+    "slug": "trinity",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "455"
+  },
+  "48457": {
+    "name": "TYLER",
+    "slug": "tyler",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "457"
+  },
+  "48459": {
+    "name": "UPSHUR",
+    "slug": "upshur",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "459"
+  },
+  "48461": {
+    "name": "UPTON",
+    "slug": "upton",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "461"
+  },
+  "48463": {
+    "name": "UVALDE",
+    "slug": "uvalde",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "463"
+  },
+  "48465": {
+    "name": "VAL VERDE",
+    "slug": "val_verde",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "465"
+  },
+  "48467": {
+    "name": "VAN ZANDT",
+    "slug": "van_zandt",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "467"
+  },
+  "48469": {
+    "name": "VICTORIA",
+    "slug": "victoria",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "469"
+  },
+  "48471": {
+    "name": "WALKER",
+    "slug": "walker",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "471"
+  },
+  "48473": {
+    "name": "WALLER",
+    "slug": "waller",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "473"
+  },
+  "48475": {
+    "name": "WARD",
+    "slug": "ward",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "475"
+  },
+  "48477": {
+    "name": "WASHINGTON",
+    "slug": "washington",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "477"
+  },
+  "48479": {
+    "name": "WEBB",
+    "slug": "webb",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "479"
+  },
+  "48481": {
+    "name": "WHARTON",
+    "slug": "wharton",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "481"
+  },
+  "48483": {
+    "name": "WHEELER",
+    "slug": "wheeler",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "483"
+  },
+  "48485": {
+    "name": "WICHITA",
+    "slug": "wichita",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "485"
+  },
+  "48487": {
+    "name": "WILBARGER",
+    "slug": "wilbarger",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "487"
+  },
+  "48489": {
+    "name": "WILLACY",
+    "slug": "willacy",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "489"
+  },
+  "48491": {
+    "name": "WILLIAMSON",
+    "slug": "williamson",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "491"
+  },
+  "48493": {
+    "name": "WILSON",
+    "slug": "wilson",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "493"
+  },
+  "48495": {
+    "name": "WINKLER",
+    "slug": "winkler",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "495"
+  },
+  "48497": {
+    "name": "WISE",
+    "slug": "wise",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "497"
+  },
+  "48499": {
+    "name": "WOOD",
+    "slug": "wood",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "499"
+  },
+  "48501": {
+    "name": "YOAKUM",
+    "slug": "yoakum",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "501"
+  },
+  "48503": {
+    "name": "YOUNG",
+    "slug": "young",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "503"
+  },
+  "48505": {
+    "name": "ZAPATA",
+    "slug": "zapata",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "505"
+  },
+  "48507": {
+    "name": "ZAVALA",
+    "slug": "zavala",
+    "state": "TX",
+    "state_fips": "48",
+    "county_fips": "507"
+  }
+}

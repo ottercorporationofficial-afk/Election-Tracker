@@ -93,6 +93,12 @@ const mapConfigs = {
         rotation: -7,
         countyFilter: ["04013"],
         candidateColorOverrides: {}
+    },
+     arizona_cd04 : {
+        fips: "04",
+        rotation: -7,
+        countyFilter: ["04013"],
+        candidateColorOverrides: {}
     }
 };
 

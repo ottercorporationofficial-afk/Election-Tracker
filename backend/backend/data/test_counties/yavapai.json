@@ -1,0 +1,9 @@
+{
+    "name": "yavapai",
+    "percent_reporting": 0.0,
+    "candidates": [
+        {"name": "Andrew Prater", "votes": 65748, "party": "Republican", "color": "#c1272d"},
+        {"name": "Michael Kitchens", "votes": 5645, "party": "Republican", "color": "#8b0000"},
+        {"name": "Wilson Rochford", "votes": 51256, "party": "Republican", "color": "#e06666"}
+    ]
+}

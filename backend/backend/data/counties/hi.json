@@ -1,0 +1,37 @@
+{
+  "15001": {
+    "name": "HAWAII",
+    "slug": "hawaii",
+    "state": "HI",
+    "state_fips": "15",
+    "county_fips": "001"
+  },
+  "15003": {
+    "name": "HONOLULU",
+    "slug": "honolulu",
+    "state": "HI",
+    "state_fips": "15",
+    "county_fips": "003"
+  },
+  "15007": {
+    "name": "KAUAI",
+    "slug": "kauai",
+    "state": "HI",
+    "state_fips": "15",
+    "county_fips": "007"
+  },
+  "15009": {
+    "name": "MAUI",
+    "slug": "maui",
+    "state": "HI",
+    "state_fips": "15",
+    "county_fips": "009"
+  },
+  "15005": {
+    "name": "KALAWAO",
+    "slug": "kalawao",
+    "state": "HI",
+    "state_fips": "15",
+    "county_fips": "005"
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "45001": {
+    "name": "ABBEVILLE",
+    "slug": "abbeville",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "001"
+  },
+  "45003": {
+    "name": "AIKEN",
+    "slug": "aiken",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "003"
+  },
+  "45005": {
+    "name": "ALLENDALE",
+    "slug": "allendale",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "005"
+  },
+  "45007": {
+    "name": "ANDERSON",
+    "slug": "anderson",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "007"
+  },
+  "45009": {
+    "name": "BAMBERG",
+    "slug": "bamberg",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "009"
+  },
+  "45011": {
+    "name": "BARNWELL",
+    "slug": "barnwell",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "011"
+  },
+  "45013": {
+    "name": "BEAUFORT",
+    "slug": "beaufort",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "013"
+  },
+  "45015": {
+    "name": "BERKELEY",
+    "slug": "berkeley",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "015"
+  },
+  "45017": {
+    "name": "CALHOUN",
+    "slug": "calhoun",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "017"
+  },
+  "45019": {
+    "name": "CHARLESTON",
+    "slug": "charleston",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "019"
+  },
+  "45021": {
+    "name": "CHEROKEE",
+    "slug": "cherokee",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "021"
+  },
+  "45023": {
+    "name": "CHESTER",
+    "slug": "chester",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "023"
+  },
+  "45025": {
+    "name": "CHESTERFIELD",
+    "slug": "chesterfield",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "025"
+  },
+  "45027": {
+    "name": "CLARENDON",
+    "slug": "clarendon",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "027"
+  },
+  "45029": {
+    "name": "COLLETON",
+    "slug": "colleton",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "029"
+  },
+  "45031": {
+    "name": "DARLINGTON",
+    "slug": "darlington",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "031"
+  },
+  "45033": {
+    "name": "DILLON",
+    "slug": "dillon",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "033"
+  },
+  "45035": {
+    "name": "DORCHESTER",
+    "slug": "dorchester",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "035"
+  },
+  "45037": {
+    "name": "EDGEFIELD",
+    "slug": "edgefield",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "037"
+  },
+  "45039": {
+    "name": "FAIRFIELD",
+    "slug": "fairfield",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "039"
+  },
+  "45041": {
+    "name": "FLORENCE",
+    "slug": "florence",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "041"
+  },
+  "45043": {
+    "name": "GEORGETOWN",
+    "slug": "georgetown",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "043"
+  },
+  "45045": {
+    "name": "GREENVILLE",
+    "slug": "greenville",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "045"
+  },
+  "45047": {
+    "name": "GREENWOOD",
+    "slug": "greenwood",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "047"
+  },
+  "45049": {
+    "name": "HAMPTON",
+    "slug": "hampton",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "049"
+  },
+  "45051": {
+    "name": "HORRY",
+    "slug": "horry",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "051"
+  },
+  "45053": {
+    "name": "JASPER",
+    "slug": "jasper",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "053"
+  },
+  "45055": {
+    "name": "KERSHAW",
+    "slug": "kershaw",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "055"
+  },
+  "45057": {
+    "name": "LANCASTER",
+    "slug": "lancaster",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "057"
+  },
+  "45059": {
+    "name": "LAURENS",
+    "slug": "laurens",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "059"
+  },
+  "45061": {
+    "name": "LEE",
+    "slug": "lee",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "061"
+  },
+  "45063": {
+    "name": "LEXINGTON",
+    "slug": "lexington",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "063"
+  },
+  "45065": {
+    "name": "MCCORMICK",
+    "slug": "mccormick",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "065"
+  },
+  "45067": {
+    "name": "MARION",
+    "slug": "marion",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "067"
+  },
+  "45069": {
+    "name": "MARLBORO",
+    "slug": "marlboro",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "069"
+  },
+  "45071": {
+    "name": "NEWBERRY",
+    "slug": "newberry",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "071"
+  },
+  "45073": {
+    "name": "OCONEE",
+    "slug": "oconee",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "073"
+  },
+  "45075": {
+    "name": "ORANGEBURG",
+    "slug": "orangeburg",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "075"
+  },
+  "45077": {
+    "name": "PICKENS",
+    "slug": "pickens",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "077"
+  },
+  "45079": {
+    "name": "RICHLAND",
+    "slug": "richland",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "079"
+  },
+  "45081": {
+    "name": "SALUDA",
+    "slug": "saluda",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "081"
+  },
+  "45083": {
+    "name": "SPARTANBURG",
+    "slug": "spartanburg",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "083"
+  },
+  "45085": {
+    "name": "SUMTER",
+    "slug": "sumter",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "085"
+  },
+  "45087": {
+    "name": "UNION",
+    "slug": "union",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "087"
+  },
+  "45089": {
+    "name": "WILLIAMSBURG",
+    "slug": "williamsburg",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "089"
+  },
+  "45091": {
+    "name": "YORK",
+    "slug": "york",
+    "state": "SC",
+    "state_fips": "45",
+    "county_fips": "091"
+  }
+}

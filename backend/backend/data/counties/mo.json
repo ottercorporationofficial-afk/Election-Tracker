@@ -1,0 +1,807 @@
+{
+  "29001": {
+    "name": "ADAIR",
+    "slug": "adair",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "001"
+  },
+  "29003": {
+    "name": "ANDREW",
+    "slug": "andrew",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "003"
+  },
+  "29005": {
+    "name": "ATCHISON",
+    "slug": "atchison",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "005"
+  },
+  "29007": {
+    "name": "AUDRAIN",
+    "slug": "audrain",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "007"
+  },
+  "29009": {
+    "name": "BARRY",
+    "slug": "barry",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "009"
+  },
+  "29011": {
+    "name": "BARTON",
+    "slug": "barton",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "011"
+  },
+  "29013": {
+    "name": "BATES",
+    "slug": "bates",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "013"
+  },
+  "29015": {
+    "name": "BENTON",
+    "slug": "benton",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "015"
+  },
+  "29017": {
+    "name": "BOLLINGER",
+    "slug": "bollinger",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "017"
+  },
+  "29019": {
+    "name": "BOONE",
+    "slug": "boone",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "019"
+  },
+  "29021": {
+    "name": "BUCHANAN",
+    "slug": "buchanan",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "021"
+  },
+  "29023": {
+    "name": "BUTLER",
+    "slug": "butler",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "023"
+  },
+  "29025": {
+    "name": "CALDWELL",
+    "slug": "caldwell",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "025"
+  },
+  "29027": {
+    "name": "CALLAWAY",
+    "slug": "callaway",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "027"
+  },
+  "29029": {
+    "name": "CAMDEN",
+    "slug": "camden",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "029"
+  },
+  "29031": {
+    "name": "CAPE GIRARDEAU",
+    "slug": "cape_girardeau",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "031"
+  },
+  "29033": {
+    "name": "CARROLL",
+    "slug": "carroll",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "033"
+  },
+  "29035": {
+    "name": "CARTER",
+    "slug": "carter",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "035"
+  },
+  "29037": {
+    "name": "CASS",
+    "slug": "cass",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "037"
+  },
+  "29039": {
+    "name": "CEDAR",
+    "slug": "cedar",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "039"
+  },
+  "29041": {
+    "name": "CHARITON",
+    "slug": "chariton",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "041"
+  },
+  "29043": {
+    "name": "CHRISTIAN",
+    "slug": "christian",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "043"
+  },
+  "29045": {
+    "name": "CLARK",
+    "slug": "clark",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "045"
+  },
+  "29047": {
+    "name": "CLAY",
+    "slug": "clay",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "047"
+  },
+  "29049": {
+    "name": "CLINTON",
+    "slug": "clinton",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "049"
+  },
+  "29051": {
+    "name": "COLE",
+    "slug": "cole",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "051"
+  },
+  "29053": {
+    "name": "COOPER",
+    "slug": "cooper",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "053"
+  },
+  "29055": {
+    "name": "CRAWFORD",
+    "slug": "crawford",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "055"
+  },
+  "29057": {
+    "name": "DADE",
+    "slug": "dade",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "057"
+  },
+  "29059": {
+    "name": "DALLAS",
+    "slug": "dallas",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "059"
+  },
+  "29061": {
+    "name": "DAVIESS",
+    "slug": "daviess",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "061"
+  },
+  "29065": {
+    "name": "DENT",
+    "slug": "dent",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "065"
+  },
+  "29067": {
+    "name": "DOUGLAS",
+    "slug": "douglas",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "067"
+  },
+  "29069": {
+    "name": "DUNKLIN",
+    "slug": "dunklin",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "069"
+  },
+  "29071": {
+    "name": "FRANKLIN",
+    "slug": "franklin",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "071"
+  },
+  "29073": {
+    "name": "GASCONADE",
+    "slug": "gasconade",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "073"
+  },
+  "29075": {
+    "name": "GENTRY",
+    "slug": "gentry",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "075"
+  },
+  "29077": {
+    "name": "GREENE",
+    "slug": "greene",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "077"
+  },
+  "29079": {
+    "name": "GRUNDY",
+    "slug": "grundy",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "079"
+  },
+  "29081": {
+    "name": "HARRISON",
+    "slug": "harrison",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "081"
+  },
+  "29083": {
+    "name": "HENRY",
+    "slug": "henry",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "083"
+  },
+  "29085": {
+    "name": "HICKORY",
+    "slug": "hickory",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "085"
+  },
+  "29087": {
+    "name": "HOLT",
+    "slug": "holt",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "087"
+  },
+  "29089": {
+    "name": "HOWARD",
+    "slug": "howard",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "089"
+  },
+  "29091": {
+    "name": "HOWELL",
+    "slug": "howell",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "091"
+  },
+  "29093": {
+    "name": "IRON",
+    "slug": "iron",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "093"
+  },
+  "29095": {
+    "name": "JACKSON",
+    "slug": "jackson",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "095"
+  },
+  "29097": {
+    "name": "JASPER",
+    "slug": "jasper",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "097"
+  },
+  "29099": {
+    "name": "JEFFERSON",
+    "slug": "jefferson",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "099"
+  },
+  "29101": {
+    "name": "JOHNSON",
+    "slug": "johnson",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "101"
+  },
+  "29103": {
+    "name": "KNOX",
+    "slug": "knox",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "103"
+  },
+  "29105": {
+    "name": "LACLEDE",
+    "slug": "laclede",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "105"
+  },
+  "29107": {
+    "name": "LAFAYETTE",
+    "slug": "lafayette",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "107"
+  },
+  "29109": {
+    "name": "LAWRENCE",
+    "slug": "lawrence",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "109"
+  },
+  "29111": {
+    "name": "LEWIS",
+    "slug": "lewis",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "111"
+  },
+  "29113": {
+    "name": "LINCOLN",
+    "slug": "lincoln",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "113"
+  },
+  "29115": {
+    "name": "LINN",
+    "slug": "linn",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "115"
+  },
+  "29117": {
+    "name": "LIVINGSTON",
+    "slug": "livingston",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "117"
+  },
+  "29119": {
+    "name": "MCDONALD",
+    "slug": "mcdonald",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "119"
+  },
+  "29121": {
+    "name": "MACON",
+    "slug": "macon",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "121"
+  },
+  "29123": {
+    "name": "MADISON",
+    "slug": "madison",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "123"
+  },
+  "29125": {
+    "name": "MARIES",
+    "slug": "maries",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "125"
+  },
+  "29127": {
+    "name": "MARION",
+    "slug": "marion",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "127"
+  },
+  "29129": {
+    "name": "MERCER",
+    "slug": "mercer",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "129"
+  },
+  "29131": {
+    "name": "MILLER",
+    "slug": "miller",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "131"
+  },
+  "29133": {
+    "name": "MISSISSIPPI",
+    "slug": "mississippi",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "133"
+  },
+  "29135": {
+    "name": "MONITEAU",
+    "slug": "moniteau",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "135"
+  },
+  "29137": {
+    "name": "MONROE",
+    "slug": "monroe",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "137"
+  },
+  "29139": {
+    "name": "MONTGOMERY",
+    "slug": "montgomery",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "139"
+  },
+  "29141": {
+    "name": "MORGAN",
+    "slug": "morgan",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "141"
+  },
+  "29143": {
+    "name": "NEW MADRID",
+    "slug": "new_madrid",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "143"
+  },
+  "29145": {
+    "name": "NEWTON",
+    "slug": "newton",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "145"
+  },
+  "29147": {
+    "name": "NODAWAY",
+    "slug": "nodaway",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "147"
+  },
+  "29149": {
+    "name": "OREGON",
+    "slug": "oregon",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "149"
+  },
+  "29151": {
+    "name": "OSAGE",
+    "slug": "osage",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "151"
+  },
+  "29153": {
+    "name": "OZARK",
+    "slug": "ozark",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "153"
+  },
+  "29155": {
+    "name": "PEMISCOT",
+    "slug": "pemiscot",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "155"
+  },
+  "29157": {
+    "name": "PERRY",
+    "slug": "perry",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "157"
+  },
+  "29159": {
+    "name": "PETTIS",
+    "slug": "pettis",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "159"
+  },
+  "29161": {
+    "name": "PHELPS",
+    "slug": "phelps",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "161"
+  },
+  "29163": {
+    "name": "PIKE",
+    "slug": "pike",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "163"
+  },
+  "29165": {
+    "name": "PLATTE",
+    "slug": "platte",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "165"
+  },
+  "29167": {
+    "name": "POLK",
+    "slug": "polk",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "167"
+  },
+  "29169": {
+    "name": "PULASKI",
+    "slug": "pulaski",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "169"
+  },
+  "29171": {
+    "name": "PUTNAM",
+    "slug": "putnam",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "171"
+  },
+  "29173": {
+    "name": "RALLS",
+    "slug": "ralls",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "173"
+  },
+  "29175": {
+    "name": "RANDOLPH",
+    "slug": "randolph",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "175"
+  },
+  "29177": {
+    "name": "RAY",
+    "slug": "ray",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "177"
+  },
+  "29179": {
+    "name": "REYNOLDS",
+    "slug": "reynolds",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "179"
+  },
+  "29181": {
+    "name": "RIPLEY",
+    "slug": "ripley",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "181"
+  },
+  "29183": {
+    "name": "ST CHARLES",
+    "slug": "st_charles",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "183"
+  },
+  "29185": {
+    "name": "ST CLAIR",
+    "slug": "st_clair",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "185"
+  },
+  "29186": {
+    "name": "STE GENEVIEVE",
+    "slug": "ste_genevieve",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "186"
+  },
+  "29187": {
+    "name": "ST FRANCOIS",
+    "slug": "st_francois",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "187"
+  },
+  "29510": {
+    "name": "ST LOUIS",
+    "slug": "st_louis",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "510"
+  },
+  "29189": {
+    "name": "ST LOUIS",
+    "slug": "st_louis",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "189"
+  },
+  "29195": {
+    "name": "SALINE",
+    "slug": "saline",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "195"
+  },
+  "29197": {
+    "name": "SCHUYLER",
+    "slug": "schuyler",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "197"
+  },
+  "29199": {
+    "name": "SCOTLAND",
+    "slug": "scotland",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "199"
+  },
+  "29201": {
+    "name": "SCOTT",
+    "slug": "scott",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "201"
+  },
+  "29203": {
+    "name": "SHANNON",
+    "slug": "shannon",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "203"
+  },
+  "29205": {
+    "name": "SHELBY",
+    "slug": "shelby",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "205"
+  },
+  "29207": {
+    "name": "STODDARD",
+    "slug": "stoddard",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "207"
+  },
+  "29209": {
+    "name": "STONE",
+    "slug": "stone",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "209"
+  },
+  "29211": {
+    "name": "SULLIVAN",
+    "slug": "sullivan",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "211"
+  },
+  "29213": {
+    "name": "TANEY",
+    "slug": "taney",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "213"
+  },
+  "29215": {
+    "name": "TEXAS",
+    "slug": "texas",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "215"
+  },
+  "29217": {
+    "name": "VERNON",
+    "slug": "vernon",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "217"
+  },
+  "29219": {
+    "name": "WARREN",
+    "slug": "warren",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "219"
+  },
+  "29221": {
+    "name": "WASHINGTON",
+    "slug": "washington",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "221"
+  },
+  "29223": {
+    "name": "WAYNE",
+    "slug": "wayne",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "223"
+  },
+  "29225": {
+    "name": "WEBSTER",
+    "slug": "webster",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "225"
+  },
+  "29227": {
+    "name": "WORTH",
+    "slug": "worth",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "227"
+  },
+  "29229": {
+    "name": "WRIGHT",
+    "slug": "wright",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "229"
+  },
+  "29063": {
+    "name": "DE KALB",
+    "slug": "de_kalb",
+    "state": "MO",
+    "state_fips": "29",
+    "county_fips": "063"
+  }
+}

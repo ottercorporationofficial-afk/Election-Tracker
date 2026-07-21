@@ -1,0 +1,457 @@
+{
+  "08001": {
+    "name": "ADAMS",
+    "slug": "adams",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "001"
+  },
+  "08003": {
+    "name": "ALAMOSA",
+    "slug": "alamosa",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "003"
+  },
+  "08005": {
+    "name": "ARAPAHOE",
+    "slug": "arapahoe",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "005"
+  },
+  "08007": {
+    "name": "ARCHULETA",
+    "slug": "archuleta",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "007"
+  },
+  "08009": {
+    "name": "BACA",
+    "slug": "baca",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "009"
+  },
+  "08011": {
+    "name": "BENT",
+    "slug": "bent",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "011"
+  },
+  "08013": {
+    "name": "BOULDER",
+    "slug": "boulder",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "013"
+  },
+  "08015": {
+    "name": "CHAFFEE",
+    "slug": "chaffee",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "015"
+  },
+  "08017": {
+    "name": "CHEYENNE",
+    "slug": "cheyenne",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "017"
+  },
+  "08019": {
+    "name": "CLEAR CREEK",
+    "slug": "clear_creek",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "019"
+  },
+  "08021": {
+    "name": "CONEJOS",
+    "slug": "conejos",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "021"
+  },
+  "08023": {
+    "name": "COSTILLA",
+    "slug": "costilla",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "023"
+  },
+  "08025": {
+    "name": "CROWLEY",
+    "slug": "crowley",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "025"
+  },
+  "08027": {
+    "name": "CUSTER",
+    "slug": "custer",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "027"
+  },
+  "08029": {
+    "name": "DELTA",
+    "slug": "delta",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "029"
+  },
+  "08031": {
+    "name": "DENVER",
+    "slug": "denver",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "031"
+  },
+  "08033": {
+    "name": "DOLORES",
+    "slug": "dolores",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "033"
+  },
+  "08035": {
+    "name": "DOUGLAS",
+    "slug": "douglas",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "035"
+  },
+  "08037": {
+    "name": "EAGLE",
+    "slug": "eagle",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "037"
+  },
+  "08039": {
+    "name": "ELBERT",
+    "slug": "elbert",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "039"
+  },
+  "08041": {
+    "name": "EL PASO",
+    "slug": "el_paso",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "041"
+  },
+  "08043": {
+    "name": "FREMONT",
+    "slug": "fremont",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "043"
+  },
+  "08045": {
+    "name": "GARFIELD",
+    "slug": "garfield",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "045"
+  },
+  "08047": {
+    "name": "GILPIN",
+    "slug": "gilpin",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "047"
+  },
+  "08049": {
+    "name": "GRAND",
+    "slug": "grand",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "049"
+  },
+  "08051": {
+    "name": "GUNNISON",
+    "slug": "gunnison",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "051"
+  },
+  "08053": {
+    "name": "HINSDALE",
+    "slug": "hinsdale",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "053"
+  },
+  "08055": {
+    "name": "HUERFANO",
+    "slug": "huerfano",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "055"
+  },
+  "08057": {
+    "name": "JACKSON",
+    "slug": "jackson",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "057"
+  },
+  "08059": {
+    "name": "JEFFERSON",
+    "slug": "jefferson",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "059"
+  },
+  "08061": {
+    "name": "KIOWA",
+    "slug": "kiowa",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "061"
+  },
+  "08063": {
+    "name": "KIT CARSON",
+    "slug": "kit_carson",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "063"
+  },
+  "08065": {
+    "name": "LAKE",
+    "slug": "lake",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "065"
+  },
+  "08067": {
+    "name": "LA PLATA",
+    "slug": "la_plata",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "067"
+  },
+  "08069": {
+    "name": "LARIMER",
+    "slug": "larimer",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "069"
+  },
+  "08071": {
+    "name": "LAS ANIMAS",
+    "slug": "las_animas",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "071"
+  },
+  "08073": {
+    "name": "LINCOLN",
+    "slug": "lincoln",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "073"
+  },
+  "08075": {
+    "name": "LOGAN",
+    "slug": "logan",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "075"
+  },
+  "08077": {
+    "name": "MESA",
+    "slug": "mesa",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "077"
+  },
+  "08079": {
+    "name": "MINERAL",
+    "slug": "mineral",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "079"
+  },
+  "08081": {
+    "name": "MOFFAT",
+    "slug": "moffat",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "081"
+  },
+  "08083": {
+    "name": "MONTEZUMA",
+    "slug": "montezuma",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "083"
+  },
+  "08085": {
+    "name": "MONTROSE",
+    "slug": "montrose",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "085"
+  },
+  "08087": {
+    "name": "MORGAN",
+    "slug": "morgan",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "087"
+  },
+  "08089": {
+    "name": "OTERO",
+    "slug": "otero",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "089"
+  },
+  "08091": {
+    "name": "OURAY",
+    "slug": "ouray",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "091"
+  },
+  "08093": {
+    "name": "PARK",
+    "slug": "park",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "093"
+  },
+  "08095": {
+    "name": "PHILLIPS",
+    "slug": "phillips",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "095"
+  },
+  "08097": {
+    "name": "PITKIN",
+    "slug": "pitkin",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "097"
+  },
+  "08099": {
+    "name": "PROWERS",
+    "slug": "prowers",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "099"
+  },
+  "08101": {
+    "name": "PUEBLO",
+    "slug": "pueblo",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "101"
+  },
+  "08103": {
+    "name": "RIO BLANCO",
+    "slug": "rio_blanco",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "103"
+  },
+  "08105": {
+    "name": "RIO GRANDE",
+    "slug": "rio_grande",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "105"
+  },
+  "08107": {
+    "name": "ROUTT",
+    "slug": "routt",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "107"
+  },
+  "08109": {
+    "name": "SAGUACHE",
+    "slug": "saguache",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "109"
+  },
+  "08111": {
+    "name": "SAN JUAN",
+    "slug": "san_juan",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "111"
+  },
+  "08113": {
+    "name": "SAN MIGUEL",
+    "slug": "san_miguel",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "113"
+  },
+  "08115": {
+    "name": "SEDGWICK",
+    "slug": "sedgwick",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "115"
+  },
+  "08117": {
+    "name": "SUMMIT",
+    "slug": "summit",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "117"
+  },
+  "08119": {
+    "name": "TELLER",
+    "slug": "teller",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "119"
+  },
+  "08121": {
+    "name": "WASHINGTON",
+    "slug": "washington",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "121"
+  },
+  "08123": {
+    "name": "WELD",
+    "slug": "weld",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "123"
+  },
+  "08125": {
+    "name": "YUMA",
+    "slug": "yuma",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "125"
+  },
+  "08145": {
+    "name": "BATTLEMENT MESA",
+    "slug": "battlement_mesa",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "145"
+  },
+  "08014": {
+    "name": "BROOMFIELD",
+    "slug": "broomfield",
+    "state": "CO",
+    "state_fips": "08",
+    "county_fips": "014"
+  }
+}
