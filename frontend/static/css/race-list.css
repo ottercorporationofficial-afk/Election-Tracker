@@ -6,10 +6,12 @@
 .race-list-section {
     width: min(1400px, calc(100% - 40px));
     margin: 0 auto 40px;
+}
 
+#race-list {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 24px;
 }
 
 .race-link {

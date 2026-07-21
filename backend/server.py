@@ -72,9 +72,22 @@ if STATIC.exists():
     @app.get("/arizona/governor-primary")
     def arizona_governor_primary():
         return FileResponse(STATIC / "races/AZ/2026-primaries/arizona-governor-primary.html")
+
     @app.get("/arizona/sos-primary")
     def arizona_sos_primary():
         return FileResponse(STATIC / "races/AZ/2026-primaries/arizona-sos-primary-republican-2026.html")
+
+    @app.get("/arizona/house-05-republican-primary")
+    def arizona_house_05_primary():
+        return FileResponse(STATIC / "races/AZ/2026-primaries/arizona-congressional-05-republican.html")
+
+    @app.get("/arizona/house-01-democratic-primary")
+    def arizona_house_05_primary():
+        return FileResponse(STATIC / "races/AZ/2026-primaries/arizona-congressional-01-democrat.html")
+
+
+
+
 
 
 # API endpoints

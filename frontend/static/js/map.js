@@ -75,6 +75,24 @@ const mapConfigs = {
         fips: "04",
         rotation: -7,
         candidateColorOverrides: {}
+    },
+    arizona_districts: {
+        geography: "districts",
+        stateAbbr: "az",
+        rotation: -7,
+        candidateColorOverrides: {}
+    },
+    arizona_cd05: {
+        fips: "04",
+        rotation: -7,
+        countyFilter: ["04013", "04021"],   // Maricopa + Pinal -- the counties AZ-05 covers
+        candidateColorOverrides: {}
+    },
+    arizona_cd01 : {
+        fips: "04",
+        rotation: -7,
+        countyFilter: ["04013"],
+        candidateColorOverrides: {}
     }
 };
 
@@ -159,6 +177,21 @@ function loadCounties() {
             .then(us => topojson.feature(us, us.objects.counties));
     }
     return countiesPromise;
+}
+
+// Congressional districts -- already plain GeoJSON (not TopoJSON), so no
+// topojson.feature() conversion needed, just fetch and use features
+// directly. Each feature's top-level "id" is already a district code
+// like "AZ-01" (set when the file was prepared), matching how county
+// FIPS codes work as d.id today -- so all the downstream fill/tooltip
+// code needs zero changes to support districts.
+let districtsPromise = null;
+
+function loadDistricts() {
+    if (!districtsPromise) {
+        districtsPromise = d3.json("/data/districts-simplified.geojson");
+    }
+    return districtsPromise;
 }
 
 // --------------------
@@ -463,14 +496,34 @@ function initElectionMap(containerSelector, mapKey, options = {}) {
     // Initial load
     // --------------------
 
-    Promise.all([
-        loadCounties(),
+    const loadPromises = [
+        config.geography === "districts" ? loadDistricts() : loadCounties(),
         fetch(latestUrl).then(r => r.json())
-    ]).then(([counties, electionData]) => {
+    ];
 
-        const stateCounties = counties.features.filter(
-            d => d.id.startsWith(stateFips)
-        );
+    if (config.showCountyOverlay) {
+        loadPromises.push(loadCounties());
+    }
+
+    Promise.all(loadPromises).then(([regions, electionData, overlayCounties]) => {
+
+        let stateRegions = config.geography === "districts"
+            ? regions.features.filter(d => d.properties.state === (config.stateAbbr || "").toUpperCase())
+            : regions.features.filter(d => d.id.startsWith(stateFips));
+
+        // Restrict to a specific set of counties (e.g. "show just the
+        // counties that make up this congressional district"). Uses the
+        // regular county shapes/data -- no district geometry involved at
+        // all, just a filter on which county FIPS codes are shown.
+        if (config.countyFilter) {
+            stateRegions = stateRegions.filter(d => config.countyFilter.includes(d.id));
+        }
+
+        // Zoom to just ONE district instead of the whole state's districts,
+        // e.g. for a single-district race's own page.
+        if (config.singleDistrict) {
+            stateRegions = stateRegions.filter(d => d.id === config.singleDistrict);
+        }
 
         // --------------------
         // Auto Center / Scale
@@ -478,7 +531,7 @@ function initElectionMap(containerSelector, mapKey, options = {}) {
 
         const bounds = path.bounds({
             type: "FeatureCollection",
-            features: stateCounties
+            features: stateRegions
         });
 
         const padding = 30;
@@ -512,7 +565,28 @@ function initElectionMap(containerSelector, mapKey, options = {}) {
                 `
             );
 
-        drawMap(stateCounties, electionData);
+        drawMap(stateRegions, electionData);
+
+        // Optional reference layer: county lines drawn on top of the
+        // district's fill, unfilled, just for geographic context (which
+        // counties make up this district). Doesn't intercept hover/clicks
+        // -- those stay on the district shape underneath.
+        if (config.showCountyOverlay && overlayCounties) {
+
+            const overlayFeatures = overlayCounties.features.filter(
+                d => d.id.startsWith(config.countyFips || stateFips || "")
+            );
+
+            g.selectAll("path.county-overlay")
+                .data(overlayFeatures)
+                .join("path")
+                .attr("class", "county-overlay")
+                .attr("d", path)
+                .attr("fill", "none")
+                .attr("stroke", "rgba(255,255,255,0.4)")
+                .attr("stroke-width", 0.6)
+                .style("pointer-events", "none");
+        }
 
         // Live updates every 5 seconds, scoped to this instance
         setInterval(updateMap, 5000);
