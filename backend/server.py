@@ -246,3 +246,15 @@ def admin_clear_alias(race_key: str, raw_name: str, _: bool = Depends(require_ad
 def admin_set_projected_winner(race_key: str, winner: str = None, _: bool = Depends(require_admin)):
     admin_store.set_projected_winner(race_key, winner)
     return {"ok": True}
+
+
+@app.post("/admin/races/{race_key}/needle")
+def admin_set_needle(race_key: str, candidate: str, value: float, _: bool = Depends(require_admin)):
+    admin_store.set_needle(race_key, candidate, value)
+    return {"ok": True}
+
+
+@app.delete("/admin/races/{race_key}/needle")
+def admin_clear_needle(race_key: str, _: bool = Depends(require_admin)):
+    admin_store.clear_needle(race_key)
+    return {"ok": True}

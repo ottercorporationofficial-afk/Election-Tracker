@@ -4,6 +4,13 @@
       "Jim Lamon": "#e02929"
     },
     "candidate_aliases": {},
-    "projected_winner": null
+    "projected_winner": "",
+    "needle": null
+  },
+  "co_governor_primary": {
+    "candidate_colors": {},
+    "candidate_aliases": {},
+    "projected_winner": "Victor Marx",
+    "needle": null
   }
 }

@@ -21,7 +21,8 @@ STORE_PATH = Path(__file__).resolve().parent / "data" / "admin_overrides.json"
 _DEFAULT_RACE_OVERRIDES = {
     "candidate_colors": {},
     "candidate_aliases": {},
-    "projected_winner": None
+    "projected_winner": None,
+    "needle": None  # {"candidate": "Name", "value": 0-100} or None to hide the needle
 }
 
 
@@ -78,6 +79,27 @@ def set_projected_winner(race_key, winner_name_or_none):
     race = data.setdefault(race_key, dict(_DEFAULT_RACE_OVERRIDES))
     race["projected_winner"] = winner_name_or_none
     _save(data)
+
+
+def set_needle(race_key, candidate_name, value):
+    """
+    value: 0-100, how strongly the needle leans toward candidate_name.
+    50 = dead even, 100 = fully candidate_name, 0 = fully the other side.
+    Purely a manual editorial setting -- you decide the number, it's
+    never computed from vote counts.
+    """
+    data = _load()
+    race = data.setdefault(race_key, dict(_DEFAULT_RACE_OVERRIDES))
+    race["needle"] = {"candidate": candidate_name, "value": value}
+    _save(data)
+
+
+def clear_needle(race_key):
+    data = _load()
+    race = data.get(race_key)
+    if race:
+        race["needle"] = None
+        _save(data)
 
 
 def apply_overrides_to_comparison(comparison, race_key):

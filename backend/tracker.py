@@ -11,8 +11,12 @@ def _finalize(result, race_key, config):
     # docstring for why that matters (reset correctness + diff correctness).
     result = admin_store.apply_overrides_to_comparison(result, race_key)
 
-    override_winner = admin_store.get_overrides(race_key).get("projected_winner")
+    overrides = admin_store.get_overrides(race_key)
+
+    override_winner = overrides.get("projected_winner")
     result["projected_winner"] = override_winner or config.get("projected_winner")
+
+    result["needle"] = overrides.get("needle")  # {"candidate": ..., "value": 0-100} or None
 
     return result
 

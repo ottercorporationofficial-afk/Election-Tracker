@@ -18,16 +18,16 @@
 </head>
 <body>
 
+<h1>Otter Elections — Admin</h1>
+
 <div class="top-header">
     <div class="top-header-content">
         <div class="site-name">Otter Elections</div>
-
         <nav class="top-nav"></nav>
     </div>
 </div>
-<script src="js/nav.js"></script>
 
-<h1>Otter Elections — Admin</h1>
+<script src="/js/nav.js"></script>
 
 <label for="race-select">Race</label>
 <select id="race-select"></select>
@@ -40,6 +40,20 @@
     <button onclick="setProjectedWinner()">Set</button>
     <button onclick="clearProjectedWinner()">Clear (no projection)</button>
     <span id="projected-status" class="status"></span>
+</div>
+
+<div class="projected-section">
+    <h2>Needle</h2>
+    <select id="needle-candidate-select"></select>
+    <div style="display:flex; align-items:center; gap:10px; margin-top:10px;">
+        <input type="range" id="needle-value-slider" min="0" max="100" value="50" style="flex:1;">
+        <span id="needle-value-label" style="width:40px; text-align:right;">50</span>
+    </div>
+    <div style="margin-top:10px;">
+        <button onclick="setNeedle()">Set</button>
+        <button onclick="clearNeedle()">Clear (hide needle)</button>
+        <span id="needle-status" class="status"></span>
+    </div>
 </div>
 
 <script>
@@ -93,40 +107,98 @@
         winnerSelect.innerHTML =
             '<option value="">(none)</option>' +
             candidates.map(c => `<option value="${c.name}">${c.name}</option>`).join('');
+
+        const needleSelect = document.getElementById('needle-candidate-select');
+        needleSelect.innerHTML = candidates.map(c => `<option value="${c.name}">${c.name}</option>`).join('');
+
+        if (overrides.needle) {
+            needleSelect.value = overrides.needle.candidate;
+            document.getElementById('needle-value-slider').value = overrides.needle.value;
+            document.getElementById('needle-value-label').textContent = overrides.needle.value;
+        }
+    }
+
+    // Every admin write goes through this so a failure (401 from a broken
+    // login, a 500, network error, whatever) is always visibly reported
+    // instead of silently showing "Saved" regardless of what happened.
+    async function adminFetch(url, options) {
+        try {
+            const response = await fetch(url, options);
+            if (!response.ok) {
+                const body = await response.text().catch(() => "");
+                throw new Error(`${response.status} ${response.statusText}${body ? " -- " + body : ""}`);
+            }
+            return response;
+        } catch (err) {
+            alert(`Save failed: ${err.message}\n\nIf this says 401/Unauthorized, your admin login isn't working -- re-check your credentials.`);
+            throw err;
+        }
     }
 
     async function setColor(name, color) {
-        await fetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/color?name=${encodeURIComponent(name)}&color=${encodeURIComponent(color)}`, { method: 'POST' });
-        flashStatus(name);
+        try {
+            await adminFetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/color?name=${encodeURIComponent(name)}&color=${encodeURIComponent(color)}`, { method: 'POST' });
+            flashStatus(name);
+        } catch (err) { /* already alerted in adminFetch */ }
     }
 
     async function resetColor(name) {
-        await fetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/color?name=${encodeURIComponent(name)}`, { method: 'DELETE' });
-        await loadRace(currentRaceKey);  // reload so the picker shows the real fallback color, not the just-cleared one
-        flashStatus(name);
+        try {
+            await adminFetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/color?name=${encodeURIComponent(name)}`, { method: 'DELETE' });
+            await loadRace(currentRaceKey);  // reload so the picker shows the real fallback color, not the just-cleared one
+            flashStatus(name);
+        } catch (err) { /* already alerted in adminFetch */ }
     }
 
     async function setAlias(rawName, displayName) {
-        if (displayName) {
-            await fetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/alias?raw_name=${encodeURIComponent(rawName)}&display_name=${encodeURIComponent(displayName)}`, { method: 'POST' });
-        } else {
-            await fetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/alias?raw_name=${encodeURIComponent(rawName)}`, { method: 'DELETE' });
-        }
-        flashStatus(rawName);
+        try {
+            if (displayName) {
+                await adminFetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/alias?raw_name=${encodeURIComponent(rawName)}&display_name=${encodeURIComponent(displayName)}`, { method: 'POST' });
+            } else {
+                await adminFetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/alias?raw_name=${encodeURIComponent(rawName)}`, { method: 'DELETE' });
+            }
+            flashStatus(rawName);
+        } catch (err) { /* already alerted in adminFetch */ }
     }
 
     async function setProjectedWinner() {
-        const winner = document.getElementById('projected-winner-select').value;
-        await fetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/projected_winner?winner=${encodeURIComponent(winner)}`, { method: 'POST' });
-        document.getElementById('projected-status').textContent = 'Saved';
-        setTimeout(() => document.getElementById('projected-status').textContent = '', 1500);
+        try {
+            const winner = document.getElementById('projected-winner-select').value;
+            await adminFetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/projected_winner?winner=${encodeURIComponent(winner)}`, { method: 'POST' });
+            document.getElementById('projected-status').textContent = 'Saved';
+            setTimeout(() => document.getElementById('projected-status').textContent = '', 1500);
+        } catch (err) { /* already alerted in adminFetch */ }
     }
 
     async function clearProjectedWinner() {
-        document.getElementById('projected-winner-select').value = '';
-        await fetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/projected_winner`, { method: 'POST' });
-        document.getElementById('projected-status').textContent = 'Cleared';
-        setTimeout(() => document.getElementById('projected-status').textContent = '', 1500);
+        try {
+            document.getElementById('projected-winner-select').value = '';
+            await adminFetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/projected_winner`, { method: 'POST' });
+            document.getElementById('projected-status').textContent = 'Cleared';
+            setTimeout(() => document.getElementById('projected-status').textContent = '', 1500);
+        } catch (err) { /* already alerted in adminFetch */ }
+    }
+
+    document.getElementById('needle-value-slider').addEventListener('input', (e) => {
+        document.getElementById('needle-value-label').textContent = e.target.value;
+    });
+
+    async function setNeedle() {
+        try {
+            const candidate = document.getElementById('needle-candidate-select').value;
+            const value = document.getElementById('needle-value-slider').value;
+            await adminFetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/needle?candidate=${encodeURIComponent(candidate)}&value=${value}`, { method: 'POST' });
+            document.getElementById('needle-status').textContent = 'Saved';
+            setTimeout(() => document.getElementById('needle-status').textContent = '', 1500);
+        } catch (err) { /* already alerted in adminFetch */ }
+    }
+
+    async function clearNeedle() {
+        try {
+            await adminFetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/needle`, { method: 'DELETE' });
+            document.getElementById('needle-status').textContent = 'Cleared';
+            setTimeout(() => document.getElementById('needle-status').textContent = '', 1500);
+        } catch (err) { /* already alerted in adminFetch */ }
     }
 
     function flashStatus(name) {
