@@ -212,8 +212,14 @@ def admin_get_race(race_key: str, _: bool = Depends(require_admin)):
 
     snapshot = load_snapshot(race_key) or {}
 
+    counties = [
+        {"key": key, "name": county.get("name", key)}
+        for key, county in snapshot.get("region_results", {}).items()
+    ]
+
     return {
         "candidates": snapshot.get("candidates", []),
+        "counties": counties,
         "overrides": admin_store.get_overrides(race_key)
     }
 
@@ -257,4 +263,16 @@ def admin_set_needle(race_key: str, candidate: str, value: float, _: bool = Depe
 @app.delete("/admin/races/{race_key}/needle")
 def admin_clear_needle(race_key: str, _: bool = Depends(require_admin)):
     admin_store.clear_needle(race_key)
+    return {"ok": True}
+
+
+@app.post("/admin/races/{race_key}/turnout_projection/{county_key}")
+def admin_set_county_turnout_projection(race_key: str, county_key: str, total_votes: float, _: bool = Depends(require_admin)):
+    admin_store.set_county_turnout_projection(race_key, county_key, total_votes)
+    return {"ok": True}
+
+
+@app.delete("/admin/races/{race_key}/turnout_projection/{county_key}")
+def admin_clear_county_turnout_projection(race_key: str, county_key: str, _: bool = Depends(require_admin)):
+    admin_store.clear_county_turnout_projection(race_key, county_key)
     return {"ok": True}

@@ -20,15 +20,6 @@
 
 <h1>Otter Elections — Admin</h1>
 
-<div class="top-header">
-    <div class="top-header-content">
-        <div class="site-name">Otter Elections</div>
-        <nav class="top-nav"></nav>
-    </div>
-</div>
-
-<script src="/js/nav.js"></script>
-
 <label for="race-select">Race</label>
 <select id="race-select"></select>
 
@@ -56,7 +47,18 @@
     </div>
 </div>
 
+<div class="projected-section">
+    <h2>Turnout Projections (per county)</h2>
+    <p style="color:#8b93a3; font-size:0.85rem; margin:0 0 10px;">
+        Your own estimate of total expected votes, per county. Where set, that county's "% in" is
+        computed as (votes counted so far &divide; your number) instead of civicapi's own reporting percentage.
+        Leave a county blank to keep using civicapi's default for it.
+    </p>
+    <div id="turnout-county-list"></div>
+</div>
+
 <script>
+
     let currentRaceKey = null;
 
     async function loadRaces() {
@@ -78,10 +80,10 @@
         const res = await fetch(`/admin/races/${encodeURIComponent(raceKey)}`);
         const data = await res.json();
 
-        renderCandidates(data.candidates, data.overrides);
+        renderCandidates(data.candidates, data.counties, data.overrides);
     }
 
-    function renderCandidates(candidates, overrides) {
+    function renderCandidates(candidates, counties, overrides) {
 
         const container = document.getElementById('candidates');
         const colors = overrides.candidate_colors || {};
@@ -116,6 +118,30 @@
             document.getElementById('needle-value-slider').value = overrides.needle.value;
             document.getElementById('needle-value-label').textContent = overrides.needle.value;
         }
+
+        renderTurnoutCountyList(counties || [], overrides.turnout_projections || {});
+    }
+
+    function renderTurnoutCountyList(counties, projections) {
+
+        const container = document.getElementById('turnout-county-list');
+
+        if (counties.length === 0) {
+            container.innerHTML = '<p style="color:#8b93a3; font-size:0.85rem;">No counties yet for this race.</p>';
+            return;
+        }
+
+        container.innerHTML = counties.map(c => `
+            <div class="candidate-row" data-county="${c.key}">
+                <span class="candidate-name" style="flex:1;">${c.name}</span>
+                <input type="number" class="turnout-input" placeholder="e.g. 500000"
+                       value="${projections[c.key] != null ? projections[c.key] : ''}"
+                       style="width:160px;"
+                       onchange="setCountyTurnout('${c.key}', this.value)">
+                <button onclick="clearCountyTurnout('${c.key}')">Clear</button>
+                <span class="status turnout-county-status"></span>
+            </div>
+        `).join('');
     }
 
     // Every admin write goes through this so a failure (401 from a broken
@@ -198,6 +224,34 @@
             await adminFetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/needle`, { method: 'DELETE' });
             document.getElementById('needle-status').textContent = 'Cleared';
             setTimeout(() => document.getElementById('needle-status').textContent = '', 1500);
+        } catch (err) { /* already alerted in adminFetch */ }
+    }
+
+    async function setCountyTurnout(countyKey, totalVotes) {
+        const statusEl = document.querySelector(`.candidate-row[data-county="${CSS.escape(countyKey)}"] .turnout-county-status`);
+        try {
+            if (!totalVotes) {
+                await adminFetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/turnout_projection/${encodeURIComponent(countyKey)}`, { method: 'DELETE' });
+            } else {
+                await adminFetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/turnout_projection/${encodeURIComponent(countyKey)}?total_votes=${totalVotes}`, { method: 'POST' });
+            }
+            if (statusEl) {
+                statusEl.textContent = 'Saved';
+                setTimeout(() => statusEl.textContent = '', 1500);
+            }
+        } catch (err) { /* already alerted in adminFetch */ }
+    }
+
+    async function clearCountyTurnout(countyKey) {
+        const row = document.querySelector(`.candidate-row[data-county="${CSS.escape(countyKey)}"]`);
+        try {
+            await adminFetch(`/admin/races/${encodeURIComponent(currentRaceKey)}/turnout_projection/${encodeURIComponent(countyKey)}`, { method: 'DELETE' });
+            if (row) row.querySelector('.turnout-input').value = '';
+            const statusEl = row?.querySelector('.turnout-county-status');
+            if (statusEl) {
+                statusEl.textContent = 'Cleared';
+                setTimeout(() => statusEl.textContent = '', 1500);
+            }
         } catch (err) { /* already alerted in adminFetch */ }
     }
 
