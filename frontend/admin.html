@@ -20,6 +20,17 @@
 
 <h1>Otter Elections — Admin</h1>
 
+<div class="top-header">
+    <div class="top-header-content">
+        <div class="site-name">Otter Elections</div>
+
+        <nav class="top-nav"></nav>
+    </div>
+</div>
+
+<script src="/js/nav.js"></script>
+
+
 <label for="race-select">Race</label>
 <select id="race-select"></select>
 
@@ -80,10 +91,11 @@
         const res = await fetch(`/admin/races/${encodeURIComponent(raceKey)}`);
         const data = await res.json();
 
-        renderCandidates(data.candidates, data.counties, data.overrides);
+        renderCandidates(data.candidates, data.overrides);
+        renderTurnoutCountyList(data.counties || [], data.turnout_projections || {}, data.turnout_group, data.turnout_shared_with || []);
     }
 
-    function renderCandidates(candidates, counties, overrides) {
+    function renderCandidates(candidates, overrides) {
 
         const container = document.getElementById('candidates');
         const colors = overrides.candidate_colors || {};
@@ -118,20 +130,30 @@
             document.getElementById('needle-value-slider').value = overrides.needle.value;
             document.getElementById('needle-value-label').textContent = overrides.needle.value;
         }
-
-        renderTurnoutCountyList(counties || [], overrides.turnout_projections || {});
     }
 
-    function renderTurnoutCountyList(counties, projections) {
+    function renderTurnoutCountyList(counties, projections, group, sharedWith) {
 
         const container = document.getElementById('turnout-county-list');
 
+        let groupNote = '';
+
+        if (sharedWith.length > 0) {
+            groupNote = `<p style="color:#5da2ff; font-size:0.85rem; margin:0 0 10px;">
+                Shared turnout group "${group}" -- these values also apply to: ${sharedWith.join(', ')}
+            </p>`;
+        } else {
+            groupNote = `<p style="color:#8b93a3; font-size:0.8rem; margin:0 0 10px;">
+                Not sharing a turnout group with any other race yet -- set "turnout_group" in registry.py to share these values across races on the same ballot.
+            </p>`;
+        }
+
         if (counties.length === 0) {
-            container.innerHTML = '<p style="color:#8b93a3; font-size:0.85rem;">No counties yet for this race.</p>';
+            container.innerHTML = groupNote + '<p style="color:#8b93a3; font-size:0.85rem;">No counties yet for this race.</p>';
             return;
         }
 
-        container.innerHTML = counties.map(c => `
+        container.innerHTML = groupNote + counties.map(c => `
             <div class="candidate-row" data-county="${c.key}">
                 <span class="candidate-name" style="flex:1;">${c.name}</span>
                 <input type="number" class="turnout-input" placeholder="e.g. 500000"
