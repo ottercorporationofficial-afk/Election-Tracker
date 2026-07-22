@@ -94,6 +94,9 @@ if STATIC.exists():
     @app.get("/arizona/attorney_general_republican")
     def arizona_house_05_primary():
         return FileResponse(STATIC / "races/AZ/2026-primaries/arizona-attorney-general-republican-primary.html")
+    @app.get("/arizona/superintendent_republican")
+    def arizona_superintendent_republican():
+        return FileResponse(STATIC / "races/AZ/2026-primaries/arizona-superintendent-republican-primary.html")
 
 
 # API endpoints

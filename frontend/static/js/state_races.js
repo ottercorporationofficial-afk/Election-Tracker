@@ -41,7 +41,13 @@ const STATE_RACES = {
             path: "/arizona/attorney_general_republican",
             raceKey: "arizona_attorney_general_republican",
             name: "Arizona Attorney General — Republican Primary 2026"
+        },
+         {
+            path: "/arizona/superintendent_republican",
+            raceKey: "arizona_superintendent_republican",
+            name: "Arizona Superintendent of Public Instruction — Republican Primary 2026"
         }
+
 
 
 

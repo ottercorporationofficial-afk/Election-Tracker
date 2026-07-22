@@ -108,6 +108,14 @@ RACES = {
         "turnout_group": "az_republican_primary_2026"
 
     },
+    "arizona_superintendent_republican": {
+        "source": "civicapi",
+        "race_id": 84534,
+        "state": "az",
+        "cycle": "2026-primaries",
+        "turnout_group": "az_republican_primary_2026"
+
+    },
 
     # TEST-ONLY twin of the race above -- same fips/geography, but reads a
     # local file instead of hitting Maricopa's live URL. Point your AZ

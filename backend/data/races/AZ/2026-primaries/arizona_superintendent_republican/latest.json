@@ -1,0 +1,515 @@
+{
+    "election_name": "Arizona Superintendent of Public Instruction Republican Primary",
+    "election_type": "Education",
+    "election_scope": "Primary",
+    "election_date": "2026-07-21T05:00:00.000Z",
+    "country": "US",
+    "province": "AZ",
+    "district": "AZ",
+    "municipality": null,
+    "polls_open": "2026-07-21T13:00:00.000Z",
+    "polls_close": "2026-07-22T02:00:00.000Z",
+    "is_disputed": false,
+    "has_map": true,
+    "registered_voters": null,
+    "percent_reporting": 55.7,
+    "last_updated": "2026-07-22T04:12:09.541Z",
+    "round": 1,
+    "maps": [
+        {
+            "name": "Arizona",
+            "map": "assets/Arizona.svg"
+        }
+    ],
+    "candidates": [
+        {
+            "name": "Kimberly Yee",
+            "party": "Republican",
+            "incumbent": false,
+            "major_candidate": true,
+            "winner": false,
+            "advanced": false,
+            "color": "#c6606b",
+            "votes": 217339,
+            "percent": 54.19
+        },
+        {
+            "name": "Thomas Horne",
+            "party": "Republican",
+            "incumbent": true,
+            "major_candidate": true,
+            "winner": false,
+            "advanced": false,
+            "color": "#e0bb24",
+            "votes": 183728,
+            "percent": 45.81
+        }
+    ],
+    "region_results": {
+        "maricopa": {
+            "name": "Maricopa",
+            "type": "County",
+            "fips": "04013",
+            "fill": "#c6606b",
+            "percent_reporting": 76.73,
+            "candidates": [
+                {
+                    "name": "Kimberly Yee",
+                    "party": "Republican",
+                    "votes": 134647,
+                    "percent": 55.74,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Thomas Horne",
+                    "party": "Republican",
+                    "votes": 106904,
+                    "percent": 44.26,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": true,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "pima": {
+            "name": "Pima",
+            "type": "County",
+            "fips": "04019",
+            "fill": "#c6606b",
+            "percent_reporting": 69.18,
+            "candidates": [
+                {
+                    "name": "Kimberly Yee",
+                    "party": "Republican",
+                    "votes": 24190,
+                    "percent": 51.3,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Thomas Horne",
+                    "party": "Republican",
+                    "votes": 22964,
+                    "percent": 48.7,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": true,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "yavapai": {
+            "name": "Yavapai",
+            "type": "County",
+            "fips": "04025",
+            "fill": "#c6606b",
+            "percent_reporting": 70.21,
+            "candidates": [
+                {
+                    "name": "Kimberly Yee",
+                    "party": "Republican",
+                    "votes": 16150,
+                    "percent": 55.64,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Thomas Horne",
+                    "party": "Republican",
+                    "votes": 12874,
+                    "percent": 44.36,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": true,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "pinal": {
+            "name": "Pinal",
+            "type": "County",
+            "fips": "04021",
+            "fill": "#c6606b",
+            "percent_reporting": 65.16,
+            "candidates": [
+                {
+                    "name": "Kimberly Yee",
+                    "party": "Republican",
+                    "votes": 12063,
+                    "percent": 50.59,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Thomas Horne",
+                    "party": "Republican",
+                    "votes": 11781,
+                    "percent": 49.41,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": true,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "mohave": {
+            "name": "Mohave",
+            "type": "County",
+            "fips": "04015",
+            "fill": "#c6606b",
+            "percent_reporting": 62.61,
+            "candidates": [
+                {
+                    "name": "Kimberly Yee",
+                    "party": "Republican",
+                    "votes": 10516,
+                    "percent": 51.2,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Thomas Horne",
+                    "party": "Republican",
+                    "votes": 10023,
+                    "percent": 48.8,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": true,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "cochise": {
+            "name": "Cochise",
+            "type": "County",
+            "fips": "04003",
+            "fill": "#e0bb24",
+            "percent_reporting": 60.27,
+            "candidates": [
+                {
+                    "name": "Thomas Horne",
+                    "party": "Republican",
+                    "votes": 4272,
+                    "percent": 50.53,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": true,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Kimberly Yee",
+                    "party": "Republican",
+                    "votes": 4182,
+                    "percent": 49.47,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "yuma": {
+            "name": "Yuma",
+            "type": "County",
+            "fips": "04027",
+            "fill": "#e0bb24",
+            "percent_reporting": 60.33,
+            "candidates": [
+                {
+                    "name": "Thomas Horne",
+                    "party": "Republican",
+                    "votes": 3921,
+                    "percent": 50.39,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": true,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Kimberly Yee",
+                    "party": "Republican",
+                    "votes": 3861,
+                    "percent": 49.61,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "gila": {
+            "name": "Gila",
+            "type": "County",
+            "fips": "04007",
+            "fill": "#c6606b",
+            "percent_reporting": 44.39,
+            "candidates": [
+                {
+                    "name": "Kimberly Yee",
+                    "party": "Republican",
+                    "votes": 2905,
+                    "percent": 51.65,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Thomas Horne",
+                    "party": "Republican",
+                    "votes": 2719,
+                    "percent": 48.35,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": true,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "coconino": {
+            "name": "Coconino",
+            "type": "County",
+            "fips": "04005",
+            "fill": "#c6606b",
+            "percent_reporting": 47.45,
+            "candidates": [
+                {
+                    "name": "Kimberly Yee",
+                    "party": "Republican",
+                    "votes": 2526,
+                    "percent": 52.03,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Thomas Horne",
+                    "party": "Republican",
+                    "votes": 2329,
+                    "percent": 47.97,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": true,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "navajo": {
+            "name": "Navajo",
+            "type": "County",
+            "fips": "04017",
+            "fill": "#c6606b",
+            "percent_reporting": 25.76,
+            "candidates": [
+                {
+                    "name": "Kimberly Yee",
+                    "party": "Republican",
+                    "votes": 2603,
+                    "percent": 53.8,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Thomas Horne",
+                    "party": "Republican",
+                    "votes": 2235,
+                    "percent": 46.2,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": true,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "graham": {
+            "name": "Graham",
+            "type": "County",
+            "fips": "04009",
+            "fill": "#c6606b",
+            "percent_reporting": 43.08,
+            "candidates": [
+                {
+                    "name": "Kimberly Yee",
+                    "party": "Republican",
+                    "votes": 1686,
+                    "percent": 54.74,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Thomas Horne",
+                    "party": "Republican",
+                    "votes": 1394,
+                    "percent": 45.26,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": true,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "apache": {
+            "name": "Apache",
+            "type": "County",
+            "fips": "04001",
+            "fill": "#e0bb24",
+            "percent_reporting": 29.64,
+            "candidates": [
+                {
+                    "name": "Thomas Horne",
+                    "party": "Republican",
+                    "votes": 1003,
+                    "percent": 53.44,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": true,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Kimberly Yee",
+                    "party": "Republican",
+                    "votes": 874,
+                    "percent": 46.56,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "la_paz": {
+            "name": "La Paz",
+            "type": "County",
+            "fips": "04012",
+            "fill": "#e0bb24",
+            "percent_reporting": 42.19,
+            "candidates": [
+                {
+                    "name": "Thomas Horne",
+                    "party": "Republican",
+                    "votes": 628,
+                    "percent": 52.6,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": true,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Kimberly Yee",
+                    "party": "Republican",
+                    "votes": 566,
+                    "percent": 47.4,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "santa_cruz": {
+            "name": "Santa Cruz",
+            "type": "County",
+            "fips": "04023",
+            "fill": "#e0bb24",
+            "percent_reporting": 58.44,
+            "candidates": [
+                {
+                    "name": "Thomas Horne",
+                    "party": "Republican",
+                    "votes": 520,
+                    "percent": 53.83,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": true,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Kimberly Yee",
+                    "party": "Republican",
+                    "votes": 446,
+                    "percent": 46.17,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        },
+        "greenlee": {
+            "name": "Greenlee",
+            "type": "County",
+            "fips": "04011",
+            "fill": "#e0bb24",
+            "percent_reporting": 65.97,
+            "candidates": [
+                {
+                    "name": "Thomas Horne",
+                    "party": "Republican",
+                    "votes": 161,
+                    "percent": 56.49,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": true,
+                    "major_candidate": true
+                },
+                {
+                    "name": "Kimberly Yee",
+                    "party": "Republican",
+                    "votes": 124,
+                    "percent": 43.51,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": true
+                }
+            ]
+        }
+    }
+}
