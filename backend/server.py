@@ -217,10 +217,23 @@ def admin_get_race(race_key: str, _: bool = Depends(require_admin)):
         for key, county in snapshot.get("region_results", {}).items()
     ]
 
+    turnout_group = RACES[race_key].get("turnout_group") or race_key
+
+    # Other races sharing this same turnout group, so the admin UI can
+    # show "this also applies to: ..." rather than looking like a
+    # per-race-only setting.
+    shared_with = [
+        key for key, config in RACES.items()
+        if key != race_key and (config.get("turnout_group") or key) == turnout_group
+    ]
+
     return {
         "candidates": snapshot.get("candidates", []),
         "counties": counties,
-        "overrides": admin_store.get_overrides(race_key)
+        "overrides": admin_store.get_overrides(race_key),
+        "turnout_group": turnout_group,
+        "turnout_shared_with": shared_with,
+        "turnout_projections": admin_store.get_group_turnout_projections(turnout_group)
     }
 
 
@@ -268,11 +281,13 @@ def admin_clear_needle(race_key: str, _: bool = Depends(require_admin)):
 
 @app.post("/admin/races/{race_key}/turnout_projection/{county_key}")
 def admin_set_county_turnout_projection(race_key: str, county_key: str, total_votes: float, _: bool = Depends(require_admin)):
-    admin_store.set_county_turnout_projection(race_key, county_key, total_votes)
+    group = RACES.get(race_key, {}).get("turnout_group") or race_key
+    admin_store.set_county_turnout_projection(group, county_key, total_votes)
     return {"ok": True}
 
 
 @app.delete("/admin/races/{race_key}/turnout_projection/{county_key}")
 def admin_clear_county_turnout_projection(race_key: str, county_key: str, _: bool = Depends(require_admin)):
-    admin_store.clear_county_turnout_projection(race_key, county_key)
+    group = RACES.get(race_key, {}).get("turnout_group") or race_key
+    admin_store.clear_county_turnout_projection(group, county_key)
     return {"ok": True}

@@ -9,7 +9,7 @@ def _finalize(result, race_key, config):
     # Applied to the OUTPUT only -- storage.py always keeps true raw data,
     # never anything with overrides baked in. See apply_overrides_to_comparison's
     # docstring for why that matters (reset correctness + diff correctness).
-    result = admin_store.apply_overrides_to_comparison(result, race_key)
+    result = admin_store.apply_overrides_to_comparison(result, race_key, turnout_group=config.get("turnout_group"))
 
     overrides = admin_store.get_overrides(race_key)
 

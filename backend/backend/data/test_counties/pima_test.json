@@ -1,9 +1,0 @@
-{
-    "name": "Pima",
-    "percent_reporting": 3.0,
-    "candidates": [
-        {"name": "Andrew Prater", "votes": 545, "party": "Republican", "color": "#c1272d"},
-        {"name": "Michael Kitchens", "votes": 6854, "party": "Republican", "color": "#8b0000"},
-        {"name": "Wilson Rochford", "votes": 53223, "party": "Republican", "color": "#e06666"}
-    ]
-}

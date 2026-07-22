@@ -1,9 +1,0 @@
-{
-    "name": "El Paso",
-    "percent_reporting": 80,
-    "candidates": [
-        {"name": "Victor Marx", "votes": 35850, "party": "Republican"},
-        {"name": "Barb Kirkmeyer", "votes": 28512, "party": "Republican"},
-        {"name": "Scott Bottoms", "votes": 20362, "party": "Republican"}
-    ]
-}

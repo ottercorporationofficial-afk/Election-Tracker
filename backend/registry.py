@@ -31,6 +31,17 @@ lives on disk (data/races/<STATE>/<cycle>/<race_key>/):
 
 Races missing either field still work fine -- they just land under
 UNKNOWN/uncategorized instead of a clean state/cycle folder.
+
+Also optional -- ties a race's turnout projections (set in /admin) to a
+SHARED group instead of being private to just that one race:
+
+  "turnout_group": "az_republican_primary_2026"
+
+Every race with the same turnout_group string shares one set of
+per-county projections -- set Maricopa's estimate once under any race in
+the group, and it applies to all of them (since they're all on the same
+physical ballot, voted on by the same people, on the same day). Races
+without this field just default to being their own private group of one.
 """
 
 RACES = {
@@ -51,14 +62,16 @@ RACES = {
         "source": "civicapi",
         "race_id": 84359,
         "state": "az",
-        "cycle": "2026-primaries"
+        "cycle": "2026-primaries",
+        "turnout_group": "az_republican_primary_2026"
     },
 
     "az_secretary_of_state_republican_2026": {
         "source": "civicapi",
         "race_id": 84412,
         "state": "az",
-        "cycle": "2026-primaries"
+        "cycle": "2026-primaries",
+        "turnout_group": "az_republican_primary_2026"
     },
 
     "arizona_congressional_05_republican": {
@@ -66,6 +79,7 @@ RACES = {
         "race_id": 84551,
         "state": "az",
         "cycle": "2026-primaries",
+        "turnout_group": "az_republican_primary_2026"
 
     },
 
@@ -74,6 +88,7 @@ RACES = {
         "race_id": 84537,
         "state": "az",
         "cycle": "2026-primaries",
+        "turnout_group": "az_democratic_primary_2026"
 
     },
 
@@ -82,6 +97,7 @@ RACES = {
         "race_id": 84547,
         "state": "az",
         "cycle": "2026-primaries",
+        "turnout_group": "az_democratic_primary_2026"
 
     },
     "arizona_attorney_general_republican": {
@@ -89,6 +105,7 @@ RACES = {
         "race_id": 84329,
         "state": "az",
         "cycle": "2026-primaries",
+        "turnout_group": "az_republican_primary_2026"
 
     },
 

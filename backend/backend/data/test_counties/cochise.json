@@ -1,9 +1,0 @@
-{
-    "name": "Cochise",
-    "percent_reporting": 0.0,
-    "candidates": [
-        {"name": "Andrew Prater", "votes": 8765, "party": "Republican", "color": "#c1272d"},
-        {"name": "Michael Kitchens", "votes": 18954, "party": "Republican", "color": "#8b0000"},
-        {"name": "Wilson Rochford", "votes": 1534, "party": "Republican", "color": "#e06666"}
-    ]
-}

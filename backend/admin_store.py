@@ -18,12 +18,16 @@ from pathlib import Path
 
 STORE_PATH = Path(__file__).resolve().parent / "data" / "admin_overrides.json"
 
+# Reserved top-level key for group-level turnout projections -- separate
+# from the per-race overrides below, since a turnout estimate belongs to
+# a shared ballot/group of races, not any single race_key.
+_TURNOUT_GROUPS_KEY = "__turnout_groups__"
+
 _DEFAULT_RACE_OVERRIDES = {
     "candidate_colors": {},
     "candidate_aliases": {},
     "projected_winner": None,
-    "needle": None,  # {"candidate": "Name", "value": 0-100} or None to hide the needle
-    "turnout_projections": {}  # {"county_key": total_votes, ...} -- per-county, empty dict means "use civicapi's own reporting % everywhere"
+    "needle": None  # {"candidate": "Name", "value": 0-100} or None to hide the needle
 }
 
 
@@ -103,30 +107,42 @@ def clear_needle(race_key):
         _save(data)
 
 
-def set_county_turnout_projection(race_key, county_key, total_votes):
+def set_county_turnout_projection(group, county_key, total_votes):
     """
+    group: usually a race_key, but can be a shared "turnout_group" label
+    (see registry.py) so one setting applies across every race on the
+    same ballot -- e.g. all AZ Republican primary races at once, instead
+    of re-entering the same county estimate for each one separately.
+
     total_votes: your own manual estimate of total expected votes for
-    ONE county. When set, that county's "% in" gets computed as (votes
-    counted so far in that county / total_votes) instead of trusting
+    ONE county in this group. When set, that county's "% in" gets
+    computed as (votes counted so far / total_votes) instead of trusting
     civicapi's own reporting percentage for it. Every other county
     without an override keeps using civicapi's own number. Purely a
     manual editorial number, never derived automatically.
     """
     data = _load()
-    race = data.setdefault(race_key, dict(_DEFAULT_RACE_OVERRIDES))
-    race.setdefault("turnout_projections", {})[county_key] = total_votes
+    groups = data.setdefault(_TURNOUT_GROUPS_KEY, {})
+    groups.setdefault(group, {})[county_key] = total_votes
     _save(data)
 
 
-def clear_county_turnout_projection(race_key, county_key):
+def clear_county_turnout_projection(group, county_key):
     data = _load()
-    race = data.get(race_key)
-    if race and county_key in race.get("turnout_projections", {}):
-        del race["turnout_projections"][county_key]
+    groups = data.get(_TURNOUT_GROUPS_KEY, {})
+    if group in groups and county_key in groups[group]:
+        del groups[group][county_key]
         _save(data)
 
 
-def apply_overrides_to_comparison(comparison, race_key):
+def get_group_turnout_projections(group):
+    if not group:
+        return {}
+    data = _load()
+    return data.get(_TURNOUT_GROUPS_KEY, {}).get(group, {})
+
+
+def apply_overrides_to_comparison(comparison, race_key, turnout_group=None):
     """
     Applied to the FINAL comparison output, right before returning to the
     client -- NOT to the raw fetched data before storage/diffing. This
@@ -159,7 +175,7 @@ def apply_overrides_to_comparison(comparison, race_key):
         c["name"] = new_name
         c["color"] = new_color
 
-    turnout_projections = overrides.get("turnout_projections", {})
+    turnout_projections = get_group_turnout_projections(turnout_group or race_key)
 
     # Per-county candidates (dict keyed by name) + leader
     for county_key, county in comparison.get("counties", {}).items():

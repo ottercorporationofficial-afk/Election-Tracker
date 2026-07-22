@@ -29,5 +29,24 @@
     "candidate_aliases": {},
     "projected_winner": "Victor Marx",
     "needle": null
+  },
+  "__turnout_groups__": {
+    "az_republican_primary_2026": {
+      "apache": 5652.0,
+      "cochise": 13267.0,
+      "coconino": 10122.0,
+      "gila": 11565.0,
+      "graham": 6392.0,
+      "greenlee": 444.0,
+      "la_paz": 2619.0,
+      "maricopa": 317952.0,
+      "mohave": 30775.0,
+      "navajo": 16421.0,
+      "pima": 57831.0,
+      "pinal": 34478.0,
+      "santa_cruz": 1608.0,
+      "yavapai": 41118.0,
+      "yuma": 12327.0
+    }
   }
 }
