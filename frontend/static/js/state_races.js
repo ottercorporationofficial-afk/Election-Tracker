@@ -62,6 +62,14 @@ const STATE_RACES = {
             raceKey: "co_governor_primary",
             name: "Governor Primary 2026"
         }
-    ]
+    ],
+    south_dakota: [
+          {
+            path: "/south_dakota/governor_runoff_republican",
+            raceKey: "south_dakota_republican_governor_runoff",
+            name: "South Dakota Governor Run off — Republican Primary 2026"
+        }
+]
+
 
 };

@@ -1,0 +1,824 @@
+{
+    "timestamp": "2026-07-28T17:58:34.355839",
+    "candidates": [
+        {
+            "name": "Andy Biggs",
+            "party": "Republican",
+            "color": "#c6606b"
+        },
+        {
+            "name": "David Schweikert",
+            "party": "Republican",
+            "color": "#e0bb24"
+        },
+        {
+            "name": "Scott Neely",
+            "party": "Republican",
+            "color": "#69cea8"
+        },
+        {
+            "name": "Ken Miceli",
+            "party": "Republican",
+            "color": "#CD7F32"
+        }
+    ],
+    "counties": {
+        "yuma": {
+            "name": "Yuma",
+            "fips": "04027",
+            "reporting": {
+                "old": 0,
+                "new": 81.61,
+                "change": 81.61
+            },
+            "candidates": {
+                "Scott Neely": {
+                    "change": 966,
+                    "votes": 966,
+                    "party": "Republican",
+                    "color": "#69cea8",
+                    "batch_percent": 0.1016949152542373
+                },
+                "Ken Miceli": {
+                    "change": 384,
+                    "votes": 384,
+                    "party": "Republican",
+                    "color": "#CD7F32",
+                    "batch_percent": 0.040425307927150225
+                },
+                "Andy Biggs": {
+                    "change": 7077,
+                    "votes": 7077,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7450257921886514
+                },
+                "David Schweikert": {
+                    "change": 1072,
+                    "votes": 1072,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.11285398462996105
+                }
+            },
+            "leader": {
+                "name": "Andy Biggs",
+                "votes": 7077,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 6005,
+                "margin_percent": 0.6321718075586904
+            },
+            "batch": {
+                "total": 9499,
+                "winner": "Andy Biggs",
+                "margin_votes": 6005,
+                "margin_percent": 0.6321718075586904
+            }
+        },
+        "santa_cruz": {
+            "name": "Santa Cruz",
+            "fips": "04023",
+            "reporting": {
+                "old": 0,
+                "new": 86.66,
+                "change": 86.66
+            },
+            "candidates": {
+                "Scott Neely": {
+                    "change": 176,
+                    "votes": 176,
+                    "party": "Republican",
+                    "color": "#69cea8",
+                    "batch_percent": 0.11932203389830509
+                },
+                "Ken Miceli": {
+                    "change": 84,
+                    "votes": 84,
+                    "party": "Republican",
+                    "color": "#CD7F32",
+                    "batch_percent": 0.05694915254237288
+                },
+                "Andy Biggs": {
+                    "change": 1043,
+                    "votes": 1043,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7071186440677966
+                },
+                "David Schweikert": {
+                    "change": 172,
+                    "votes": 172,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.11661016949152542
+                }
+            },
+            "leader": {
+                "name": "Andy Biggs",
+                "votes": 1043,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 867,
+                "margin_percent": 0.5877966101694915
+            },
+            "batch": {
+                "total": 1475,
+                "winner": "Andy Biggs",
+                "margin_votes": 867,
+                "margin_percent": 0.5877966101694915
+            }
+        },
+        "yavapai": {
+            "name": "Yavapai",
+            "fips": "04025",
+            "reporting": {
+                "old": 0,
+                "new": 75.82,
+                "change": 75.82
+            },
+            "candidates": {
+                "Scott Neely": {
+                    "change": 2308,
+                    "votes": 2308,
+                    "party": "Republican",
+                    "color": "#69cea8",
+                    "batch_percent": 0.06398137110858537
+                },
+                "Ken Miceli": {
+                    "change": 1533,
+                    "votes": 1533,
+                    "party": "Republican",
+                    "color": "#CD7F32",
+                    "batch_percent": 0.042497158539627974
+                },
+                "Andy Biggs": {
+                    "change": 28297,
+                    "votes": 28297,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7844371136306934
+                },
+                "David Schweikert": {
+                    "change": 3935,
+                    "votes": 3935,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.10908435672109335
+                }
+            },
+            "leader": {
+                "name": "Andy Biggs",
+                "votes": 28297,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 24362,
+                "margin_percent": 0.6753527569096
+            },
+            "batch": {
+                "total": 36073,
+                "winner": "Andy Biggs",
+                "margin_votes": 24362,
+                "margin_percent": 0.6753527569096
+            }
+        },
+        "gila": {
+            "name": "Gila",
+            "fips": "04007",
+            "reporting": {
+                "old": 0,
+                "new": 73.53,
+                "change": 73.53
+            },
+            "candidates": {
+                "Scott Neely": {
+                    "change": 518,
+                    "votes": 518,
+                    "party": "Republican",
+                    "color": "#69cea8",
+                    "batch_percent": 0.07466128567310464
+                },
+                "Ken Miceli": {
+                    "change": 290,
+                    "votes": 290,
+                    "party": "Republican",
+                    "color": "#CD7F32",
+                    "batch_percent": 0.04179878927644855
+                },
+                "Andy Biggs": {
+                    "change": 5322,
+                    "votes": 5322,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7670798501008936
+                },
+                "David Schweikert": {
+                    "change": 808,
+                    "votes": 808,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.11646007494955318
+                }
+            },
+            "leader": {
+                "name": "Andy Biggs",
+                "votes": 5322,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 4514,
+                "margin_percent": 0.6506197751513404
+            },
+            "batch": {
+                "total": 6938,
+                "winner": "Andy Biggs",
+                "margin_votes": 4514,
+                "margin_percent": 0.6506197751513404
+            }
+        },
+        "greenlee": {
+            "name": "Greenlee",
+            "fips": "04011",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Scott Neely": {
+                    "change": 56,
+                    "votes": 56,
+                    "party": "Republican",
+                    "color": "#69cea8",
+                    "batch_percent": 0.11691022964509394
+                },
+                "Ken Miceli": {
+                    "change": 23,
+                    "votes": 23,
+                    "party": "Republican",
+                    "color": "#CD7F32",
+                    "batch_percent": 0.04801670146137787
+                },
+                "Andy Biggs": {
+                    "change": 352,
+                    "votes": 352,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7348643006263048
+                },
+                "David Schweikert": {
+                    "change": 48,
+                    "votes": 48,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.10020876826722339
+                }
+            },
+            "leader": {
+                "name": "Andy Biggs",
+                "votes": 352,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 296,
+                "margin_percent": 0.6179540709812108
+            },
+            "batch": {
+                "total": 479,
+                "winner": "Andy Biggs",
+                "margin_votes": 296,
+                "margin_percent": 0.6179540709812108
+            }
+        },
+        "pima": {
+            "name": "Pima",
+            "fips": "04019",
+            "reporting": {
+                "old": 0,
+                "new": 81.47,
+                "change": 81.47
+            },
+            "candidates": {
+                "Scott Neely": {
+                    "change": 4939,
+                    "votes": 4939,
+                    "party": "Republican",
+                    "color": "#69cea8",
+                    "batch_percent": 0.08206772789206075
+                },
+                "Ken Miceli": {
+                    "change": 3417,
+                    "votes": 3417,
+                    "party": "Republican",
+                    "color": "#CD7F32",
+                    "batch_percent": 0.056777774085274665
+                },
+                "Andy Biggs": {
+                    "change": 44326,
+                    "votes": 44326,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7365325180286464
+                },
+                "David Schweikert": {
+                    "change": 7500,
+                    "votes": 7500,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.12462197999401814
+                }
+            },
+            "leader": {
+                "name": "Andy Biggs",
+                "votes": 44326,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 36826,
+                "margin_percent": 0.6119105380346282
+            },
+            "batch": {
+                "total": 60182,
+                "winner": "Andy Biggs",
+                "margin_votes": 36826,
+                "margin_percent": 0.6119105380346282
+            }
+        },
+        "pinal": {
+            "name": "Pinal",
+            "fips": "04021",
+            "reporting": {
+                "old": 0,
+                "new": 75.02,
+                "change": 75.02
+            },
+            "candidates": {
+                "Scott Neely": {
+                    "change": 2216,
+                    "votes": 2216,
+                    "party": "Republican",
+                    "color": "#69cea8",
+                    "batch_percent": 0.06735357587915261
+                },
+                "Ken Miceli": {
+                    "change": 1199,
+                    "votes": 1199,
+                    "party": "Republican",
+                    "color": "#CD7F32",
+                    "batch_percent": 0.03644266131728519
+                },
+                "Andy Biggs": {
+                    "change": 25958,
+                    "votes": 25958,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7889729795446947
+                },
+                "David Schweikert": {
+                    "change": 3528,
+                    "votes": 3528,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.10723078325886751
+                }
+            },
+            "leader": {
+                "name": "Andy Biggs",
+                "votes": 25958,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 22430,
+                "margin_percent": 0.6817421962858272
+            },
+            "batch": {
+                "total": 32901,
+                "winner": "Andy Biggs",
+                "margin_votes": 22430,
+                "margin_percent": 0.6817421962858272
+            }
+        },
+        "graham": {
+            "name": "Graham",
+            "fips": "04009",
+            "reporting": {
+                "old": 0,
+                "new": 83.81,
+                "change": 83.81
+            },
+            "candidates": {
+                "Scott Neely": {
+                    "change": 255,
+                    "votes": 255,
+                    "party": "Republican",
+                    "color": "#69cea8",
+                    "batch_percent": 0.07831695331695332
+                },
+                "Ken Miceli": {
+                    "change": 120,
+                    "votes": 120,
+                    "party": "Republican",
+                    "color": "#CD7F32",
+                    "batch_percent": 0.036855036855036855
+                },
+                "Andy Biggs": {
+                    "change": 2497,
+                    "votes": 2497,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7668918918918919
+                },
+                "David Schweikert": {
+                    "change": 384,
+                    "votes": 384,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.11793611793611794
+                }
+            },
+            "leader": {
+                "name": "Andy Biggs",
+                "votes": 2497,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 2113,
+                "margin_percent": 0.648955773955774
+            },
+            "batch": {
+                "total": 3256,
+                "winner": "Andy Biggs",
+                "margin_votes": 2113,
+                "margin_percent": 0.648955773955774
+            }
+        },
+        "coconino": {
+            "name": "Coconino",
+            "fips": "04005",
+            "reporting": {
+                "old": 0,
+                "new": 76.53,
+                "change": 76.53
+            },
+            "candidates": {
+                "Scott Neely": {
+                    "change": 630,
+                    "votes": 630,
+                    "party": "Republican",
+                    "color": "#69cea8",
+                    "batch_percent": 0.09539672925499697
+                },
+                "Ken Miceli": {
+                    "change": 382,
+                    "votes": 382,
+                    "party": "Republican",
+                    "color": "#CD7F32",
+                    "batch_percent": 0.05784373107207753
+                },
+                "Andy Biggs": {
+                    "change": 4718,
+                    "votes": 4718,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7144155057540884
+                },
+                "David Schweikert": {
+                    "change": 874,
+                    "votes": 874,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.13234403391883706
+                }
+            },
+            "leader": {
+                "name": "Andy Biggs",
+                "votes": 4718,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 3844,
+                "margin_percent": 0.5820714718352513
+            },
+            "batch": {
+                "total": 6604,
+                "winner": "Andy Biggs",
+                "margin_votes": 3844,
+                "margin_percent": 0.5820714718352513
+            }
+        },
+        "navajo": {
+            "name": "Navajo",
+            "fips": "04017",
+            "reporting": {
+                "old": 0,
+                "new": 73.93,
+                "change": 73.93
+            },
+            "candidates": {
+                "Scott Neely": {
+                    "change": 704,
+                    "votes": 704,
+                    "party": "Republican",
+                    "color": "#69cea8",
+                    "batch_percent": 0.0866781580891406
+                },
+                "Ken Miceli": {
+                    "change": 357,
+                    "votes": 357,
+                    "party": "Republican",
+                    "color": "#CD7F32",
+                    "batch_percent": 0.04395469096281704
+                },
+                "Andy Biggs": {
+                    "change": 6172,
+                    "votes": 6172,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7599113518837725
+                },
+                "David Schweikert": {
+                    "change": 889,
+                    "votes": 889,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.10945579906426989
+                }
+            },
+            "leader": {
+                "name": "Andy Biggs",
+                "votes": 6172,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 5283,
+                "margin_percent": 0.6504555528195026
+            },
+            "batch": {
+                "total": 8122,
+                "winner": "Andy Biggs",
+                "margin_votes": 5283,
+                "margin_percent": 0.6504555528195026
+            }
+        },
+        "maricopa": {
+            "name": "Maricopa",
+            "fips": "04013",
+            "reporting": {
+                "old": 0,
+                "new": 88,
+                "change": 88
+            },
+            "candidates": {
+                "Scott Neely": {
+                    "change": 20309,
+                    "votes": 20309,
+                    "party": "Republican",
+                    "color": "#69cea8",
+                    "batch_percent": 0.06596465471600672
+                },
+                "Ken Miceli": {
+                    "change": 15131,
+                    "votes": 15131,
+                    "party": "Republican",
+                    "color": "#CD7F32",
+                    "batch_percent": 0.04914624996345943
+                },
+                "Andy Biggs": {
+                    "change": 220481,
+                    "votes": 220481,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.716133390932093
+                },
+                "David Schweikert": {
+                    "change": 51956,
+                    "votes": 51956,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.16875570438844084
+                }
+            },
+            "leader": {
+                "name": "Andy Biggs",
+                "votes": 220481,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 168525,
+                "margin_percent": 0.5473776865436522
+            },
+            "batch": {
+                "total": 307877,
+                "winner": "Andy Biggs",
+                "margin_votes": 168525,
+                "margin_percent": 0.5473776865436522
+            }
+        },
+        "la_paz": {
+            "name": "La Paz",
+            "fips": "04012",
+            "reporting": {
+                "old": 0,
+                "new": 93.43,
+                "change": 93.43
+            },
+            "candidates": {
+                "Scott Neely": {
+                    "change": 246,
+                    "votes": 246,
+                    "party": "Republican",
+                    "color": "#69cea8",
+                    "batch_percent": 0.14774774774774774
+                },
+                "Ken Miceli": {
+                    "change": 76,
+                    "votes": 76,
+                    "party": "Republican",
+                    "color": "#CD7F32",
+                    "batch_percent": 0.04564564564564565
+                },
+                "Andy Biggs": {
+                    "change": 1194,
+                    "votes": 1194,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7171171171171171
+                },
+                "David Schweikert": {
+                    "change": 149,
+                    "votes": 149,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.0894894894894895
+                }
+            },
+            "leader": {
+                "name": "Andy Biggs",
+                "votes": 1194,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 948,
+                "margin_percent": 0.5693693693693693
+            },
+            "batch": {
+                "total": 1665,
+                "winner": "Andy Biggs",
+                "margin_votes": 948,
+                "margin_percent": 0.5693693693693693
+            }
+        },
+        "mohave": {
+            "name": "Mohave",
+            "fips": "04015",
+            "reporting": {
+                "old": 0,
+                "new": 93.22,
+                "change": 93.22
+            },
+            "candidates": {
+                "Scott Neely": {
+                    "change": 2244,
+                    "votes": 2244,
+                    "party": "Republican",
+                    "color": "#69cea8",
+                    "batch_percent": 0.0786540483701367
+                },
+                "Ken Miceli": {
+                    "change": 947,
+                    "votes": 947,
+                    "party": "Republican",
+                    "color": "#CD7F32",
+                    "batch_percent": 0.0331931300385559
+                },
+                "Andy Biggs": {
+                    "change": 22218,
+                    "votes": 22218,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7787592008412197
+                },
+                "David Schweikert": {
+                    "change": 3121,
+                    "votes": 3121,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.10939362075008763
+                }
+            },
+            "leader": {
+                "name": "Andy Biggs",
+                "votes": 22218,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 19097,
+                "margin_percent": 0.6693655800911321
+            },
+            "batch": {
+                "total": 28530,
+                "winner": "Andy Biggs",
+                "margin_votes": 19097,
+                "margin_percent": 0.6693655800911321
+            }
+        },
+        "cochise": {
+            "name": "Cochise",
+            "fips": "04003",
+            "reporting": {
+                "old": 0,
+                "new": 81.66,
+                "change": 81.66
+            },
+            "candidates": {
+                "Scott Neely": {
+                    "change": 1061,
+                    "votes": 1061,
+                    "party": "Republican",
+                    "color": "#69cea8",
+                    "batch_percent": 0.09137099552187393
+                },
+                "Ken Miceli": {
+                    "change": 575,
+                    "votes": 575,
+                    "party": "Republican",
+                    "color": "#CD7F32",
+                    "batch_percent": 0.04951774026868756
+                },
+                "Andy Biggs": {
+                    "change": 8479,
+                    "votes": 8479,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.730192903892525
+                },
+                "David Schweikert": {
+                    "change": 1497,
+                    "votes": 1497,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.12891836031691353
+                }
+            },
+            "leader": {
+                "name": "Andy Biggs",
+                "votes": 8479,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 6982,
+                "margin_percent": 0.6012745435756114
+            },
+            "batch": {
+                "total": 11612,
+                "winner": "Andy Biggs",
+                "margin_votes": 6982,
+                "margin_percent": 0.6012745435756114
+            }
+        },
+        "apache": {
+            "name": "Apache",
+            "fips": "04001",
+            "reporting": {
+                "old": 0,
+                "new": 75.75,
+                "change": 75.75
+            },
+            "candidates": {
+                "Scott Neely": {
+                    "change": 457,
+                    "votes": 457,
+                    "party": "Republican",
+                    "color": "#69cea8",
+                    "batch_percent": 0.12833473743330526
+                },
+                "Ken Miceli": {
+                    "change": 238,
+                    "votes": 238,
+                    "party": "Republican",
+                    "color": "#CD7F32",
+                    "batch_percent": 0.06683515866329683
+                },
+                "Andy Biggs": {
+                    "change": 2491,
+                    "votes": 2491,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6995226060095479
+                },
+                "David Schweikert": {
+                    "change": 375,
+                    "votes": 375,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.10530749789385004
+                }
+            },
+            "leader": {
+                "name": "Andy Biggs",
+                "votes": 2491,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 2034,
+                "margin_percent": 0.5711878685762426
+            },
+            "batch": {
+                "total": 3561,
+                "winner": "Andy Biggs",
+                "margin_votes": 2034,
+                "margin_percent": 0.5711878685762426
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}

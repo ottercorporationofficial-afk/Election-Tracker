@@ -9,7 +9,8 @@
 const RACES = [
     { path: "/colorado", name: "Colorado" },
     { path: "/arizona", name: "Arizona"},
-    { path: "/chat", name: "Otter AI"}
+    { path: "/chat", name: "Otter AI"},
+    { path "/south_dakota", name: "South Dakota"}
     // { path: "/texas", name: "Texas" },
 ];
 

@@ -116,6 +116,13 @@ RACES = {
         "turnout_group": "az_republican_primary_2026"
 
     },
+    "south_dakota_republican_governor_runoff":{
+        "source": "civicapi",
+        "race_id": 84571,
+        "state": "sd",
+        "cycle": "2026-primaries",
+        "turnout_group": "sd_republican_primary_2026"
+    },
 
     # TEST-ONLY twin of the race above -- same fips/geography, but reads a
     # local file instead of hitting Maricopa's live URL. Point your AZ

@@ -99,6 +99,12 @@ const mapConfigs = {
         rotation: -7,
         countyFilter: ["04013"],
         candidateColorOverrides: {}
+    },
+    south_dakota: {
+        fips: "46",
+        rotation: -3 ,
+        candidateColorOverrides: {}
+
     }
 };
 

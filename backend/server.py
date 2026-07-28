@@ -99,6 +99,16 @@ if STATIC.exists():
         return FileResponse(STATIC / "races/AZ/2026-primaries/arizona-superintendent-republican-primary.html")
 
 
+    @app.get("/south_dakota")
+    def south_dakota():
+        return FileResponse(STATIC / "races/SD/south-dakota.html")
+
+
+    @app.get("/south_dakota/governor_runoff_republican")
+    def south_dakota_governor_runoff_republican():
+        return FileResponse(STATIC / "races/SD/2026-primaries/south-dakota-republican-governor-runoff-primary.html")
+
+
 # API endpoints
 @app.get("/latest")
 def latest(race: str = "co_governor_primary"):

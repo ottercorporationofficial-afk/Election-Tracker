@@ -1,0 +1,2095 @@
+{
+    "election_name": "South Dakota Governor Republican Runoff",
+    "election_type": "Governor",
+    "election_scope": "Primary",
+    "election_date": "2026-07-28T05:00:00.000Z",
+    "country": "US",
+    "province": "SD",
+    "district": null,
+    "municipality": null,
+    "polls_open": "2026-07-28T12:00:00.000Z",
+    "polls_close": "2026-07-29T00:00:00.000Z",
+    "is_disputed": false,
+    "has_map": true,
+    "registered_voters": null,
+    "percent_reporting": 0,
+    "last_updated": "2026-07-28T16:01:36.703Z",
+    "round": 1,
+    "maps": [
+        {
+            "name": "South Dakota",
+            "map": "assets/South_Dakota.svg"
+        }
+    ],
+    "candidates": [
+        {
+            "name": "Larry Rhoden",
+            "party": "Republican",
+            "incumbent": false,
+            "major_candidate": false,
+            "winner": false,
+            "advanced": false,
+            "color": "#c6606b",
+            "votes": 0,
+            "percent": 0
+        },
+        {
+            "name": "Toby Doeden",
+            "party": "Republican",
+            "incumbent": false,
+            "major_candidate": false,
+            "winner": false,
+            "advanced": false,
+            "color": "#e0bb24",
+            "votes": 0,
+            "percent": 0
+        }
+    ],
+    "region_results": {
+        "aurora": {
+            "name": "Aurora",
+            "type": "County",
+            "fips": "46003",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "beadle": {
+            "name": "Beadle",
+            "type": "County",
+            "fips": "46005",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "bennett": {
+            "name": "Bennett",
+            "type": "County",
+            "fips": "46007",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "bon_homme": {
+            "name": "Bon Homme",
+            "type": "County",
+            "fips": "46009",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "brookings": {
+            "name": "Brookings",
+            "type": "County",
+            "fips": "46011",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "brown": {
+            "name": "Brown",
+            "type": "County",
+            "fips": "46013",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "brule": {
+            "name": "Brule",
+            "type": "County",
+            "fips": "46015",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "buffalo": {
+            "name": "Buffalo",
+            "type": "County",
+            "fips": "46017",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "butte": {
+            "name": "Butte",
+            "type": "County",
+            "fips": "46019",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "campbell": {
+            "name": "Campbell",
+            "type": "County",
+            "fips": "46021",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "charles_mix": {
+            "name": "Charles Mix",
+            "type": "County",
+            "fips": "46023",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "clark": {
+            "name": "Clark",
+            "type": "County",
+            "fips": "46025",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "clay": {
+            "name": "Clay",
+            "type": "County",
+            "fips": "46027",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "codington": {
+            "name": "Codington",
+            "type": "County",
+            "fips": "46029",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "corson": {
+            "name": "Corson",
+            "type": "County",
+            "fips": "46031",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "custer": {
+            "name": "Custer",
+            "type": "County",
+            "fips": "46033",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "davison": {
+            "name": "Davison",
+            "type": "County",
+            "fips": "46035",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "day": {
+            "name": "Day",
+            "type": "County",
+            "fips": "46037",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "deuel": {
+            "name": "Deuel",
+            "type": "County",
+            "fips": "46039",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "dewey": {
+            "name": "Dewey",
+            "type": "County",
+            "fips": "46041",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "douglas": {
+            "name": "Douglas",
+            "type": "County",
+            "fips": "46043",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "edmunds": {
+            "name": "Edmunds",
+            "type": "County",
+            "fips": "46045",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "fall_river": {
+            "name": "Fall River",
+            "type": "County",
+            "fips": "46047",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "faulk": {
+            "name": "Faulk",
+            "type": "County",
+            "fips": "46049",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "grant": {
+            "name": "Grant",
+            "type": "County",
+            "fips": "46051",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "gregory": {
+            "name": "Gregory",
+            "type": "County",
+            "fips": "46053",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "haakon": {
+            "name": "Haakon",
+            "type": "County",
+            "fips": "46055",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "hamlin": {
+            "name": "Hamlin",
+            "type": "County",
+            "fips": "46057",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "hand": {
+            "name": "Hand",
+            "type": "County",
+            "fips": "46059",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "hanson": {
+            "name": "Hanson",
+            "type": "County",
+            "fips": "46061",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "harding": {
+            "name": "Harding",
+            "type": "County",
+            "fips": "46063",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "hughes": {
+            "name": "Hughes",
+            "type": "County",
+            "fips": "46065",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "hutchinson": {
+            "name": "Hutchinson",
+            "type": "County",
+            "fips": "46067",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "hyde": {
+            "name": "Hyde",
+            "type": "County",
+            "fips": "46069",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "jackson": {
+            "name": "Jackson",
+            "type": "County",
+            "fips": "46071",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "jerauld": {
+            "name": "Jerauld",
+            "type": "County",
+            "fips": "46073",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "jones": {
+            "name": "Jones",
+            "type": "County",
+            "fips": "46075",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "kingsbury": {
+            "name": "Kingsbury",
+            "type": "County",
+            "fips": "46077",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "lake": {
+            "name": "Lake",
+            "type": "County",
+            "fips": "46079",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "lawrence": {
+            "name": "Lawrence",
+            "type": "County",
+            "fips": "46081",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "lincoln": {
+            "name": "Lincoln",
+            "type": "County",
+            "fips": "46083",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "lyman": {
+            "name": "Lyman",
+            "type": "County",
+            "fips": "46085",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "marshall": {
+            "name": "Marshall",
+            "type": "County",
+            "fips": "46091",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "mccook": {
+            "name": "McCook",
+            "type": "County",
+            "fips": "46087",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "mcpherson": {
+            "name": "McPherson",
+            "type": "County",
+            "fips": "46089",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "meade": {
+            "name": "Meade",
+            "type": "County",
+            "fips": "46093",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "mellette": {
+            "name": "Mellette",
+            "type": "County",
+            "fips": "46095",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "miner": {
+            "name": "Miner",
+            "type": "County",
+            "fips": "46097",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "minnehaha": {
+            "name": "Minnehaha",
+            "type": "County",
+            "fips": "46099",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "moody": {
+            "name": "Moody",
+            "type": "County",
+            "fips": "46101",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "oglala_lakota": {
+            "name": "Oglala Lakota",
+            "type": "County",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "pennington": {
+            "name": "Pennington",
+            "type": "County",
+            "fips": "46103",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "perkins": {
+            "name": "Perkins",
+            "type": "County",
+            "fips": "46105",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "potter": {
+            "name": "Potter",
+            "type": "County",
+            "fips": "46107",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "roberts": {
+            "name": "Roberts",
+            "type": "County",
+            "fips": "46109",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "sanborn": {
+            "name": "Sanborn",
+            "type": "County",
+            "fips": "46111",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "spink": {
+            "name": "Spink",
+            "type": "County",
+            "fips": "46115",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "stanley": {
+            "name": "Stanley",
+            "type": "County",
+            "fips": "46117",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "sully": {
+            "name": "Sully",
+            "type": "County",
+            "fips": "46119",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "todd": {
+            "name": "Todd",
+            "type": "County",
+            "fips": "46121",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "tripp": {
+            "name": "Tripp",
+            "type": "County",
+            "fips": "46123",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "turner": {
+            "name": "Turner",
+            "type": "County",
+            "fips": "46125",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "union": {
+            "name": "Union",
+            "type": "County",
+            "fips": "46127",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "walworth": {
+            "name": "Walworth",
+            "type": "County",
+            "fips": "46129",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "yankton": {
+            "name": "Yankton",
+            "type": "County",
+            "fips": "46135",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        },
+        "ziebach": {
+            "name": "Ziebach",
+            "type": "County",
+            "fips": "46137",
+            "fill": "#404040",
+            "percent_reporting": 0,
+            "candidates": [
+                {
+                    "name": "Larry Rhoden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#c6606b",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                },
+                {
+                    "name": "Toby Doeden",
+                    "party": "Republican",
+                    "votes": 0,
+                    "percent": 0,
+                    "color": "#e0bb24",
+                    "winner": false,
+                    "advanced": false,
+                    "incumbent": false,
+                    "major_candidate": false
+                }
+            ]
+        }
+    }
+}
