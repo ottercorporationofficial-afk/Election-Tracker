@@ -1,0 +1,604 @@
+{
+    "timestamp": "2026-07-28T18:18:36.823796",
+    "candidates": [
+        {
+            "name": "Alexander Kolodin",
+            "party": "Republican",
+            "color": "#c6606b"
+        },
+        {
+            "name": "Gina Swoboda",
+            "party": "Republican",
+            "color": "#e0bb24"
+        }
+    ],
+    "counties": {
+        "maricopa": {
+            "name": "Maricopa",
+            "fips": "04013",
+            "reporting": {
+                "old": 0,
+                "new": 89.26,
+                "change": 89.26
+            },
+            "candidates": {
+                "Alexander Kolodin": {
+                    "change": 174617,
+                    "votes": 174617,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6038224533691119
+                },
+                "Gina Swoboda": {
+                    "change": 114569,
+                    "votes": 114569,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.39617754663088806
+                }
+            },
+            "leader": {
+                "name": "Alexander Kolodin",
+                "votes": 174617,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 60048,
+                "margin_percent": 0.20764490673822383
+            },
+            "batch": {
+                "total": 289186,
+                "winner": "Alexander Kolodin",
+                "margin_votes": 60048,
+                "margin_percent": 0.20764490673822383
+            }
+        },
+        "yavapai": {
+            "name": "Yavapai",
+            "fips": "04025",
+            "reporting": {
+                "old": 0,
+                "new": 75.79,
+                "change": 75.79
+            },
+            "candidates": {
+                "Alexander Kolodin": {
+                    "change": 19239,
+                    "votes": 19239,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.5632355524328122
+                },
+                "Gina Swoboda": {
+                    "change": 14919,
+                    "votes": 14919,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.4367644475671878
+                }
+            },
+            "leader": {
+                "name": "Alexander Kolodin",
+                "votes": 19239,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 4320,
+                "margin_percent": 0.12647110486562446
+            },
+            "batch": {
+                "total": 34158,
+                "winner": "Alexander Kolodin",
+                "margin_votes": 4320,
+                "margin_percent": 0.12647110486562446
+            }
+        },
+        "mohave": {
+            "name": "Mohave",
+            "fips": "04015",
+            "reporting": {
+                "old": 0,
+                "new": 93.12,
+                "change": 93.12
+            },
+            "candidates": {
+                "Alexander Kolodin": {
+                    "change": 16030,
+                    "votes": 16030,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.5929131528332594
+                },
+                "Gina Swoboda": {
+                    "change": 11006,
+                    "votes": 11006,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.40708684716674065
+                }
+            },
+            "leader": {
+                "name": "Alexander Kolodin",
+                "votes": 16030,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 5024,
+                "margin_percent": 0.18582630566651873
+            },
+            "batch": {
+                "total": 27036,
+                "winner": "Alexander Kolodin",
+                "margin_votes": 5024,
+                "margin_percent": 0.18582630566651873
+            }
+        },
+        "la_paz": {
+            "name": "La Paz",
+            "fips": "04012",
+            "reporting": {
+                "old": 0,
+                "new": 93.18,
+                "change": 93.18
+            },
+            "candidates": {
+                "Alexander Kolodin": {
+                    "change": 1002,
+                    "votes": 1002,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6215880893300249
+                },
+                "Gina Swoboda": {
+                    "change": 610,
+                    "votes": 610,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.3784119106699752
+                }
+            },
+            "leader": {
+                "name": "Alexander Kolodin",
+                "votes": 1002,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 392,
+                "margin_percent": 0.24317617866004962
+            },
+            "batch": {
+                "total": 1612,
+                "winner": "Alexander Kolodin",
+                "margin_votes": 392,
+                "margin_percent": 0.24317617866004962
+            }
+        },
+        "greenlee": {
+            "name": "Greenlee",
+            "fips": "04011",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Alexander Kolodin": {
+                    "change": 275,
+                    "votes": 275,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.5863539445628998
+                },
+                "Gina Swoboda": {
+                    "change": 194,
+                    "votes": 194,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.4136460554371002
+                }
+            },
+            "leader": {
+                "name": "Alexander Kolodin",
+                "votes": 275,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 81,
+                "margin_percent": 0.17270788912579957
+            },
+            "batch": {
+                "total": 469,
+                "winner": "Alexander Kolodin",
+                "margin_votes": 81,
+                "margin_percent": 0.17270788912579957
+            }
+        },
+        "yuma": {
+            "name": "Yuma",
+            "fips": "04027",
+            "reporting": {
+                "old": 0,
+                "new": 83.02,
+                "change": 83.02
+            },
+            "candidates": {
+                "Alexander Kolodin": {
+                    "change": 5380,
+                    "votes": 5380,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.5844014772974148
+                },
+                "Gina Swoboda": {
+                    "change": 3826,
+                    "votes": 3826,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.4155985227025853
+                }
+            },
+            "leader": {
+                "name": "Alexander Kolodin",
+                "votes": 5380,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 1554,
+                "margin_percent": 0.16880295459482947
+            },
+            "batch": {
+                "total": 9206,
+                "winner": "Alexander Kolodin",
+                "margin_votes": 1554,
+                "margin_percent": 0.16880295459482947
+            }
+        },
+        "navajo": {
+            "name": "Navajo",
+            "fips": "04017",
+            "reporting": {
+                "old": 0,
+                "new": 75.04,
+                "change": 75.04
+            },
+            "candidates": {
+                "Alexander Kolodin": {
+                    "change": 4160,
+                    "votes": 4160,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.546720988303325
+                },
+                "Gina Swoboda": {
+                    "change": 3449,
+                    "votes": 3449,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.453279011696675
+                }
+            },
+            "leader": {
+                "name": "Alexander Kolodin",
+                "votes": 4160,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 711,
+                "margin_percent": 0.09344197660665002
+            },
+            "batch": {
+                "total": 7609,
+                "winner": "Alexander Kolodin",
+                "margin_votes": 711,
+                "margin_percent": 0.09344197660665002
+            }
+        },
+        "graham": {
+            "name": "Graham",
+            "fips": "04009",
+            "reporting": {
+                "old": 0,
+                "new": 83.69,
+                "change": 83.69
+            },
+            "candidates": {
+                "Alexander Kolodin": {
+                    "change": 1743,
+                    "votes": 1743,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.5624394966118103
+                },
+                "Gina Swoboda": {
+                    "change": 1356,
+                    "votes": 1356,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.43756050338818975
+                }
+            },
+            "leader": {
+                "name": "Alexander Kolodin",
+                "votes": 1743,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 387,
+                "margin_percent": 0.12487899322362052
+            },
+            "batch": {
+                "total": 3099,
+                "winner": "Alexander Kolodin",
+                "margin_votes": 387,
+                "margin_percent": 0.12487899322362052
+            }
+        },
+        "santa_cruz": {
+            "name": "Santa Cruz",
+            "fips": "04023",
+            "reporting": {
+                "old": 0,
+                "new": 87.13,
+                "change": 87.13
+            },
+            "candidates": {
+                "Alexander Kolodin": {
+                    "change": 884,
+                    "votes": 884,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.630527817403709
+                },
+                "Gina Swoboda": {
+                    "change": 518,
+                    "votes": 518,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.369472182596291
+                }
+            },
+            "leader": {
+                "name": "Alexander Kolodin",
+                "votes": 884,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 366,
+                "margin_percent": 0.26105563480741795
+            },
+            "batch": {
+                "total": 1402,
+                "winner": "Alexander Kolodin",
+                "margin_votes": 366,
+                "margin_percent": 0.26105563480741795
+            }
+        },
+        "pinal": {
+            "name": "Pinal",
+            "fips": "04021",
+            "reporting": {
+                "old": 0,
+                "new": 74.91,
+                "change": 74.91
+            },
+            "candidates": {
+                "Alexander Kolodin": {
+                    "change": 17630,
+                    "votes": 17630,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.5621631963266478
+                },
+                "Gina Swoboda": {
+                    "change": 13731,
+                    "votes": 13731,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.43783680367335226
+                }
+            },
+            "leader": {
+                "name": "Alexander Kolodin",
+                "votes": 17630,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 3899,
+                "margin_percent": 0.1243263926532955
+            },
+            "batch": {
+                "total": 31361,
+                "winner": "Alexander Kolodin",
+                "margin_votes": 3899,
+                "margin_percent": 0.1243263926532955
+            }
+        },
+        "gila": {
+            "name": "Gila",
+            "fips": "04007",
+            "reporting": {
+                "old": 0,
+                "new": 74.17,
+                "change": 74.17
+            },
+            "candidates": {
+                "Alexander Kolodin": {
+                    "change": 3557,
+                    "votes": 3557,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.5485811227637261
+                },
+                "Gina Swoboda": {
+                    "change": 2927,
+                    "votes": 2927,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.4514188772362739
+                }
+            },
+            "leader": {
+                "name": "Alexander Kolodin",
+                "votes": 3557,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 630,
+                "margin_percent": 0.09716224552745219
+            },
+            "batch": {
+                "total": 6484,
+                "winner": "Alexander Kolodin",
+                "margin_votes": 630,
+                "margin_percent": 0.09716224552745219
+            }
+        },
+        "cochise": {
+            "name": "Cochise",
+            "fips": "04003",
+            "reporting": {
+                "old": 0,
+                "new": 82.52,
+                "change": 82.52
+            },
+            "candidates": {
+                "Alexander Kolodin": {
+                    "change": 6328,
+                    "votes": 6328,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.5591093832832656
+                },
+                "Gina Swoboda": {
+                    "change": 4990,
+                    "votes": 4990,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.4408906167167344
+                }
+            },
+            "leader": {
+                "name": "Alexander Kolodin",
+                "votes": 6328,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 1338,
+                "margin_percent": 0.11821876656653119
+            },
+            "batch": {
+                "total": 11318,
+                "winner": "Alexander Kolodin",
+                "margin_votes": 1338,
+                "margin_percent": 0.11821876656653119
+            }
+        },
+        "apache": {
+            "name": "Apache",
+            "fips": "04001",
+            "reporting": {
+                "old": 0,
+                "new": 75.78,
+                "change": 75.78
+            },
+            "candidates": {
+                "Alexander Kolodin": {
+                    "change": 1995,
+                    "votes": 1995,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6019915509957755
+                },
+                "Gina Swoboda": {
+                    "change": 1319,
+                    "votes": 1319,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.3980084490042245
+                }
+            },
+            "leader": {
+                "name": "Alexander Kolodin",
+                "votes": 1995,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 676,
+                "margin_percent": 0.203983101991551
+            },
+            "batch": {
+                "total": 3314,
+                "winner": "Alexander Kolodin",
+                "margin_votes": 676,
+                "margin_percent": 0.203983101991551
+            }
+        },
+        "pima": {
+            "name": "Pima",
+            "fips": "04019",
+            "reporting": {
+                "old": 0,
+                "new": 81.28,
+                "change": 81.28
+            },
+            "candidates": {
+                "Alexander Kolodin": {
+                    "change": 35352,
+                    "votes": 35352,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6164039615009067
+                },
+                "Gina Swoboda": {
+                    "change": 22000,
+                    "votes": 22000,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.3835960384990933
+                }
+            },
+            "leader": {
+                "name": "Alexander Kolodin",
+                "votes": 35352,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 13352,
+                "margin_percent": 0.23280792300181335
+            },
+            "batch": {
+                "total": 57352,
+                "winner": "Alexander Kolodin",
+                "margin_votes": 13352,
+                "margin_percent": 0.23280792300181335
+            }
+        },
+        "coconino": {
+            "name": "Coconino",
+            "fips": "04005",
+            "reporting": {
+                "old": 0,
+                "new": 77.18,
+                "change": 77.18
+            },
+            "candidates": {
+                "Alexander Kolodin": {
+                    "change": 3487,
+                    "votes": 3487,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.5761731658955717
+                },
+                "Gina Swoboda": {
+                    "change": 2565,
+                    "votes": 2565,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.4238268341044283
+                }
+            },
+            "leader": {
+                "name": "Alexander Kolodin",
+                "votes": 3487,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 922,
+                "margin_percent": 0.15234633179114343
+            },
+            "batch": {
+                "total": 6052,
+                "winner": "Alexander Kolodin",
+                "margin_votes": 922,
+                "margin_percent": 0.15234633179114343
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}

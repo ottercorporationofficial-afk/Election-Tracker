@@ -2,6 +2,8 @@ from pathlib import Path
 import os
 import secrets
 import logging
+import threading
+import time
 
 from dotenv import load_dotenv
 load_dotenv()  # must run before any os.environ.get() calls below
@@ -19,6 +21,46 @@ from backend import admin_store
 from backend.registry import RACES
 
 app = FastAPI()
+
+# --------------------
+# Background polling
+# --------------------
+# Without this, a race only ever gets refreshed when a visitor has that
+# specific page open (map.js/app.js polling /latest every 5s). A race
+# nobody's currently viewing -- South Dakota at 2am, say -- would just
+# never update until someone happens to load that page again, potentially
+# merging several real vote-count jumps into one messy diff instead of
+# catching each one separately.
+#
+# This runs independently in the background, sweeping every race in
+# RACES on its own schedule, so updates get caught and archived
+# (snapshots/changes saved to disk) regardless of traffic.
+#
+# NOTE: this assumes a single worker process (no `--workers N` on
+# uvicorn/gunicorn). With multiple worker processes, each one would run
+# its own copy of this loop, multiplying the polling and risking
+# concurrent writes to the same JSON files. Your current start command
+# doesn't specify --workers (defaults to 1), so this is safe as-is --
+# but if you ever add multiple workers/replicas, this needs to move to
+# a single dedicated process instead.
+
+POLL_INTERVAL_SECONDS = 10
+
+
+def _background_poll_loop():
+    while True:
+        for race_key in list(RACES.keys()):
+            try:
+                get_latest_update(race_key)
+            except Exception:
+                logging.exception("Background poll failed for race '%s'", race_key)
+        time.sleep(POLL_INTERVAL_SECONDS)
+
+
+@app.on_event("startup")
+def start_background_poller():
+    thread = threading.Thread(target=_background_poll_loop, daemon=True)
+    thread.start()
 
 app.add_middleware(
     CORSMiddleware,

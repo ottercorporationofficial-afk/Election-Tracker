@@ -1,0 +1,604 @@
+{
+    "timestamp": "2026-07-28T18:18:37.272433",
+    "candidates": [
+        {
+            "name": "Kimberly Yee",
+            "party": "Republican",
+            "color": "#c6606b"
+        },
+        {
+            "name": "Thomas Horne",
+            "party": "Republican",
+            "color": "#e0bb24"
+        }
+    ],
+    "counties": {
+        "maricopa": {
+            "name": "Maricopa",
+            "fips": "04013",
+            "reporting": {
+                "old": 76.73,
+                "new": 87.79,
+                "change": 11.060000000000002
+            },
+            "candidates": {
+                "Thomas Horne": {
+                    "change": 29625,
+                    "votes": 136529,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.47813105229180114
+                },
+                "Kimberly Yee": {
+                    "change": 32335,
+                    "votes": 166982,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.5218689477081988
+                }
+            },
+            "leader": {
+                "name": "Kimberly Yee",
+                "votes": 166982,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 30453,
+                "margin_percent": 0.10033573741973108
+            },
+            "batch": {
+                "total": 61960,
+                "winner": "Kimberly Yee",
+                "margin_votes": 2710,
+                "margin_percent": 0.04373789541639768
+            }
+        },
+        "yavapai": {
+            "name": "Yavapai",
+            "fips": "04025",
+            "reporting": {
+                "old": 70.21,
+                "new": 75.74,
+                "change": 5.530000000000001
+            },
+            "candidates": {
+                "Thomas Horne": {
+                    "change": 3369,
+                    "votes": 16243,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5069214565151972
+                },
+                "Kimberly Yee": {
+                    "change": 3277,
+                    "votes": 19427,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.4930785434848029
+                }
+            },
+            "leader": {
+                "name": "Kimberly Yee",
+                "votes": 19427,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 3184,
+                "margin_percent": 0.08926268573030557
+            },
+            "batch": {
+                "total": 6646,
+                "winner": "Thomas Horne",
+                "margin_votes": 92,
+                "margin_percent": 0.013842913030394222
+            }
+        },
+        "mohave": {
+            "name": "Mohave",
+            "fips": "04015",
+            "reporting": {
+                "old": 62.61,
+                "new": 93.19,
+                "change": 30.58
+            },
+            "candidates": {
+                "Thomas Horne": {
+                    "change": 4189,
+                    "votes": 14212,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5524927459773147
+                },
+                "Kimberly Yee": {
+                    "change": 3393,
+                    "votes": 13909,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.4475072540226853
+                }
+            },
+            "leader": {
+                "name": "Thomas Horne",
+                "votes": 14212,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 303,
+                "margin_percent": 0.01077486575868568
+            },
+            "batch": {
+                "total": 7582,
+                "winner": "Thomas Horne",
+                "margin_votes": 796,
+                "margin_percent": 0.10498549195462939
+            }
+        },
+        "la_paz": {
+            "name": "La Paz",
+            "fips": "04012",
+            "reporting": {
+                "old": 42.19,
+                "new": 93.33,
+                "change": 51.14
+            },
+            "candidates": {
+                "Kimberly Yee": {
+                    "change": 190,
+                    "votes": 756,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.41575492341356673
+                },
+                "Thomas Horne": {
+                    "change": 267,
+                    "votes": 895,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5842450765864332
+                }
+            },
+            "leader": {
+                "name": "Thomas Horne",
+                "votes": 895,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 139,
+                "margin_percent": 0.08419139915202907
+            },
+            "batch": {
+                "total": 457,
+                "winner": "Thomas Horne",
+                "margin_votes": 77,
+                "margin_percent": 0.16849015317286653
+            }
+        },
+        "greenlee": {
+            "name": "Greenlee",
+            "fips": "04011",
+            "reporting": {
+                "old": 65.97,
+                "new": 99,
+                "change": 33.03
+            },
+            "candidates": {
+                "Kimberly Yee": {
+                    "change": 103,
+                    "votes": 227,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.5024390243902439
+                },
+                "Thomas Horne": {
+                    "change": 102,
+                    "votes": 263,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.4975609756097561
+                }
+            },
+            "leader": {
+                "name": "Thomas Horne",
+                "votes": 263,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 36,
+                "margin_percent": 0.07346938775510205
+            },
+            "batch": {
+                "total": 205,
+                "winner": "Kimberly Yee",
+                "margin_votes": 1,
+                "margin_percent": 0.004878048780487805
+            }
+        },
+        "yuma": {
+            "name": "Yuma",
+            "fips": "04027",
+            "reporting": {
+                "old": 60.33,
+                "new": 85.69,
+                "change": 25.36
+            },
+            "candidates": {
+                "Kimberly Yee": {
+                    "change": 761,
+                    "votes": 4622,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.441415313225058
+                },
+                "Thomas Horne": {
+                    "change": 963,
+                    "votes": 4884,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.558584686774942
+                }
+            },
+            "leader": {
+                "name": "Thomas Horne",
+                "votes": 4884,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 262,
+                "margin_percent": 0.027561540079949504
+            },
+            "batch": {
+                "total": 1724,
+                "winner": "Thomas Horne",
+                "margin_votes": 202,
+                "margin_percent": 0.11716937354988399
+            }
+        },
+        "graham": {
+            "name": "Graham",
+            "fips": "04009",
+            "reporting": {
+                "old": 43.08,
+                "new": 83.76,
+                "change": 40.68000000000001
+            },
+            "candidates": {
+                "Thomas Horne": {
+                    "change": 97,
+                    "votes": 1491,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.4092827004219409
+                },
+                "Kimberly Yee": {
+                    "change": 140,
+                    "votes": 1826,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.5907172995780591
+                }
+            },
+            "leader": {
+                "name": "Kimberly Yee",
+                "votes": 1826,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 335,
+                "margin_percent": 0.10099487488694603
+            },
+            "batch": {
+                "total": 237,
+                "winner": "Kimberly Yee",
+                "margin_votes": 43,
+                "margin_percent": 0.18143459915611815
+            }
+        },
+        "navajo": {
+            "name": "Navajo",
+            "fips": "04017",
+            "reporting": {
+                "old": 25.76,
+                "new": 77.4,
+                "change": 51.64
+            },
+            "candidates": {
+                "Thomas Horne": {
+                    "change": 1699,
+                    "votes": 3934,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5248687055915972
+                },
+                "Kimberly Yee": {
+                    "change": 1538,
+                    "votes": 4141,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.47513129440840285
+                }
+            },
+            "leader": {
+                "name": "Kimberly Yee",
+                "votes": 4141,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 207,
+                "margin_percent": 0.02563467492260062
+            },
+            "batch": {
+                "total": 3237,
+                "winner": "Thomas Horne",
+                "margin_votes": 161,
+                "margin_percent": 0.049737411183194316
+            }
+        },
+        "santa_cruz": {
+            "name": "Santa Cruz",
+            "fips": "04023",
+            "reporting": {
+                "old": 58.44,
+                "new": 88.81,
+                "change": 30.370000000000005
+            },
+            "candidates": {
+                "Kimberly Yee": {
+                    "change": 215,
+                    "votes": 661,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.43434343434343436
+                },
+                "Thomas Horne": {
+                    "change": 280,
+                    "votes": 800,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5656565656565656
+                }
+            },
+            "leader": {
+                "name": "Thomas Horne",
+                "votes": 800,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 139,
+                "margin_percent": 0.09514031485284052
+            },
+            "batch": {
+                "total": 495,
+                "winner": "Thomas Horne",
+                "margin_votes": 65,
+                "margin_percent": 0.13131313131313133
+            }
+        },
+        "pinal": {
+            "name": "Pinal",
+            "fips": "04021",
+            "reporting": {
+                "old": 65.16,
+                "new": 74.95,
+                "change": 9.790000000000006
+            },
+            "candidates": {
+                "Thomas Horne": {
+                    "change": 5052,
+                    "votes": 16833,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5844516427579824
+                },
+                "Kimberly Yee": {
+                    "change": 3592,
+                    "votes": 15655,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.4155483572420176
+                }
+            },
+            "leader": {
+                "name": "Thomas Horne",
+                "votes": 16833,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 1178,
+                "margin_percent": 0.03625954198473282
+            },
+            "batch": {
+                "total": 8644,
+                "winner": "Thomas Horne",
+                "margin_votes": 1460,
+                "margin_percent": 0.16890328551596484
+            }
+        },
+        "gila": {
+            "name": "Gila",
+            "fips": "04007",
+            "reporting": {
+                "old": 44.39,
+                "new": 78.84,
+                "change": 34.45
+            },
+            "candidates": {
+                "Thomas Horne": {
+                    "change": 725,
+                    "votes": 3444,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5542813455657493
+                },
+                "Kimberly Yee": {
+                    "change": 583,
+                    "votes": 3488,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.44571865443425074
+                }
+            },
+            "leader": {
+                "name": "Kimberly Yee",
+                "votes": 3488,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 44,
+                "margin_percent": 0.006347374495095211
+            },
+            "batch": {
+                "total": 1308,
+                "winner": "Thomas Horne",
+                "margin_votes": 142,
+                "margin_percent": 0.10856269113149847
+            }
+        },
+        "cochise": {
+            "name": "Cochise",
+            "fips": "04003",
+            "reporting": {
+                "old": 60.27,
+                "new": 84.27,
+                "change": 23.999999999999993
+            },
+            "candidates": {
+                "Kimberly Yee": {
+                    "change": 1447,
+                    "votes": 5629,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.45049813200498134
+                },
+                "Thomas Horne": {
+                    "change": 1765,
+                    "votes": 6037,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5495018679950187
+                }
+            },
+            "leader": {
+                "name": "Thomas Horne",
+                "votes": 6037,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 408,
+                "margin_percent": 0.03497342705297445
+            },
+            "batch": {
+                "total": 3212,
+                "winner": "Thomas Horne",
+                "margin_votes": 318,
+                "margin_percent": 0.09900373599003735
+            }
+        },
+        "pima": {
+            "name": "Pima",
+            "fips": "04019",
+            "reporting": {
+                "old": 69.18,
+                "new": 86.23,
+                "change": 17.049999999999997
+            },
+            "candidates": {
+                "Thomas Horne": {
+                    "change": 7298,
+                    "votes": 30262,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5572268458425593
+                },
+                "Kimberly Yee": {
+                    "change": 5799,
+                    "votes": 29989,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.4427731541574406
+                }
+            },
+            "leader": {
+                "name": "Thomas Horne",
+                "votes": 30262,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 273,
+                "margin_percent": 0.004531045127881695
+            },
+            "batch": {
+                "total": 13097,
+                "winner": "Thomas Horne",
+                "margin_votes": 1499,
+                "margin_percent": 0.11445369168511874
+            }
+        },
+        "apache": {
+            "name": "Apache",
+            "fips": "04001",
+            "reporting": {
+                "old": 29.64,
+                "new": 76.05,
+                "change": 46.41
+            },
+            "candidates": {
+                "Kimberly Yee": {
+                    "change": 671,
+                    "votes": 1545,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.3965721040189125
+                },
+                "Thomas Horne": {
+                    "change": 1021,
+                    "votes": 2024,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.6034278959810875
+                }
+            },
+            "leader": {
+                "name": "Thomas Horne",
+                "votes": 2024,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 479,
+                "margin_percent": 0.13421126365928832
+            },
+            "batch": {
+                "total": 1692,
+                "winner": "Thomas Horne",
+                "margin_votes": 350,
+                "margin_percent": 0.20685579196217493
+            }
+        },
+        "coconino": {
+            "name": "Coconino",
+            "fips": "04005",
+            "reporting": {
+                "old": 47.45,
+                "new": 83.34,
+                "change": 35.89
+            },
+            "candidates": {
+                "Thomas Horne": {
+                    "change": 924,
+                    "votes": 3253,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5276984580239863
+                },
+                "Kimberly Yee": {
+                    "change": 827,
+                    "votes": 3353,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.4723015419760137
+                }
+            },
+            "leader": {
+                "name": "Kimberly Yee",
+                "votes": 3353,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 100,
+                "margin_percent": 0.015137753557372086
+            },
+            "batch": {
+                "total": 1751,
+                "winner": "Thomas Horne",
+                "margin_votes": 97,
+                "margin_percent": 0.05539691604797259
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}

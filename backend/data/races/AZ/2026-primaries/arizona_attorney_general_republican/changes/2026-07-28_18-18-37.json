@@ -1,0 +1,604 @@
+{
+    "timestamp": "2026-07-28T18:18:37.178542",
+    "candidates": [
+        {
+            "name": "Warren Petersen",
+            "party": "Republican",
+            "color": "#e0bb24"
+        },
+        {
+            "name": "Rodney Glassman",
+            "party": "Republican",
+            "color": "#c6606b"
+        }
+    ],
+    "counties": {
+        "maricopa": {
+            "name": "Maricopa",
+            "fips": "04013",
+            "reporting": {
+                "old": 0,
+                "new": 89.36,
+                "change": 89.36
+            },
+            "candidates": {
+                "Rodney Glassman": {
+                    "change": 122822,
+                    "votes": 122822,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.41544164902145164
+                },
+                "Warren Petersen": {
+                    "change": 172820,
+                    "votes": 172820,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5845583509785484
+                }
+            },
+            "leader": {
+                "name": "Warren Petersen",
+                "votes": 172820,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 49998,
+                "margin_percent": 0.16911670195709677
+            },
+            "batch": {
+                "total": 295642,
+                "winner": "Warren Petersen",
+                "margin_votes": 49998,
+                "margin_percent": 0.16911670195709677
+            }
+        },
+        "yavapai": {
+            "name": "Yavapai",
+            "fips": "04025",
+            "reporting": {
+                "old": 0,
+                "new": 75.78,
+                "change": 75.78
+            },
+            "candidates": {
+                "Rodney Glassman": {
+                    "change": 15435,
+                    "votes": 15435,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.442618719889883
+                },
+                "Warren Petersen": {
+                    "change": 19437,
+                    "votes": 19437,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.557381280110117
+                }
+            },
+            "leader": {
+                "name": "Warren Petersen",
+                "votes": 19437,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 4002,
+                "margin_percent": 0.114762560220234
+            },
+            "batch": {
+                "total": 34872,
+                "winner": "Warren Petersen",
+                "margin_votes": 4002,
+                "margin_percent": 0.114762560220234
+            }
+        },
+        "mohave": {
+            "name": "Mohave",
+            "fips": "04015",
+            "reporting": {
+                "old": 0,
+                "new": 93.18,
+                "change": 93.18
+            },
+            "candidates": {
+                "Rodney Glassman": {
+                    "change": 14114,
+                    "votes": 14114,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.5034062132182473
+                },
+                "Warren Petersen": {
+                    "change": 13923,
+                    "votes": 13923,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.4965937867817527
+                }
+            },
+            "leader": {
+                "name": "Rodney Glassman",
+                "votes": 14114,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 191,
+                "margin_percent": 0.006812426436494632
+            },
+            "batch": {
+                "total": 28037,
+                "winner": "Rodney Glassman",
+                "margin_votes": 191,
+                "margin_percent": 0.006812426436494632
+            }
+        },
+        "la_paz": {
+            "name": "La Paz",
+            "fips": "04012",
+            "reporting": {
+                "old": 0,
+                "new": 95.26,
+                "change": 95.26
+            },
+            "candidates": {
+                "Rodney Glassman": {
+                    "change": 833,
+                    "votes": 833,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.5119852489244008
+                },
+                "Warren Petersen": {
+                    "change": 794,
+                    "votes": 794,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.4880147510755993
+                }
+            },
+            "leader": {
+                "name": "Rodney Glassman",
+                "votes": 833,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 39,
+                "margin_percent": 0.023970497848801474
+            },
+            "batch": {
+                "total": 1627,
+                "winner": "Rodney Glassman",
+                "margin_votes": 39,
+                "margin_percent": 0.023970497848801474
+            }
+        },
+        "greenlee": {
+            "name": "Greenlee",
+            "fips": "04011",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Rodney Glassman": {
+                    "change": 234,
+                    "votes": 234,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.4834710743801653
+                },
+                "Warren Petersen": {
+                    "change": 250,
+                    "votes": 250,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5165289256198347
+                }
+            },
+            "leader": {
+                "name": "Warren Petersen",
+                "votes": 250,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 16,
+                "margin_percent": 0.03305785123966942
+            },
+            "batch": {
+                "total": 484,
+                "winner": "Warren Petersen",
+                "margin_votes": 16,
+                "margin_percent": 0.03305785123966942
+            }
+        },
+        "yuma": {
+            "name": "Yuma",
+            "fips": "04027",
+            "reporting": {
+                "old": 0,
+                "new": 81.24,
+                "change": 81.24
+            },
+            "candidates": {
+                "Rodney Glassman": {
+                    "change": 4305,
+                    "votes": 4305,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.46747746769464654
+                },
+                "Warren Petersen": {
+                    "change": 4904,
+                    "votes": 4904,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5325225323053535
+                }
+            },
+            "leader": {
+                "name": "Warren Petersen",
+                "votes": 4904,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 599,
+                "margin_percent": 0.06504506461070692
+            },
+            "batch": {
+                "total": 9209,
+                "winner": "Warren Petersen",
+                "margin_votes": 599,
+                "margin_percent": 0.06504506461070692
+            }
+        },
+        "navajo": {
+            "name": "Navajo",
+            "fips": "04017",
+            "reporting": {
+                "old": 0,
+                "new": 75.46,
+                "change": 75.46
+            },
+            "candidates": {
+                "Rodney Glassman": {
+                    "change": 3349,
+                    "votes": 3349,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.4232810920121335
+                },
+                "Warren Petersen": {
+                    "change": 4563,
+                    "votes": 4563,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5767189079878665
+                }
+            },
+            "leader": {
+                "name": "Warren Petersen",
+                "votes": 4563,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 1214,
+                "margin_percent": 0.15343781597573306
+            },
+            "batch": {
+                "total": 7912,
+                "winner": "Warren Petersen",
+                "margin_votes": 1214,
+                "margin_percent": 0.15343781597573306
+            }
+        },
+        "graham": {
+            "name": "Graham",
+            "fips": "04009",
+            "reporting": {
+                "old": 0,
+                "new": 83.74,
+                "change": 83.74
+            },
+            "candidates": {
+                "Rodney Glassman": {
+                    "change": 1376,
+                    "votes": 1376,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.42946317103620474
+                },
+                "Warren Petersen": {
+                    "change": 1828,
+                    "votes": 1828,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5705368289637952
+                }
+            },
+            "leader": {
+                "name": "Warren Petersen",
+                "votes": 1828,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 452,
+                "margin_percent": 0.14107365792759052
+            },
+            "batch": {
+                "total": 3204,
+                "winner": "Warren Petersen",
+                "margin_votes": 452,
+                "margin_percent": 0.14107365792759052
+            }
+        },
+        "santa_cruz": {
+            "name": "Santa Cruz",
+            "fips": "04023",
+            "reporting": {
+                "old": 0,
+                "new": 89.16,
+                "change": 89.16
+            },
+            "candidates": {
+                "Rodney Glassman": {
+                    "change": 750,
+                    "votes": 750,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.5095108695652174
+                },
+                "Warren Petersen": {
+                    "change": 722,
+                    "votes": 722,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.4904891304347826
+                }
+            },
+            "leader": {
+                "name": "Rodney Glassman",
+                "votes": 750,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 28,
+                "margin_percent": 0.019021739130434784
+            },
+            "batch": {
+                "total": 1472,
+                "winner": "Rodney Glassman",
+                "margin_votes": 28,
+                "margin_percent": 0.019021739130434784
+            }
+        },
+        "pinal": {
+            "name": "Pinal",
+            "fips": "04021",
+            "reporting": {
+                "old": 0,
+                "new": 74.94,
+                "change": 74.94
+            },
+            "candidates": {
+                "Rodney Glassman": {
+                    "change": 14448,
+                    "votes": 14448,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.45251816587321475
+                },
+                "Warren Petersen": {
+                    "change": 17480,
+                    "votes": 17480,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5474818341267853
+                }
+            },
+            "leader": {
+                "name": "Warren Petersen",
+                "votes": 17480,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 3032,
+                "margin_percent": 0.09496366825357053
+            },
+            "batch": {
+                "total": 31928,
+                "winner": "Warren Petersen",
+                "margin_votes": 3032,
+                "margin_percent": 0.09496366825357053
+            }
+        },
+        "gila": {
+            "name": "Gila",
+            "fips": "04007",
+            "reporting": {
+                "old": 0,
+                "new": 74.39,
+                "change": 74.39
+            },
+            "candidates": {
+                "Rodney Glassman": {
+                    "change": 3088,
+                    "votes": 3088,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.46248315111577054
+                },
+                "Warren Petersen": {
+                    "change": 3589,
+                    "votes": 3589,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5375168488842295
+                }
+            },
+            "leader": {
+                "name": "Warren Petersen",
+                "votes": 3589,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 501,
+                "margin_percent": 0.07503369776845889
+            },
+            "batch": {
+                "total": 6677,
+                "winner": "Warren Petersen",
+                "margin_votes": 501,
+                "margin_percent": 0.07503369776845889
+            }
+        },
+        "cochise": {
+            "name": "Cochise",
+            "fips": "04003",
+            "reporting": {
+                "old": 0,
+                "new": 82.62,
+                "change": 82.62
+            },
+            "candidates": {
+                "Rodney Glassman": {
+                    "change": 5885,
+                    "votes": 5885,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.5124967343028826
+                },
+                "Warren Petersen": {
+                    "change": 5598,
+                    "votes": 5598,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.4875032656971175
+                }
+            },
+            "leader": {
+                "name": "Rodney Glassman",
+                "votes": 5885,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 287,
+                "margin_percent": 0.024993468605765044
+            },
+            "batch": {
+                "total": 11483,
+                "winner": "Rodney Glassman",
+                "margin_votes": 287,
+                "margin_percent": 0.024993468605765044
+            }
+        },
+        "apache": {
+            "name": "Apache",
+            "fips": "04001",
+            "reporting": {
+                "old": 0,
+                "new": 75.9,
+                "change": 75.9
+            },
+            "candidates": {
+                "Rodney Glassman": {
+                    "change": 1561,
+                    "votes": 1561,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.4543073341094296
+                },
+                "Warren Petersen": {
+                    "change": 1875,
+                    "votes": 1875,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5456926658905704
+                }
+            },
+            "leader": {
+                "name": "Warren Petersen",
+                "votes": 1875,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 314,
+                "margin_percent": 0.09138533178114086
+            },
+            "batch": {
+                "total": 3436,
+                "winner": "Warren Petersen",
+                "margin_votes": 314,
+                "margin_percent": 0.09138533178114086
+            }
+        },
+        "pima": {
+            "name": "Pima",
+            "fips": "04019",
+            "reporting": {
+                "old": 0,
+                "new": 82.52,
+                "change": 82.52
+            },
+            "candidates": {
+                "Rodney Glassman": {
+                    "change": 28443,
+                    "votes": 28443,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.4801640894050915
+                },
+                "Warren Petersen": {
+                    "change": 30793,
+                    "votes": 30793,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5198359105949085
+                }
+            },
+            "leader": {
+                "name": "Warren Petersen",
+                "votes": 30793,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 2350,
+                "margin_percent": 0.039671821189817005
+            },
+            "batch": {
+                "total": 59236,
+                "winner": "Warren Petersen",
+                "margin_votes": 2350,
+                "margin_percent": 0.039671821189817005
+            }
+        },
+        "coconino": {
+            "name": "Coconino",
+            "fips": "04005",
+            "reporting": {
+                "old": 0,
+                "new": 77.75,
+                "change": 77.75
+            },
+            "candidates": {
+                "Rodney Glassman": {
+                    "change": 2870,
+                    "votes": 2870,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.4536115062430852
+                },
+                "Warren Petersen": {
+                    "change": 3457,
+                    "votes": 3457,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5463884937569148
+                }
+            },
+            "leader": {
+                "name": "Warren Petersen",
+                "votes": 3457,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 587,
+                "margin_percent": 0.09277698751382962
+            },
+            "batch": {
+                "total": 6327,
+                "winner": "Warren Petersen",
+                "margin_votes": 587,
+                "margin_percent": 0.09277698751382962
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}

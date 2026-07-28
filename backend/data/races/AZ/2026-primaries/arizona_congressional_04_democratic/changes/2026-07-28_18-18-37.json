@@ -1,0 +1,58 @@
+{
+    "timestamp": "2026-07-28T18:18:37.079857",
+    "candidates": [
+        {
+            "name": "Greg Stanton",
+            "party": "Democratic",
+            "color": "#4874a3"
+        },
+        {
+            "name": "Kai Newkirk",
+            "party": "Democratic",
+            "color": "#AA00BB"
+        }
+    ],
+    "counties": {
+        "maricopa": {
+            "name": "Maricopa",
+            "fips": "04013",
+            "reporting": {
+                "old": 0,
+                "new": 88.16,
+                "change": 88.16
+            },
+            "candidates": {
+                "Greg Stanton": {
+                    "change": 32345,
+                    "votes": 32345,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.6502553174379799
+                },
+                "Kai Newkirk": {
+                    "change": 17397,
+                    "votes": 17397,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.34974468256202
+                }
+            },
+            "leader": {
+                "name": "Greg Stanton",
+                "votes": 32345,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 14948,
+                "margin_percent": 0.30051063487595997
+            },
+            "batch": {
+                "total": 49742,
+                "winner": "Greg Stanton",
+                "margin_votes": 14948,
+                "margin_percent": 0.30051063487595997
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}
