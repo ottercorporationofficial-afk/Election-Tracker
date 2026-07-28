@@ -25,7 +25,9 @@
     }
   },
   "co_governor_primary": {
-    "candidate_colors": {},
+    "candidate_colors": {
+      "Victor Marx": "#ffffff"
+    },
     "candidate_aliases": {},
     "projected_winner": "Victor Marx",
     "needle": null

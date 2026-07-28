@@ -1,0 +1,97 @@
+{
+    "timestamp": "2026-07-28T18:08:59.588328",
+    "candidates": [
+        {
+            "name": "Mark Lamb",
+            "party": "Republican",
+            "color": "#e0bb24"
+        },
+        {
+            "name": "Daniel Keenan",
+            "party": "Republican",
+            "color": "#c6606b"
+        }
+    ],
+    "counties": {
+        "maricopa": {
+            "name": "Maricopa",
+            "fips": "04013",
+            "reporting": {
+                "old": 0,
+                "new": 88.09,
+                "change": 88.09
+            },
+            "candidates": {
+                "Mark Lamb": {
+                    "change": 34409,
+                    "votes": 34409,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5614404359815295
+                },
+                "Daniel Keenan": {
+                    "change": 26878,
+                    "votes": 26878,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.43855956401847046
+                }
+            },
+            "leader": {
+                "name": "Mark Lamb",
+                "votes": 34409,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 7531,
+                "margin_percent": 0.12288087196305905
+            },
+            "batch": {
+                "total": 61287,
+                "winner": "Mark Lamb",
+                "margin_votes": 7531,
+                "margin_percent": 0.12288087196305905
+            }
+        },
+        "pinal": {
+            "name": "Pinal",
+            "fips": "04021",
+            "reporting": {
+                "old": 0,
+                "new": 75.31,
+                "change": 75.31
+            },
+            "candidates": {
+                "Mark Lamb": {
+                    "change": 8968,
+                    "votes": 8968,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.6937417807689332
+                },
+                "Daniel Keenan": {
+                    "change": 3959,
+                    "votes": 3959,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.3062582192310668
+                }
+            },
+            "leader": {
+                "name": "Mark Lamb",
+                "votes": 8968,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 5009,
+                "margin_percent": 0.3874835615378665
+            },
+            "batch": {
+                "total": 12927,
+                "winner": "Mark Lamb",
+                "margin_votes": 5009,
+                "margin_percent": 0.3874835615378665
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}

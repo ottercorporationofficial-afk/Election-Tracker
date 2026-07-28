@@ -1,0 +1,82 @@
+{
+    "timestamp": "2026-07-28T18:08:51.815013",
+    "candidates": [
+        {
+            "name": "Amish Shah",
+            "party": "Democratic",
+            "color": "#4874a3"
+        },
+        {
+            "name": "Marlene Gal\u00e1n-Woods",
+            "party": "Democratic",
+            "color": "#00b0b0"
+        },
+        {
+            "name": "Jonathan Treble",
+            "party": "Democratic",
+            "color": "#AA00BB"
+        },
+        {
+            "name": "Rick McCartney",
+            "party": "Democratic",
+            "color": "#45cd47"
+        }
+    ],
+    "counties": {
+        "maricopa": {
+            "name": "Maricopa",
+            "fips": "04013",
+            "reporting": {
+                "old": 0,
+                "new": 87.03,
+                "change": 87.03
+            },
+            "candidates": {
+                "Rick McCartney": {
+                    "change": 5643,
+                    "votes": 5643,
+                    "party": "Democratic",
+                    "color": "#45cd47",
+                    "batch_percent": 0.08498238004879372
+                },
+                "Marlene Gal\u00e1n-Woods": {
+                    "change": 22320,
+                    "votes": 22320,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.33613445378151263
+                },
+                "Jonathan Treble": {
+                    "change": 11547,
+                    "votes": 11547,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.1738953645974519
+                },
+                "Amish Shah": {
+                    "change": 26892,
+                    "votes": 26892,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.4049878015722418
+                }
+            },
+            "leader": {
+                "name": "Amish Shah",
+                "votes": 26892,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 4572,
+                "margin_percent": 0.0688533477907292
+            },
+            "batch": {
+                "total": 66402,
+                "winner": "Amish Shah",
+                "margin_votes": 4572,
+                "margin_percent": 0.0688533477907292
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}
