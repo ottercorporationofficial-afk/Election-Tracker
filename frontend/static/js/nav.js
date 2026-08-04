@@ -8,8 +8,8 @@
 
 const RACES = [
     { path: "/chat", name: "Otter AI"},
-    { path: "/south_dakota", name: "South Dakota"},
-    { path: "/michigan", name: "Michigan"}
+    { path: "/michigan", name: "Michigan"},
+    { path: "/virginia", name: "Virginia"}
     // { path: "/texas", name: "Texas" },
 ];
 

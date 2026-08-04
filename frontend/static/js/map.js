@@ -110,6 +110,18 @@ const mapConfigs = {
         fips: "26",
         rotation: 5,
         candidateColorOverrides: {}
+    },
+    virginia: {
+        fips: "51",
+        rotation: 9,
+        candidateColorOverrides: {}
+    },
+    virginia_cd09 : {
+        fips: "51",
+        rotation: 9,
+        countyFilter: ["51019","51021","51520","51027","51035","51045","51051","51063","51067","51640","51071","51077","51089","51105","51690","51121","51720","51141","51155","51750","51161","51167","51169","51173","51185","51191","51195","51197"],
+        candidateColorOverrides: {}
+
     }
 };
 

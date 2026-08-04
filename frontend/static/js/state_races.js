@@ -76,7 +76,19 @@ const STATE_RACES = {
             path: "/michigan/michigan_senate_democratic_primary",
             raceKey: "michigan_senate_democratic_primary",
             name: "Michigan Senate — Democratic Primary 2026"
+        }
+    ],
+     virginia: [
+       {
+            path: "/virginia/virginia_senate_republican_primary",
+            raceKey: "virginia_republican_senate_primary",
+            name: "Virginia Senate — Republican Primary 2026"
         },
+        {
+            path: "/virginia/virginia_09_democratic_primary",
+            raceKey: "virginia_09_democratic_primary",
+            name: "Virginia House 09 — Democratic Primary 2026"
+        }
     ]
 
 

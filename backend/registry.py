@@ -130,6 +130,20 @@ RACES = {
         "cycle": "2026-primaries",
         "turnout_group": "mi_dem_primary"
     },
+    "virginia_republican_senate_primary": {
+        "source": "civicapi",
+        "race_id": 84970,
+        "state": "va",
+        "cycle": "2026-primaries",
+        "turnout_group": "va_rep_primary"
+    },
+    "virginia_09_democratic_primary": {
+        "source": "civicapi",
+        "race_id": 84969,
+        "state": "va",
+        "cycle": "2026-primaries",
+        "turnout_group": "va_09_dem_primary"
+    },
 
     # # TEST-ONLY twin of the race above -- same fips/geography, but reads a
     # # local file instead of hitting Maricopa's live URL. Point your AZ

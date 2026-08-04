@@ -159,6 +159,20 @@ if STATIC.exists():
         return FileResponse(STATIC / "races/MI/2026-primaries/michigan_senate_primary_democratic.html")
 
 
+    @app.get("/virginia")
+    def virginia():
+        return FileResponse(STATIC / "races/VA/virginia.html")
+
+
+    @app.get("/virginia/virginia_senate_republican_primary")
+    def virginia_senate_republican_primary():
+        return FileResponse(STATIC / "races/VA/2026-primaries/virginia-republican-senate-primary.html")
+
+
+    @app.get("/virginia/virginia_09_democratic_primary")
+    def virginia_09_democratic_primary():
+        return FileResponse(STATIC / "races/VA/2026-primaries/virginia-09-democratic-primary.html")
+
 # API endpoints
 @app.get("/latest")
 def latest(race: str = "co_governor_primary"):
