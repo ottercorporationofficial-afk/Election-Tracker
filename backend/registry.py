@@ -123,116 +123,123 @@ RACES = {
         "cycle": "2026-primaries",
         "turnout_group": "sd_republican_primary_2026"
     },
-
-    # TEST-ONLY twin of the race above -- same fips/geography, but reads a
-    # local file instead of hitting Maricopa's live URL. Point your AZ
-    # page's map at data-race="az_governor_test" while testing, edit
-    # backend/data/test_counties/maricopa.json, and refresh to see
-    # the live map itself update -- not just the raw JSON.
-    "az_governor_test": {
-        "source": "county_providers",
-        "projected_winner": None,
-        "counties": {
-            "maricopa": {
-                "name": "Maricopa",
-                "fips": "04013",
-                "provider": "local_test_county",
-                "provider_config": {"file": "maricopa.json"}
-            },
-            "pima": {
-                "name": "Pima",
-                "fips": "04019",
-                "provider": "local_test_county",
-                "provider_config": {"file": "pima_test.json"}
-            },
-            "pinal":{
-                "name": "Pinal",
-                "fips": "04021",
-                "provider": "local_test_county",
-                "provider_config": {"file": "pinal.json"}
-
-            },
-            "gila": {
-                "name": "Gila",
-                "fips": "04007",
-                "provider": "local_test_county",
-                "provider_config": {"file": "gila.json"}
-            },
-            "yuma": {
-                "name": "Yuma",
-                "fips": "04027",
-                "provider": "local_test_county",
-                "provider_config": {"file": "yuma.json"}
-            }
-        }
+    "michigan_senate_democratic_primary": {
+        "source": "civicapi",
+        "race_id": 84778,
+        "state": "mi",
+        "cycle": "2026-primaries",
+        "turnout_group": "mi_dem_primary"
     },
 
-    # Test-only multi-county race: two local files standing in for two
-    # different county sites, one of which (Jefferson) formats candidate
-    # names differently on purpose ("Marx, Victor" vs "Victor Marx") so you
-    # can see name_aliases actually merge them into one candidate.
-    "test_county_race": {
-        "source": "county_providers",
-        "counties": {
-            "el_paso": {
-                "name": "El Paso",
-                "fips": "08041",
-                "provider": "local_test_county",
-                "provider_config": {"file": "el_paso.json"}
-            },
-            "jefferson": {
-                "name": "Jefferson",
-                "fips": "08059",
-                "provider": "local_test_county",
-                "provider_config": {"file": "jefferson.json"}
-            }
-        },
-        "name_aliases": {
-            "Marx, Victor": "Victor Marx"
-        }
-    },
-
-
-    # Test-only race: reads from backend/data/test_snapshot.json instead of
-    # hitting civicapi live. Point your browser at /latest?race=test_race
-    # while testing so your frontend polling never overwrites your edits
-    # with real live data.
-    "test_race": {
-        "source": "local_test",
-        "race_id": None
-    },
-
-    # Example of a race built entirely from county-level scraping instead
-    # of civicapi. FIPS is declared here, per county, once -- not derived
-    # at runtime from a name-matching lookup.
-    "example_county_scraped_race": {
-        "source": "county_providers",
-        "counties": {
-            "el_paso": {
-                "name": "El Paso",
-                "fips": "08041",
-                "provider": "clarity_style",
-                "provider_config": {
-                    "election_id": "2026-primary-co",
-                    "county_code": "041"
-                }
-            },
-            "custom_x": {
-                "name": "Custom County",
-                "fips": "08099",
-                "provider": "custom_example",
-                "provider_config": {
-                    "url": "https://weirdcounty.gov/elections/results.html"
-                }
-            }
-        },
-        # Optional: map alternate spellings/formats a provider might use
-        # for a candidate's name back to one canonical name, so compare.py
-        # doesn't treat "Bob Smith" from one county and "Smith, Bob" from
-        # another as two different candidates.
-        "name_aliases": {
-            # "Smith, Bob": "Bob Smith",
-        }
-    }
+    # # TEST-ONLY twin of the race above -- same fips/geography, but reads a
+    # # local file instead of hitting Maricopa's live URL. Point your AZ
+    # # page's map at data-race="az_governor_test" while testing, edit
+    # # backend/data/test_counties/maricopa.json, and refresh to see
+    # # the live map itself update -- not just the raw JSON.
+    # "az_governor_test": {
+    #     "source": "county_providers",
+    #     "projected_winner": None,
+    #     "counties": {
+    #         "maricopa": {
+    #             "name": "Maricopa",
+    #             "fips": "04013",
+    #             "provider": "local_test_county",
+    #             "provider_config": {"file": "maricopa.json"}
+    #         },
+    #         "pima": {
+    #             "name": "Pima",
+    #             "fips": "04019",
+    #             "provider": "local_test_county",
+    #             "provider_config": {"file": "pima_test.json"}
+    #         },
+    #         "pinal":{
+    #             "name": "Pinal",
+    #             "fips": "04021",
+    #             "provider": "local_test_county",
+    #             "provider_config": {"file": "pinal.json"}
+    #
+    #         },
+    #         "gila": {
+    #             "name": "Gila",
+    #             "fips": "04007",
+    #             "provider": "local_test_county",
+    #             "provider_config": {"file": "gila.json"}
+    #         },
+    #         "yuma": {
+    #             "name": "Yuma",
+    #             "fips": "04027",
+    #             "provider": "local_test_county",
+    #             "provider_config": {"file": "yuma.json"}
+    #         }
+    #     }
+    # },
+    #
+    # # Test-only multi-county race: two local files standing in for two
+    # # different county sites, one of which (Jefferson) formats candidate
+    # # names differently on purpose ("Marx, Victor" vs "Victor Marx") so you
+    # # can see name_aliases actually merge them into one candidate.
+    # "test_county_race": {
+    #     "source": "county_providers",
+    #     "counties": {
+    #         "el_paso": {
+    #             "name": "El Paso",
+    #             "fips": "08041",
+    #             "provider": "local_test_county",
+    #             "provider_config": {"file": "el_paso.json"}
+    #         },
+    #         "jefferson": {
+    #             "name": "Jefferson",
+    #             "fips": "08059",
+    #             "provider": "local_test_county",
+    #             "provider_config": {"file": "jefferson.json"}
+    #         }
+    #     },
+    #     "name_aliases": {
+    #         "Marx, Victor": "Victor Marx"
+    #     }
+    # },
+    #
+    #
+    # # Test-only race: reads from backend/data/test_snapshot.json instead of
+    # # hitting civicapi live. Point your browser at /latest?race=test_race
+    # # while testing so your frontend polling never overwrites your edits
+    # # with real live data.
+    # "test_race": {
+    #     "source": "local_test",
+    #     "race_id": None
+    # },
+    #
+    # # Example of a race built entirely from county-level scraping instead
+    # # of civicapi. FIPS is declared here, per county, once -- not derived
+    # # at runtime from a name-matching lookup.
+    # "example_county_scraped_race": {
+    #     "source": "county_providers",
+    #     "counties": {
+    #         "el_paso": {
+    #             "name": "El Paso",
+    #             "fips": "08041",
+    #             "provider": "clarity_style",
+    #             "provider_config": {
+    #                 "election_id": "2026-primary-co",
+    #                 "county_code": "041"
+    #             }
+    #         },
+    #         "custom_x": {
+    #             "name": "Custom County",
+    #             "fips": "08099",
+    #             "provider": "custom_example",
+    #             "provider_config": {
+    #                 "url": "https://weirdcounty.gov/elections/results.html"
+    #             }
+    #         }
+    #     },
+    #     # Optional: map alternate spellings/formats a provider might use
+    #     # for a candidate's name back to one canonical name, so compare.py
+    #     # doesn't treat "Bob Smith" from one county and "Smith, Bob" from
+    # #     # another as two different candidates.
+    #     "name_aliases": {
+    #         # "Smith, Bob": "Bob Smith",
+    #     }
+    # }
 
 }

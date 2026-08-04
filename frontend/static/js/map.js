@@ -105,6 +105,11 @@ const mapConfigs = {
         rotation: -3 ,
         candidateColorOverrides: {}
 
+    },
+    michigan: {
+        fips: "26",
+        rotation: 5,
+        candidateColorOverrides: {}
     }
 };
 

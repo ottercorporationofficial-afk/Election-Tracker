@@ -1,0 +1,2593 @@
+{
+    "timestamp": "2026-08-04T15:35:50.440941",
+    "candidates": [
+        {
+            "name": "Larry Rhoden",
+            "party": "Republican",
+            "color": "#c6606b"
+        },
+        {
+            "name": "Toby Doeden",
+            "party": "Republican",
+            "color": "#e0bb24"
+        }
+    ],
+    "counties": {
+        "aurora": {
+            "name": "Aurora",
+            "fips": "46003",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 104,
+                    "votes": 104,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.25181598062953997
+                },
+                "Larry Rhoden": {
+                    "change": 309,
+                    "votes": 309,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7481840193704601
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 309,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 205,
+                "margin_percent": 0.4963680387409201
+            },
+            "batch": {
+                "total": 413,
+                "winner": "Larry Rhoden",
+                "margin_votes": 205,
+                "margin_percent": 0.4963680387409201
+            }
+        },
+        "roberts": {
+            "name": "Roberts",
+            "fips": "46109",
+            "reporting": {
+                "old": 0,
+                "new": 98.93,
+                "change": 98.93
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 250,
+                    "votes": 250,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.3364737550471063
+                },
+                "Larry Rhoden": {
+                    "change": 493,
+                    "votes": 493,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6635262449528937
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 493,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 243,
+                "margin_percent": 0.32705248990578734
+            },
+            "batch": {
+                "total": 743,
+                "winner": "Larry Rhoden",
+                "margin_votes": 243,
+                "margin_percent": 0.32705248990578734
+            }
+        },
+        "minnehaha": {
+            "name": "Minnehaha",
+            "fips": "46099",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 5859,
+                    "votes": 5859,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.2783108493254798
+                },
+                "Larry Rhoden": {
+                    "change": 15193,
+                    "votes": 15193,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7216891506745202
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 15193,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 9334,
+                "margin_percent": 0.4433783013490405
+            },
+            "batch": {
+                "total": 21052,
+                "winner": "Larry Rhoden",
+                "margin_votes": 9334,
+                "margin_percent": 0.4433783013490405
+            }
+        },
+        "charles_mix": {
+            "name": "Charles Mix",
+            "fips": "46023",
+            "reporting": {
+                "old": 0,
+                "new": 98.97,
+                "change": 98.97
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 237,
+                    "votes": 237,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.2231638418079096
+                },
+                "Larry Rhoden": {
+                    "change": 825,
+                    "votes": 825,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7768361581920904
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 825,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 588,
+                "margin_percent": 0.5536723163841808
+            },
+            "batch": {
+                "total": 1062,
+                "winner": "Larry Rhoden",
+                "margin_votes": 588,
+                "margin_percent": 0.5536723163841808
+            }
+        },
+        "perkins": {
+            "name": "Perkins",
+            "fips": "46105",
+            "reporting": {
+                "old": 0,
+                "new": 98.94,
+                "change": 98.94
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 181,
+                    "votes": 181,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.27633587786259545
+                },
+                "Larry Rhoden": {
+                    "change": 474,
+                    "votes": 474,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7236641221374046
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 474,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 293,
+                "margin_percent": 0.44732824427480916
+            },
+            "batch": {
+                "total": 655,
+                "winner": "Larry Rhoden",
+                "margin_votes": 293,
+                "margin_percent": 0.44732824427480916
+            }
+        },
+        "yankton": {
+            "name": "Yankton",
+            "fips": "46135",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 874,
+                    "votes": 874,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.31586555836646185
+                },
+                "Larry Rhoden": {
+                    "change": 1893,
+                    "votes": 1893,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6841344416335381
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 1893,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 1019,
+                "margin_percent": 0.36826888326707624
+            },
+            "batch": {
+                "total": 2767,
+                "winner": "Larry Rhoden",
+                "margin_votes": 1019,
+                "margin_percent": 0.36826888326707624
+            }
+        },
+        "beadle": {
+            "name": "Beadle",
+            "fips": "46005",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 527,
+                    "votes": 527,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.29132117191818685
+                },
+                "Larry Rhoden": {
+                    "change": 1282,
+                    "votes": 1282,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7086788280818132
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 1282,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 755,
+                "margin_percent": 0.4173576561636263
+            },
+            "batch": {
+                "total": 1809,
+                "winner": "Larry Rhoden",
+                "margin_votes": 755,
+                "margin_percent": 0.4173576561636263
+            }
+        },
+        "oglala_lakota": {
+            "name": "Oglala Lakota",
+            "fips": null,
+            "reporting": {
+                "old": 0,
+                "new": 98.21,
+                "change": 98.21
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 22,
+                    "votes": 22,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.4
+                },
+                "Larry Rhoden": {
+                    "change": 33,
+                    "votes": 33,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 33,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 11,
+                "margin_percent": 0.2
+            },
+            "batch": {
+                "total": 55,
+                "winner": "Larry Rhoden",
+                "margin_votes": 11,
+                "margin_percent": 0.2
+            }
+        },
+        "custer": {
+            "name": "Custer",
+            "fips": "46033",
+            "reporting": {
+                "old": 0,
+                "new": 98.99,
+                "change": 98.99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 1085,
+                    "votes": 1085,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.48008849557522126
+                },
+                "Larry Rhoden": {
+                    "change": 1175,
+                    "votes": 1175,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.5199115044247787
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 1175,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 90,
+                "margin_percent": 0.03982300884955752
+            },
+            "batch": {
+                "total": 2260,
+                "winner": "Larry Rhoden",
+                "margin_votes": 90,
+                "margin_percent": 0.03982300884955752
+            }
+        },
+        "todd": {
+            "name": "Todd",
+            "fips": "46121",
+            "reporting": {
+                "old": 0,
+                "new": 98.76,
+                "change": 98.76
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 81,
+                    "votes": 81,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5094339622641509
+                },
+                "Larry Rhoden": {
+                    "change": 78,
+                    "votes": 78,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.49056603773584906
+                }
+            },
+            "leader": {
+                "name": "Toby Doeden",
+                "votes": 81,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 3,
+                "margin_percent": 0.018867924528301886
+            },
+            "batch": {
+                "total": 159,
+                "winner": "Toby Doeden",
+                "margin_votes": 3,
+                "margin_percent": 0.018867924528301886
+            }
+        },
+        "kingsbury": {
+            "name": "Kingsbury",
+            "fips": "46077",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 277,
+                    "votes": 277,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.2761714855433699
+                },
+                "Larry Rhoden": {
+                    "change": 726,
+                    "votes": 726,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7238285144566301
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 726,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 449,
+                "margin_percent": 0.4476570289132602
+            },
+            "batch": {
+                "total": 1003,
+                "winner": "Larry Rhoden",
+                "margin_votes": 449,
+                "margin_percent": 0.4476570289132602
+            }
+        },
+        "lincoln": {
+            "name": "Lincoln",
+            "fips": "46083",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 2527,
+                    "votes": 2527,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.271866594943518
+                },
+                "Larry Rhoden": {
+                    "change": 6768,
+                    "votes": 6768,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7281334050564819
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 6768,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 4241,
+                "margin_percent": 0.45626681011296394
+            },
+            "batch": {
+                "total": 9295,
+                "winner": "Larry Rhoden",
+                "margin_votes": 4241,
+                "margin_percent": 0.45626681011296394
+            }
+        },
+        "brookings": {
+            "name": "Brookings",
+            "fips": "46011",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 918,
+                    "votes": 918,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.2653946227233304
+                },
+                "Larry Rhoden": {
+                    "change": 2541,
+                    "votes": 2541,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7346053772766695
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 2541,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 1623,
+                "margin_percent": 0.4692107545533391
+            },
+            "batch": {
+                "total": 3459,
+                "winner": "Larry Rhoden",
+                "margin_votes": 1623,
+                "margin_percent": 0.4692107545533391
+            }
+        },
+        "day": {
+            "name": "Day",
+            "fips": "46037",
+            "reporting": {
+                "old": 0,
+                "new": 98.95,
+                "change": 98.95
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 261,
+                    "votes": 261,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.30851063829787234
+                },
+                "Larry Rhoden": {
+                    "change": 585,
+                    "votes": 585,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6914893617021277
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 585,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 324,
+                "margin_percent": 0.3829787234042553
+            },
+            "batch": {
+                "total": 846,
+                "winner": "Larry Rhoden",
+                "margin_votes": 324,
+                "margin_percent": 0.3829787234042553
+            }
+        },
+        "brule": {
+            "name": "Brule",
+            "fips": "46015",
+            "reporting": {
+                "old": 0,
+                "new": 98.98,
+                "change": 98.98
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 200,
+                    "votes": 200,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.29542097488921715
+                },
+                "Larry Rhoden": {
+                    "change": 477,
+                    "votes": 477,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7045790251107829
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 477,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 277,
+                "margin_percent": 0.4091580502215657
+            },
+            "batch": {
+                "total": 677,
+                "winner": "Larry Rhoden",
+                "margin_votes": 277,
+                "margin_percent": 0.4091580502215657
+            }
+        },
+        "clay": {
+            "name": "Clay",
+            "fips": "46027",
+            "reporting": {
+                "old": 0,
+                "new": 98.97,
+                "change": 98.97
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 266,
+                    "votes": 266,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.2776617954070981
+                },
+                "Larry Rhoden": {
+                    "change": 692,
+                    "votes": 692,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7223382045929019
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 692,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 426,
+                "margin_percent": 0.44467640918580376
+            },
+            "batch": {
+                "total": 958,
+                "winner": "Larry Rhoden",
+                "margin_votes": 426,
+                "margin_percent": 0.44467640918580376
+            }
+        },
+        "miner": {
+            "name": "Miner",
+            "fips": "46097",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 100,
+                    "votes": 100,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.2915451895043732
+                },
+                "Larry Rhoden": {
+                    "change": 243,
+                    "votes": 243,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7084548104956269
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 243,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 143,
+                "margin_percent": 0.41690962099125367
+            },
+            "batch": {
+                "total": 343,
+                "winner": "Larry Rhoden",
+                "margin_votes": 143,
+                "margin_percent": 0.41690962099125367
+            }
+        },
+        "hughes": {
+            "name": "Hughes",
+            "fips": "46065",
+            "reporting": {
+                "old": 0,
+                "new": 98.99,
+                "change": 98.99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 497,
+                    "votes": 497,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.12338629592850049
+                },
+                "Larry Rhoden": {
+                    "change": 3531,
+                    "votes": 3531,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.8766137040714995
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 3531,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 3034,
+                "margin_percent": 0.753227408142999
+            },
+            "batch": {
+                "total": 4028,
+                "winner": "Larry Rhoden",
+                "margin_votes": 3034,
+                "margin_percent": 0.753227408142999
+            }
+        },
+        "buffalo": {
+            "name": "Buffalo",
+            "fips": "46017",
+            "reporting": {
+                "old": 0,
+                "new": 98.36,
+                "change": 98.36
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 12,
+                    "votes": 12,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.2
+                },
+                "Larry Rhoden": {
+                    "change": 48,
+                    "votes": 48,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.8
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 48,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 36,
+                "margin_percent": 0.6
+            },
+            "batch": {
+                "total": 60,
+                "winner": "Larry Rhoden",
+                "margin_votes": 36,
+                "margin_percent": 0.6
+            }
+        },
+        "hand": {
+            "name": "Hand",
+            "fips": "46059",
+            "reporting": {
+                "old": 0,
+                "new": 98.94,
+                "change": 98.94
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 151,
+                    "votes": 151,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.20160213618157544
+                },
+                "Larry Rhoden": {
+                    "change": 598,
+                    "votes": 598,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7983978638184246
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 598,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 447,
+                "margin_percent": 0.5967957276368492
+            },
+            "batch": {
+                "total": 749,
+                "winner": "Larry Rhoden",
+                "margin_votes": 447,
+                "margin_percent": 0.5967957276368492
+            }
+        },
+        "harding": {
+            "name": "Harding",
+            "fips": "46063",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 80,
+                    "votes": 80,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.23391812865497075
+                },
+                "Larry Rhoden": {
+                    "change": 262,
+                    "votes": 262,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7660818713450293
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 262,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 182,
+                "margin_percent": 0.5321637426900585
+            },
+            "batch": {
+                "total": 342,
+                "winner": "Larry Rhoden",
+                "margin_votes": 182,
+                "margin_percent": 0.5321637426900585
+            }
+        },
+        "codington": {
+            "name": "Codington",
+            "fips": "46029",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 1100,
+                    "votes": 1100,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.31663788140472077
+                },
+                "Larry Rhoden": {
+                    "change": 2374,
+                    "votes": 2374,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6833621185952792
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 2374,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 1274,
+                "margin_percent": 0.3667242371905584
+            },
+            "batch": {
+                "total": 3474,
+                "winner": "Larry Rhoden",
+                "margin_votes": 1274,
+                "margin_percent": 0.3667242371905584
+            }
+        },
+        "jackson": {
+            "name": "Jackson",
+            "fips": "46071",
+            "reporting": {
+                "old": 0,
+                "new": 98.92,
+                "change": 98.92
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 51,
+                    "votes": 51,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.13972602739726028
+                },
+                "Larry Rhoden": {
+                    "change": 314,
+                    "votes": 314,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.8602739726027397
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 314,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 263,
+                "margin_percent": 0.7205479452054795
+            },
+            "batch": {
+                "total": 365,
+                "winner": "Larry Rhoden",
+                "margin_votes": 263,
+                "margin_percent": 0.7205479452054795
+            }
+        },
+        "tripp": {
+            "name": "Tripp",
+            "fips": "46123",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 292,
+                    "votes": 292,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.2604817127564674
+                },
+                "Larry Rhoden": {
+                    "change": 829,
+                    "votes": 829,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7395182872435325
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 829,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 537,
+                "margin_percent": 0.4790365744870651
+            },
+            "batch": {
+                "total": 1121,
+                "winner": "Larry Rhoden",
+                "margin_votes": 537,
+                "margin_percent": 0.4790365744870651
+            }
+        },
+        "douglas": {
+            "name": "Douglas",
+            "fips": "46043",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 125,
+                    "votes": 125,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.15451174289245984
+                },
+                "Larry Rhoden": {
+                    "change": 684,
+                    "votes": 684,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.8454882571075402
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 684,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 559,
+                "margin_percent": 0.6909765142150803
+            },
+            "batch": {
+                "total": 809,
+                "winner": "Larry Rhoden",
+                "margin_votes": 559,
+                "margin_percent": 0.6909765142150803
+            }
+        },
+        "haakon": {
+            "name": "Haakon",
+            "fips": "46055",
+            "reporting": {
+                "old": 0,
+                "new": 98.95,
+                "change": 98.95
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 120,
+                    "votes": 120,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.21201413427561838
+                },
+                "Larry Rhoden": {
+                    "change": 446,
+                    "votes": 446,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7879858657243817
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 446,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 326,
+                "margin_percent": 0.5759717314487632
+            },
+            "batch": {
+                "total": 566,
+                "winner": "Larry Rhoden",
+                "margin_votes": 326,
+                "margin_percent": 0.5759717314487632
+            }
+        },
+        "hutchinson": {
+            "name": "Hutchinson",
+            "fips": "46067",
+            "reporting": {
+                "old": 0,
+                "new": 98.99,
+                "change": 98.99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 369,
+                    "votes": 369,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.27013177159590046
+                },
+                "Larry Rhoden": {
+                    "change": 997,
+                    "votes": 997,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7298682284040996
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 997,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 628,
+                "margin_percent": 0.45973645680819913
+            },
+            "batch": {
+                "total": 1366,
+                "winner": "Larry Rhoden",
+                "margin_votes": 628,
+                "margin_percent": 0.45973645680819913
+            }
+        },
+        "clark": {
+            "name": "Clark",
+            "fips": "46025",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 217,
+                    "votes": 217,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.3104434907010014
+                },
+                "Larry Rhoden": {
+                    "change": 482,
+                    "votes": 482,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6895565092989986
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 482,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 265,
+                "margin_percent": 0.3791130185979971
+            },
+            "batch": {
+                "total": 699,
+                "winner": "Larry Rhoden",
+                "margin_votes": 265,
+                "margin_percent": 0.3791130185979971
+            }
+        },
+        "sully": {
+            "name": "Sully",
+            "fips": "46119",
+            "reporting": {
+                "old": 0,
+                "new": 98.95,
+                "change": 98.95
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 135,
+                    "votes": 135,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.28662420382165604
+                },
+                "Larry Rhoden": {
+                    "change": 336,
+                    "votes": 336,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7133757961783439
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 336,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 201,
+                "margin_percent": 0.4267515923566879
+            },
+            "batch": {
+                "total": 471,
+                "winner": "Larry Rhoden",
+                "margin_votes": 201,
+                "margin_percent": 0.4267515923566879
+            }
+        },
+        "hanson": {
+            "name": "Hanson",
+            "fips": "46061",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 168,
+                    "votes": 168,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.32122370936902483
+                },
+                "Larry Rhoden": {
+                    "change": 355,
+                    "votes": 355,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6787762906309751
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 355,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 187,
+                "margin_percent": 0.3575525812619503
+            },
+            "batch": {
+                "total": 523,
+                "winner": "Larry Rhoden",
+                "margin_votes": 187,
+                "margin_percent": 0.3575525812619503
+            }
+        },
+        "lake": {
+            "name": "Lake",
+            "fips": "46079",
+            "reporting": {
+                "old": 0,
+                "new": 98.99,
+                "change": 98.99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 429,
+                    "votes": 429,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.2582781456953642
+                },
+                "Larry Rhoden": {
+                    "change": 1232,
+                    "votes": 1232,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7417218543046358
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 1232,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 803,
+                "margin_percent": 0.48344370860927155
+            },
+            "batch": {
+                "total": 1661,
+                "winner": "Larry Rhoden",
+                "margin_votes": 803,
+                "margin_percent": 0.48344370860927155
+            }
+        },
+        "davison": {
+            "name": "Davison",
+            "fips": "46035",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 658,
+                    "votes": 658,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.2542503863987635
+                },
+                "Larry Rhoden": {
+                    "change": 1930,
+                    "votes": 1930,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7457496136012365
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 1930,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 1272,
+                "margin_percent": 0.49149922720247297
+            },
+            "batch": {
+                "total": 2588,
+                "winner": "Larry Rhoden",
+                "margin_votes": 1272,
+                "margin_percent": 0.49149922720247297
+            }
+        },
+        "dewey": {
+            "name": "Dewey",
+            "fips": "46041",
+            "reporting": {
+                "old": 0,
+                "new": 98.84,
+                "change": 98.84
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 51,
+                    "votes": 51,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.19921875
+                },
+                "Larry Rhoden": {
+                    "change": 205,
+                    "votes": 205,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.80078125
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 205,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 154,
+                "margin_percent": 0.6015625
+            },
+            "batch": {
+                "total": 256,
+                "winner": "Larry Rhoden",
+                "margin_votes": 154,
+                "margin_percent": 0.6015625
+            }
+        },
+        "lawrence": {
+            "name": "Lawrence",
+            "fips": "46081",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 1294,
+                    "votes": 1294,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.29455952651946277
+                },
+                "Larry Rhoden": {
+                    "change": 3099,
+                    "votes": 3099,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7054404734805372
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 3099,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 1805,
+                "margin_percent": 0.4108809469610744
+            },
+            "batch": {
+                "total": 4393,
+                "winner": "Larry Rhoden",
+                "margin_votes": 1805,
+                "margin_percent": 0.4108809469610744
+            }
+        },
+        "meade": {
+            "name": "Meade",
+            "fips": "46093",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 1484,
+                    "votes": 1484,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.29386138613861384
+                },
+                "Larry Rhoden": {
+                    "change": 3566,
+                    "votes": 3566,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7061386138613861
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 3566,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 2082,
+                "margin_percent": 0.41227722772277225
+            },
+            "batch": {
+                "total": 5050,
+                "winner": "Larry Rhoden",
+                "margin_votes": 2082,
+                "margin_percent": 0.41227722772277225
+            }
+        },
+        "spink": {
+            "name": "Spink",
+            "fips": "46115",
+            "reporting": {
+                "old": 0,
+                "new": 98.99,
+                "change": 98.99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 288,
+                    "votes": 288,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.2664199814986124
+                },
+                "Larry Rhoden": {
+                    "change": 793,
+                    "votes": 793,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7335800185013877
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 793,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 505,
+                "margin_percent": 0.4671600370027752
+            },
+            "batch": {
+                "total": 1081,
+                "winner": "Larry Rhoden",
+                "margin_votes": 505,
+                "margin_percent": 0.4671600370027752
+            }
+        },
+        "deuel": {
+            "name": "Deuel",
+            "fips": "46039",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 286,
+                    "votes": 286,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.3983286908077994
+                },
+                "Larry Rhoden": {
+                    "change": 432,
+                    "votes": 432,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6016713091922006
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 432,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 146,
+                "margin_percent": 0.20334261838440112
+            },
+            "batch": {
+                "total": 718,
+                "winner": "Larry Rhoden",
+                "margin_votes": 146,
+                "margin_percent": 0.20334261838440112
+            }
+        },
+        "marshall": {
+            "name": "Marshall",
+            "fips": "46091",
+            "reporting": {
+                "old": 0,
+                "new": 98.98,
+                "change": 98.98
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 149,
+                    "votes": 149,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.2551369863013699
+                },
+                "Larry Rhoden": {
+                    "change": 435,
+                    "votes": 435,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7448630136986302
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 435,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 286,
+                "margin_percent": 0.4897260273972603
+            },
+            "batch": {
+                "total": 584,
+                "winner": "Larry Rhoden",
+                "margin_votes": 286,
+                "margin_percent": 0.4897260273972603
+            }
+        },
+        "corson": {
+            "name": "Corson",
+            "fips": "46031",
+            "reporting": {
+                "old": 0,
+                "new": 98.94,
+                "change": 98.94
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 89,
+                    "votes": 89,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.31899641577060933
+                },
+                "Larry Rhoden": {
+                    "change": 190,
+                    "votes": 190,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6810035842293907
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 190,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 101,
+                "margin_percent": 0.36200716845878134
+            },
+            "batch": {
+                "total": 279,
+                "winner": "Larry Rhoden",
+                "margin_votes": 101,
+                "margin_percent": 0.36200716845878134
+            }
+        },
+        "campbell": {
+            "name": "Campbell",
+            "fips": "46021",
+            "reporting": {
+                "old": 0,
+                "new": 98.91,
+                "change": 98.91
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 120,
+                    "votes": 120,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.32967032967032966
+                },
+                "Larry Rhoden": {
+                    "change": 244,
+                    "votes": 244,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6703296703296703
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 244,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 124,
+                "margin_percent": 0.34065934065934067
+            },
+            "batch": {
+                "total": 364,
+                "winner": "Larry Rhoden",
+                "margin_votes": 124,
+                "margin_percent": 0.34065934065934067
+            }
+        },
+        "gregory": {
+            "name": "Gregory",
+            "fips": "46053",
+            "reporting": {
+                "old": 0,
+                "new": 98.96,
+                "change": 98.96
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 183,
+                    "votes": 183,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.24142480211081793
+                },
+                "Larry Rhoden": {
+                    "change": 575,
+                    "votes": 575,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.758575197889182
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 575,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 392,
+                "margin_percent": 0.5171503957783641
+            },
+            "batch": {
+                "total": 758,
+                "winner": "Larry Rhoden",
+                "margin_votes": 392,
+                "margin_percent": 0.5171503957783641
+            }
+        },
+        "turner": {
+            "name": "Turner",
+            "fips": "46125",
+            "reporting": {
+                "old": 0,
+                "new": 98.99,
+                "change": 98.99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 436,
+                    "votes": 436,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.2963970088375255
+                },
+                "Larry Rhoden": {
+                    "change": 1035,
+                    "votes": 1035,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7036029911624745
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 1035,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 599,
+                "margin_percent": 0.40720598232494903
+            },
+            "batch": {
+                "total": 1471,
+                "winner": "Larry Rhoden",
+                "margin_votes": 599,
+                "margin_percent": 0.40720598232494903
+            }
+        },
+        "mcpherson": {
+            "name": "McPherson",
+            "fips": "46089",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 224,
+                    "votes": 224,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.3106796116504854
+                },
+                "Larry Rhoden": {
+                    "change": 497,
+                    "votes": 497,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6893203883495146
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 497,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 273,
+                "margin_percent": 0.3786407766990291
+            },
+            "batch": {
+                "total": 721,
+                "winner": "Larry Rhoden",
+                "margin_votes": 273,
+                "margin_percent": 0.3786407766990291
+            }
+        },
+        "brown": {
+            "name": "Brown",
+            "fips": "46013",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 1872,
+                    "votes": 1872,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.3208776139869729
+                },
+                "Larry Rhoden": {
+                    "change": 3962,
+                    "votes": 3962,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6791223860130271
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 3962,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 2090,
+                "margin_percent": 0.35824477202605415
+            },
+            "batch": {
+                "total": 5834,
+                "winner": "Larry Rhoden",
+                "margin_votes": 2090,
+                "margin_percent": 0.35824477202605415
+            }
+        },
+        "hyde": {
+            "name": "Hyde",
+            "fips": "46069",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 43,
+                    "votes": 43,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.14381270903010032
+                },
+                "Larry Rhoden": {
+                    "change": 256,
+                    "votes": 256,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.8561872909698997
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 256,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 213,
+                "margin_percent": 0.7123745819397993
+            },
+            "batch": {
+                "total": 299,
+                "winner": "Larry Rhoden",
+                "margin_votes": 213,
+                "margin_percent": 0.7123745819397993
+            }
+        },
+        "edmunds": {
+            "name": "Edmunds",
+            "fips": "46045",
+            "reporting": {
+                "old": 0,
+                "new": 98.96,
+                "change": 98.96
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 291,
+                    "votes": 291,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.33916083916083917
+                },
+                "Larry Rhoden": {
+                    "change": 567,
+                    "votes": 567,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6608391608391608
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 567,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 276,
+                "margin_percent": 0.32167832167832167
+            },
+            "batch": {
+                "total": 858,
+                "winner": "Larry Rhoden",
+                "margin_votes": 276,
+                "margin_percent": 0.32167832167832167
+            }
+        },
+        "faulk": {
+            "name": "Faulk",
+            "fips": "46049",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 140,
+                    "votes": 140,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.2337228714524207
+                },
+                "Larry Rhoden": {
+                    "change": 459,
+                    "votes": 459,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7662771285475793
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 459,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 319,
+                "margin_percent": 0.5325542570951586
+            },
+            "batch": {
+                "total": 599,
+                "winner": "Larry Rhoden",
+                "margin_votes": 319,
+                "margin_percent": 0.5325542570951586
+            }
+        },
+        "bennett": {
+            "name": "Bennett",
+            "fips": "46007",
+            "reporting": {
+                "old": 0,
+                "new": 98.81,
+                "change": 98.81
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 86,
+                    "votes": 86,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.3453815261044177
+                },
+                "Larry Rhoden": {
+                    "change": 163,
+                    "votes": 163,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6546184738955824
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 163,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 77,
+                "margin_percent": 0.3092369477911647
+            },
+            "batch": {
+                "total": 249,
+                "winner": "Larry Rhoden",
+                "margin_votes": 77,
+                "margin_percent": 0.3092369477911647
+            }
+        },
+        "pennington": {
+            "name": "Pennington",
+            "fips": "46103",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 4777,
+                    "votes": 4777,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.3293801282493277
+                },
+                "Larry Rhoden": {
+                    "change": 9726,
+                    "votes": 9726,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6706198717506723
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 9726,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 4949,
+                "margin_percent": 0.34123974350134456
+            },
+            "batch": {
+                "total": 14503,
+                "winner": "Larry Rhoden",
+                "margin_votes": 4949,
+                "margin_percent": 0.34123974350134456
+            }
+        },
+        "grant": {
+            "name": "Grant",
+            "fips": "46051",
+            "reporting": {
+                "old": 0,
+                "new": 98.97,
+                "change": 98.97
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 395,
+                    "votes": 395,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.3754752851711027
+                },
+                "Larry Rhoden": {
+                    "change": 657,
+                    "votes": 657,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6245247148288974
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 657,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 262,
+                "margin_percent": 0.24904942965779467
+            },
+            "batch": {
+                "total": 1052,
+                "winner": "Larry Rhoden",
+                "margin_votes": 262,
+                "margin_percent": 0.24904942965779467
+            }
+        },
+        "ziebach": {
+            "name": "Ziebach",
+            "fips": "46137",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 34,
+                    "votes": 34,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.26153846153846155
+                },
+                "Larry Rhoden": {
+                    "change": 96,
+                    "votes": 96,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7384615384615385
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 96,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 62,
+                "margin_percent": 0.47692307692307695
+            },
+            "batch": {
+                "total": 130,
+                "winner": "Larry Rhoden",
+                "margin_votes": 62,
+                "margin_percent": 0.47692307692307695
+            }
+        },
+        "walworth": {
+            "name": "Walworth",
+            "fips": "46129",
+            "reporting": {
+                "old": 0,
+                "new": 98.98,
+                "change": 98.98
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 222,
+                    "votes": 222,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.2534246575342466
+                },
+                "Larry Rhoden": {
+                    "change": 654,
+                    "votes": 654,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7465753424657534
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 654,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 432,
+                "margin_percent": 0.4931506849315068
+            },
+            "batch": {
+                "total": 876,
+                "winner": "Larry Rhoden",
+                "margin_votes": 432,
+                "margin_percent": 0.4931506849315068
+            }
+        },
+        "lyman": {
+            "name": "Lyman",
+            "fips": "46085",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 106,
+                    "votes": 106,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.2099009900990099
+                },
+                "Larry Rhoden": {
+                    "change": 399,
+                    "votes": 399,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7900990099009901
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 399,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 293,
+                "margin_percent": 0.5801980198019802
+            },
+            "batch": {
+                "total": 505,
+                "winner": "Larry Rhoden",
+                "margin_votes": 293,
+                "margin_percent": 0.5801980198019802
+            }
+        },
+        "hamlin": {
+            "name": "Hamlin",
+            "fips": "46057",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 374,
+                    "votes": 374,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.3286467486818981
+                },
+                "Larry Rhoden": {
+                    "change": 764,
+                    "votes": 764,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.671353251318102
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 764,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 390,
+                "margin_percent": 0.3427065026362039
+            },
+            "batch": {
+                "total": 1138,
+                "winner": "Larry Rhoden",
+                "margin_votes": 390,
+                "margin_percent": 0.3427065026362039
+            }
+        },
+        "union": {
+            "name": "Union",
+            "fips": "46127",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 639,
+                    "votes": 639,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.4474789915966387
+                },
+                "Larry Rhoden": {
+                    "change": 789,
+                    "votes": 789,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.5525210084033614
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 789,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 150,
+                "margin_percent": 0.10504201680672269
+            },
+            "batch": {
+                "total": 1428,
+                "winner": "Larry Rhoden",
+                "margin_votes": 150,
+                "margin_percent": 0.10504201680672269
+            }
+        },
+        "stanley": {
+            "name": "Stanley",
+            "fips": "46117",
+            "reporting": {
+                "old": 0,
+                "new": 98.95,
+                "change": 98.95
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 142,
+                    "votes": 142,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.16686251468860164
+                },
+                "Larry Rhoden": {
+                    "change": 709,
+                    "votes": 709,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.8331374853113983
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 709,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 567,
+                "margin_percent": 0.6662749706227967
+            },
+            "batch": {
+                "total": 851,
+                "winner": "Larry Rhoden",
+                "margin_votes": 567,
+                "margin_percent": 0.6662749706227967
+            }
+        },
+        "sanborn": {
+            "name": "Sanborn",
+            "fips": "46111",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 82,
+                    "votes": 82,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.25076452599388377
+                },
+                "Larry Rhoden": {
+                    "change": 245,
+                    "votes": 245,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7492354740061162
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 245,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 163,
+                "margin_percent": 0.4984709480122324
+            },
+            "batch": {
+                "total": 327,
+                "winner": "Larry Rhoden",
+                "margin_votes": 163,
+                "margin_percent": 0.4984709480122324
+            }
+        },
+        "jones": {
+            "name": "Jones",
+            "fips": "46075",
+            "reporting": {
+                "old": 0,
+                "new": 98.87,
+                "change": 98.87
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 50,
+                    "votes": 50,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.19083969465648856
+                },
+                "Larry Rhoden": {
+                    "change": 212,
+                    "votes": 212,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.8091603053435115
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 212,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 162,
+                "margin_percent": 0.6183206106870229
+            },
+            "batch": {
+                "total": 262,
+                "winner": "Larry Rhoden",
+                "margin_votes": 162,
+                "margin_percent": 0.6183206106870229
+            }
+        },
+        "mccook": {
+            "name": "McCook",
+            "fips": "46087",
+            "reporting": {
+                "old": 0,
+                "new": 98.99,
+                "change": 98.99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 305,
+                    "votes": 305,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.31027466937945064
+                },
+                "Larry Rhoden": {
+                    "change": 678,
+                    "votes": 678,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6897253306205493
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 678,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 373,
+                "margin_percent": 0.37945066124109866
+            },
+            "batch": {
+                "total": 983,
+                "winner": "Larry Rhoden",
+                "margin_votes": 373,
+                "margin_percent": 0.37945066124109866
+            }
+        },
+        "bon_homme": {
+            "name": "Bon Homme",
+            "fips": "46009",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 270,
+                    "votes": 270,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.29540481400437635
+                },
+                "Larry Rhoden": {
+                    "change": 644,
+                    "votes": 644,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7045951859956237
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 644,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 374,
+                "margin_percent": 0.40919037199124725
+            },
+            "batch": {
+                "total": 914,
+                "winner": "Larry Rhoden",
+                "margin_votes": 374,
+                "margin_percent": 0.40919037199124725
+            }
+        },
+        "jerauld": {
+            "name": "Jerauld",
+            "fips": "46073",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 71,
+                    "votes": 71,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.21779141104294478
+                },
+                "Larry Rhoden": {
+                    "change": 255,
+                    "votes": 255,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7822085889570553
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 255,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 184,
+                "margin_percent": 0.5644171779141104
+            },
+            "batch": {
+                "total": 326,
+                "winner": "Larry Rhoden",
+                "margin_votes": 184,
+                "margin_percent": 0.5644171779141104
+            }
+        },
+        "mellette": {
+            "name": "Mellette",
+            "fips": "46095",
+            "reporting": {
+                "old": 0,
+                "new": 98.93,
+                "change": 98.93
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 48,
+                    "votes": 48,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.2594594594594595
+                },
+                "Larry Rhoden": {
+                    "change": 137,
+                    "votes": 137,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.7405405405405405
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 137,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 89,
+                "margin_percent": 0.4810810810810811
+            },
+            "batch": {
+                "total": 185,
+                "winner": "Larry Rhoden",
+                "margin_votes": 89,
+                "margin_percent": 0.4810810810810811
+            }
+        },
+        "fall_river": {
+            "name": "Fall River",
+            "fips": "46047",
+            "reporting": {
+                "old": 0,
+                "new": 98.97,
+                "change": 98.97
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 776,
+                    "votes": 776,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.5385149201943095
+                },
+                "Larry Rhoden": {
+                    "change": 665,
+                    "votes": 665,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.4614850798056905
+                }
+            },
+            "leader": {
+                "name": "Toby Doeden",
+                "votes": 776,
+                "party": "Republican",
+                "color": "#e0bb24",
+                "margin_votes": 111,
+                "margin_percent": 0.07702984038861901
+            },
+            "batch": {
+                "total": 1441,
+                "winner": "Toby Doeden",
+                "margin_votes": 111,
+                "margin_percent": 0.07702984038861901
+            }
+        },
+        "moody": {
+            "name": "Moody",
+            "fips": "46101",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 263,
+                    "votes": 263,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.32589838909541513
+                },
+                "Larry Rhoden": {
+                    "change": 544,
+                    "votes": 544,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6741016109045849
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 544,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 281,
+                "margin_percent": 0.34820322180916974
+            },
+            "batch": {
+                "total": 807,
+                "winner": "Larry Rhoden",
+                "margin_votes": 281,
+                "margin_percent": 0.34820322180916974
+            }
+        },
+        "butte": {
+            "name": "Butte",
+            "fips": "46019",
+            "reporting": {
+                "old": 0,
+                "new": 98.98,
+                "change": 98.98
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 541,
+                    "votes": 541,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.30843785632839227
+                },
+                "Larry Rhoden": {
+                    "change": 1213,
+                    "votes": 1213,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.6915621436716077
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 1213,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 672,
+                "margin_percent": 0.3831242873432155
+            },
+            "batch": {
+                "total": 1754,
+                "winner": "Larry Rhoden",
+                "margin_votes": 672,
+                "margin_percent": 0.3831242873432155
+            }
+        },
+        "potter": {
+            "name": "Potter",
+            "fips": "46107",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Toby Doeden": {
+                    "change": 126,
+                    "votes": 126,
+                    "party": "Republican",
+                    "color": "#e0bb24",
+                    "batch_percent": 0.1974921630094044
+                },
+                "Larry Rhoden": {
+                    "change": 512,
+                    "votes": 512,
+                    "party": "Republican",
+                    "color": "#c6606b",
+                    "batch_percent": 0.8025078369905956
+                }
+            },
+            "leader": {
+                "name": "Larry Rhoden",
+                "votes": 512,
+                "party": "Republican",
+                "color": "#c6606b",
+                "margin_votes": 386,
+                "margin_percent": 0.6050156739811913
+            },
+            "batch": {
+                "total": 638,
+                "winner": "Larry Rhoden",
+                "margin_votes": 386,
+                "margin_percent": 0.6050156739811913
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}

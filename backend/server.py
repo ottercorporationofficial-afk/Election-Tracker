@@ -150,6 +150,14 @@ if STATIC.exists():
     def south_dakota_governor_runoff_republican():
         return FileResponse(STATIC / "races/SD/2026-primaries/south-dakota-republican-governor-runoff-primary.html")
 
+    @app.get("/michigan")
+    def michigan():
+        return FileResponse(STATIC / "races/MI/michigan.html")
+
+    @app.get("/michigan/michigan_senate_democratic_primary")
+    def michigan_senate_democratic_primary():
+        return FileResponse(STATIC / "races/MI/2026-primaries/michigan_senate_primary_democratic.html")
+
 
 # API endpoints
 @app.get("/latest")
