@@ -98,9 +98,17 @@ const STATE_RACES = {
     ],
     missouri: [
           {
-            path: "/missouri/virginia_09_democratic_primary",
+            path: "/missouri/missouri_01_democratic_primary",
             raceKey: "missouri_01_democratic_primary",
             name: "Missouri House 01 — Democratic Primary 2026"
+        },
+
+    ],
+     kansas: [
+          {
+            path: "/kansas/kansas_01_democratic_primary",
+            raceKey: "kansas_01_democratic_primary",
+            name: "Kansas House 01 — Democratic Primary 2026"
         },
 
     ]

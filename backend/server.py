@@ -183,9 +183,20 @@ if STATIC.exists():
     def missouri():
         return FileResponse(STATIC / "races/MO/missouri.html")
 
-    @app.get("/missouri/virginia_09_democratic_primary")
+    @app.get("/missouri/missouri_01_democratic_primary")
     def missouri_01_democratic_primary():
         return FileResponse(STATIC / "races/MO/2026-primaries/missouri_01_democratic_primary.html")
+
+
+    @app.get("/kansas")
+    def kansas():
+        return FileResponse(STATIC / "races/KS/kansas.html")
+
+    @app.get("/kansas/kansas_01_democratic_primary")
+    def kansas_01_democratic_primary():
+        return FileResponse(STATIC / "races/KS/2026-primaries/kansas_01_democratic_primary.html")
+
+
 
 
 # API endpoints
