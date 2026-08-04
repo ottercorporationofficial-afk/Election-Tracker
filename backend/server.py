@@ -92,7 +92,7 @@ if STATIC.exists():
 
     @app.get("/")
     def home():
-        return RedirectResponse("/arizona")
+        return RedirectResponse("/michigan")
 
     @app.get("/colorado")
     def colorado():
