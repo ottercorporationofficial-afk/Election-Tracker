@@ -178,6 +178,16 @@ if STATIC.exists():
     def virginia_09_democratic_primary():
         return FileResponse(STATIC / "races/VA/2026-primaries/virginia-09-democratic-primary.html")
 
+
+    @app.get("/missouri")
+    def missouri():
+        return FileResponse(STATIC / "races/MO/missouri.html")
+
+    @app.get("/missouri/virginia_09_democratic_primary")
+    def missouri_01_democratic_primary():
+        return FileResponse(STATIC / "races/MO/2026-primaries/missouri_01_democratic_primary.html")
+
+
 # API endpoints
 @app.get("/latest")
 def latest(race: str = "co_governor_primary"):

@@ -152,6 +152,13 @@ RACES = {
         "cycle": "2026-primaries",
         "turnout_group": "va_09_dem_primary"
     },
+    "missouri_01_democratic_primary": {
+        "source": "civicapi",
+        "race_id": 84648,
+        "state": "mo",
+        "cycle": "2026-primaries",
+        "turnout_group": "mo_01_dem_primary"
+    },
 
     # # TEST-ONLY twin of the race above -- same fips/geography, but reads a
     # # local file instead of hitting Maricopa's live URL. Point your AZ

@@ -95,6 +95,14 @@ const STATE_RACES = {
             raceKey: "virginia_09_democratic_primary",
             name: "Virginia House 09 — Democratic Primary 2026"
         }
+    ],
+    missouri: [
+          {
+            path: "/missouri/virginia_09_democratic_primary",
+            raceKey: "missouri_01_democratic_primary",
+            name: "Missouri House 01 — Democratic Primary 2026"
+        },
+
     ]
 
 
