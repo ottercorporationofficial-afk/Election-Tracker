@@ -130,6 +130,14 @@ RACES = {
         "cycle": "2026-primaries",
         "turnout_group": "mi_dem_primary"
     },
+    "michigan_07_democratic_primary": {
+        "source": "civicapi",
+        "race_id": 84776,
+        "state": "mi",
+        "cycle": "2026-primaries",
+        "turnout_group": "mi_07_dem_primary"
+    },
+
     "virginia_republican_senate_primary": {
         "source": "civicapi",
         "race_id": 84970,

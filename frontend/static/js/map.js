@@ -111,6 +111,12 @@ const mapConfigs = {
         rotation: 5,
         candidateColorOverrides: {}
     },
+    michigan_cd07: {
+        fips: "26",
+        rotation: 5,
+        countyFilter: ["26037","26045","26049","26065","26093","26125","26155"],
+        candidateColorOverrides: {}
+    },
     virginia: {
         fips: "51",
         rotation: 9,

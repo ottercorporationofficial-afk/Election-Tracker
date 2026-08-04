@@ -159,6 +159,11 @@ if STATIC.exists():
         return FileResponse(STATIC / "races/MI/2026-primaries/michigan_senate_primary_democratic.html")
 
 
+    @app.get("/michigan/michigan_07_democratic_primary")
+    def michigan_07_democratic_primary():
+        return FileResponse(STATIC / "races/MI/2026-primaries/michigan_07_democratic_primary.html")
+
+
     @app.get("/virginia")
     def virginia():
         return FileResponse(STATIC / "races/VA/virginia.html")
