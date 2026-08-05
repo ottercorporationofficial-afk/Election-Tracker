@@ -1,0 +1,1312 @@
+{
+    "timestamp": "2026-08-04T20:57:31.722052",
+    "candidates": [
+        {
+            "name": "Joy A. Powers",
+            "party": "Democratic",
+            "color": "#4874a3"
+        },
+        {
+            "name": "Adam Grayson Murphy",
+            "party": "Democratic",
+            "color": "#AA00BB"
+        },
+        {
+            "name": "Douglas E. Crockett",
+            "party": "Democratic",
+            "color": "#00b0b0"
+        }
+    ],
+    "counties": {
+        "grayson": {
+            "name": "Grayson",
+            "fips": "51077",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 34,
+                    "votes": 34,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.12056737588652482
+                },
+                "Joy A. Powers": {
+                    "change": 153,
+                    "votes": 153,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.5425531914893617
+                },
+                "Adam Grayson Murphy": {
+                    "change": 95,
+                    "votes": 95,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.33687943262411346
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 153,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 58,
+                "margin_percent": 0.20567375886524822
+            },
+            "batch": {
+                "total": 282,
+                "winner": "Joy A. Powers",
+                "margin_votes": 58,
+                "margin_percent": 0.20567375886524822
+            }
+        },
+        "bedford": {
+            "name": "Bedford",
+            "fips": "51019",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 71,
+                    "votes": 71,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.12522045855379188
+                },
+                "Joy A. Powers": {
+                    "change": 425,
+                    "votes": 425,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.7495590828924162
+                },
+                "Adam Grayson Murphy": {
+                    "change": 71,
+                    "votes": 71,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.12522045855379188
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 425,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 354,
+                "margin_percent": 0.6243386243386243
+            },
+            "batch": {
+                "total": 567,
+                "winner": "Joy A. Powers",
+                "margin_votes": 354,
+                "margin_percent": 0.6243386243386243
+            }
+        },
+        "pulaski": {
+            "name": "Pulaski",
+            "fips": "51155",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 90,
+                    "votes": 90,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.14492753623188406
+                },
+                "Joy A. Powers": {
+                    "change": 305,
+                    "votes": 305,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.49114331723027377
+                },
+                "Adam Grayson Murphy": {
+                    "change": 226,
+                    "votes": 226,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.3639291465378422
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 305,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 79,
+                "margin_percent": 0.12721417069243157
+            },
+            "batch": {
+                "total": 621,
+                "winner": "Joy A. Powers",
+                "margin_votes": 79,
+                "margin_percent": 0.12721417069243157
+            }
+        },
+        "henry": {
+            "name": "Henry",
+            "fips": "51089",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 162,
+                    "votes": 162,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.20174346201743462
+                },
+                "Joy A. Powers": {
+                    "change": 282,
+                    "votes": 282,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.35118306351183065
+                },
+                "Adam Grayson Murphy": {
+                    "change": 359,
+                    "votes": 359,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.44707347447073476
+                }
+            },
+            "leader": {
+                "name": "Adam Grayson Murphy",
+                "votes": 359,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 77,
+                "margin_percent": 0.0958904109589041
+            },
+            "batch": {
+                "total": 803,
+                "winner": "Adam Grayson Murphy",
+                "margin_votes": 77,
+                "margin_percent": 0.0958904109589041
+            }
+        },
+        "bland": {
+            "name": "Bland",
+            "fips": "51021",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 5,
+                    "votes": 5,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.11627906976744186
+                },
+                "Joy A. Powers": {
+                    "change": 16,
+                    "votes": 16,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.37209302325581395
+                },
+                "Adam Grayson Murphy": {
+                    "change": 22,
+                    "votes": 22,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.5116279069767442
+                }
+            },
+            "leader": {
+                "name": "Adam Grayson Murphy",
+                "votes": 22,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 6,
+                "margin_percent": 0.13953488372093023
+            },
+            "batch": {
+                "total": 43,
+                "winner": "Adam Grayson Murphy",
+                "margin_votes": 6,
+                "margin_percent": 0.13953488372093023
+            }
+        },
+        "carroll": {
+            "name": "Carroll",
+            "fips": "51035",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 69,
+                    "votes": 69,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.13320463320463322
+                },
+                "Joy A. Powers": {
+                    "change": 268,
+                    "votes": 268,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.5173745173745173
+                },
+                "Adam Grayson Murphy": {
+                    "change": 181,
+                    "votes": 181,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.34942084942084944
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 268,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 87,
+                "margin_percent": 0.16795366795366795
+            },
+            "batch": {
+                "total": 518,
+                "winner": "Joy A. Powers",
+                "margin_votes": 87,
+                "margin_percent": 0.16795366795366795
+            }
+        },
+        "bristol_city": {
+            "name": "Bristol City",
+            "fips": null,
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 59,
+                    "votes": 59,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.17933130699088146
+                },
+                "Joy A. Powers": {
+                    "change": 164,
+                    "votes": 164,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.49848024316109424
+                },
+                "Adam Grayson Murphy": {
+                    "change": 106,
+                    "votes": 106,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.3221884498480243
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 164,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 58,
+                "margin_percent": 0.1762917933130699
+            },
+            "batch": {
+                "total": 329,
+                "winner": "Joy A. Powers",
+                "margin_votes": 58,
+                "margin_percent": 0.1762917933130699
+            }
+        },
+        "montgomery": {
+            "name": "Montgomery",
+            "fips": "51121",
+            "reporting": {
+                "old": 0,
+                "new": 93.1,
+                "change": 93.1
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 432,
+                    "votes": 432,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.09013144168579178
+                },
+                "Joy A. Powers": {
+                    "change": 2379,
+                    "votes": 2379,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.49634884206133945
+                },
+                "Adam Grayson Murphy": {
+                    "change": 1982,
+                    "votes": 1982,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.41351971625286876
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 2379,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 397,
+                "margin_percent": 0.08282912580847068
+            },
+            "batch": {
+                "total": 4793,
+                "winner": "Joy A. Powers",
+                "margin_votes": 397,
+                "margin_percent": 0.08282912580847068
+            }
+        },
+        "tazewell": {
+            "name": "Tazewell",
+            "fips": "51185",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 59,
+                    "votes": 59,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.12473572938689217
+                },
+                "Joy A. Powers": {
+                    "change": 247,
+                    "votes": 247,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.5221987315010571
+                },
+                "Adam Grayson Murphy": {
+                    "change": 167,
+                    "votes": 167,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.35306553911205074
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 247,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 80,
+                "margin_percent": 0.16913319238900634
+            },
+            "batch": {
+                "total": 473,
+                "winner": "Joy A. Powers",
+                "margin_votes": 80,
+                "margin_percent": 0.16913319238900634
+            }
+        },
+        "patrick": {
+            "name": "Patrick",
+            "fips": "51141",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 27,
+                    "votes": 27,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.09407665505226481
+                },
+                "Joy A. Powers": {
+                    "change": 152,
+                    "votes": 152,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.5296167247386759
+                },
+                "Adam Grayson Murphy": {
+                    "change": 108,
+                    "votes": 108,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.37630662020905925
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 152,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 44,
+                "margin_percent": 0.15331010452961671
+            },
+            "batch": {
+                "total": 287,
+                "winner": "Joy A. Powers",
+                "margin_votes": 44,
+                "margin_percent": 0.15331010452961671
+            }
+        },
+        "martinsville_city": {
+            "name": "Martinsville City",
+            "fips": null,
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 104,
+                    "votes": 104,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.19923371647509577
+                },
+                "Joy A. Powers": {
+                    "change": 213,
+                    "votes": 213,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.40804597701149425
+                },
+                "Adam Grayson Murphy": {
+                    "change": 205,
+                    "votes": 205,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.39272030651340994
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 213,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 8,
+                "margin_percent": 0.01532567049808429
+            },
+            "batch": {
+                "total": 522,
+                "winner": "Joy A. Powers",
+                "margin_votes": 8,
+                "margin_percent": 0.01532567049808429
+            }
+        },
+        "craig": {
+            "name": "Craig",
+            "fips": "51045",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 5,
+                    "votes": 5,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.05813953488372093
+                },
+                "Joy A. Powers": {
+                    "change": 35,
+                    "votes": 35,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.4069767441860465
+                },
+                "Adam Grayson Murphy": {
+                    "change": 46,
+                    "votes": 46,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.5348837209302325
+                }
+            },
+            "leader": {
+                "name": "Adam Grayson Murphy",
+                "votes": 46,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 11,
+                "margin_percent": 0.12790697674418605
+            },
+            "batch": {
+                "total": 86,
+                "winner": "Adam Grayson Murphy",
+                "margin_votes": 11,
+                "margin_percent": 0.12790697674418605
+            }
+        },
+        "franklin": {
+            "name": "Franklin",
+            "fips": "51067",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 148,
+                    "votes": 148,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.11020104244229337
+                },
+                "Joy A. Powers": {
+                    "change": 673,
+                    "votes": 673,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.5011169024571854
+                },
+                "Adam Grayson Murphy": {
+                    "change": 522,
+                    "votes": 522,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.38868205510052123
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 673,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 151,
+                "margin_percent": 0.11243484735666419
+            },
+            "batch": {
+                "total": 1343,
+                "winner": "Joy A. Powers",
+                "margin_votes": 151,
+                "margin_percent": 0.11243484735666419
+            }
+        },
+        "dickenson": {
+            "name": "Dickenson",
+            "fips": "51051",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 41,
+                    "votes": 41,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.22043010752688172
+                },
+                "Joy A. Powers": {
+                    "change": 68,
+                    "votes": 68,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.3655913978494624
+                },
+                "Adam Grayson Murphy": {
+                    "change": 77,
+                    "votes": 77,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.41397849462365593
+                }
+            },
+            "leader": {
+                "name": "Adam Grayson Murphy",
+                "votes": 77,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 9,
+                "margin_percent": 0.04838709677419355
+            },
+            "batch": {
+                "total": 186,
+                "winner": "Adam Grayson Murphy",
+                "margin_votes": 9,
+                "margin_percent": 0.04838709677419355
+            }
+        },
+        "radford_city": {
+            "name": "Radford City",
+            "fips": null,
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 71,
+                    "votes": 71,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.16063348416289594
+                },
+                "Joy A. Powers": {
+                    "change": 180,
+                    "votes": 180,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.4072398190045249
+                },
+                "Adam Grayson Murphy": {
+                    "change": 191,
+                    "votes": 191,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.4321266968325792
+                }
+            },
+            "leader": {
+                "name": "Adam Grayson Murphy",
+                "votes": 191,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 11,
+                "margin_percent": 0.024886877828054297
+            },
+            "batch": {
+                "total": 442,
+                "winner": "Adam Grayson Murphy",
+                "margin_votes": 11,
+                "margin_percent": 0.024886877828054297
+            }
+        },
+        "galax_city": {
+            "name": "Galax City",
+            "fips": null,
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 33,
+                    "votes": 33,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.23741007194244604
+                },
+                "Joy A. Powers": {
+                    "change": 69,
+                    "votes": 69,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.49640287769784175
+                },
+                "Adam Grayson Murphy": {
+                    "change": 37,
+                    "votes": 37,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.26618705035971224
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 69,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 32,
+                "margin_percent": 0.2302158273381295
+            },
+            "batch": {
+                "total": 139,
+                "winner": "Joy A. Powers",
+                "margin_votes": 32,
+                "margin_percent": 0.2302158273381295
+            }
+        },
+        "washington": {
+            "name": "Washington",
+            "fips": "51191",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 119,
+                    "votes": 119,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.10232158211521926
+                },
+                "Joy A. Powers": {
+                    "change": 617,
+                    "votes": 617,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.530524505588994
+                },
+                "Adam Grayson Murphy": {
+                    "change": 427,
+                    "votes": 427,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.36715391229578676
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 617,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 190,
+                "margin_percent": 0.16337059329320722
+            },
+            "batch": {
+                "total": 1163,
+                "winner": "Joy A. Powers",
+                "margin_votes": 190,
+                "margin_percent": 0.16337059329320722
+            }
+        },
+        "norton_city": {
+            "name": "Norton City",
+            "fips": null,
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 3,
+                    "votes": 3,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.045454545454545456
+                },
+                "Joy A. Powers": {
+                    "change": 40,
+                    "votes": 40,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.6060606060606061
+                },
+                "Adam Grayson Murphy": {
+                    "change": 23,
+                    "votes": 23,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.3484848484848485
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 40,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 17,
+                "margin_percent": 0.25757575757575757
+            },
+            "batch": {
+                "total": 66,
+                "winner": "Joy A. Powers",
+                "margin_votes": 17,
+                "margin_percent": 0.25757575757575757
+            }
+        },
+        "buchanan": {
+            "name": "Buchanan",
+            "fips": "51027",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 43,
+                    "votes": 43,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.24022346368715083
+                },
+                "Joy A. Powers": {
+                    "change": 54,
+                    "votes": 54,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.3016759776536313
+                },
+                "Adam Grayson Murphy": {
+                    "change": 82,
+                    "votes": 82,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.4581005586592179
+                }
+            },
+            "leader": {
+                "name": "Adam Grayson Murphy",
+                "votes": 82,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 28,
+                "margin_percent": 0.1564245810055866
+            },
+            "batch": {
+                "total": 179,
+                "winner": "Adam Grayson Murphy",
+                "margin_votes": 28,
+                "margin_percent": 0.1564245810055866
+            }
+        },
+        "roanoke": {
+            "name": "Roanoke",
+            "fips": "51161",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 135,
+                    "votes": 135,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.09911894273127753
+                },
+                "Joy A. Powers": {
+                    "change": 794,
+                    "votes": 794,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.5829662261380323
+                },
+                "Adam Grayson Murphy": {
+                    "change": 433,
+                    "votes": 433,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.31791483113069013
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 794,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 361,
+                "margin_percent": 0.26505139500734215
+            },
+            "batch": {
+                "total": 1362,
+                "winner": "Joy A. Powers",
+                "margin_votes": 361,
+                "margin_percent": 0.26505139500734215
+            }
+        },
+        "lee": {
+            "name": "Lee",
+            "fips": "51105",
+            "reporting": {
+                "old": 0,
+                "new": 18.8,
+                "change": 18.8
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 2,
+                    "votes": 2,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.2
+                },
+                "Joy A. Powers": {
+                    "change": 6,
+                    "votes": 6,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.6
+                },
+                "Adam Grayson Murphy": {
+                    "change": 2,
+                    "votes": 2,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.2
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 6,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 4,
+                "margin_percent": 0.4
+            },
+            "batch": {
+                "total": 10,
+                "winner": "Joy A. Powers",
+                "margin_votes": 4,
+                "margin_percent": 0.4
+            }
+        },
+        "wise": {
+            "name": "Wise",
+            "fips": "51195",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 42,
+                    "votes": 42,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.11965811965811966
+                },
+                "Joy A. Powers": {
+                    "change": 155,
+                    "votes": 155,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.4415954415954416
+                },
+                "Adam Grayson Murphy": {
+                    "change": 154,
+                    "votes": 154,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.43874643874643876
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 155,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 1,
+                "margin_percent": 0.002849002849002849
+            },
+            "batch": {
+                "total": 351,
+                "winner": "Joy A. Powers",
+                "margin_votes": 1,
+                "margin_percent": 0.002849002849002849
+            }
+        },
+        "russell": {
+            "name": "Russell",
+            "fips": "51167",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 32,
+                    "votes": 32,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.11072664359861592
+                },
+                "Joy A. Powers": {
+                    "change": 151,
+                    "votes": 151,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.5224913494809689
+                },
+                "Adam Grayson Murphy": {
+                    "change": 106,
+                    "votes": 106,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.36678200692041524
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 151,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 45,
+                "margin_percent": 0.15570934256055363
+            },
+            "batch": {
+                "total": 289,
+                "winner": "Joy A. Powers",
+                "margin_votes": 45,
+                "margin_percent": 0.15570934256055363
+            }
+        },
+        "smyth": {
+            "name": "Smyth",
+            "fips": "51173",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 27,
+                    "votes": 27,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.07356948228882834
+                },
+                "Joy A. Powers": {
+                    "change": 170,
+                    "votes": 170,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.46321525885558584
+                },
+                "Adam Grayson Murphy": {
+                    "change": 170,
+                    "votes": 170,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.46321525885558584
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 170,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0.0
+            },
+            "batch": {
+                "total": 367,
+                "winner": "Joy A. Powers",
+                "margin_votes": 0,
+                "margin_percent": 0.0
+            }
+        },
+        "scott": {
+            "name": "Scott",
+            "fips": "51169",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 24,
+                    "votes": 24,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.125
+                },
+                "Joy A. Powers": {
+                    "change": 100,
+                    "votes": 100,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.5208333333333334
+                },
+                "Adam Grayson Murphy": {
+                    "change": 68,
+                    "votes": 68,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.3541666666666667
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 100,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 32,
+                "margin_percent": 0.16666666666666666
+            },
+            "batch": {
+                "total": 192,
+                "winner": "Joy A. Powers",
+                "margin_votes": 32,
+                "margin_percent": 0.16666666666666666
+            }
+        },
+        "floyd": {
+            "name": "Floyd",
+            "fips": "51063",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 39,
+                    "votes": 39,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.05416666666666667
+                },
+                "Joy A. Powers": {
+                    "change": 504,
+                    "votes": 504,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.7
+                },
+                "Adam Grayson Murphy": {
+                    "change": 177,
+                    "votes": 177,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.24583333333333332
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 504,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 327,
+                "margin_percent": 0.45416666666666666
+            },
+            "batch": {
+                "total": 720,
+                "winner": "Joy A. Powers",
+                "margin_votes": 327,
+                "margin_percent": 0.45416666666666666
+            }
+        },
+        "giles": {
+            "name": "Giles",
+            "fips": "51071",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 27,
+                    "votes": 27,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.07297297297297298
+                },
+                "Joy A. Powers": {
+                    "change": 237,
+                    "votes": 237,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.6405405405405405
+                },
+                "Adam Grayson Murphy": {
+                    "change": 106,
+                    "votes": 106,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.2864864864864865
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 237,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 131,
+                "margin_percent": 0.35405405405405405
+            },
+            "batch": {
+                "total": 370,
+                "winner": "Joy A. Powers",
+                "margin_votes": 131,
+                "margin_percent": 0.35405405405405405
+            }
+        },
+        "wythe": {
+            "name": "Wythe",
+            "fips": "51197",
+            "reporting": {
+                "old": 0,
+                "new": 100,
+                "change": 100
+            },
+            "candidates": {
+                "Douglas E. Crockett": {
+                    "change": 175,
+                    "votes": 175,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.3176043557168784
+                },
+                "Joy A. Powers": {
+                    "change": 199,
+                    "votes": 199,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.36116152450090744
+                },
+                "Adam Grayson Murphy": {
+                    "change": 177,
+                    "votes": 177,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.32123411978221417
+                }
+            },
+            "leader": {
+                "name": "Joy A. Powers",
+                "votes": 199,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 22,
+                "margin_percent": 0.039927404718693285
+            },
+            "batch": {
+                "total": 551,
+                "winner": "Joy A. Powers",
+                "margin_votes": 22,
+                "margin_percent": 0.039927404718693285
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}

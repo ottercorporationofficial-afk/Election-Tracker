@@ -1,0 +1,3842 @@
+{
+    "timestamp": "2026-08-04T20:57:31.173523",
+    "candidates": [
+        {
+            "name": "Abdul El-Sayed",
+            "party": "Democratic",
+            "color": "#4874a3"
+        },
+        {
+            "name": "Haley Stevens",
+            "party": "Democratic",
+            "color": "#00b0b0"
+        },
+        {
+            "name": "Mallory McMorrow",
+            "party": "Democratic",
+            "color": "#AA00BB"
+        }
+    ],
+    "counties": {
+        "alcona": {
+            "name": "Alcona",
+            "fips": "26001",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "lake": {
+            "name": "Lake",
+            "fips": "26085",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "branch": {
+            "name": "Branch",
+            "fips": "26023",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "gladwin": {
+            "name": "Gladwin",
+            "fips": "26051",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "monroe": {
+            "name": "Monroe",
+            "fips": "26115",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "barry": {
+            "name": "Barry",
+            "fips": "26015",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "lapeer": {
+            "name": "Lapeer",
+            "fips": "26087",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "oceana": {
+            "name": "Oceana",
+            "fips": "26127",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "ottawa": {
+            "name": "Ottawa",
+            "fips": "26139",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "bay": {
+            "name": "Bay",
+            "fips": "26017",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "mackinac": {
+            "name": "Mackinac",
+            "fips": "26097",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "genesee": {
+            "name": "Genesee",
+            "fips": "26049",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "huron": {
+            "name": "Huron",
+            "fips": "26063",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "ionia": {
+            "name": "Ionia",
+            "fips": "26067",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "saginaw": {
+            "name": "Saginaw",
+            "fips": "26145",
+            "reporting": {
+                "old": 0,
+                "new": 2.56,
+                "change": 2.56
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 405,
+                    "votes": 405,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.5921052631578947
+                },
+                "Mallory McMorrow": {
+                    "change": 10,
+                    "votes": 10,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.014619883040935672
+                },
+                "Haley Stevens": {
+                    "change": 269,
+                    "votes": 269,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.3932748538011696
+                }
+            },
+            "leader": {
+                "name": "Abdul El-Sayed",
+                "votes": 405,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 136,
+                "margin_percent": 0.19883040935672514
+            },
+            "batch": {
+                "total": 684,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 136,
+                "margin_percent": 0.19883040935672514
+            }
+        },
+        "midland": {
+            "name": "Midland",
+            "fips": "26111",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "tuscola": {
+            "name": "Tuscola",
+            "fips": "26157",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "wayne": {
+            "name": "Wayne",
+            "fips": "26163",
+            "reporting": {
+                "old": 0,
+                "new": 1.53,
+                "change": 1.53
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 2189,
+                    "votes": 2189,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.4689374464438732
+                },
+                "Mallory McMorrow": {
+                    "change": 127,
+                    "votes": 127,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.027206512425021423
+                },
+                "Haley Stevens": {
+                    "change": 2352,
+                    "votes": 2352,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.5038560411311054
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 2352,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 163,
+                "margin_percent": 0.03491859468723222
+            },
+            "batch": {
+                "total": 4668,
+                "winner": "Haley Stevens",
+                "margin_votes": 163,
+                "margin_percent": 0.03491859468723222
+            }
+        },
+        "kent": {
+            "name": "Kent",
+            "fips": "26081",
+            "reporting": {
+                "old": 0,
+                "new": 17.98,
+                "change": 17.98
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 8257,
+                    "votes": 8257,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.5530846004420926
+                },
+                "Mallory McMorrow": {
+                    "change": 867,
+                    "votes": 867,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.05807488780226405
+                },
+                "Haley Stevens": {
+                    "change": 5805,
+                    "votes": 5805,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.3888405117556434
+                }
+            },
+            "leader": {
+                "name": "Abdul El-Sayed",
+                "votes": 8257,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 2452,
+                "margin_percent": 0.16424408868644919
+            },
+            "batch": {
+                "total": 14929,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 2452,
+                "margin_percent": 0.16424408868644919
+            }
+        },
+        "oscoda": {
+            "name": "Oscoda",
+            "fips": "26135",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "montcalm": {
+            "name": "Montcalm",
+            "fips": "26117",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "schoolcraft": {
+            "name": "Schoolcraft",
+            "fips": "26153",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "st_clair": {
+            "name": "St. Clair",
+            "fips": "26147",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "presque_isle": {
+            "name": "Presque Isle",
+            "fips": "26141",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "oakland": {
+            "name": "Oakland",
+            "fips": "26125",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "luce": {
+            "name": "Luce",
+            "fips": "26095",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "roscommon": {
+            "name": "Roscommon",
+            "fips": "26143",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "gratiot": {
+            "name": "Gratiot",
+            "fips": "26057",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "lenawee": {
+            "name": "Lenawee",
+            "fips": "26091",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "newaygo": {
+            "name": "Newaygo",
+            "fips": "26123",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "allegan": {
+            "name": "Allegan",
+            "fips": "26005",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "crawford": {
+            "name": "Crawford",
+            "fips": "26039",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "baraga": {
+            "name": "Baraga",
+            "fips": "26013",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "sanilac": {
+            "name": "Sanilac",
+            "fips": "26151",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "marquette": {
+            "name": "Marquette",
+            "fips": "26103",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "shiawassee": {
+            "name": "Shiawassee",
+            "fips": "26155",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "arenac": {
+            "name": "Arenac",
+            "fips": "26011",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "ogemaw": {
+            "name": "Ogemaw",
+            "fips": "26129",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "manistee": {
+            "name": "Manistee",
+            "fips": "26101",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "keweenaw": {
+            "name": "Keweenaw",
+            "fips": "26083",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "gogebic": {
+            "name": "Gogebic",
+            "fips": "26053",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "kalamazoo": {
+            "name": "Kalamazoo",
+            "fips": "26077",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "iron": {
+            "name": "Iron",
+            "fips": "26071",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "alpena": {
+            "name": "Alpena",
+            "fips": "26007",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "osceola": {
+            "name": "Osceola",
+            "fips": "26133",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "clinton": {
+            "name": "Clinton",
+            "fips": "26037",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "hillsdale": {
+            "name": "Hillsdale",
+            "fips": "26059",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "wexford": {
+            "name": "Wexford",
+            "fips": "26165",
+            "reporting": {
+                "old": 0,
+                "new": 10.28,
+                "change": 10.28
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 126,
+                    "votes": 126,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.4581818181818182
+                },
+                "Mallory McMorrow": {
+                    "change": 15,
+                    "votes": 15,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.05454545454545454
+                },
+                "Haley Stevens": {
+                    "change": 134,
+                    "votes": 134,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.48727272727272725
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 134,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 8,
+                "margin_percent": 0.02909090909090909
+            },
+            "batch": {
+                "total": 275,
+                "winner": "Haley Stevens",
+                "margin_votes": 8,
+                "margin_percent": 0.02909090909090909
+            }
+        },
+        "alger": {
+            "name": "Alger",
+            "fips": "26003",
+            "reporting": {
+                "old": 0,
+                "new": 20.65,
+                "change": 20.65
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 152,
+                    "votes": 152,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.5223367697594502
+                },
+                "Mallory McMorrow": {
+                    "change": 32,
+                    "votes": 32,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.10996563573883161
+                },
+                "Haley Stevens": {
+                    "change": 107,
+                    "votes": 107,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.36769759450171824
+                }
+            },
+            "leader": {
+                "name": "Abdul El-Sayed",
+                "votes": 152,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 45,
+                "margin_percent": 0.15463917525773196
+            },
+            "batch": {
+                "total": 291,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 45,
+                "margin_percent": 0.15463917525773196
+            }
+        },
+        "dickinson": {
+            "name": "Dickinson",
+            "fips": "26043",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "calhoun": {
+            "name": "Calhoun",
+            "fips": "26025",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "benzie": {
+            "name": "Benzie",
+            "fips": "26019",
+            "reporting": {
+                "old": 0,
+                "new": 7.5,
+                "change": 7.5
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 166,
+                    "votes": 166,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.694560669456067
+                },
+                "Mallory McMorrow": {
+                    "change": 10,
+                    "votes": 10,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.04184100418410042
+                },
+                "Haley Stevens": {
+                    "change": 63,
+                    "votes": 63,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.26359832635983266
+                }
+            },
+            "leader": {
+                "name": "Abdul El-Sayed",
+                "votes": 166,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 103,
+                "margin_percent": 0.4309623430962343
+            },
+            "batch": {
+                "total": 239,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 103,
+                "margin_percent": 0.4309623430962343
+            }
+        },
+        "cass": {
+            "name": "Cass",
+            "fips": "26027",
+            "reporting": {
+                "old": 0,
+                "new": 5.37,
+                "change": 5.37
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 98,
+                    "votes": 98,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.5664739884393064
+                },
+                "Mallory McMorrow": {
+                    "change": 13,
+                    "votes": 13,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.07514450867052024
+                },
+                "Haley Stevens": {
+                    "change": 62,
+                    "votes": 62,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.3583815028901734
+                }
+            },
+            "leader": {
+                "name": "Abdul El-Sayed",
+                "votes": 98,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 36,
+                "margin_percent": 0.20809248554913296
+            },
+            "batch": {
+                "total": 173,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 36,
+                "margin_percent": 0.20809248554913296
+            }
+        },
+        "delta": {
+            "name": "Delta",
+            "fips": "26041",
+            "reporting": {
+                "old": 0,
+                "new": 39.43,
+                "change": 39.43
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 703,
+                    "votes": 703,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.4318181818181818
+                },
+                "Mallory McMorrow": {
+                    "change": 150,
+                    "votes": 150,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.09213759213759214
+                },
+                "Haley Stevens": {
+                    "change": 775,
+                    "votes": 775,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.476044226044226
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 775,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 72,
+                "margin_percent": 0.044226044226044224
+            },
+            "batch": {
+                "total": 1628,
+                "winner": "Haley Stevens",
+                "margin_votes": 72,
+                "margin_percent": 0.044226044226044224
+            }
+        },
+        "muskegon": {
+            "name": "Muskegon",
+            "fips": "26121",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "missaukee": {
+            "name": "Missaukee",
+            "fips": "26113",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "kalkaska": {
+            "name": "Kalkaska",
+            "fips": "26079",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "grand_traverse": {
+            "name": "Grand Traverse",
+            "fips": "26055",
+            "reporting": {
+                "old": 0,
+                "new": 1.89,
+                "change": 1.89
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 238,
+                    "votes": 238,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.7531645569620253
+                },
+                "Mallory McMorrow": {
+                    "change": 10,
+                    "votes": 10,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.03164556962025317
+                },
+                "Haley Stevens": {
+                    "change": 68,
+                    "votes": 68,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.21518987341772153
+                }
+            },
+            "leader": {
+                "name": "Abdul El-Sayed",
+                "votes": 238,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 170,
+                "margin_percent": 0.5379746835443038
+            },
+            "batch": {
+                "total": 316,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 170,
+                "margin_percent": 0.5379746835443038
+            }
+        },
+        "charlevoix": {
+            "name": "Charlevoix",
+            "fips": "26029",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "ingham": {
+            "name": "Ingham",
+            "fips": "26065",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "eaton": {
+            "name": "Eaton",
+            "fips": "26045",
+            "reporting": {
+                "old": 0,
+                "new": 47.86,
+                "change": 47.86
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 4250,
+                    "votes": 4250,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.5429228410832907
+                },
+                "Mallory McMorrow": {
+                    "change": 386,
+                    "votes": 386,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.04931016862544711
+                },
+                "Haley Stevens": {
+                    "change": 3192,
+                    "votes": 3192,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.4077669902912621
+                }
+            },
+            "leader": {
+                "name": "Abdul El-Sayed",
+                "votes": 4250,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 1058,
+                "margin_percent": 0.1351558507920286
+            },
+            "batch": {
+                "total": 7828,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 1058,
+                "margin_percent": 0.1351558507920286
+            }
+        },
+        "washtenaw": {
+            "name": "Washtenaw",
+            "fips": "26161",
+            "reporting": {
+                "old": 0,
+                "new": 44.03,
+                "change": 44.03
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 27166,
+                    "votes": 27166,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.6801021430002003
+                },
+                "Mallory McMorrow": {
+                    "change": 798,
+                    "votes": 798,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.01997796915681955
+                },
+                "Haley Stevens": {
+                    "change": 11980,
+                    "votes": 11980,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.2999198878429802
+                }
+            },
+            "leader": {
+                "name": "Abdul El-Sayed",
+                "votes": 27166,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 15186,
+                "margin_percent": 0.3801822551572201
+            },
+            "batch": {
+                "total": 39944,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 15186,
+                "margin_percent": 0.3801822551572201
+            }
+        },
+        "otsego": {
+            "name": "Otsego",
+            "fips": "26137",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "mecosta": {
+            "name": "Mecosta",
+            "fips": "26107",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "macomb": {
+            "name": "Macomb",
+            "fips": "26099",
+            "reporting": {
+                "old": 0,
+                "new": 5.31,
+                "change": 5.31
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 2860,
+                    "votes": 2860,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.4674730304020922
+                },
+                "Mallory McMorrow": {
+                    "change": 234,
+                    "votes": 234,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.038247793396534814
+                },
+                "Haley Stevens": {
+                    "change": 3024,
+                    "votes": 3024,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.494279176201373
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 3024,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 164,
+                "margin_percent": 0.02680614579928081
+            },
+            "batch": {
+                "total": 6118,
+                "winner": "Haley Stevens",
+                "margin_votes": 164,
+                "margin_percent": 0.02680614579928081
+            }
+        },
+        "leelanau": {
+            "name": "Leelanau",
+            "fips": "26089",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "menominee": {
+            "name": "Menominee",
+            "fips": "26109",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "ontonagon": {
+            "name": "Ontonagon",
+            "fips": "26131",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "clare": {
+            "name": "Clare",
+            "fips": "26035",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "iosco": {
+            "name": "Iosco",
+            "fips": "26069",
+            "reporting": {
+                "old": 0,
+                "new": 29.44,
+                "change": 29.44
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 340,
+                    "votes": 340,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.3744493392070485
+                },
+                "Mallory McMorrow": {
+                    "change": 74,
+                    "votes": 74,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.08149779735682819
+                },
+                "Haley Stevens": {
+                    "change": 494,
+                    "votes": 494,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.5440528634361234
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 494,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 154,
+                "margin_percent": 0.1696035242290749
+            },
+            "batch": {
+                "total": 908,
+                "winner": "Haley Stevens",
+                "margin_votes": 154,
+                "margin_percent": 0.1696035242290749
+            }
+        },
+        "van_buren": {
+            "name": "Van Buren",
+            "fips": "26159",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "mason": {
+            "name": "Mason",
+            "fips": "26105",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "montmorency": {
+            "name": "Montmorency",
+            "fips": "26119",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "chippewa": {
+            "name": "Chippewa",
+            "fips": "26033",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "livingston": {
+            "name": "Livingston",
+            "fips": "26093",
+            "reporting": {
+                "old": 0,
+                "new": 44.45,
+                "change": 44.45
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 6139,
+                    "votes": 6139,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.5830009496676163
+                },
+                "Mallory McMorrow": {
+                    "change": 284,
+                    "votes": 284,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.026970560303893637
+                },
+                "Haley Stevens": {
+                    "change": 4107,
+                    "votes": 4107,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.39002849002849005
+                }
+            },
+            "leader": {
+                "name": "Abdul El-Sayed",
+                "votes": 6139,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 2032,
+                "margin_percent": 0.1929724596391263
+            },
+            "batch": {
+                "total": 10530,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 2032,
+                "margin_percent": 0.1929724596391263
+            }
+        },
+        "jackson": {
+            "name": "Jackson",
+            "fips": "26075",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "isabella": {
+            "name": "Isabella",
+            "fips": "26073",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "berrien": {
+            "name": "Berrien",
+            "fips": "26021",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "st_joseph": {
+            "name": "St. Joseph",
+            "fips": "26149",
+            "reporting": {
+                "old": 0,
+                "new": 54.77,
+                "change": 54.77
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 1044,
+                    "votes": 1044,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.45769399386234105
+                },
+                "Mallory McMorrow": {
+                    "change": 148,
+                    "votes": 148,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.0648838228846997
+                },
+                "Haley Stevens": {
+                    "change": 1089,
+                    "votes": 1089,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.4774221832529592
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 1089,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 45,
+                "margin_percent": 0.01972818939061815
+            },
+            "batch": {
+                "total": 2281,
+                "winner": "Haley Stevens",
+                "margin_votes": 45,
+                "margin_percent": 0.01972818939061815
+            }
+        },
+        "antrim": {
+            "name": "Antrim",
+            "fips": "26009",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "houghton": {
+            "name": "Houghton",
+            "fips": "26061",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "emmet": {
+            "name": "Emmet",
+            "fips": "26047",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "cheboygan": {
+            "name": "Cheboygan",
+            "fips": "26031",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Abdul El-Sayed": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Mallory McMorrow": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Haley Stevens": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Haley Stevens",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#00b0b0",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Abdul El-Sayed",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}

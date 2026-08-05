@@ -1,0 +1,346 @@
+{
+    "timestamp": "2026-08-04T20:57:31.323947",
+    "candidates": [
+        {
+            "name": "William Lawrence",
+            "party": "Democratic",
+            "color": "#AA00BB"
+        },
+        {
+            "name": "Bridget Brink",
+            "party": "Democratic",
+            "color": "#4874a3"
+        },
+        {
+            "name": "Matt Maasdam",
+            "party": "Democratic",
+            "color": "#00b0b0"
+        }
+    ],
+    "counties": {
+        "oakland": {
+            "name": "Oakland",
+            "fips": "26125",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Bridget Brink": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "William Lawrence": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Matt Maasdam": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Bridget Brink",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Bridget Brink",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "livingston": {
+            "name": "Livingston",
+            "fips": "26093",
+            "reporting": {
+                "old": 0,
+                "new": 40.6,
+                "change": 40.6
+            },
+            "candidates": {
+                "Bridget Brink": {
+                    "change": 3021,
+                    "votes": 3021,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.3141312259540397
+                },
+                "William Lawrence": {
+                    "change": 3950,
+                    "votes": 3950,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.4107309971924717
+                },
+                "Matt Maasdam": {
+                    "change": 2646,
+                    "votes": 2646,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.2751377768534886
+                }
+            },
+            "leader": {
+                "name": "William Lawrence",
+                "votes": 3950,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 929,
+                "margin_percent": 0.09659977123843194
+            },
+            "batch": {
+                "total": 9617,
+                "winner": "William Lawrence",
+                "margin_votes": 929,
+                "margin_percent": 0.09659977123843194
+            }
+        },
+        "clinton": {
+            "name": "Clinton",
+            "fips": "26037",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Bridget Brink": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "William Lawrence": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Matt Maasdam": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Bridget Brink",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Bridget Brink",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "ingham": {
+            "name": "Ingham",
+            "fips": "26065",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Bridget Brink": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "William Lawrence": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Matt Maasdam": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Bridget Brink",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Bridget Brink",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "eaton": {
+            "name": "Eaton",
+            "fips": "26045",
+            "reporting": {
+                "old": 0,
+                "new": 46.41,
+                "change": 46.41
+            },
+            "candidates": {
+                "Bridget Brink": {
+                    "change": 1897,
+                    "votes": 1897,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.26147484493452794
+                },
+                "William Lawrence": {
+                    "change": 3273,
+                    "votes": 3273,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.4511371467953136
+                },
+                "Matt Maasdam": {
+                    "change": 2085,
+                    "votes": 2085,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.28738800827015853
+                }
+            },
+            "leader": {
+                "name": "William Lawrence",
+                "votes": 3273,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 1188,
+                "margin_percent": 0.16374913852515507
+            },
+            "batch": {
+                "total": 7255,
+                "winner": "William Lawrence",
+                "margin_votes": 1188,
+                "margin_percent": 0.16374913852515507
+            }
+        },
+        "shiawassee": {
+            "name": "Shiawassee",
+            "fips": "26155",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Bridget Brink": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "William Lawrence": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Matt Maasdam": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Bridget Brink",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Bridget Brink",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "genesee": {
+            "name": "Genesee",
+            "fips": "26049",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Bridget Brink": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "William Lawrence": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Matt Maasdam": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Bridget Brink",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Bridget Brink",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}

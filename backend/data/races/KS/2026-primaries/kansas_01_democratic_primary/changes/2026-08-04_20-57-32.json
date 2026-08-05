@@ -1,0 +1,5694 @@
+{
+    "timestamp": "2026-08-04T20:57:32.013755",
+    "candidates": [
+        {
+            "name": "Cindy Holscher",
+            "party": "Democratic",
+            "color": "#AA00BB"
+        },
+        {
+            "name": "Ethan Corson",
+            "party": "Democratic",
+            "color": "#4874a3"
+        },
+        {
+            "name": "Curt Skoog",
+            "party": "Democratic",
+            "color": "#00b0b0"
+        }
+    ],
+    "counties": {
+        "haskell": {
+            "name": "Haskell",
+            "fips": "20081",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "atchison": {
+            "name": "Atchison",
+            "fips": "20005",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "nemaha": {
+            "name": "Nemaha",
+            "fips": "20131",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "coffey": {
+            "name": "Coffey",
+            "fips": "20031",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "sheridan": {
+            "name": "Sheridan",
+            "fips": "20179",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "trego": {
+            "name": "Trego",
+            "fips": "20195",
+            "reporting": {
+                "old": 0,
+                "new": 47.52,
+                "change": 47.52
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Ethan Corson": {
+                    "change": 27,
+                    "votes": 27,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.5625
+                },
+                "Curt Skoog": {
+                    "change": 6,
+                    "votes": 6,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.125
+                },
+                "Cindy Holscher": {
+                    "change": 15,
+                    "votes": 15,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.3125
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 27,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 12,
+                "margin_percent": 0.25
+            },
+            "batch": {
+                "total": 48,
+                "winner": "Ethan Corson",
+                "margin_votes": 12,
+                "margin_percent": 0.25
+            }
+        },
+        "montgomery": {
+            "name": "Montgomery",
+            "fips": "20125",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "franklin": {
+            "name": "Franklin",
+            "fips": "20059",
+            "reporting": {
+                "old": null,
+                "new": 24.45,
+                "change": null
+            },
+            "candidates": {
+                "Ethan Corson": {
+                    "change": 175,
+                    "votes": 175,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.43532338308457713
+                },
+                "Curt Skoog": {
+                    "change": 37,
+                    "votes": 37,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.09203980099502487
+                },
+                "Cindy Holscher": {
+                    "change": 190,
+                    "votes": 190,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.472636815920398
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 190,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 15,
+                "margin_percent": 0.03731343283582089
+            },
+            "batch": {
+                "total": 402,
+                "winner": "Cindy Holscher",
+                "margin_votes": 15,
+                "margin_percent": 0.03731343283582089
+            }
+        },
+        "saline": {
+            "name": "Saline",
+            "fips": "20169",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "thomas": {
+            "name": "Thomas",
+            "fips": "20193",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "ottawa": {
+            "name": "Ottawa",
+            "fips": "20143",
+            "reporting": {
+                "old": 0,
+                "new": 20.62,
+                "change": 20.62
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Ethan Corson": {
+                    "change": 24,
+                    "votes": 24,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.6
+                },
+                "Curt Skoog": {
+                    "change": 3,
+                    "votes": 3,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.075
+                },
+                "Cindy Holscher": {
+                    "change": 13,
+                    "votes": 13,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.325
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 24,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 11,
+                "margin_percent": 0.275
+            },
+            "batch": {
+                "total": 40,
+                "winner": "Ethan Corson",
+                "margin_votes": 11,
+                "margin_percent": 0.275
+            }
+        },
+        "gove": {
+            "name": "Gove",
+            "fips": "20063",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "kearny": {
+            "name": "Kearny",
+            "fips": "20093",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "johnson": {
+            "name": "Johnson",
+            "fips": "20091",
+            "reporting": {
+                "old": null,
+                "new": 51.77,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 17890,
+                    "votes": 17890,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.42188421176748025
+                },
+                "Curt Skoog": {
+                    "change": 5763,
+                    "votes": 5763,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.1359037849310223
+                },
+                "Ethan Corson": {
+                    "change": 18752,
+                    "votes": 18752,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.44221200330149746
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 18752,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 862,
+                "margin_percent": 0.020327791534017214
+            },
+            "batch": {
+                "total": 42405,
+                "winner": "Ethan Corson",
+                "margin_votes": 862,
+                "margin_percent": 0.020327791534017214
+            }
+        },
+        "comanche": {
+            "name": "Comanche",
+            "fips": "20033",
+            "reporting": {
+                "old": null,
+                "new": 11.67,
+                "change": null
+            },
+            "candidates": {
+                "Ethan Corson": {
+                    "change": 3,
+                    "votes": 3,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.42857142857142855
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.0
+                },
+                "Cindy Holscher": {
+                    "change": 4,
+                    "votes": 4,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.5714285714285714
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 4,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 1,
+                "margin_percent": 0.14285714285714285
+            },
+            "batch": {
+                "total": 7,
+                "winner": "Cindy Holscher",
+                "margin_votes": 1,
+                "margin_percent": 0.14285714285714285
+            }
+        },
+        "pawnee": {
+            "name": "Pawnee",
+            "fips": "20145",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "morris": {
+            "name": "Morris",
+            "fips": "20127",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "cloud": {
+            "name": "Cloud",
+            "fips": "20029",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "stafford": {
+            "name": "Stafford",
+            "fips": "20185",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "hodgeman": {
+            "name": "Hodgeman",
+            "fips": "20083",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "kingman": {
+            "name": "Kingman",
+            "fips": "20095",
+            "reporting": {
+                "old": null,
+                "new": 18.37,
+                "change": null
+            },
+            "candidates": {
+                "Ethan Corson": {
+                    "change": 19,
+                    "votes": 19,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.4222222222222222
+                },
+                "Curt Skoog": {
+                    "change": 1,
+                    "votes": 1,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.022222222222222223
+                },
+                "Cindy Holscher": {
+                    "change": 25,
+                    "votes": 25,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.5555555555555556
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 25,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 6,
+                "margin_percent": 0.13333333333333333
+            },
+            "batch": {
+                "total": 45,
+                "winner": "Cindy Holscher",
+                "margin_votes": 6,
+                "margin_percent": 0.13333333333333333
+            }
+        },
+        "lincoln": {
+            "name": "Lincoln",
+            "fips": "20105",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "greenwood": {
+            "name": "Greenwood",
+            "fips": "20073",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "rush": {
+            "name": "Rush",
+            "fips": "20165",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "gray": {
+            "name": "Gray",
+            "fips": "20069",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "republic": {
+            "name": "Republic",
+            "fips": "20157",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "lyon": {
+            "name": "Lyon",
+            "fips": "20111",
+            "reporting": {
+                "old": null,
+                "new": 26.87,
+                "change": null
+            },
+            "candidates": {
+                "Ethan Corson": {
+                    "change": 144,
+                    "votes": 144,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.28628230616302186
+                },
+                "Curt Skoog": {
+                    "change": 66,
+                    "votes": 66,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.1312127236580517
+                },
+                "Cindy Holscher": {
+                    "change": 293,
+                    "votes": 293,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.5825049701789264
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 293,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 149,
+                "margin_percent": 0.2962226640159046
+            },
+            "batch": {
+                "total": 503,
+                "winner": "Cindy Holscher",
+                "margin_votes": 149,
+                "margin_percent": 0.2962226640159046
+            }
+        },
+        "kiowa": {
+            "name": "Kiowa",
+            "fips": "20097",
+            "reporting": {
+                "old": null,
+                "new": 28.75,
+                "change": null
+            },
+            "candidates": {
+                "Ethan Corson": {
+                    "change": 7,
+                    "votes": 7,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.30434782608695654
+                },
+                "Curt Skoog": {
+                    "change": 5,
+                    "votes": 5,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.21739130434782608
+                },
+                "Cindy Holscher": {
+                    "change": 11,
+                    "votes": 11,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.4782608695652174
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 11,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 4,
+                "margin_percent": 0.17391304347826086
+            },
+            "batch": {
+                "total": 23,
+                "winner": "Cindy Holscher",
+                "margin_votes": 4,
+                "margin_percent": 0.17391304347826086
+            }
+        },
+        "harper": {
+            "name": "Harper",
+            "fips": "20077",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "phillips": {
+            "name": "Phillips",
+            "fips": "20147",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "sherman": {
+            "name": "Sherman",
+            "fips": "20181",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "cheyenne": {
+            "name": "Cheyenne",
+            "fips": "20023",
+            "reporting": {
+                "old": 0,
+                "new": 14.81,
+                "change": 14.81
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Ethan Corson": {
+                    "change": 11,
+                    "votes": 11,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.9166666666666666
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.0
+                },
+                "Cindy Holscher": {
+                    "change": 1,
+                    "votes": 1,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.08333333333333333
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 11,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 10,
+                "margin_percent": 0.8333333333333334
+            },
+            "batch": {
+                "total": 12,
+                "winner": "Ethan Corson",
+                "margin_votes": 10,
+                "margin_percent": 0.8333333333333334
+            }
+        },
+        "allen": {
+            "name": "Allen",
+            "fips": "20001",
+            "reporting": {
+                "old": null,
+                "new": 35.19,
+                "change": null
+            },
+            "candidates": {
+                "Ethan Corson": {
+                    "change": 27,
+                    "votes": 27,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.23684210526315788
+                },
+                "Curt Skoog": {
+                    "change": 20,
+                    "votes": 20,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.17543859649122806
+                },
+                "Cindy Holscher": {
+                    "change": 67,
+                    "votes": 67,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.5877192982456141
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 67,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 40,
+                "margin_percent": 0.3508771929824561
+            },
+            "batch": {
+                "total": 114,
+                "winner": "Cindy Holscher",
+                "margin_votes": 40,
+                "margin_percent": 0.3508771929824561
+            }
+        },
+        "harvey": {
+            "name": "Harvey",
+            "fips": "20079",
+            "reporting": {
+                "old": null,
+                "new": 48,
+                "change": null
+            },
+            "candidates": {
+                "Ethan Corson": {
+                    "change": 519,
+                    "votes": 519,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.45130434782608697
+                },
+                "Curt Skoog": {
+                    "change": 80,
+                    "votes": 80,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.06956521739130435
+                },
+                "Cindy Holscher": {
+                    "change": 551,
+                    "votes": 551,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.4791304347826087
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 551,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 32,
+                "margin_percent": 0.02782608695652174
+            },
+            "batch": {
+                "total": 1150,
+                "winner": "Cindy Holscher",
+                "margin_votes": 32,
+                "margin_percent": 0.02782608695652174
+            }
+        },
+        "hamilton": {
+            "name": "Hamilton",
+            "fips": "20075",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "cherokee": {
+            "name": "Cherokee",
+            "fips": "20021",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "sedgwick": {
+            "name": "Sedgwick",
+            "fips": "20173",
+            "reporting": {
+                "old": null,
+                "new": 41.61,
+                "change": null
+            },
+            "candidates": {
+                "Ethan Corson": {
+                    "change": 5308,
+                    "votes": 5308,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.43914949946223214
+                },
+                "Curt Skoog": {
+                    "change": 830,
+                    "votes": 830,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.06866881773806569
+                },
+                "Cindy Holscher": {
+                    "change": 5949,
+                    "votes": 5949,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.49218168279970215
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 5949,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 641,
+                "margin_percent": 0.05303218333747001
+            },
+            "batch": {
+                "total": 12087,
+                "winner": "Cindy Holscher",
+                "margin_votes": 641,
+                "margin_percent": 0.05303218333747001
+            }
+        },
+        "stevens": {
+            "name": "Stevens",
+            "fips": "20189",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "chautauqua": {
+            "name": "Chautauqua",
+            "fips": "20019",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "crawford": {
+            "name": "Crawford",
+            "fips": "20037",
+            "reporting": {
+                "old": null,
+                "new": 25.15,
+                "change": null
+            },
+            "candidates": {
+                "Ethan Corson": {
+                    "change": 128,
+                    "votes": 128,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.2711864406779661
+                },
+                "Curt Skoog": {
+                    "change": 96,
+                    "votes": 96,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.2033898305084746
+                },
+                "Cindy Holscher": {
+                    "change": 248,
+                    "votes": 248,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.5254237288135594
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 248,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 120,
+                "margin_percent": 0.2542372881355932
+            },
+            "batch": {
+                "total": 472,
+                "winner": "Cindy Holscher",
+                "margin_votes": 120,
+                "margin_percent": 0.2542372881355932
+            }
+        },
+        "washington": {
+            "name": "Washington",
+            "fips": "20201",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "sumner": {
+            "name": "Sumner",
+            "fips": "20191",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "pratt": {
+            "name": "Pratt",
+            "fips": "20151",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "graham": {
+            "name": "Graham",
+            "fips": "20065",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "douglas": {
+            "name": "Douglas",
+            "fips": "20045",
+            "reporting": {
+                "old": 0,
+                "new": 32.43,
+                "change": 32.43
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Cindy Holscher": {
+                    "change": 2901,
+                    "votes": 2901,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.4718607677293429
+                },
+                "Curt Skoog": {
+                    "change": 538,
+                    "votes": 538,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.08750813272608979
+                },
+                "Ethan Corson": {
+                    "change": 2709,
+                    "votes": 2709,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.44063109954456736
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 2901,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 192,
+                "margin_percent": 0.031229668184775537
+            },
+            "batch": {
+                "total": 6148,
+                "winner": "Cindy Holscher",
+                "margin_votes": 192,
+                "margin_percent": 0.031229668184775537
+            }
+        },
+        "wichita": {
+            "name": "Wichita",
+            "fips": "20203",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "marion": {
+            "name": "Marion",
+            "fips": "20115",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "scott": {
+            "name": "Scott",
+            "fips": "20171",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "osage": {
+            "name": "Osage",
+            "fips": "20139",
+            "reporting": {
+                "old": null,
+                "new": 28.85,
+                "change": null
+            },
+            "candidates": {
+                "Ethan Corson": {
+                    "change": 52,
+                    "votes": 52,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.39097744360902253
+                },
+                "Curt Skoog": {
+                    "change": 10,
+                    "votes": 10,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.07518796992481203
+                },
+                "Cindy Holscher": {
+                    "change": 71,
+                    "votes": 71,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.5338345864661654
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 71,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 19,
+                "margin_percent": 0.14285714285714285
+            },
+            "batch": {
+                "total": 133,
+                "winner": "Cindy Holscher",
+                "margin_votes": 19,
+                "margin_percent": 0.14285714285714285
+            }
+        },
+        "linn": {
+            "name": "Linn",
+            "fips": "20107",
+            "reporting": {
+                "old": null,
+                "new": 54.45,
+                "change": null
+            },
+            "candidates": {
+                "Ethan Corson": {
+                    "change": 56,
+                    "votes": 56,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.3660130718954248
+                },
+                "Curt Skoog": {
+                    "change": 22,
+                    "votes": 22,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.1437908496732026
+                },
+                "Cindy Holscher": {
+                    "change": 75,
+                    "votes": 75,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.49019607843137253
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 75,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 19,
+                "margin_percent": 0.12418300653594772
+            },
+            "batch": {
+                "total": 153,
+                "winner": "Cindy Holscher",
+                "margin_votes": 19,
+                "margin_percent": 0.12418300653594772
+            }
+        },
+        "reno": {
+            "name": "Reno",
+            "fips": "20155",
+            "reporting": {
+                "old": 0,
+                "new": 34.75,
+                "change": 34.75
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Ethan Corson": {
+                    "change": 607,
+                    "votes": 607,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.4859887910328263
+                },
+                "Curt Skoog": {
+                    "change": 102,
+                    "votes": 102,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.08166533226581266
+                },
+                "Cindy Holscher": {
+                    "change": 540,
+                    "votes": 540,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.4323458767013611
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 607,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 67,
+                "margin_percent": 0.053642914331465175
+            },
+            "batch": {
+                "total": 1249,
+                "winner": "Ethan Corson",
+                "margin_votes": 67,
+                "margin_percent": 0.053642914331465175
+            }
+        },
+        "barton": {
+            "name": "Barton",
+            "fips": "20009",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "jewell": {
+            "name": "Jewell",
+            "fips": "20089",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "meade": {
+            "name": "Meade",
+            "fips": "20119",
+            "reporting": {
+                "old": 0,
+                "new": 25.96,
+                "change": 25.96
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Cindy Holscher": {
+                    "change": 14,
+                    "votes": 14,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.5185185185185185
+                },
+                "Curt Skoog": {
+                    "change": 1,
+                    "votes": 1,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.037037037037037035
+                },
+                "Ethan Corson": {
+                    "change": 12,
+                    "votes": 12,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.4444444444444444
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 14,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 2,
+                "margin_percent": 0.07407407407407407
+            },
+            "batch": {
+                "total": 27,
+                "winner": "Cindy Holscher",
+                "margin_votes": 2,
+                "margin_percent": 0.07407407407407407
+            }
+        },
+        "ellis": {
+            "name": "Ellis",
+            "fips": "20051",
+            "reporting": {
+                "old": 0,
+                "new": 99,
+                "change": 99
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Ethan Corson": {
+                    "change": 553,
+                    "votes": 553,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.5144186046511627
+                },
+                "Curt Skoog": {
+                    "change": 89,
+                    "votes": 89,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.0827906976744186
+                },
+                "Cindy Holscher": {
+                    "change": 433,
+                    "votes": 433,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.4027906976744186
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 553,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 120,
+                "margin_percent": 0.11162790697674418
+            },
+            "batch": {
+                "total": 1075,
+                "winner": "Ethan Corson",
+                "margin_votes": 120,
+                "margin_percent": 0.11162790697674418
+            }
+        },
+        "mcpherson": {
+            "name": "McPherson",
+            "fips": "20113",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "butler": {
+            "name": "Butler",
+            "fips": "20015",
+            "reporting": {
+                "old": null,
+                "new": 24.98,
+                "change": null
+            },
+            "candidates": {
+                "Ethan Corson": {
+                    "change": 450,
+                    "votes": 450,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.44160942100098133
+                },
+                "Curt Skoog": {
+                    "change": 93,
+                    "votes": 93,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.09126594700686948
+                },
+                "Cindy Holscher": {
+                    "change": 476,
+                    "votes": 476,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.46712463199214915
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 476,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 26,
+                "margin_percent": 0.02551521099116781
+            },
+            "batch": {
+                "total": 1019,
+                "winner": "Cindy Holscher",
+                "margin_votes": 26,
+                "margin_percent": 0.02551521099116781
+            }
+        },
+        "doniphan": {
+            "name": "Doniphan",
+            "fips": "20043",
+            "reporting": {
+                "old": null,
+                "new": 15.69,
+                "change": null
+            },
+            "candidates": {
+                "Ethan Corson": {
+                    "change": 11,
+                    "votes": 11,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.34375
+                },
+                "Curt Skoog": {
+                    "change": 2,
+                    "votes": 2,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.0625
+                },
+                "Cindy Holscher": {
+                    "change": 19,
+                    "votes": 19,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.59375
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 19,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 8,
+                "margin_percent": 0.25
+            },
+            "batch": {
+                "total": 32,
+                "winner": "Cindy Holscher",
+                "margin_votes": 8,
+                "margin_percent": 0.25
+            }
+        },
+        "clay": {
+            "name": "Clay",
+            "fips": "20027",
+            "reporting": {
+                "old": 0,
+                "new": 26.48,
+                "change": 26.48
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Cindy Holscher": {
+                    "change": 34,
+                    "votes": 34,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.4473684210526316
+                },
+                "Curt Skoog": {
+                    "change": 10,
+                    "votes": 10,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.13157894736842105
+                },
+                "Ethan Corson": {
+                    "change": 32,
+                    "votes": 32,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.42105263157894735
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 34,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 2,
+                "margin_percent": 0.02631578947368421
+            },
+            "batch": {
+                "total": 76,
+                "winner": "Cindy Holscher",
+                "margin_votes": 2,
+                "margin_percent": 0.02631578947368421
+            }
+        },
+        "wallace": {
+            "name": "Wallace",
+            "fips": "20199",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "woodson": {
+            "name": "Woodson",
+            "fips": "20207",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "pottawatomie": {
+            "name": "Pottawatomie",
+            "fips": "20149",
+            "reporting": {
+                "old": 0,
+                "new": 34.74,
+                "change": 34.74
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Cindy Holscher": {
+                    "change": 135,
+                    "votes": 135,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.4981549815498155
+                },
+                "Curt Skoog": {
+                    "change": 35,
+                    "votes": 35,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.12915129151291513
+                },
+                "Ethan Corson": {
+                    "change": 101,
+                    "votes": 101,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.3726937269372694
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 135,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 34,
+                "margin_percent": 0.12546125461254612
+            },
+            "batch": {
+                "total": 271,
+                "winner": "Cindy Holscher",
+                "margin_votes": 34,
+                "margin_percent": 0.12546125461254612
+            }
+        },
+        "chase": {
+            "name": "Chase",
+            "fips": "20017",
+            "reporting": {
+                "old": null,
+                "new": 98.57,
+                "change": null
+            },
+            "candidates": {
+                "Ethan Corson": {
+                    "change": 45,
+                    "votes": 45,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.32608695652173914
+                },
+                "Curt Skoog": {
+                    "change": 14,
+                    "votes": 14,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.10144927536231885
+                },
+                "Cindy Holscher": {
+                    "change": 79,
+                    "votes": 79,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.572463768115942
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 79,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 34,
+                "margin_percent": 0.2463768115942029
+            },
+            "batch": {
+                "total": 138,
+                "winner": "Cindy Holscher",
+                "margin_votes": 34,
+                "margin_percent": 0.2463768115942029
+            }
+        },
+        "leavenworth": {
+            "name": "Leavenworth",
+            "fips": "20103",
+            "reporting": {
+                "old": null,
+                "new": 32,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 589,
+                    "votes": 589,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.4237410071942446
+                },
+                "Curt Skoog": {
+                    "change": 111,
+                    "votes": 111,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.07985611510791367
+                },
+                "Ethan Corson": {
+                    "change": 690,
+                    "votes": 690,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.49640287769784175
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 690,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 101,
+                "margin_percent": 0.07266187050359713
+            },
+            "batch": {
+                "total": 1390,
+                "winner": "Ethan Corson",
+                "margin_votes": 101,
+                "margin_percent": 0.07266187050359713
+            }
+        },
+        "neosho": {
+            "name": "Neosho",
+            "fips": "20133",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "seward": {
+            "name": "Seward",
+            "fips": "20175",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "wyandotte": {
+            "name": "Wyandotte",
+            "fips": "20209",
+            "reporting": {
+                "old": null,
+                "new": 29.54,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 2073,
+                    "votes": 2073,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.4096028452874926
+                },
+                "Curt Skoog": {
+                    "change": 619,
+                    "votes": 619,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.12230784429954554
+                },
+                "Ethan Corson": {
+                    "change": 2369,
+                    "votes": 2369,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.46808931041296187
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 2369,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 296,
+                "margin_percent": 0.058486465125469275
+            },
+            "batch": {
+                "total": 5061,
+                "winner": "Ethan Corson",
+                "margin_votes": 296,
+                "margin_percent": 0.058486465125469275
+            }
+        },
+        "logan": {
+            "name": "Logan",
+            "fips": "20109",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "ford": {
+            "name": "Ford",
+            "fips": "20057",
+            "reporting": {
+                "old": 0,
+                "new": 29.38,
+                "change": 29.38
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Ethan Corson": {
+                    "change": 124,
+                    "votes": 124,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.44285714285714284
+                },
+                "Curt Skoog": {
+                    "change": 48,
+                    "votes": 48,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.17142857142857143
+                },
+                "Cindy Holscher": {
+                    "change": 108,
+                    "votes": 108,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.38571428571428573
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 124,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 16,
+                "margin_percent": 0.05714285714285714
+            },
+            "batch": {
+                "total": 280,
+                "winner": "Ethan Corson",
+                "margin_votes": 16,
+                "margin_percent": 0.05714285714285714
+            }
+        },
+        "elk": {
+            "name": "Elk",
+            "fips": "20049",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "dickinson": {
+            "name": "Dickinson",
+            "fips": "20041",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "anderson": {
+            "name": "Anderson",
+            "fips": "20003",
+            "reporting": {
+                "old": null,
+                "new": 36.18,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 25,
+                    "votes": 25,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.3472222222222222
+                },
+                "Curt Skoog": {
+                    "change": 6,
+                    "votes": 6,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.08333333333333333
+                },
+                "Ethan Corson": {
+                    "change": 41,
+                    "votes": 41,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.5694444444444444
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 41,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 16,
+                "margin_percent": 0.2222222222222222
+            },
+            "batch": {
+                "total": 72,
+                "winner": "Ethan Corson",
+                "margin_votes": 16,
+                "margin_percent": 0.2222222222222222
+            }
+        },
+        "shawnee": {
+            "name": "Shawnee",
+            "fips": "20177",
+            "reporting": {
+                "old": null,
+                "new": 28.91,
+                "change": null
+            },
+            "candidates": {
+                "Ethan Corson": {
+                    "change": 1650,
+                    "votes": 1650,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.34389328887036263
+                },
+                "Curt Skoog": {
+                    "change": 612,
+                    "votes": 612,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.1275531471446436
+                },
+                "Cindy Holscher": {
+                    "change": 2536,
+                    "votes": 2536,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.5285535639849938
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 2536,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 886,
+                "margin_percent": 0.1846602751146311
+            },
+            "batch": {
+                "total": 4798,
+                "winner": "Cindy Holscher",
+                "margin_votes": 886,
+                "margin_percent": 0.1846602751146311
+            }
+        },
+        "smith": {
+            "name": "Smith",
+            "fips": "20183",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "riley": {
+            "name": "Riley",
+            "fips": "20161",
+            "reporting": {
+                "old": 0,
+                "new": 41.03,
+                "change": 41.03
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Cindy Holscher": {
+                    "change": 996,
+                    "votes": 996,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.5329052969502408
+                },
+                "Curt Skoog": {
+                    "change": 156,
+                    "votes": 156,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.08346709470304976
+                },
+                "Ethan Corson": {
+                    "change": 717,
+                    "votes": 717,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.38362760834670945
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 996,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 279,
+                "margin_percent": 0.1492776886035313
+            },
+            "batch": {
+                "total": 1869,
+                "winner": "Cindy Holscher",
+                "margin_votes": 279,
+                "margin_percent": 0.1492776886035313
+            }
+        },
+        "russell": {
+            "name": "Russell",
+            "fips": "20167",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "decatur": {
+            "name": "Decatur",
+            "fips": "20039",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "edwards": {
+            "name": "Edwards",
+            "fips": "20047",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "morton": {
+            "name": "Morton",
+            "fips": "20129",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "norton": {
+            "name": "Norton",
+            "fips": "20137",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "rawlins": {
+            "name": "Rawlins",
+            "fips": "20153",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "grant": {
+            "name": "Grant",
+            "fips": "20067",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "wilson": {
+            "name": "Wilson",
+            "fips": "20205",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "lane": {
+            "name": "Lane",
+            "fips": "20101",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "mitchell": {
+            "name": "Mitchell",
+            "fips": "20123",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "jefferson": {
+            "name": "Jefferson",
+            "fips": "20087",
+            "reporting": {
+                "old": 0,
+                "new": 15.61,
+                "change": 15.61
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Cindy Holscher": {
+                    "change": 94,
+                    "votes": 94,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.48704663212435234
+                },
+                "Curt Skoog": {
+                    "change": 14,
+                    "votes": 14,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.07253886010362694
+                },
+                "Ethan Corson": {
+                    "change": 85,
+                    "votes": 85,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.44041450777202074
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 94,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 9,
+                "margin_percent": 0.046632124352331605
+            },
+            "batch": {
+                "total": 193,
+                "winner": "Cindy Holscher",
+                "margin_votes": 9,
+                "margin_percent": 0.046632124352331605
+            }
+        },
+        "osborne": {
+            "name": "Osborne",
+            "fips": "20141",
+            "reporting": {
+                "old": 0,
+                "new": 15.6,
+                "change": 15.6
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Ethan Corson": {
+                    "change": 11,
+                    "votes": 11,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.6470588235294118
+                },
+                "Curt Skoog": {
+                    "change": 1,
+                    "votes": 1,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.058823529411764705
+                },
+                "Cindy Holscher": {
+                    "change": 5,
+                    "votes": 5,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.29411764705882354
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 11,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 6,
+                "margin_percent": 0.35294117647058826
+            },
+            "batch": {
+                "total": 17,
+                "winner": "Ethan Corson",
+                "margin_votes": 6,
+                "margin_percent": 0.35294117647058826
+            }
+        },
+        "wabaunsee": {
+            "name": "Wabaunsee",
+            "fips": "20197",
+            "reporting": {
+                "old": null,
+                "new": 47.57,
+                "change": null
+            },
+            "candidates": {
+                "Ethan Corson": {
+                    "change": 43,
+                    "votes": 43,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.33858267716535434
+                },
+                "Curt Skoog": {
+                    "change": 12,
+                    "votes": 12,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.09448818897637795
+                },
+                "Cindy Holscher": {
+                    "change": 72,
+                    "votes": 72,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.5669291338582677
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 72,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 29,
+                "margin_percent": 0.2283464566929134
+            },
+            "batch": {
+                "total": 127,
+                "winner": "Cindy Holscher",
+                "margin_votes": 29,
+                "margin_percent": 0.2283464566929134
+            }
+        },
+        "marshall": {
+            "name": "Marshall",
+            "fips": "20117",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "stanton": {
+            "name": "Stanton",
+            "fips": "20187",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "ness": {
+            "name": "Ness",
+            "fips": "20135",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "bourbon": {
+            "name": "Bourbon",
+            "fips": "20011",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "rooks": {
+            "name": "Rooks",
+            "fips": "20163",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "brown": {
+            "name": "Brown",
+            "fips": "20013",
+            "reporting": {
+                "old": null,
+                "new": 27.1,
+                "change": null
+            },
+            "candidates": {
+                "Ethan Corson": {
+                    "change": 20,
+                    "votes": 20,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.28169014084507044
+                },
+                "Curt Skoog": {
+                    "change": 6,
+                    "votes": 6,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.08450704225352113
+                },
+                "Cindy Holscher": {
+                    "change": 45,
+                    "votes": 45,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.6338028169014085
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 45,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 25,
+                "margin_percent": 0.352112676056338
+            },
+            "batch": {
+                "total": 71,
+                "winner": "Cindy Holscher",
+                "margin_votes": 25,
+                "margin_percent": 0.352112676056338
+            }
+        },
+        "greeley": {
+            "name": "Greeley",
+            "fips": "20071",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "ellsworth": {
+            "name": "Ellsworth",
+            "fips": "20053",
+            "reporting": {
+                "old": 0,
+                "new": 37.89,
+                "change": 37.89
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Ethan Corson": {
+                    "change": 42,
+                    "votes": 42,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.5833333333333334
+                },
+                "Curt Skoog": {
+                    "change": 3,
+                    "votes": 3,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.041666666666666664
+                },
+                "Cindy Holscher": {
+                    "change": 27,
+                    "votes": 27,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.375
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 42,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 15,
+                "margin_percent": 0.20833333333333334
+            },
+            "batch": {
+                "total": 72,
+                "winner": "Ethan Corson",
+                "margin_votes": 15,
+                "margin_percent": 0.20833333333333334
+            }
+        },
+        "finney": {
+            "name": "Finney",
+            "fips": "20055",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "geary": {
+            "name": "Geary",
+            "fips": "20061",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "labette": {
+            "name": "Labette",
+            "fips": "20099",
+            "reporting": {
+                "old": null,
+                "new": 31.88,
+                "change": null
+            },
+            "candidates": {
+                "Ethan Corson": {
+                    "change": 59,
+                    "votes": 59,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.1873015873015873
+                },
+                "Curt Skoog": {
+                    "change": 72,
+                    "votes": 72,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.22857142857142856
+                },
+                "Cindy Holscher": {
+                    "change": 184,
+                    "votes": 184,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.5841269841269842
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 184,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 112,
+                "margin_percent": 0.35555555555555557
+            },
+            "batch": {
+                "total": 315,
+                "winner": "Cindy Holscher",
+                "margin_votes": 112,
+                "margin_percent": 0.35555555555555557
+            }
+        },
+        "miami": {
+            "name": "Miami",
+            "fips": "20121",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "barber": {
+            "name": "Barber",
+            "fips": "20007",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "rice": {
+            "name": "Rice",
+            "fips": "20159",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "jackson": {
+            "name": "Jackson",
+            "fips": "20085",
+            "reporting": {
+                "old": 0,
+                "new": 23.48,
+                "change": 23.48
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0.0
+                },
+                "Cindy Holscher": {
+                    "change": 129,
+                    "votes": 129,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.6201923076923077
+                },
+                "Curt Skoog": {
+                    "change": 19,
+                    "votes": 19,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.09134615384615384
+                },
+                "Ethan Corson": {
+                    "change": 60,
+                    "votes": 60,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.28846153846153844
+                }
+            },
+            "leader": {
+                "name": "Cindy Holscher",
+                "votes": 129,
+                "party": "Democratic",
+                "color": "#AA00BB",
+                "margin_votes": 69,
+                "margin_percent": 0.3317307692307692
+            },
+            "batch": {
+                "total": 208,
+                "winner": "Cindy Holscher",
+                "margin_votes": 69,
+                "margin_percent": 0.3317307692307692
+            }
+        },
+        "cowley": {
+            "name": "Cowley",
+            "fips": "20035",
+            "reporting": {
+                "old": null,
+                "new": 0,
+                "change": null
+            },
+            "candidates": {
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cindy Holscher",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "clark": {
+            "name": "Clark",
+            "fips": "20025",
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Lauren Reinhold": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Colin McRoberts": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": null,
+                    "color": null,
+                    "batch_percent": 0
+                },
+                "Ethan Corson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Curt Skoog": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Cindy Holscher": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Ethan Corson",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#4874a3",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Lauren Reinhold",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}

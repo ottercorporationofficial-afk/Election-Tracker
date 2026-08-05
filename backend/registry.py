@@ -161,7 +161,7 @@ RACES = {
     },
     "kansas_01_democratic_primary": {
         "source": "civicapi",
-        "race_id": 84833,
+        "race_id": 84780,
         "state": "ks",
         "cycle": "2026-primaries",
         "turnout_group": "ks_01_dem_primary"

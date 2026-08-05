@@ -1,0 +1,154 @@
+{
+    "timestamp": "2026-08-04T20:57:31.864797",
+    "candidates": [
+        {
+            "name": "Wesley Bell",
+            "party": "Democratic",
+            "color": "#45cd47"
+        },
+        {
+            "name": "Cori Bush",
+            "party": "Democratic",
+            "color": "#00b0b0"
+        },
+        {
+            "name": "Alissa Murphy",
+            "party": "Democratic",
+            "color": "#4874a3"
+        },
+        {
+            "name": "Carl E. Harris Sr",
+            "party": "Democratic",
+            "color": "#AA00BB"
+        },
+        {
+            "name": "Carl Earnest Henderson",
+            "party": "Democratic",
+            "color": "#2a9bbd"
+        }
+    ],
+    "counties": {
+        "st_louis_city": {
+            "name": "St. Louis City",
+            "fips": null,
+            "reporting": {
+                "old": 0,
+                "new": 0,
+                "change": 0
+            },
+            "candidates": {
+                "Cori Bush": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0
+                },
+                "Carl Earnest Henderson": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#2a9bbd",
+                    "batch_percent": 0
+                },
+                "Carl E. Harris Sr": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0
+                },
+                "Alissa Murphy": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0
+                },
+                "Wesley Bell": {
+                    "change": 0,
+                    "votes": 0,
+                    "party": "Democratic",
+                    "color": "#45cd47",
+                    "batch_percent": 0
+                }
+            },
+            "leader": {
+                "name": "Wesley Bell",
+                "votes": 0,
+                "party": "Democratic",
+                "color": "#45cd47",
+                "margin_votes": 0,
+                "margin_percent": 0
+            },
+            "batch": {
+                "total": 0,
+                "winner": "Cori Bush",
+                "margin_votes": 0,
+                "margin_percent": 0
+            }
+        },
+        "st_louis_county": {
+            "name": "St. Louis County",
+            "fips": "29189",
+            "reporting": {
+                "old": null,
+                "new": 29.49,
+                "change": null
+            },
+            "candidates": {
+                "Carl Earnest Henderson": {
+                    "change": 95,
+                    "votes": 95,
+                    "party": "Democratic",
+                    "color": "#2a9bbd",
+                    "batch_percent": 0.004149921369910886
+                },
+                "Carl E. Harris Sr": {
+                    "change": 214,
+                    "votes": 214,
+                    "party": "Democratic",
+                    "color": "#AA00BB",
+                    "batch_percent": 0.009348243928009784
+                },
+                "Alissa Murphy": {
+                    "change": 446,
+                    "votes": 446,
+                    "party": "Democratic",
+                    "color": "#4874a3",
+                    "batch_percent": 0.01948278874716058
+                },
+                "Cori Bush": {
+                    "change": 4539,
+                    "votes": 4539,
+                    "party": "Democratic",
+                    "color": "#00b0b0",
+                    "batch_percent": 0.198278874716058
+                },
+                "Wesley Bell": {
+                    "change": 17598,
+                    "votes": 17598,
+                    "party": "Democratic",
+                    "color": "#45cd47",
+                    "batch_percent": 0.7687401712388607
+                }
+            },
+            "leader": {
+                "name": "Wesley Bell",
+                "votes": 17598,
+                "party": "Democratic",
+                "color": "#45cd47",
+                "margin_votes": 13059,
+                "margin_percent": 0.5704612965228028
+            },
+            "batch": {
+                "total": 22892,
+                "winner": "Wesley Bell",
+                "margin_votes": 13059,
+                "margin_percent": 0.5704612965228028
+            }
+        }
+    },
+    "has_changes": true,
+    "has_counties": true
+}
